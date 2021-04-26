@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>OpenLayers Demo</title>
+		<style type="text/css">
+			html, body, #basicMap {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+			}
+		</style>
+		<script src="OpenLayers-2.13.1/OpenLayers.js"></script>
+		<script type="text/javascript">
+			function initMap() {
+				
+				var mapWarperLayerId = 133;
+				
+				var lon = 10.00; // geographische Länge  = O/W-Richtung
+				var lat = 50.00; // geographische Breite = N/S-Richtung
+				var zoom = 4;
+				
+				var fromProjection = new OpenLayers.Projection('EPSG:4326'); // transform from WGS 1984
+				var toProjection = new OpenLayers.Projection('EPSG:900913'); // to Spherical Mercator Projection
+				var position = new OpenLayers.LonLat(lon,lat).transform(fromProjection,toProjection);
+				
+				var map = new OpenLayers.Map({
+					div: 'basicMap',
+					numZoomLevels: 2,
+					allOverlays: true
+				});
+				map.addControls([
+					new OpenLayers.Control.LayerSwitcher(),
+					new OpenLayers.Control.ScaleLine()
+				]);
+				
+				// ICONS
+				
+				var iconEvent = new OpenLayers.Icon('images/icons/star-small.png');
+				var iconLove = new OpenLayers.Icon('images/icons/heart.png');
+				
+				// LAYER VARIABLES
+				
+				var mapnikLayer = new OpenLayers.Layer.OSM();
+				
+				var satLayer = new OpenLayers.Layer.OSM(
+					'Satellite Map',
+					["http://otile1.mqcdn.com/tiles/1.0.0/sat/${z}/${x}/${y}.jpg",
+					"http://otile2.mqcdn.com/tiles/1.0.0/sat/${z}/${x}/${y}.jpg",
+					"http://otile3.mqcdn.com/tiles/1.0.0/sat/${z}/${x}/${y}.jpg",
+					"http://otile4.mqcdn.com/tiles/1.0.0/sat/${z}/${x}/${y}.jpg"],
+					{
+						tileOptions: { 'crossOriginKeyword': null }
+					}
+				);
+				
+				var watercolorLayer = new OpenLayers.Layer.OSM(
+					'Watercolor Map',
+					'http://c.tile.stamen.com/watercolor/${z}/${x}/${y}.jpg',
+					{
+						tileOptions: { 'crossOriginKeyword': null }
+					}
+				);
+				
+				var histLayer = new OpenLayers.Layer.OSM(
+					'Historical Layer (Europe 1875)',
+					'http://mapwarper.net/layers/tile/' + mapWarperLayerId + '/${z}/${x}/${y}.png',
+					{
+						layers: 'basic',
+						transparent: true,
+						opacity: 0.8,
+						transitionEffect: 'resize',
+						tileOptions: { 'crossOriginKeyword': null }
+					}
+				);
+				
+				// Vector Layer
+				
+				var vectorLayer = new OpenLayers.Layer.Vector('Events',{
+					styleMap: new OpenLayers.StyleMap({
+						'default':{
+							strokeColor: 'black',
+							strokeOpacity: 1,
+							strokeWidth: 2,
+							fillColor: 'yellow',
+							fillOpacity: 0.8,
+							pointRadius: 4,
+							//pointerEvents: 'visiblePainted',
+							fontColor: 'white',
+							fontSize: '12px',
+							fontFamily: '"Lucida Console", Monaco, monospace',
+							fontWeight: 'normal',
+							labelAlign: 'ct',
+							labelXOffset: 0,
+							labelYOffset: -5,
+							labelOutlineColor: 'black',
+							labelOutlineWidth: 2,
+							label : '${eventYear}'
+						}
+					})
+				});
+				
+				//alert (new OpenLayers.LonLat(10,52).transform(fromProjection,toProjection));
+				
+				var pointEventA = new OpenLayers.Geometry.Point(10,50).transform(fromProjection,toProjection);
+				var pointEventB = new OpenLayers.Geometry.Point(10,51).transform(fromProjection,toProjection);
+				var pointEventC = new OpenLayers.Geometry.Point(10,52).transform(fromProjection,toProjection);
+				
+				var eventA = new OpenLayers.Feature.Vector(pointEventA);
+				var eventB = new OpenLayers.Feature.Vector(pointEventB);
+				var eventC = new OpenLayers.Feature.Vector(pointEventC);
+				
+				eventA.attributes = { eventYear: "1875" };
+				eventB.attributes = { eventYear: "1876" };
+				eventC.attributes = { eventYear: "1877" };
+				
+				vectorLayer.addFeatures(eventA);
+				vectorLayer.addFeatures(eventB);
+				vectorLayer.addFeatures(eventC);
+				
+				// Marker Layer
+				
+				var markerStyle = new OpenLayers.StyleMap({
+					'default': {
+						label: "${id}",
+						fontSize: "12px",
+						fontFamily: "Courier New, monospace",
+						fontWeight: "bold"
+					}
+				});
+				
+				var markerLayer = new OpenLayers.Layer.Markers( 'Markers', {styleMap: markerStyle} );
+				markerLayer.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(9.4,51.3).transform(fromProjection,toProjection),iconLove));
+				
+				// AVAILABLE LAYERS
+				
+				//map.addLayer(satLayer);
+				map.addLayer(mapnikLayer);
+				//map.addLayer(watercolorLayer);
+				map.addLayer(histLayer);
+				map.addLayer(markerLayer);
+				map.addLayer(vectorLayer);
+				
+				map.setCenter(position, zoom);
+			}
+		</script>
+	</head>
+	<body onload="initMap();">
+		<div id="basicMap"></div>
+	</body>
+</html>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+   <simpleType name="conceptNym">
+      <list>
+         <simpleType>
+            <restriction base="string">
+               <enumeration value="andacht">
+                  <annotation>
+                     <documentation>Andacht</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="aeusserlich">
+                  <annotation>
+                     <documentation>äußerlich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berechnung">
+                  <annotation>
+                     <documentation>Berechnung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dekorativ">
+                  <annotation>
+                     <documentation>dekorativ</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="deutsch">
+                  <annotation>
+                     <documentation>deutsch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dramatisch">
+                  <annotation>
+                     <documentation>dramatisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="effekt">
+                  <annotation>
+                     <documentation>Effekt</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="einheitlich">
+                  <annotation>
+                     <documentation>einheitlich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="eklektizistisch">
+                  <annotation>
+                     <documentation>eklektizistisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ernst">
+                  <annotation>
+                     <documentation>ernst</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ewigkeit">
+                  <annotation>
+                     <documentation>Ewigkeit</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="farbig">
+                  <annotation>
+                     <documentation>farbig</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="froemmigkeit">
+                  <annotation>
+                     <documentation>frömmgikeit</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="innerlich">
+                  <annotation>
+                     <documentation>innerlich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="italienisch">
+                  <annotation>
+                     <documentation>italienisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="katholisch">
+                  <annotation>
+                     <documentation>katholisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kirchlich">
+                  <annotation>
+                     <documentation>kirchlich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kirchenmusik">
+                  <annotation>
+                     <documentation>Kirchenmusik</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leidenschaft">
+                  <annotation>
+                     <documentation>leidenschaft</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="liturgisch">
+                  <annotation>
+                     <documentation>liturgisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="modisch">
+                  <annotation>
+                     <documentation>modisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="malerisch">
+                  <annotation>
+                     <documentation>malerisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="nordisch">
+                  <annotation>
+                     <documentation>nordisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="oberflaechlich">
+                  <annotation>
+                     <documentation>oberflächlich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="opernhaft">
+                  <annotation>
+                     <documentation>opernhaft</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="opernkomponist">
+                  <annotation>
+                     <documentation>Opernkomponist</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="opernmusik">
+                  <annotation>
+                     <documentation>Opernmusik</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="poetisch">
+                  <annotation>
+                     <documentation>poetisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="populaer">
+                  <annotation>
+                     <documentation>populär</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="protestantisch">
+                  <annotation>
+                     <documentation>protestantisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="realistisch">
+                  <annotation>
+                     <documentation>realistisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="religiosiaet">
+                  <annotation>
+                     <documentation>Religiosität</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schillernd">
+                  <annotation>
+                     <documentation>schillernd</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schoenheit">
+                  <annotation>
+                     <documentation>Schönheit</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="sinnlich">
+                  <annotation>
+                     <documentation>sinnlich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="subjektivismus">
+                  <annotation>
+                     <documentation>Subjektivismus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="suedlich">
+                  <annotation>
+                     <documentation>südlich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="theatralisch">
+                  <annotation>
+                     <documentation>theatralisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="trauer">
+                  <annotation>
+                     <documentation>Trauer</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="trivial">
+                  <annotation>
+                     <documentation>trivial</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wahrheit">
+                  <annotation>
+                     <documentation>Wahrheit</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wehmuetig">
+                  <annotation>
+                     <documentation>wehmütig</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wirkung">
+                  <annotation>
+                     <documentation>Wirkung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wuerde">
+                  <annotation>
+                     <documentation>Würde</documentation>
+                  </annotation>
+               </enumeration>
+            </restriction>
+         </simpleType>
+      </list>
+   </simpleType>
+</schema>

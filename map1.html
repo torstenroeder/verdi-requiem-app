@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>OpenLayers Demo</title>
+		<style type="text/css">
+			html, body, #basicMap {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+			}
+		</style>
+		<script src="OpenLayers-2.13.1/OpenLayers.js"></script>
+		<script type="text/javascript">
+			function initMap() {
+				
+				var mapWarperLayerId = 133;
+				
+				var lon = 15.00; // geographische Länge  = O/W-Richtung
+				var lat = 45.00; // geographische Breite = N/S-Richtung
+				var zoom = 5;
+				
+				//var fromProjection = new OpenLayers.Projection("EPSG:4326"); // transform from WGS 1984
+				//var toProjection = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+				//var position = new OpenLayers.LonLat(lon,lat).transform(fromProjection,toProjection);
+				var position = new OpenLayers.LonLat(lon,lat);
+				
+				var map = new OpenLayers.Map('basicMap'); // must correspond to HTML div id
+				
+				var mapnikLayer = new OpenLayers.Layer.OSM();
+				
+				var wmsLayer = new OpenLayers.Layer.WMS(
+					'OpenLayers WMS',
+					'http://vmap0.tiles.osgeo.org/wms/vmap0',
+					{
+						layers: 'ocean,coastline_01,coastline_02,ground_01,ground_02,river,inwater'
+					}
+				);
+				
+				/*
+				var histLayer = new OpenLayers.Layer.OSM(
+					'OpenLayers OSM',
+					'http://mapwarper.net/layers/tile/' + mapWarperLayerId + '/${z}/${x}/${y}.png',
+					{
+						layers: 'basic',
+						transparent: 'true',
+						sphericalMercator: 'true'
+					}
+				);
+				*/
+				
+				var histLayer = new OpenLayers.Layer.WMS(
+					'OpenLayers WMS',
+					'http://mapwarper.net/layers/wms/' + mapWarperLayerId,
+					{
+						layers: 'basic',
+						transparent: 'true'
+					}
+				);
+				
+				//map.addLayer(mapnikLayer);
+				map.addLayer(wmsLayer);
+				map.addLayer(histLayer);
+				map.setCenter(position, zoom);
+			}
+		</script>
+	</head>
+	<body onload="initMap();">
+		<div id="basicMap"></div>
+	</body>
+</html>

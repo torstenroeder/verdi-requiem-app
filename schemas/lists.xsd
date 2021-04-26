@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- INCLUDES -->
+	<xs:include schemaLocation="basic.xsd"/>
+
+	<!-- TYPES AND CATEGORIES -->
+	<xs:simpleType name="eventType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="political"/>
+			<xs:enumeration value="religious"/>
+			<xs:enumeration value="musical"/>
+			<xs:enumeration value="musical.production"/>
+			<xs:enumeration value="musical.production.performance"/>
+			<xs:enumeration value="musical.production.performance.first"/>
+			<xs:enumeration value="musical.production.rehearsal"/>
+			<xs:enumeration value="undefinable">
+				<xs:annotation>
+					<xs:documentation>nicht definierbar</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="placeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="continent">
+				<xs:annotation>
+					<xs:documentation>Kontinent</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="block">
+				<xs:annotation>
+					<xs:documentation>Staatenbund</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="country">
+				<xs:annotation>
+					<xs:documentation>Land (Staat, Nation)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="region">
+				<xs:annotation>
+					<xs:documentation>Region (Provinz, Kreis, Gegend)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="settlement">
+				<xs:annotation>
+					<xs:documentation>Siedlung (Dorf, Stadt)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="location">
+				<xs:annotation>
+					<xs:documentation>Ort (Gebäude, Platz)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="undefinable">
+				<xs:annotation>
+					<xs:documentation>nicht definierbar</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="orgCategory">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Vereinigung / Musik"/>
+			<xs:enumeration value="Verlag / Musik"/>
+			<xs:enumeration value="Zeitung"/>
+			<xs:enumeration value="Zeitschrift"/>
+			<xs:enumeration value="Zeitschrift / Illustrierte"/>
+			<xs:enumeration value="Zeitschrift / Musik"/>
+			<xs:enumeration value="Zeitschrift / Satire"/>
+			<xs:enumeration value="nicht definierbar"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="opusCategory">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Geistlich"/>
+			<xs:enumeration value="Geistlich / Messe"/>
+			<xs:enumeration value="Geistlich / Messe / Requiem"/>
+			<xs:enumeration value="Geistlich / Oratorium"/>
+			<xs:enumeration value="Geistlich / aliturgisch"/>
+			<xs:enumeration value="Oper / Deutsch"/>
+			<xs:enumeration value="Oper / Französisch"/>
+			<xs:enumeration value="Oper / Italienisch"/>
+			<xs:enumeration value="Oper / Russisch"/>
+			<xs:enumeration value="Sinfonik"/>
+			<xs:enumeration value="Sinfonik / Ouvertüre"/>
+			<xs:enumeration value="sonstige"/>
+			<xs:enumeration value="Kammermusik"/>
+			<xs:enumeration value="nicht definierbar"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="resourceType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="anno.onb.ac.at">
+				<xs:annotation>
+					<xs:documentation>Austrian Newspapers Online</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="bmlo.lmu.de">
+				<xs:annotation>
+					<xs:documentation>Bayerisches Musiker-Lexikon Online</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="opacplus.bsb-muenchen.de">
+				<xs:annotation>
+					<xs:documentation>Bayerische Staatsbibliothek</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="book">
+				<xs:annotation>
+					<xs:documentation>Buch</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="de.wikipedia.org">
+				<xs:annotation>
+					<xs:documentation>Deutschsprachige Wikipedia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="en.wikipedia.org">
+				<xs:annotation>
+					<xs:documentation>Englischsprachige Wikipedia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="de.wikisource.org">
+				<xs:annotation>
+					<xs:documentation>Deutschsprachige Wikisource</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="theeuropeanlibrary.org">
+				<xs:annotation>
+					<xs:documentation>The European Library</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="deutsche-biographie.de">
+				<xs:annotation>
+					<xs:documentation>Deutsche Biographie (Onlinefassung)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="fr.wikipedia.org">
+				<xs:annotation>
+					<xs:documentation>Französischsprachige Wikipedia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="imslp.org">
+				<xs:annotation>
+					<xs:documentation>International Music Score Library Project (Petrucci Music
+						Library)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="it.wikipedia.org">
+				<xs:annotation>
+					<xs:documentation>Italienischsprachige Wikipedia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="requiemsurvey.org">
+				<xs:annotation>
+					<xs:documentation>Requiem Survey</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="sv.wikipedia.org">
+				<xs:annotation>
+					<xs:documentation>Schwedischsprachige Wikipedia</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="www">
+				<xs:annotation>
+					<xs:documentation>Webseite</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="zeno.org">
+				<xs:annotation>
+					<xs:documentation>Zeno.org</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="nameType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="full">
+				<xs:annotation>
+					<xs:documentation>voller Name</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="acronym">
+				<xs:annotation>
+					<xs:documentation>abgekürzter Name</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="index">
+				<xs:annotation>
+					<xs:documentation>Name im sortierten Verzeichnis</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="alternative">
+				<xs:annotation>
+					<xs:documentation>Schreib- oder Zusammensetzungsvariante</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="other">
+				<xs:annotation>
+					<xs:documentation>anderer Name (z.B. Sprachvariante)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="veronym">
+				<xs:annotation>
+					<xs:documentation>eigentlicher Name</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="pseudonym">
+				<xs:annotation>
+					<xs:documentation>vorgeblicher Name</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="secondary">
+				<xs:annotation>
+					<xs:documentation>nachgeordneter Name</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="ordinal">
+				<xs:annotation>
+					<xs:documentation>Zählung</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="incipit">
+				<xs:annotation>
+					<xs:documentation>Incipit</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="tempo">
+				<xs:annotation>
+					<xs:documentation>Tempo (Musik)</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="motto">
+				<xs:annotation>
+					<xs:documentation>Motto</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="authorityType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="viaf">
+				<xs:annotation>
+					<xs:documentation>Virtual International Authority File</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="nkc">
+				<xs:annotation>
+					<xs:documentation>Národní knihovna České republiky</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="gnd">
+				<xs:annotation>
+					<xs:documentation>Gemeinsame Normdatei</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="lccn">
+				<xs:annotation>
+					<xs:documentation>Library of Congress Control Number</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="iccu">
+				<xs:annotation>
+					<xs:documentation>Istituto Centrale per il Catalogo Unico</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="zdb">
+				<xs:annotation>
+					<xs:documentation>Zeitschriftendatenbank</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="geonames.org">
+				<xs:annotation>
+					<xs:documentation>GeoNames</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="geohash.org">
+				<xs:annotation>
+					<xs:documentation>geohash.org</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="hoboken">
+				<xs:annotation>
+					<xs:documentation>Hoboken-Verzeichnis</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="koechel">
+				<xs:annotation>
+					<xs:documentation>Köchel-Verzeichnis</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="language">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Deutsch"/>
+				<xs:enumeration value="Italienisch"/>
+				<xs:enumeration value="Französisch"/>
+				<xs:enumeration value="Englisch"/>
+				<xs:enumeration value="Russisch"/>
+				<xs:enumeration value="Lateinisch"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<!-- LIST ELEMENTS -->
+	<xs:element name="eventList">
+		<xs:complexType mixed="false">
+			<xs:sequence maxOccurs="1" minOccurs="1">
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="eventListItem"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="opusList">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="opusListItem"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="orgList">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="orgListItem"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="personList">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="personListItem"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="placeList">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="placeListItem"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="conceptList">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="conceptListItem"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="termList">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="termListItem"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- LIST ITEM ELEMENTS -->
+	<xs:element name="eventListItem">
+		<xs:complexType mixed="false">
+			<xs:sequence maxOccurs="1" minOccurs="1">
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="id"/>
+				<xs:element maxOccurs="unbounded" minOccurs="1" ref="name"/>
+				<!-- can contain a group of semantic elements -->
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="place"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="date"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="opus"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="person"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="description"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="resource"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" name="eventSeries">
+					<xs:complexType mixed="false">
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" minOccurs="1" ref="eventListItem"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute ref="nym" use="required"/>
+			<!-- additional attribute: event type -->
+			<xs:attribute name="type" type="eventType" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="opusListItem">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="id"/>
+				<xs:element maxOccurs="unbounded" minOccurs="1" ref="name"/>
+				<xs:element minOccurs="0" name="category" type="opusCategory"/>
+				<xs:element minOccurs="0" ref="language"/>
+				<!-- can contain any semantic element -->
+				<xs:group maxOccurs="unbounded" minOccurs="0" ref="semanticElements"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="description"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="resource"/>
+				<!-- additional referrable content -->
+				<xs:choice maxOccurs="unbounded" minOccurs="0">
+					<xs:element maxOccurs="unbounded" minOccurs="0" name="block"/>
+					<xs:element maxOccurs="unbounded" minOccurs="0" name="thread"/>
+					<xs:element maxOccurs="unbounded" minOccurs="0" name="opusParts"/>
+				</xs:choice>
+			</xs:sequence>
+			<xs:attribute ref="nym" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="orgListItem">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="id"/>
+				<xs:element maxOccurs="unbounded" ref="name"/>
+				<xs:element name="category" type="orgCategory"/>
+				<xs:element minOccurs="0" ref="language"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="place"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="description"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="resource"/>
+			</xs:sequence>
+			<xs:attribute ref="nym" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="personListItem">
+		<xs:complexType mixed="false">
+			<xs:sequence maxOccurs="1" minOccurs="1">
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="id"/>
+				<xs:element maxOccurs="unbounded" minOccurs="1" ref="name"/>
+				<xs:element maxOccurs="1" minOccurs="1" name="sex">
+					<!-- vCard 4 RFC 6350 -->
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="m">
+								<xs:annotation>
+									<xs:documentation>male</xs:documentation>
+								</xs:annotation>
+							</xs:enumeration>
+							<xs:enumeration value="f">
+								<xs:annotation>
+									<xs:documentation>female</xs:documentation>
+								</xs:annotation>
+							</xs:enumeration>
+							<xs:enumeration value="u">
+								<xs:annotation>
+									<xs:documentation>unknown</xs:documentation>
+								</xs:annotation>
+							</xs:enumeration>
+							<xs:enumeration value="n">
+								<xs:annotation>
+									<xs:documentation>none or not applicable</xs:documentation>
+								</xs:annotation>
+							</xs:enumeration>
+							<xs:enumeration value="o">
+								<xs:annotation>
+									<xs:documentation>other</xs:documentation>
+								</xs:annotation>
+							</xs:enumeration>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element maxOccurs="1" minOccurs="0" name="birth"/>
+				<xs:element maxOccurs="1" minOccurs="0" name="death"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="description"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="resource"/>
+			</xs:sequence>
+			<xs:attribute ref="nym" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="placeListItem">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="geo"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="id"/>
+				<xs:element maxOccurs="unbounded" minOccurs="1" ref="name"/>
+				<!-- can contain related places -->
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="place"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="description"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="resource"/>
+			</xs:sequence>
+			<xs:attribute ref="nym" use="required"/>
+			<!-- additional attribute: place type -->
+			<xs:attribute name="type" type="placeType" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="conceptListItem">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="1" ref="name"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="description"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="resource"/>
+			</xs:sequence>
+			<xs:attribute ref="nym" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="termListItem">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="1" ref="name"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="description"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="resource"/>
+			</xs:sequence>
+			<xs:attribute ref="nym" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- SUBJECT CHILDS AND ATTRIBUTES -->
+	<xs:attribute name="nym">
+		<xs:simpleType>
+			<xs:restriction base="xs:ID">
+				<xs:pattern value="[a-z0-9\-\.]*">
+					<xs:annotation>
+						<xs:documentation>projektinterner Referenzname</xs:documentation>
+					</xs:annotation>
+				</xs:pattern>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+	<xs:element name="id">
+		<xs:complexType mixed="true">
+			<xs:attribute name="authority" type="authorityType"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="geo">
+		<xs:complexType mixed="true">
+			<xs:attribute name="authority" type="authorityType"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="name">
+		<xs:complexType mixed="true">
+			<xs:attribute name="lang" type="xs:language"/>
+			<xs:attribute name="from"/>
+			<xs:attribute name="to"/>
+			<xs:attribute name="type" type="nameType"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="description">
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="semanticElements"/>
+			<xs:attribute name="category">
+				<xs:simpleType>
+					<xs:restriction base="xs:token">
+						<xs:enumeration value="keyword"/>
+						<xs:enumeration value="language"/>
+						<xs:enumeration value="type"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="source"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="resource">
+		<xs:complexType mixed="true">
+			<xs:attribute name="type" type="resourceType" use="required"/>
+			<xs:attribute name="href" type="xs:anyURI" use="optional"/>
+			<xs:attribute name="title" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

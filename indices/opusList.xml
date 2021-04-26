@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/lists.xsd"?>
+
+<opusList>
+
+	<!-- HINZUFÜGEN
+	-->
+
+	<!-- MESSEN UND KANTATEN -->
+
+	<opusListItem nym="bach.h-moll-messe">
+		<id authority="gnd">300009879</id>
+		<name type="index">H-Moll-Messe</name>
+		<!-- 'H' großgeschrieben für die Sortierung in XSL 1.0 -->
+		<name type="ordinal">BWV 232</name>
+		<category>Geistlich / Messe</category>
+		<language>Lateinisch</language>
+		<person nym="bach.johann-sebastian" role="composer"/>
+		<resource type="de.wikipedia.org">h-Moll-Messe</resource>
+	</opusListItem>
+	<opusListItem nym="bach.kantate">
+		<name type="full">Eine Kantate</name>
+		<name type="index">Kantate (Bach)</name>
+		<!-- unspezifisch -->
+		<category>Geistlich / Messe</category>
+		<language>Deutsch</language>
+		<person nym="bach.johann-sebastian" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="beethoven.missa-solemnis">
+		<name type="index">Missa Solemnis</name>
+		<name type="motto">Von Herzen – möge es wieder – zu Herzen gehen!</name>
+		<category>Geistlich / Messe</category>
+		<language>Lateinisch</language>
+		<person nym="beethoven.ludwig-van" role="composer"/>
+		<resource type="de.wikipedia.org">Missa_Solemnis_(Beethoven)</resource>
+		<resource type="imslp.org">Missa_solemnis,_Op.123_(Beethoven,_Ludwig_van)</resource>
+		<opusParts>
+			<opusListItem nym="beethoven.missa-solemnis.kyrie">
+				<name>Kyrie</name>
+				<block end="85" start="1" type="tempo">Assai sostenuto. Mit Andacht</block>
+				<block end="117" start="86" type="tempo">Andante assai ben marcato</block>
+				<block end="223" start="118" type="tempo">Tempo I</block>
+			</opusListItem>
+			<opusListItem nym="beethoven.missa-solemnis.gloria">
+				<name>Gloria</name>
+				<block end="130" start="1" type="tempo">Allegro vivace</block>
+				<block end="173" start="131" type="tempo">Meno Allegro</block>
+				<block end="279" start="174" type="tempo">Tempo I</block>
+				<block end="309" start="280" type="tempo">Larghetto</block>
+				<block end="359" start="310" type="tempo">Allegro maestoso</block>
+				<block end="458" start="360" type="tempo">Allegro, ma non troppo e ben
+					marcato</block>
+				<block end="524" start="459" type="tempo">Poco più / Allegro</block>
+				<block end="569" start="525" type="tempo">Presto</block>
+			</opusListItem>
+			<opusListItem nym="beethoven.missa-solemnis.credo">
+				<name>Credo</name>
+				<block end="123" start="1" type="tempo">Allegro ma non troppo</block>
+				<block end="143" start="124" type="tempo">Adagio</block>
+				<block end="155" start="144" type="tempo">Andante</block>
+				<block end="187" start="156" type="tempo">Adagio espressivo</block>
+				<block end="193" start="188" type="tempo">Allegro</block>
+				<block end="263" start="194" type="tempo">Allegro molto</block>
+				<block end="305" start="264" type="tempo">Allegro ma non troppo</block>
+				<block end="371" start="306" type="tempo">Allegretto ma non troppo</block>
+				<block end="432" start="372" type="tempo">Allegro con moto</block>
+				<block end="472" start="433" type="tempo">Grave</block>
+			</opusListItem>
+			<opusListItem nym="beethoven.missa-solemnis.sanctus">
+				<name>Sanctus</name>
+				<name type="tempo">Adagio. Mit Andacht</name>
+			</opusListItem>
+			<opusListItem nym="beethoven.missa-solemnis.agnus-dei">
+				<name>Agnus Dei</name>
+				<name type="tempo">Adagio. Presto</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="bellini.messen">
+		<name>Die Messen</name>
+		<name type="index">Messen (Bellini)</name>
+		<category>Geistlich / Messe</category>
+		<person nym="bellini.vincenzo" role="composer"/>
+		<resource type="it.wikipedia.org">Vincenzo_Bellini#Musica_sacra</resource>
+	</opusListItem>
+	<opusListItem nym="bellini.dixit-dominus">
+		<name type="index">Dixit Dominus</name>
+		<category>Geistlich</category>
+		<language>Lateinisch</language>
+		<person nym="bellini.vincenzo" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="berlioz.grande-messe-des-morts">
+		<id authority="gnd">300019351</id>
+		<name type="index">Grande Messe des Morts</name>
+		<name type="other">Berlioz-Requiem</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<language>Lateinisch</language>
+		<person nym="berlioz.hector" role="composer"/>
+		<resource type="de.wikipedia.org">Requiem_(Berlioz)</resource>
+		<opusParts>
+			<opusListItem nym="berlioz.grande-messe-des-morts.requiem-et-kyrie">
+				<name>Requiem et Kyrie</name>
+			</opusListItem>
+			<opusListItem nym="berlioz.grande-messe-des-morts.dies-irae">
+				<name>Dies Irae</name>
+			</opusListItem>
+			<opusListItem nym="berlioz.grande-messe-des-morts.quid-sum-miser">
+				<name>Quid sum miser</name>
+			</opusListItem>
+			<opusListItem nym="berlioz.grande-messe-des-morts.rex-tremendae">
+				<name>Rex tremendae</name>
+			</opusListItem>
+			<opusListItem nym="berlioz.grande-messe-des-morts.quaerens-me">
+				<name>Quaerens me</name>
+			</opusListItem>
+			<opusListItem nym="berlioz.grande-messe-des-morts.lacrimosa">
+				<name>Lacrimosa</name>
+			</opusListItem>
+			<opusListItem nym="berlioz.grande-messe-des-morts.offertorium">
+				<name>Offertorium</name>
+			</opusListItem>
+			<opusListItem nym="berlioz.grande-messe-des-morts.hostias">
+				<name>Hostias</name>
+			</opusListItem>
+			<opusListItem nym="berlioz.grande-messe-des-morts.sanctus">
+				<name>Sanctus</name>
+			</opusListItem>
+			<opusListItem nym="berlioz.grande-messe-des-morts.agnus-dei">
+				<name>Agnus Dei</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="brahms.requiem">
+		<name type="index">Ein deutsches Requiem</name>
+		<name type="secondary">nach Worten der Heiligen Schrift</name>
+		<category>Geistlich / aliturgisch</category>
+		<language>Deutsch</language>
+		<person nym="brahms.johannes" role="composer"/>
+		<resource type="de.wikipedia.org">Ein_deutsches_Requiem</resource>
+	</opusListItem>
+	<opusListItem nym="brumel.missa-pro-defunctis">
+		<name type="index">Missa pro defunctis</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<person nym="brumel.antoine" role="composer"/>
+		<resource type="requiemsurvey.org"
+			>http://www.requiemsurvey.org/composers.php?id=140</resource>
+	</opusListItem>
+	<opusListItem nym="cavalli.missa-pro-defunctis">
+		<name type="index">Missa pro defunctis</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<person nym="cavalli.francesco" role="composer"/>
+		<resource type="requiemsurvey.org"
+			>http://www.requiemsurvey.org/composers.php?id=198</resource>
+	</opusListItem>
+	<opusListItem nym="cherubini.requiem-c-moll">
+		<name type="index">Requiem in c-Moll</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<person nym="cherubini.luigi" role="composer"/>
+		<resource type="de.wikipedia.org">Requiem_c-Moll_(Cherubini)</resource>
+		<opusParts>
+			<opusListItem nym="cherubini.requiem-c-moll.introitus">
+				<name>Introitus</name>
+			</opusListItem>
+			<opusListItem nym="cherubini.requiem-c-moll.graduale">
+				<name>Graduale</name>
+			</opusListItem>
+			<opusListItem nym="cherubini.requiem-c-moll.dies-irae">
+				<name>Dies irae</name>
+			</opusListItem>
+			<opusListItem nym="cherubini.requiem-c-moll.offertorium">
+				<name>Offertorium</name>
+			</opusListItem>
+			<opusListItem nym="cherubini.requiem-c-moll.sanctus">
+				<name>Sanctus</name>
+			</opusListItem>
+			<opusListItem nym="cherubini.requiem-c-moll.pie-jesu">
+				<name>Pie Jesu</name>
+			</opusListItem>
+			<opusListItem nym="cherubini.requiem-c-moll.agnus-dei">
+				<name>Agnus Dei</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="cherubini.requiem-d-moll">
+		<name type="index">Requiem in d-Moll</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<person nym="cherubini.luigi" role="composer"/>
+		<resource type="de.wikipedia.org">Requiem_d-Moll_(Cherubini)</resource>
+	</opusListItem>
+	<opusListItem nym="donizetti.ave-maria">
+		<name type="index">Ave Maria</name>
+		<category>Geistlich</category>
+		<language>Lateinisch</language>
+		<person nym="donizetti.gaetano" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="donizetti.miserere">
+		<name type="index">Miserere</name>
+		<category>Geistlich</category>
+		<language>Lateinisch</language>
+		<person nym="donizetti.gaetano" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="gounod.messe-breve-pour-les-morts">
+		<name type="index">Messe brève pour les morts</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<language>Lateinisch</language>
+		<person nym="gounod.charles" role="composer"/>
+		<resource type="requiemsurvey.org"
+			>http://www.requiemsurvey.org/composers.php?id=353</resource>
+	</opusListItem>
+	<opusListItem nym="haydn.messen">
+		<name type="full">Die Messen</name>
+		<name type="incipit">Messen (Haydn)</name>
+		<!-- unspezifisch -->
+		<category>Geistlich / Messe</category>
+		<person nym="haydn.joseph" role="composer"/>
+		<resource type="de.wikipedia.org">Joseph_Haydn#Messen</resource>
+	</opusListItem>
+	<opusListItem nym="jommelli.requiem">
+		<name type="index">Requiem</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<person nym="jommelli.niccolo" role="composer"/>
+		<resource type="imslp.org">Requiem_(Jommelli,_Niccolò)</resource>
+	</opusListItem>
+	<opusListItem nym="kiel.requiem-as-moll">
+		<name type="index">Requiem in As-Dur </name>
+		<name type="ordinal">op. 80</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<language>Lateinisch</language>
+		<person nym="kiel.friedrich" role="composer"/>
+		<description>Uraufführung am 20. November 1881</description>
+		<resource type="requiemsurvey.org">composers.php?id=431#requiem_id_584</resource>
+	</opusListItem>
+	<opusListItem nym="kiel.requiem-f-moll">
+		<name type="index">Requiem in f-Moll</name>
+		<name type="ordinal">op. 20</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<language>Lateinisch</language>
+		<person nym="kiel.friedrich" role="composer"/>
+		<description>Uraufführung am 8. Februar 1862</description>
+		<resource type="requiemsurvey.org">composers.php?id=431#requiem_id_584</resource>
+	</opusListItem>
+	<opusListItem nym="la-rue.missa-pro-defunctis">
+		<name type="index">Missa pro defunctis</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<person nym="rue.pierre-de-la" role="composer"/>
+		<resource type="requiemsurvey.org">composers.php?id=685</resource>
+	</opusListItem>
+	<opusListItem nym="lachner.requiem">
+		<name type="index">Requiem</name>
+		<name type="ordinal">op. 146</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<person nym="lachner.franz" role="composer"/>
+		<resource type="requiemsurvey.org">composers.php?id=457</resource>
+	</opusListItem>
+	<opusListItem nym="liszt.missa-solemnis">
+		<name type="index">Missa solemnis</name>
+		<name type="other">Graner Messe</name>
+		<category>Geistlich / Messe</category>
+		<language>Lateinisch</language>
+		<person nym="liszt.franz" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="messa-per-rossini">
+		<id authority="gnd">300602847</id>
+		<name type="index">Messa per Rossini</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<language>Lateinisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Messa_per_Rossini</resource>
+	</opusListItem>
+	<opusListItem nym="monteverdi.messa-di-requiem">
+		<name type="index">Messa di requiem</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<language>Lateinisch</language>
+		<person nym="monteverdi.claudio" role="composer"/>
+		<resource type="requiemsurvey.org"
+			>http://www.requiemsurvey.org/composers.php?id=547</resource>
+	</opusListItem>
+	<opusListItem nym="mozart.messen">
+		<name type="full">Die Messen</name>
+		<name type="index">Messen (Mozart)</name>
+		<!-- unspezifisch -->
+		<category>Geistlich / Messe</category>
+		<person nym="mozart.wolfgang-amadeus" role="composer"/>
+		<resource type="de.wikipedia.org">Liste_der_Kirchenmusikwerke_Mozarts#Messen</resource>
+	</opusListItem>
+	<opusListItem nym="mozart.requiem">
+		<id authority="gnd">300110464</id>
+		<name type="index">Requiem</name>
+		<name type="other">Mozart-Requiem</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<language>Lateinisch</language>
+		<person nym="mozart.wolfgang-amadeus" role="composer"/>
+		<person nym="suessmayr.franz-xaver" role="composer"/>
+		<resource type="de.wikipedia.org">Requiem_(Mozart)</resource>
+		<opusParts>
+			<opusListItem nym="mozart.requiem.1-introitus">
+				<name>Introitus</name>
+				<name type="ordinal">I.</name>
+				<thread>Requiem aeternam</thread>
+			</opusListItem>
+			<opusListItem nym="mozart.requiem.2-kyrie">
+				<name>Kyrie</name>
+				<name type="ordinal">II.</name>
+			</opusListItem>
+			<opusListItem nym="mozart.requiem.3-sequentia">
+				<name>Sequentia</name>
+				<name type="ordinal">III.</name>
+				<opusParts>
+					<opusListItem nym="mozart.requiem.3.1-dies-irae">
+						<name>Dies irae</name>
+					</opusListItem>
+					<opusListItem nym="mozart.requiem.3.2-tuba-mirum">
+						<name>Tuba mirum</name>
+					</opusListItem>
+					<opusListItem nym="mozart.requiem.3.3-rex-tremendae">
+						<name>Rex tremendae</name>
+					</opusListItem>
+					<opusListItem nym="mozart.requiem.3.4-recordare">
+						<name>Recordare</name>
+					</opusListItem>
+					<opusListItem nym="mozart.requiem.3.5-confutatis">
+						<name>Confutatis</name>
+					</opusListItem>
+					<opusListItem nym="mozart.requiem.3.6-lacrimosa">
+						<name>Lacrimosa</name>
+					</opusListItem>
+				</opusParts>
+			</opusListItem>
+			<opusListItem nym="mozart.requiem.4-offertorium">
+				<name>Offertorium</name>
+				<name type="ordinal">IV.</name>
+				<block>
+					<thread>Domine Jesu Christe</thread>
+					<thread>Versus: Hostias et preces</thread>
+				</block>
+			</opusListItem>
+			<opusListItem nym="mozart.requiem.5-sanctus-benedictus">
+				<name>Sanctus &amp; Benedictus</name>
+				<name type="ordinal">V.</name>
+				<block>
+					<thread>Sanctus</thread>
+					<thread>Benedictus</thread>
+				</block>
+			</opusListItem>
+			<opusListItem nym="mozart.requiem.6-agnus-dei">
+				<name>Agnus Dei</name>
+				<name type="ordinal">VI.</name>
+			</opusListItem>
+			<opusListItem nym="mozart.requiem.7-communio">
+				<name>Communio</name>
+				<name type="ordinal">VII.</name>
+				<thread>Lux aeterna</thread>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="pergolesi.stabat-mater">
+		<name type="index">Stabat Mater</name>
+		<category>Geistlich</category>
+		<person nym="pergolesi.giovanni-battista" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="pitoni.requiem">
+		<name type="full">Ein Requiem von Pitoni</name>
+		<name type="index">Requiem (Pitoni)</name>
+		<!-- unspezifisch -->
+		<category>Geistlich / Messe / Requiem</category>
+		<person nym="pitoni.giuseppe-ottavio" role="composer"/>
+		<resource type="requiemsurvey.org">composers.php?id=608</resource>
+	</opusListItem>
+	<opusListItem nym="prioris.requiem">
+		<name type="index">Requiem</name>
+		<name type="secondary">Missa pro defunctis à quator vocibus</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<person nym="prioris.johannes" role="composer"/>
+		<resource type="requiemsurvey.org">composers.php?id=624#requiem_id_890</resource>
+	</opusListItem>
+	<opusListItem nym="richafort.requiem">
+		<name type="index">Requiem</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<person nym="richafort.jean" role="composer"/>
+		<resource type="requiemsurvey.org"
+			>http://www.requiemsurvey.org/composers.php?id=657</resource>
+	</opusListItem>
+	<opusListItem nym="richter.ewige-ruhe">
+		<name type="index">Ewige Ruhe</name>
+		<name type="other">Trauermotette für Chor und Orgel</name>
+		<category>Geistlich</category>
+		<person nym="richter.paul" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="rossini.petite-messe-solennelle">
+		<id authority="gnd">30013262X</id>
+		<name type="index">Petite Messe solennelle</name>
+		<category>Geistlich / Messe</category>
+		<language>Lateinisch</language>
+		<person nym="rossini.gioachino" role="composer"/>
+		<resource type="de.wikipedia.org">Petite_Messe_solennelle</resource>
+	</opusListItem>
+	<opusListItem nym="rossini.stabat-mater">
+		<id authority="gnd">300132840</id>
+		<name type="index">Stabat mater</name>
+		<category>Geistlich</category>
+		<language>Lateinisch</language>
+		<person nym="rossini.gioachino" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="schumann.requiem">
+		<name type="index">Requiem</name>
+		<name type="secondary">für Soli, Chor und Orchester</name>
+		<name type="ordinal">op. 148</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<language>Lateinisch</language>
+		<person nym="schumann.robert" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="verdi-lebeau.requiem">
+		<name type="index">Messa da requiem (für Chor und Orgel)</name>
+		<name type="secondary">Riduzione per canto con accompagnamento d’Organo od Harmonium</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<language>Lateinisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<person nym="lebeau.alfred" role="arranger"/>
+	</opusListItem>
+	<opusListItem nym="verdi.requiem">
+		<id authority="gnd">300166192</id>
+		<name type="index">Messa da requiem</name>
+		<name type="other">Verdi-Requiem</name>
+		<name type="other">Manzoni-Requiem</name>
+		<category>Geistlich / Messe / Requiem</category>
+		<language>Lateinisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Messa_da_Requiem_(Verdi)</resource>
+		<opusParts>
+			<opusListItem nym="verdi.requiem.1">
+				<name>Requiem e Kyrie</name>
+				<name type="ordinal">No. 1</name>
+				<name type="secondary">a quattro parti: Soprano, Mezzo-Soprano, Tenore e Basso. –
+					Coro</name>
+				<block end="78" ref="introitus" start="1">
+					<thread end="16" ref="requiem-aeternam" start="1" type="text">Requiem aeternam
+						dona eis, Domine,</thread>
+					<thread end="27" ref="et-lux" start="17" type="text">et lux perpetua luceat
+						eis.</thread>
+					<thread end="44" ref="te-decet-hymnus" start="28" type="text">Te decet Hymnus,
+						Deus, in Sion, et ubi reddetur votum in Jerusalem.</thread>
+					<thread end="55" ref="exaudi" start="45" type="text">Exaudi orationem meam, ad
+						te omnis caro veniet.</thread>
+					<thread end="66" ref="requiem-aeternam.r" start="56" type="text">Requiem
+						aeternam dona eis, Domine,</thread>
+					<thread end="78" ref="et-lux.r" start="67" type="text">et lux perpetua luceat
+						eis.</thread>
+				</block>
+				<block end="140" ref="kyrie" start="78">
+					<thread ref="kyrie.kyrie-eleison" type="text">Kyrie eleison.</thread>
+					<thread ref="kyrie.christe-eleison" type="text">Christe eleison.</thread>
+				</block>
+			</opusListItem>
+			<opusListItem nym="verdi.requiem.2">
+				<name>Dies irae</name>
+				<name type="ordinal">No. 2</name>
+				<name type="secondary">a quattro parti, Soli e Coro</name>
+				<opusParts>
+					<opusListItem nym="verdi.requiem.2.dies-irae">
+						<name>Dies irae</name>
+						<name type="secondary">Coro</name>
+						<block end="73" start="1">
+							<thread ref="dies-irae" type="text">Dies irae, dies illa</thread>
+							<thread type="text">solvet saeclum in favilla,</thread>
+							<thread type="text">teste David cum Sibylla.</thread>
+						</block>
+						<block end="91" start="74">
+							<thread ref="quantus-tremor" type="text">Quantus tremor est
+								futurus,</thread>
+							<thread type="text">quando judex est venturus,</thread>
+							<thread type="text">cuncta stricte discussurus.</thread>
+						</block>
+					</opusListItem>
+					<opusListItem nym="verdi.requiem.2.tuba-mirum">
+						<name>Tuba mirum</name>
+						<name type="secondary">Coro</name>
+						<block end="139" start="91">
+							<thread ref="tuba-mirum" type="text">Tuba mirum spargens sonum</thread>
+							<thread type="text">per sepulchra regionum,</thread>
+							<thread type="text">coget omnes ante thronum.</thread>
+						</block>
+						<block end="161" start="140">
+							<thread ref="mors-stupebit" type="text">Mors stupebit et
+								natura,</thread>
+							<thread type="text">cum resurget creatura,</thread>
+							<thread type="text">judicanti responsura.</thread>
+						</block>
+					</opusListItem>
+					<opusListItem nym="verdi.requiem.2.liber-scriptus.1874">
+						<name>Liber Scriptus (1874)</name>
+						<name type="secondary">Fuga</name>
+					</opusListItem>
+					<opusListItem nym="verdi.requiem.2.liber-scriptus">
+						<name>Liber Scriptus (1875)</name>
+						<name type="secondary">Mezzo-Soprano e Coro</name>
+						<block end="177" start="162">
+							<thread ref="liber-scriptus" type="text">Liber scriptus
+								proferetur,</thread>
+							<thread type="text">in quo totum continetur,</thread>
+							<thread type="text">unde mundus judicetur.</thread>
+						</block>
+						<block end="229" start="178">
+							<thread ref="judex-ergo" type="text">Judex ergo cum sedebit,</thread>
+							<thread type="text">quidquid latet, apparebit,</thread>
+							<thread type="text">nil inultum remanebit.</thread>
+						</block>
+						<block end="269" start="229">
+							<thread ref="dies-irae" type="text">Dies irae, dies illa</thread>
+							<thread type="text">solvet saeclum in favilla,</thread>
+							<thread type="text">teste David cum Sibylla.</thread>
+						</block>
+					</opusListItem>
+					<opusListItem nym="verdi.requiem.2.quid-sum-miser">
+						<name>Quid sum miser</name>
+						<name type="secondary">Soprano, Mezzo-Sprano e Tenore</name>
+						<block end="321" start="270">
+							<thread ref="quid-sum-miser" type="text">Quid sum miser tunc
+								dicturus?</thread>
+							<thread type="text">Quem patronum rogaturus,</thread>
+							<thread type="text">cum vix justus sit securus?</thread>
+						</block>
+					</opusListItem>
+					<opusListItem nym="verdi.requiem.2.rex-tremendae">
+						<name>Rex tremendae</name>
+						<name type="secondary">Quartetto e Coro</name>
+						<block end="382" start="322">
+							<thread ref="rex-tremendae" type="text">Rex tremendae
+								majestatis,</thread>
+							<thread ref="qui-salvandos" type="text">qui salvandos salvas
+								gratis,</thread>
+							<thread ref="salva-me" type="text">salva me, fons pietatis.</thread>
+						</block>
+					</opusListItem>
+					<opusListItem nym="verdi.requiem.2.recordare">
+						<name>Recordare</name>
+						<name type="secondary">Soprano e Mezzo-Soprano</name>
+						<block end="408" start="383">
+							<thread ref="recordare" type="text">Recordare, Jesu pie,</thread>
+							<thread type="text">quod sum causa tuae viae,</thread>
+							<thread type="text">ne me perdas illa die.</thread>
+						</block>
+						<block end="446" start="408">
+							<thread ref="quaerens-me" type="text">Quaerens me, sedisti
+								lassus,</thread>
+							<thread type="text">redemisti crucem passus;</thread>
+							<thread type="text">tantus labor non sit cassus.</thread>
+							<thread ref="juste-judex" type="text">Juste judex ultionis,</thread>
+							<thread ref="donum-fac" type="text">donum fac remissionis</thread>
+							<thread type="text">ante diem rationis.</thread>
+						</block>
+					</opusListItem>
+					<opusListItem nym="verdi.requiem.2.ingemisco">
+						<name>Ingemisco</name>
+						<name type="secondary">Solo per Tenore</name>
+						<block end="456" start="447">
+							<thread ref="ingemisco" type="text">Ingemisco, tamquam reus,</thread>
+							<thread type="text">culpa rubet vultus meus,</thread>
+							<thread type="text">supplicanti parce, Deus.</thread>
+						</block>
+						<block end="502" start="457">
+							<thread ref="qui-mariam" type="text">Qui Mariam absolvisti,</thread>
+							<thread type="text">et latronem exaudisti,</thread>
+							<thread type="text">mihi quoque spem dedisti.</thread>
+							<thread ref="preces-meae" type="text">Preces meae non sunt
+								dignae,</thread>
+							<thread type="text">sed tu bonus fac benigne,</thread>
+							<thread type="text">ne perenni cremer igne.</thread>
+							<thread ref="inter-oves" type="text">Inter oves locum praesta,</thread>
+							<thread type="text">et ab haedis me sequestra,</thread>
+							<thread type="text">statuens in parte dextra.</thread>
+						</block>
+					</opusListItem>
+					<opusListItem nym="verdi.requiem.2.confutatis">
+						<name>Confutatis</name>
+						<name type="secondary">Solo per Basso</name>
+						<block end="573" start="503">
+							<thread ref="confutatis" type="text">Confutatis maledictis,</thread>
+							<thread type="text">flammis acribus addictis,</thread>
+							<thread type="text">voca me cum benedictis.</thread>
+							<thread ref="oro-supplex" type="text">Oro supplex et acclinis,</thread>
+							<thread type="text">cor contritum quasi cinis,</thread>
+							<thread type="text">gere curam mei finis.</thread>
+						</block>
+						<block end="623" start="573">
+							<thread ref="dies-irae" type="text">Dies irae, dies illa</thread>
+							<thread type="text">solvet saeclum in favilla,</thread>
+							<thread type="text">teste David cum Sibylla.</thread>
+						</block>
+					</opusListItem>
+					<opusListItem nym="verdi.requiem.2.lacrymosa">
+						<name>Lacrymosa</name>
+						<name type="secondary">Quartetto e Coro</name>
+						<block end="665" start="624">
+							<thread ref="lacrymosa" type="text">Lacrymosa dies illa,</thread>
+							<thread type="text">qua resurget ex favilla,</thread>
+							<thread type="text">judicandus homo reus.</thread>
+							<thread type="text">Huic ergo parce, Deus,</thread>
+						</block>
+						<block end="701" start="666">
+							<thread ref="pie-jesu" type="text">pie Jesu Domine,</thread>
+							<thread ref="dona-eis" type="text">dona eis requiem. Amen.</thread>
+						</block>
+					</opusListItem>
+				</opusParts>
+			</opusListItem>
+			<opusListItem nym="verdi.requiem.3">
+				<name>Domine Jesu</name>
+				<name type="ordinal">No. 3</name>
+				<name type="secondary">Offertorio a 4 voci: Soprano, Mezzo-Soprano, Tenore e
+					Basso</name>
+				<block end="89" start="1">
+					<thread ref="domine-jesu" type="text">Domine Jesu Christe, Rex gloriae,</thread>
+					<thread type="text">libera animas omnium fidelium</thread>
+					<thread type="text">defunctorum de poenis inferni</thread>
+					<thread type="text">et de profundo lacu:</thread>
+					<thread type="text">Libera eas de ore leonis,</thread>
+					<thread type="text">ne absorbeat eas tartarus,</thread>
+					<thread type="text">ne cadant in obscurum:</thread>
+					<thread type="text">sed signifer sanctus Michael</thread>
+					<thread type="text">repraesentet eas in lucem sanctam:</thread>
+				</block>
+				<block end="118" start="89">
+					<thread ref="quam-olim-abrahae" type="text">quam olim Abrahae
+						promisisti</thread>
+					<thread type="text">et semini ejus.</thread>
+				</block>
+				<block end="163" start="118">
+					<thread ref="hostias" type="text">Hostias et preces tibi, Domine,
+						laudis</thread>
+					<thread type="text">offerimus: tu suscipe pro animabus illis</thread>
+					<thread type="text">quarum hodie memonam facimus:</thread>
+					<thread type="text">Fac eas, Domine, de morte</thread>
+					<thread type="text">transire ad vitam.</thread>
+				</block>
+				<block end="198" start="163">
+					<thread ref="quam-olim-abrahae.r" type="text">Quam olim Abrahae
+						promisisti</thread>
+					<thread type="text">et semini ejus.</thread>
+				</block>
+				<block end="222" start="198">
+					<thread ref="libera-animas" type="text">Libera animas omnium fidelium</thread>
+					<thread type="text">defunctorum de poenis inferni,</thread>
+					<thread type="text">fac eas de morte transire ad vitam.</thread>
+				</block>
+			</opusListItem>
+			<opusListItem nym="verdi.requiem.4">
+				<name>Sanctus</name>
+				<name type="ordinal">No. 4</name>
+				<name type="secondary">Fuga a due Cori</name>
+				<block end="139" start="1">
+					<thread ref="sanctus" type="text">Sanctus, Sanctus, Sanctus</thread>
+					<thread type="text">Dominus, Deus Sabaoth.</thread>
+					<thread ref="pleni" type="text">Pleni sunt coeli et terra gloria tua.</thread>
+					<thread ref="hosanna" type="text">Hosanna in excelsis.</thread>
+					<thread ref="benedictus" start="41" type="text">Benedictus, qui venit in nomine
+						Domini.</thread>
+					<thread ref="hosanna.r" type="text">Hosanna in excelsis.</thread>
+				</block>
+			</opusListItem>
+			<opusListItem nym="verdi.requiem.5">
+				<name>Agnus Dei</name>
+				<name type="ordinal">No. 5</name>
+				<name type="secondary">Soprano, Mezzo-Soprano e Coro</name>
+				<block end="74" start="1">
+					<thread type="text">Agnus Dei, qui tollis peccata mundi, dona eis
+						requiem.</thread>
+					<thread type="text">Agnus Dei, qui tollis peccata mundi, dona eis requiem
+						sempiternam.</thread>
+				</block>
+			</opusListItem>
+			<opusListItem nym="verdi.requiem.6">
+				<name>Lux aeterna</name>
+				<name type="ordinal">No. 6</name>
+				<name type="secondary">Mezzo-Soprano, Tenore e Basso</name>
+				<block end="105" start="1">
+					<thread ref="lux-aeterna" type="text">Lux aeterna luceat eis, Domine:</thread>
+					<thread type="text">Cum sanctis tuis in aeternum:</thread>
+					<thread type="text">quia pius es.</thread>
+					<thread ref="requiem-aeternam" type="text">Requiem aeternam dona eis,
+						Domine,</thread>
+					<thread type="text">et lux perpetua luceat eis.</thread>
+				</block>
+			</opusListItem>
+			<opusListItem nym="verdi.requiem.7">
+				<name>Libera me</name>
+				<name type="ordinal">No. 7</name>
+				<name type="secondary">Solo per Soprano. – Coro. – Fuga finale</name>
+				<block end="44" start="1">
+					<thread ref="libera-me" type="text">Libera me, Domine, de morte
+						aeterna,</thread>
+					<thread type="text">in die illa tremenda,</thread>
+					<thread type="text">quando coeli movendi sunt et terra.</thread>
+					<thread type="text">Dum veneris judicare saeculum per ignem.</thread>
+					<thread ref="tremens-factus" type="text">Tremens factus sum ego et
+						timeo.</thread>
+					<thread type="text">dum discussio venent atque Ventura ira;</thread>
+					<thread type="text">quando coeli movendi sunt et terra.</thread>
+				</block>
+				<block end="131" start="45">
+					<thread ref="dies-irae" type="text">Dies irae, dies illa,</thread>
+					<thread type="text">calamitatis et miseriae,</thread>
+					<thread type="text">dies magna et amara valde.</thread>
+				</block>
+				<block end="170" start="132">
+					<thread ref="requiem-aeternam" type="text">Requiem aeternam dona eis,
+						Domine,</thread>
+					<thread ref="et-lux" type="text">et lux perpetua luceat eis.</thread>
+				</block>
+				<block end="381" start="171">
+					<thread ref="libera-me.fuga" type="text">Libera me, Domine, de morte
+						aeterna,</thread>
+					<thread type="text">in die illa tremenda,</thread>
+					<thread type="text">quando coeli movendi sunt et terra.</thread>
+					<thread type="text">Dum veneris judicare saeculum per ignem.</thread>
+				</block>
+				<block end="421" ref="domine" start="381">
+					<thread type="text">Domine, Domine, Domine, libera, libera, libera me</thread>
+					<thread type="text">de morte aeterna, in die illa tremenda,</thread>
+					<thread type="text">libera me, libera me, Domine,</thread>
+					<thread type="text">de morte aeterna, in die illa tremenda.</thread>
+					<thread type="text">Libera me.</thread>
+				</block>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+
+	<!-- ORATORIEN UND FESTSPIELE -->
+
+	<opusListItem nym="beethoven.christus-am-oelberge">
+		<id authority="gnd">300015003</id>
+		<name lang="de" type="index">Christus am Ölberge</name>
+		<category>Geistlich / Oratorium</category>
+		<person nym="beethoven.ludwig-van" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="graun.der-tod-jesu">
+		<id authority="gnd">300061838</id>
+		<name lang="de" type="index">Der Tod Jesu</name>
+		<category>Geistlich / Oratorium</category>
+		<person nym="graun.carl-heinrich" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="haendel.messiah">
+		<name type="index">Der Messias</name>
+		<category>Geistlich / Oratorium</category>
+		<person nym="haendel.georg-friedrich" role="composer"/>
+		<resource type="de.wikipedia.org">Messiah</resource>
+	</opusListItem>
+	<opusListItem nym="haydn.die-jahreszeiten">
+		<id authority="hoboken">XXI:3</id>
+		<name type="index">Die Jahreszeiten</name>
+		<category>Geistlich / Oratorium</category>
+		<person nym="haydn.joseph" role="composer"/>
+		<resource type="de.wikipedia.org">Die_Jahreszeiten_(Haydn)</resource>
+	</opusListItem>
+	<opusListItem nym="haydn.die-schoepfung">
+		<id authority="hoboken">XXI:2</id>
+		<name type="index">Die Schöpfung</name>
+		<category>Geistlich / Oratorium</category>
+		<person nym="haydn.joseph" role="composer"/>
+		<resource type="de.wikipedia.org">Die_Schöpfung</resource>
+		<opusParts>
+			<opusListItem nym="haydn.die-schoepfung.von-deiner-guet">
+				<name>Von deiner Güt, o Herr und Gott</name>
+			</opusListItem>
+			<opusListItem nym="haydn.die-schoepfung.holde-gattin">
+				<name>Holde Gattin, dir zur Seite</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="hiller.die-zerstoerung-jerusalems">
+		<name type="index">Die Zerstörung Jerusalems</name>
+		<category>Geistlich / Oratorium</category>
+		<language>Deutsch</language>
+		<person nym="hiller.ferdinand" role="composer"/>
+		<opusParts>
+			<opusListItem nym="hiller.die-zerstoerung-jerusalems.ach-waer-mein-haupt">
+				<name>Ach wär mein Haupt eine Wasserquelle (Duett)</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="mendelssohn-bartholdy.elias">
+		<name type="index">Elias</name>
+		<name type="ordinal">op. 70</name>
+		<category>Geistlich / Oratorium</category>
+		<language>Deutsch</language>
+		<person nym="mendelssohn-bartholdy.felix" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="mendelssohn-bartholdy.paulus">
+		<name type="index">Paulus</name>
+		<name type="ordinal">op. 36</name>
+		<category>Geistlich / Oratorium</category>
+		<language>Deutsch</language>
+		<person nym="mendelssohn-bartholdy.felix" role="composer"/>
+		<resource type="de.wikipedia.org">Paulus_(Mendelssohn)</resource>
+	</opusListItem>
+	<opusListItem nym="rubinstein.das-verlorene-paradies">
+		<name type="index">Das verlorene Paradies</name>
+		<category>Geistlich / Oratorium</category>
+		<language>Deutsch</language>
+		<person nym="rubinstein.anton" role="composer"/>
+	</opusListItem>
+
+	<!-- OPERN -->
+
+	<opusListItem nym="auber.fra-diavolo">
+		<id authority="gnd">300003218</id>
+		<name type="index">Fra Diavolo</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="auber.daniel-francois-esprit" role="composer"/>
+		<resource type="de.wikipedia.org">Fra_Diavolo_(Oper)</resource>
+	</opusListItem>
+	<opusListItem nym="auber.la-muette-de-portici">
+		<id authority="gnd">300003250</id>
+		<name type="index">La Muette de Portici</name>
+		<name lang="de" type="other">Die Stumme von Portici</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="auber.daniel-francois-esprit" role="composer"/>
+		<resource type="de.wikipedia.org">La_Muette_de_Portici</resource>
+	</opusListItem>
+	<opusListItem nym="beethoven.fidelio">
+		<id authority="gnd">300015194</id>
+		<name type="index">Fidelio</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="beethoven.ludwig-van" role="composer"/>
+		<resource type="de.wikipedia.org">Fidelio</resource>
+		<opusParts>
+			<opusListItem nym="beethoven.fidelio.don-pizarro">
+				<name type="index">Don Pizarro (Figur in „Fidelio“)</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="bellini.i-puritani">
+		<name type="index">I puritani</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="bellini.vincenzo" role="composer"/>
+		<resource type="de.wikipedia.org">I_puritani</resource>
+		<resource type="it.wikipedia.org">I_puritani</resource>
+	</opusListItem>
+	<opusListItem nym="boieldieu.la-dame-blanche">
+		<name type="index">La Dame blanche</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="boieldieu.francois-adrien" role="composer"/>
+		<resource type="de.wikipedia.org">La_Dame_blanche</resource>
+	</opusListItem>
+	<opusListItem nym="donizetti.linda-di-chamounix">
+		<name type="index">Linda di Chamounix</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="donizetti.gaetano" role="composer"/>
+		<resource type="de.wikipedia.org">Linda_di_Chamounix</resource>
+	</opusListItem>
+	<opusListItem nym="donizetti.maria-di-rohan">
+		<name type="index">Maria di Rohan</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="donizetti.gaetano" role="composer"/>
+		<resource type="de.wikipedia.org">Maria_di_Rohan</resource>
+	</opusListItem>
+	<opusListItem nym="glinka.ein-leben-fuer-den-zaren">
+		<name lang="de" type="index">Ein Leben für den Zaren</name>
+		<name lang="ru" type="other">Жизнь за царя</name>
+		<category>Oper / Russisch</category>
+		<language>Russisch</language>
+		<person nym="glinka.michael" role="composer"/>
+		<resource type="de.wikipedia.org">Ein_Leben_für_den_Zaren</resource>
+	</opusListItem>
+	<opusListItem nym="gluck.iphigenie-en-aulide">
+		<name type="index">Iphigénie en Aulide</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="gluck.christoph-willibald" role="composer"/>
+		<resource type="de.wikipedia.org">Iphigénie_en_Aulide</resource>
+		<opusParts>
+			<opusListItem nym="gluck.iphigenie-en-aulide.ouverture">
+				<name>Ouverture</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="gluck.iphigenie-en-tauride">
+		<name type="index">Iphigénie en Tauride</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="gluck.christoph-willibald" role="composer"/>
+		<resource type="de.wikipedia.org">Iphigénie_en_Tauride</resource>
+	</opusListItem>
+	<opusListItem nym="goetz.der-widerspenstigen-zaehmung">
+		<id authority="gnd">300646909</id>
+		<name type="index">Der Widerspenstigen Zähmung </name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="goetz.hermann" role="composer"/>
+		<resource type="de.wikipedia.org">Der_Widerspenstigen_Zähmung_(Goetz)</resource>
+	</opusListItem>
+	<opusListItem nym="goldmark.die-koenigin-von-saba">
+		<id authority="gnd">300488602</id>
+		<name type="index">Die Königin von Saba</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="goldmark.karl" role="composer"/>
+		<resource type="de.wikipedia.org">Die_Königin_von_Saba</resource>
+	</opusListItem>
+	<opusListItem nym="gounod.faust">
+		<id authority="gnd">300061099</id>
+		<name type="index">Faust</name>
+		<name lang="de" type="other">Margarete</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="gounod.charles" role="composer"/>
+		<resource type="de.wikipedia.org">Faust_(Gounod)</resource>
+		<opusParts>
+			<opusListItem nym="gounod.faust.4.3.szene-in-der-kirche">
+				<name>4. Akt, 3. Szene. Szene in der Kirche</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="mehul.joseph">
+		<name type="index">Joseph</name>
+		<name type="full">Joseph et ses frères</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="mehul.etienne-nicolas" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="meyerbeer.l-africaine">
+		<id authority="gnd">30010412X</id>
+		<name type="index">L’Africaine</name>
+		<name lang="de" type="other">Die Afrikanerin</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="meyerbeer.giacomo" role="composer"/>
+		<resource type="de.wikipedia.org">L'Africaine_(Oper)</resource>
+		<opusParts>
+			<opusListItem nym="meyerbeer.l-africaine.5.21.grande-scene-du-mancenillier">
+				<name>Acte V. No. 21. Grande scène du mancenillier</name>
+				<name type="incipit">D’ici, je vois la mer</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="meyerbeer.le-prophete">
+		<id authority="gnd">351016155</id>
+		<name type="index">Le prophète</name>
+		<name lang="de">Der Prophet</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="meyerbeer.giacomo" role="composer"/>
+		<resource type="de.wikipedia.org">Le_prophète</resource>
+	</opusListItem>
+	<opusListItem nym="meyerbeer.robert-le-diable">
+		<id authority="gnd">300205562</id>
+		<name type="index">Robert le diable</name>
+		<name lang="de" type="other">Robert der Teufel</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="meyerbeer.giacomo" role="composer"/>
+		<resource type="de.wikipedia.org">Robert_le_diable</resource>
+		<opusParts>
+			<opusListItem nym="meyerbeer.robert-le-diable.bertram">
+				<name type="index">Bertram (Figur in „Robert le diable“)</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="mozart.die-zauberfloete">
+		<id authority="gnd">300112068</id>
+		<name type="index">Die Zauberflöte</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="mozart.wolfgang-amadeus" role="composer"/>
+		<opusParts>
+			<opusListItem nym="mozart.die-zauberfloete.ouvertuere">
+				<name>Ouvertüre</name>
+			</opusListItem>
+			<opusListItem nym="mozart.die-zauberfloete.gesang-der-geharnischten-maenner">
+				<name>Gesang der Geharnischten Männer</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="mozart.idomeneo">
+		<id authority="gnd">30010829X</id>
+		<name type="index">Idomeneo</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="mozart.wolfgang-amadeus" role="composer"/>
+		<resource type="de.wikipedia.org">Idomeneo</resource>
+	</opusListItem>
+	<opusListItem nym="mozart.don-giovanni">
+		<id authority="gnd">30010782X</id>
+		<name type="index">Don Giovanni</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="mozart.wolfgang-amadeus" role="composer"/>
+		<resource type="de.wikipedia.org">Don_Giovanni</resource>
+	</opusListItem>
+	<opusListItem nym="paisiello.il-barbiere-di-siviglia">
+		<id authority="gnd">30054961X</id>
+		<name type="index">Il barbiere di Siviglia</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="paisiello.giovanni" role="composer"/>
+		<resource type="de.wikipedia.org">Der_Barbier_von_Sevilla_(Paisiello)</resource>
+		<opusParts>
+			<opusListItem nym="paisiello.il-barbiere-di-siviglia.1.6">
+				<name>Saper bramate, bello il mio nome</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="ponchielli.i-lituani">
+		<name type="index">I Lituani</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="ponchielli.amilcare" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="rossini.guillaume-tell">
+		<name lang="fr" type="index">Guillaume Tell</name>
+		<category>Oper / Französisch</category>
+		<language>Französisch</language>
+		<person nym="rossini.gioachino" role="composer"/>
+		<resource type="de.wikipedia.org">Guillaume_Tell</resource>
+	</opusListItem>
+	<opusListItem nym="rossini.il-barbiere-di-siviglia">
+		<name lang="it" type="index">Il barbiere di Siviglia</name>
+		<name lang="de" type="index">Der Barbier von Sevilla</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="rossini.gioachino" role="composer"/>
+		<resource type="de.wikipedia.org">Der_Barbier_von_Sevilla</resource>
+	</opusListItem>
+	<opusListItem nym="rossini.mose-in-egitto">
+		<name lang="it" type="index">Mosè in Egitto</name>
+		<name lang="de" type="index">Moses in Ägypten</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="rossini.gioachino" role="composer"/>
+		<resource type="de.wikipedia.org">Moses_in_Ägypten</resource>
+	</opusListItem>
+	<opusListItem nym="rossini.semiramide">
+		<name lang="it" type="index">Semiramide</name>
+		<name lang="de" type="other">Semiramis</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="rossini.gioachino" role="composer"/>
+		<resource type="de.wikipedia.org">Semiramide</resource>
+	</opusListItem>
+	<opusListItem nym="rossini.zelmira">
+		<name lang="it" type="index">Zelmira</name>
+		<name lang="de" type="other">Zelmira</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="rossini.gioachino" role="composer"/>
+		<resource type="it.wikipedia.org">Zelmira</resource>
+	</opusListItem>
+	<opusListItem nym="spohr.faust">
+		<name lang="de" type="index">Faust</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="spohr.louis" role="composer"/>
+		<resource type="de.wikipedia.org">Faust_(Spohr)</resource>
+		<opusParts>
+			<opusListItem nym="spohr.faust.arie">
+				<name type="full">Eine Faust-Arie von Spohr</name>
+				<name type="index">Faust-Arie (Spohr)</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="verdi.aida">
+		<id authority="gnd">300164971</id>
+		<name type="index">Aida</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Aida_(Oper)</resource>
+		<opusParts>
+			<opusListItem nym="verdi.aida.amneris-und-die-priester">
+				<name type="index">Amneris und die Priester (Szene in „Aida“)</name>
+			</opusListItem>
+			<opusListItem nym="verdi.aida.radames">
+				<name type="index">Radames (Figur in „Aida“)</name>
+			</opusListItem>
+			<opusListItem nym="verdi.aida.amneris">
+				<name type="index">Amneris (Figur in „Aida“)</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="verdi.attila">
+		<id authority="gnd">300165080</id>
+		<name type="index">Attila</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Attila_(Oper)</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.don-carlos">
+		<name type="index">Don Carlos</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Don_Carlos_(Verdi)</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.ernani">
+		<name type="index">Ernani</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Ernani</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.i-due-foscari">
+		<name type="index">I due Foscari</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">I_due_Foscari</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.i-lombardi">
+		<name type="index">I Lombardi alla prima Crociata</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">I_Lombardi_alla_prima_Crociata</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.i-masnadieri">
+		<name type="index">I masnadieri</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">I_Masnadieri</resource>
+		<resource type="it.wikipedia.org">I_masnadieri</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.i-vespri-siciliani">
+		<name lang="it" type="index">I vespri siciliani</name>
+		<name lang="fr" type="other">Les vêpres siciliennes</name>
+		<name lang="de" type="other">Die sizilianische Vesper</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Les_vêpres_siciliennes</resource>
+		<resource type="it.wikipedia.org">I_vespri_siciliani</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.il-trovatore">
+		<id authority="gnd">300166508</id>
+		<name type="index">Il Trovatore</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Il_trovatore</resource>
+		<opusParts>
+			<opusListItem nym="verdi.il-trovatore.manrico">
+				<name type="index">Manrico (Figur in „Il Trovatore“)</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="verdi.la-forza-del-destino">
+		<name type="index">La forza del destino</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">La_forza_del_destino</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.la-traviata">
+		<id authority="gnd">300166400</id>
+		<name type="index">La traviata</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">La_Traviata</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.luisa-miller">
+		<name type="index">Luisa Miller</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Luisa_Miller</resource>
+		<resource type="it.wikipedia.org">Luisa_Miller</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.macbeth">
+		<name type="index">Macbeth</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Macbeth_(Oper)</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.nabucco">
+		<name type="index">Nabucco</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Nabucco</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.oberto">
+		<name type="index">Oberto, Conte di San Bonifacio</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Oberto,_Conte_di_San_Bonifacio</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.otello">
+		<name type="index">Otello</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Otello_(Verdi)</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.rigoletto">
+		<id authority="gnd">300166222</id>
+		<name type="index">Rigoletto</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Rigoletto</resource>
+		<opusParts>
+			<opusListItem nym="verdi.rigoletto.3.14.v-ho-ingannato">
+				<name>3. Akt, 14. Szene: Duett „V’ho ingannato … colpevole fui …“
+					(Gilda/Rigoletto)</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="verdi.simon-boccanegra">
+		<id authority="gnd">300166354</id>
+		<name type="index">Simon Boccanegra</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Simon_Boccanegra</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.un-ballo-in-maschera">
+		<id authority="gnd">300165145</id>
+		<name type="index">Un ballo in maschera</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Un_ballo_in_maschera</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.un-giorno-di-regno">
+		<id authority="gnd">300208251</id>
+		<name type="index">Un giorno di regno</name>
+		<category>Oper / Italienisch</category>
+		<language>Italienisch</language>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Un_giorno_di_regno</resource>
+	</opusListItem>
+	<opusListItem nym="wagner.der-fliegende-hollaender">
+		<name type="index">Der fliegende Holländer</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="wagner.richard" role="composer"/>
+		<resource type="de.wikipedia.org">Der_fliegende_Holländer</resource>
+		<resource type="imslp.org">Der_fliegende_Holländer,_WWV_63_(Wagner,_Richard)</resource>
+		<opusParts>
+			<opusListItem nym="wagner.der-fliegende-hollaender.gespensterchor">
+				<name type="index">Gespensterchor</name>
+				<description>vgl. III. Akt, No. 7, Chor der Norwegischen Matrosen und Ensemble (S.
+					286).</description>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="wagner.goetterdaemmerung">
+		<id authority="gnd">300169868</id>
+		<name type="index">Götterdämmerung</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="wagner.richard" role="composer"/>
+		<resource type="de.wikipedia.org">Götterdämmerung_(Oper)</resource>
+	</opusListItem>
+	<opusListItem nym="wagner.lohengrin">
+		<id authority="gnd">30016999X</id>
+		<name type="index">Lohengrin</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="wagner.richard" role="composer"/>
+		<resource type="de.wikipedia.org">Lohengrin</resource>
+	</opusListItem>
+	<opusListItem nym="wagner.rienzi">
+		<id authority="gnd">300170289</id>
+		<name type="index">Rienzi</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="wagner.richard" role="composer"/>
+		<resource type="de.wikipedia.org">Rienzi</resource>
+	</opusListItem>
+	<opusListItem nym="wagner.siegfried">
+		<id authority="gnd">300170327</id>
+		<name type="index">Siegfried</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="wagner.richard" role="composer"/>
+		<resource type="de.wikipedia.org">Siegfried_(Oper)</resource>
+	</opusListItem>
+	<opusListItem nym="wagner.tannhaeuser">
+		<name type="index">Tannhäuser</name>
+		<name type="full">Tannhäuser und der Sängerkrieg auf Wartburg</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="wagner.richard" role="composer"/>
+		<resource type="de.wikipedia.org">Tannhäuser_und_der_Sängerkrieg_auf_Wartburg</resource>
+		<opusParts>
+			<opusListItem nym="wagner.tannhaeuser.1.1.venusberg">
+				<name>Erster Aufzug, Szene 1. Im Venusberg</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="wagner.tristan-und-isolde">
+		<name type="index">Tristan und Isolde</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="wagner.richard" role="composer"/>
+		<resource type="de.wikipedia.org">Tristan_und_Isolde_(Oper)</resource>
+	</opusListItem>
+	<opusListItem nym="weber.euryanthe">
+		<name type="index">Euryanthe</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="weber.carl-maria-von" role="composer"/>
+		<resource type="de.wikipedia.org">Euryanthe</resource>
+		<resource href="https://www.youtube.com/watch?v=5fms_rSB99c" type="www"
+			>Referenzaufnahme</resource>
+		<opusParts>
+			<opusListItem nym="weber.euryanthe.ouvertuere">
+				<name>Ouverture</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="weber.freischuetz">
+		<id authority="gnd">30017148X</id>
+		<name type="index">Der Freischütz</name>
+		<category>Oper / Deutsch</category>
+		<language>Deutsch</language>
+		<person nym="weber.carl-maria-von" role="composer"/>
+		<resource type="de.wikipedia.org">Der_Freischütz</resource>
+		<opusParts>
+			<opusListItem nym="weber.freischuetz.kaspar">
+				<name type="index">Kaspar (Figur in „Der Freischütz“)</name>
+			</opusListItem>
+			<opusListItem nym="weber.freischuetz.samiel">
+				<name type="index">Samiel (Figur in „Der Freischütz“)</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+
+	<!-- SINFONIK -->
+
+	<opusListItem nym="beethoven.symphonien">
+		<name type="index">Die Symphonien</name>
+		<!-- unspezifisch -->
+		<category>Sinfonik</category>
+		<person nym="beethoven.ludwig-van" role="composer"/>
+		<resource type="de.wikipedia.org">Liste_der_Sinfonien_Ludwig_van_Beethovens</resource>
+	</opusListItem>
+	<opusListItem nym="beethoven.symphonie-7">
+		<name type="index">Symphonie Nr. 7</name>
+		<category>Sinfonik</category>
+		<person nym="beethoven.ludwig-van" role="composer"/>
+		<resource type="de.wikipedia.org">7._Sinfonie_(Beethoven)</resource>
+	</opusListItem>
+	<opusListItem nym="beethoven.symphonie-9">
+		<name type="index">Symphonie Nr. 9</name>
+		<category>Sinfonik</category>
+		<person nym="beethoven.ludwig-van" role="composer"/>
+		<resource type="de.wikipedia.org">9._Sinfonie_(Beethoven)</resource>
+	</opusListItem>
+	<opusListItem nym="brahms.variationen-ueber-ein-thema-von-haydn">
+		<name type="index">Variationen über ein Thema von Haydn</name>
+		<category>Sinfonik</category>
+		<person nym="brahms.johannes" role="composer"/>
+		<resource type="de.wikipedia.org">Variationen_über_ein_Thema_von_Haydn_(Brahms)</resource>
+		<resource type="imslp.org"
+			>Variations_on_a_Theme_by_Haydn,_Op.56_(Brahms,_Johannes)</resource>
+	</opusListItem>
+	<opusListItem nym="hiller.symphonie-e-moll">
+		<name type="index">Symphonie in e-Moll</name>
+		<name type="ordinal">op. 67</name>
+		<name type="index">Es muß doch Frühling werden</name>
+		<category>Sinfonik</category>
+		<person nym="hiller.ferdinand" role="composer"/>
+		<resource type="de.wikipedia.org">Ein_Sommernachtstraum_(Mendelssohn)</resource>
+	</opusListItem>
+	<opusListItem nym="mendelssohn-bartholdy.ein-sommernachtstraum">
+		<name type="index">Ein Sommernachtstraum</name>
+		<name type="ordinal">op. 21</name>
+		<name type="index">Ein Sommernachtstraum</name>
+		<category>Sinfonik / Ouvertüre</category>
+		<person nym="mendelssohn-bartholdy.felix" role="composer"/>
+		<resource type="de.wikipedia.org">Ein_Sommernachtstraum_(Mendelssohn)</resource>
+	</opusListItem>
+	<opusListItem nym="schumann.symphonie-4">
+		<name type="index">Symphonie Nr. 4</name>
+		<category>Sinfonik</category>
+		<person nym="schumann.robert" role="composer"/>
+		<resource type="de.wikipedia.org">4._Sinfonie_(Schumann)</resource>
+	</opusListItem>
+	<opusListItem nym="schumann.manfred">
+		<name lang="de" type="index">Ouvertüre zu „Manfred“</name>
+		<name type="ordinal">op. 115</name>
+		<category>Sinfonik / Ouvertüre</category>
+		<person nym="schumann.robert" role="composer"/>
+		<resource type="de.wikipedia.org"/>
+	</opusListItem>
+	<opusListItem nym="svendsen.sigurd-slembe">
+		<name type="index">Ouvertüre zu „Sigurd Slembe“</name>
+		<name type="ordinal">op. 8</name>
+		<category>Sinfonik / Ouvertüre</category>
+		<person nym="svendsen.johan" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="schubert.trauermarsch">
+		<name type="index">Trauermarsch</name>
+		<name type="other">Grande marche funèbre</name>
+		<category>Sinfonik</category>
+		<person nym="schubert.franz" role="composer"/>
+		<person nym="liszt.franz" role="arranger"/>
+		<description>Grand Marche mit Trio von 1824, op.40 (D.819), Nr. 5.</description>
+		<description>Liszt arrangierte das Stück für Orchester (S.363/2, 1859/60) sowie für Klavier
+			(S.426/1).</description>
+		<resource href="https://www.youtube.com/watch?v=AF3LSjetK0A" type="www">Referenzaufnahme
+			(Klavier)</resource>
+	</opusListItem>
+
+	<!-- KAMMERMUSIK -->
+
+	<opusListItem nym="beethoven.quartett-131">
+		<name type="index">Quartett Op. 131</name>
+		<category>Kammermusik</category>
+		<person nym="beethoven.ludwig-van" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="chopin.nocturne">
+		<name type="full">Ein Nocturne von Chopin</name>
+		<name type="index">Nocturne (Chopin)</name>
+		<!-- unspezifisch -->
+		<category>Kammermusik</category>
+		<person nym="chopin.frederic" role="composer"/>
+		<resource type="de.wikipedia.org">Nocturnes_(Chopin)</resource>
+	</opusListItem>
+	<opusListItem nym="garat.la-fileuse">
+		<name type="index">La fileuse</name>
+		<category>Kammermusik</category>
+		<person nym="garat.pierre-jean" role="composer"/>
+		<resource href="http://www.eresbil.com/fmi/xsl/ERESBIL/esp/findrecords.xsl?-view" type="www"
+			>ERESBIL / Basque music scores</resource>
+	</opusListItem>
+	<opusListItem nym="geisler.monologe">
+		<name type="index">Monologe</name>
+		<category>Kammermusik</category>
+		<person nym="geisler.paul" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="godefroid.thautropfen">
+		<name type="index">Thautropfen</name>
+		<category>Kammermusik</category>
+		<person nym="godefroid.felix" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="gounod.ho-messo-nuove-corde-al-mandolino">
+		<name type="index">Ho messo nuove corde al mandolino</name>
+		<category>Kammermusik</category>
+		<person nym="gounod.charles" role="composer"/>
+		<resource type="en.wikipedia.org">List_of_compositions_by_Charles_Gounod</resource>
+	</opusListItem>
+	<opusListItem nym="hauser.lieder-ohne-worte">
+		<name type="index">Lieder ohne Worte für die Violine</name>
+		<name type="ordinal">op. 24</name>
+		<category>Kammermusik</category>
+		<person nym="hauser.miska" role="composer"/>
+		<resource type="imslp.org">List_of_works_by_Miska_Hauser</resource>
+	</opusListItem>
+	<opusListItem nym="hauser.ungarische-rhapsodie">
+		<name type="index">Ungarische Rhapsodie</name>
+		<!-- unspezifisch -->
+		<category>Kammermusik</category>
+		<person nym="hauser.miska" role="composer"/>
+		<resource type="imslp.org">List_of_works_by_Miska_Hauser</resource>
+	</opusListItem>
+	<opusListItem nym="liszt.au-bord-d-une-source">
+		<name type="index">Au bord d’une source</name>
+		<category>Kammermusik</category>
+		<person nym="liszt.franz" role="composer"/>
+		<resource type="en.wikipedia.org"
+			>https://en.wikipedia.org/wiki/Au_bord_d'une_source</resource>
+		<resource href="https://www.youtube.com/watch?v=P6lznAs2SSE" type="www"
+			>Referenzaufnahme</resource>
+	</opusListItem>
+	<opusListItem nym="massenet.nuit-d-espagne">
+		<name type="index">Nuit d’Espagne</name>
+		<category>Kammermusik</category>
+		<person nym="massenet.jules" role="composer"/>
+		<resource type="imslp.org">Nuit_d'Espagne_(Massenet,_Jules)</resource>
+		<resource href="https://www.youtube.com/watch?v=GCFJd6brUco" type="www"
+			>Referenzaufnahme</resource>
+	</opusListItem>
+	<opusListItem nym="mendelssohn-bartholdy.lieder-ohne-worte">
+		<name type="index">Lieder ohne Worte</name>
+		<category>Kammermusik</category>
+		<person nym="mendelssohn-bartholdy.felix" role="composer"/>
+		<resource type="de.wikipedia.org">Lieder_ohne_Worte</resource>
+	</opusListItem>
+	<opusListItem nym="mozart.adagio-und-fuge-c-moll">
+		<name type="index">Adagio und Fuge in c-Moll</name>
+		<name type="full">Adagio und Fuge in c-Moll für Streichquartett</name>
+		<category>Kammermusik</category>
+		<person nym="mozart.wolfgang-amadeus" role="composer"/>
+		<resource type="imslp.org"
+			>Adagio_and_Fugue_in_C_minor,_K.546_(Mozart,_Wolfgang_Amadeus)</resource>
+		<resource href="https://www.youtube.com/watch?v=jSZJjTeP0mU" type="www"
+			>Referenzaufnahme</resource>
+	</opusListItem>
+	<opusListItem nym="scarlatti.allegro">
+		<name type="full">Ein Allegro von Scarlatti</name>
+		<name type="index">Allegro (Scarlatti)</name>
+		<!-- unspezifisch -->
+		<category>Kammermusik</category>
+		<person nym="scarlatti.alessandro" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="schumann.quartett">
+		<name type="full">Ein Quartett von Schumann</name>
+		<name type="index">Quartett (Schumann)</name>
+		<!-- unspezifisch -->
+		<category>Kammermusik</category>
+		<person nym="schumann.robert" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="thalberg.fantaisie-sur-l-opera-lucrezia-borgia">
+		<name type="index">Fantaisie sur l’opéra Lucrezia Borgia de Donizetti</name>
+		<name type="ordinal">op. 50</name>
+		<category>Kammermusik</category>
+		<person nym="thalberg.sigismond" role="composer"/>
+		<resource type="de.wikipedia.org">Sigismund_Thalberg#Werke_mit_Opuszahlen</resource>
+	</opusListItem>
+	<opusListItem nym="verdi.quartetto">
+		<name type="index">Quartetto</name>
+		<category>Kammermusik</category>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<resource type="de.wikipedia.org">Streichquartett_e-Moll_(Verdi)</resource>
+		<resource type="imslp.org">String_Quartet_(Verdi,_Giuseppe)</resource>
+	</opusListItem>
+	<opusListItem nym="volkmann.serenaden">
+		<name type="index">Serenaden</name>
+		<!-- unspezifisch -->
+		<category>Kammermusik</category>
+		<person nym="volkmann.robert" role="composer"/>
+		<opusParts>
+			<opusListItem nym="volkmann.serenade.1">
+				<name>Serenade Nr. 1 C-Dur op. 62 für Streicher (1869)</name>
+			</opusListItem>
+			<opusListItem nym="volkmann.serenade.2">
+				<name>Serenade Nr. 2 F-Dur op. 63 für Streicher (1869)</name>
+			</opusListItem>
+			<opusListItem nym="volkmann.serenade.3">
+				<name>Serenade Nr. 3 d-Moll op. 69 für Violoncello und Streicher (1870)</name>
+			</opusListItem>
+		</opusParts>
+	</opusListItem>
+	<opusListItem nym="yradier.la-calesera">
+		<name type="index">La calesera</name>
+		<category>Kammermusik</category>
+		<person nym="yradier.sebastian-de" role="composer"/>
+		<resource href="http://www.worldcat.org/oclc/842994929" type="www">WorldCat</resource>
+	</opusListItem>
+
+	<!-- SONSTIGE -->
+
+	<opusListItem nym="bach.so-oft-ich-meine-tabakspfeife">
+		<name type="index">So oft ich meine Tabakspfeife</name>
+		<name type="ordinal">BWV 515a</name>
+		<category>sonstige</category>
+		<person nym="bach.johann-sebastian" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="boehner.ach-wie-ists-moeglich-dann">
+		<name type="index">Ach, wie ist’s möglich dann</name>
+		<category>sonstige</category>
+		<language>Deutsch</language>
+		<person cert="medium" nym="boehner.johann-ludwig" role="composer"/>
+		<description>Thüringisches Volkslied</description>
+	</opusListItem>
+	<opusListItem nym="heil-dir-im-siegerkranz">
+		<name type="index">Heil dir im Siegerkranz</name>
+		<category>sonstige</category>
+		<resource type="de.wikipedia.org">Heil_dir_im_Siegerkranz</resource>
+	</opusListItem>
+	<opusListItem nym="l-adieu">
+		<name type="index">L’adieu (Air béarnois)</name>
+		<!-- unspezifisch -->
+		<category>sonstige</category>
+	</opusListItem>
+	<opusListItem nym="lasso.audite-nova">
+		<name type="index">Audite Nova!</name>
+		<category>sonstige</category>
+		<person nym="lasso.orlando-di" role="composer"/>
+		<resource type="imslp.org">Audite_nova_(Lassus,_Orlande_de)</resource>
+	</opusListItem>
+	<opusListItem nym="monteverdi.il-combattimento-di-tancredi-e-clorinda">
+		<name type="index">Il Combattimento di Tancredi e Clorinda</name>
+		<category>sonstige</category>
+		<language>Italienisch</language>
+		<person nym="monteverdi.claudio" role="composer"/>
+		<resource type="de.wikipedia.org">Il_Combattimento_di_Tancredi_e_Clorinda</resource>
+	</opusListItem>
+	<opusListItem nym="ni-jamais-ni-toujours">
+		<name type="index">Ni jamais, ni toujours</name>
+		<!-- unspezifisch -->
+		<category>sonstige</category>
+	</opusListItem>
+	<opusListItem nym="schumann.ritornelle-in-canonischen-weisen">
+		<name type="index">Ritornelle in canonischen Weisen</name>
+		<name type="ordinal">op.65</name>
+		<category>sonstige</category>
+		<person nym="schumann.robert" role="composer"/>
+	</opusListItem>
+	<opusListItem nym="beethoven.die-ruinen-von-athen">
+		<id authority="gnd">300218931</id>
+		<name lang="de" type="index">Die Ruinen von Athen</name>
+		<category>sonstige</category>
+		<person nym="beethoven.ludwig-van" role="composer"/>
+	</opusListItem>
+
+	<!-- nicht identifiziert -->
+
+	<opusListItem nym="unidentified">
+		<name type="index">? (nicht identifiziertes Werk)</name>
+	</opusListItem>
+
+</opusList>

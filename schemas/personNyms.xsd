@@ -1,0 +1,2701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+   <simpleType name="personNym">
+      <list>
+         <simpleType>
+            <restriction base="string">
+               <enumeration value="froehlich.xxx">
+                  <annotation>
+                     <documentation>Fröhlich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mathias.xxx">
+                  <annotation>
+                     <documentation>Mathias</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bossi.xxx">
+                  <annotation>
+                     <documentation>Herr Bossi</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="baldamus.xxx">
+                  <annotation>
+                     <documentation>Frl. Baldamus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="curiel.xxx">
+                  <annotation>
+                     <documentation>Curiel</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ofner.xxx">
+                  <annotation>
+                     <documentation>Ofner</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hellmer.xxx">
+                  <annotation>
+                     <documentation>Hellmer</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lewis.xxx">
+                  <annotation>
+                     <documentation>Lewis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pfeiffer.xxx">
+                  <annotation>
+                     <documentation>Pfeiffer</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="resch.xxx">
+                  <annotation>
+                     <documentation>Resch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="blum.a">
+                  <annotation>
+                     <documentation>A. Blum</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="corradi.h">
+                  <annotation>
+                     <documentation>H. Corradi</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="fritsch.c">
+                  <annotation>
+                     <documentation>C. Fritsch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gomien.o">
+                  <annotation>
+                     <documentation>O. Gomien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="groedinger.xxx">
+                  <annotation>
+                     <documentation>Grödinger</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haeckl.xxx">
+                  <annotation>
+                     <documentation>Häckl</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="renee.xxx">
+                  <annotation>
+                     <documentation>Renée</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rubin.xxx">
+                  <annotation>
+                     <documentation>Rubin</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schwarz.xxx">
+                  <annotation>
+                     <documentation>Schwarz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="storch-zoder.xxx">
+                  <annotation>
+                     <documentation>Storch-Zoder</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="tomsa.xxx">
+                  <annotation>
+                     <documentation>Tomsa</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="treiber.xxx">
+                  <annotation>
+                     <documentation>Treiber</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wildt.xxx">
+                  <annotation>
+                     <documentation>Wildt</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="d-angeri.xxx">
+                  <annotation>
+                     <documentation>d’Angeri</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="marini.xxx">
+                  <annotation>
+                     <documentation>Marini</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haenisch.xxx">
+                  <annotation>
+                     <documentation>Hänisch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hahn.xxx">
+                  <annotation>
+                     <documentation>Hahn</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="torrige.xxx">
+                  <annotation>
+                     <documentation>Torrige</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="franck.xxx">
+                  <annotation>
+                     <documentation>Franck</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wohlrath.xxx">
+                  <annotation>
+                     <documentation>Wohlrath</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haimann.xxx">
+                  <annotation>
+                     <documentation>Haimann</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="barlani-dini.eufemia">
+                  <annotation>
+                     <documentation>Eufemia Barlani Dini</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bellotti.fausto">
+                  <annotation>
+                     <documentation>Fausto Bellotti</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bustini.emilie">
+                  <annotation>
+                     <documentation>Emilie Bustini</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="capponi.giuseppe">
+                  <annotation>
+                     <documentation>Giuseppe Capponi (1832–1889)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="caruzzi-bedogni.giuseppina">
+                  <annotation>
+                     <documentation>Giuseppina Caruzzi Bedogni</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="chlumetzky.karl">
+                  <annotation>
+                     <documentation>Karl Chlumetzky</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="doetscher.leontine">
+                  <annotation>
+                     <documentation>Dötscher, Leontine von</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dotter.berta">
+                  <annotation>
+                     <documentation>Berta Dotter</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ernst.heinrich">
+                  <annotation>
+                     <documentation>Heinrich Ernst (1848–1919)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gatterburg.hedwig">
+                  <annotation>
+                     <documentation>Gräfin Hedwig Gatterburg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gindele.ernestina">
+                  <annotation>
+                     <documentation>Ernestina Gindele (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="huber.franz">
+                  <annotation>
+                     <documentation>Franz Huber</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="keller.elsa">
+                  <annotation>
+                     <documentation>Elsa Keller</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koehler.hans">
+                  <annotation>
+                     <documentation>Hans Köhler (1842–1880)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koschat.thomas">
+                  <annotation>
+                     <documentation>Thomas Koschat (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="krejci.friedrich">
+                  <annotation>
+                     <documentation>Friedrich Krejči</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lindeck.wilhelm">
+                  <annotation>
+                     <documentation>Wilhelm Lindeck (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="martens.johannes">
+                  <annotation>
+                     <documentation>Johannes Martens</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="materna.amalie">
+                  <annotation>
+                     <documentation>Amalie Materna (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="nicolini.ernesto">
+                  <annotation>
+                     <documentation>Ernesto Nicolini (1834–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="peschier.adolf">
+                  <annotation>
+                     <documentation>Adolf Peschier (1849–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="piwoda.franz">
+                  <annotation>
+                     <documentation>Franz Piwoda</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="povoleri.paride">
+                  <annotation>
+                     <documentation>Paride Povoleri</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="reutener.ferdinand">
+                  <annotation>
+                     <documentation>Ferdinand Reutener (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schmidt.felix">
+                  <annotation>
+                     <documentation>Felix Schmidt</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schultner.adolf">
+                  <annotation>
+                     <documentation>Adolf Ritter von Schultner</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="szegal.gabriele">
+                  <annotation>
+                     <documentation>Gabriele Szegál (1846–1893)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="topolanski.emma">
+                  <annotation>
+                     <documentation>Emma Topolanski</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="tremel.wilhelmine">
+                  <annotation>
+                     <documentation>Wilhelmine Tremel</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="voigt.gabriele">
+                  <annotation>
+                     <documentation>Gabriele Voigt</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="will.julie">
+                  <annotation>
+                     <documentation>Julie Will</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wolff.josef">
+                  <annotation>
+                     <documentation>Josef Wolff (1843–1903)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wosahlo.hermine">
+                  <annotation>
+                     <documentation>Hermine Wosahlo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ulke.anna">
+                  <annotation>
+                     <documentation>Anna Ulke</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="artot-de-padilla.desiree">
+                  <annotation>
+                     <documentation>Désirée Artôt de Padilla (1835–1907)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="assmann.adele">
+                  <annotation>
+                     <documentation>Adele Assmann (1875–1884)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bausewein.kaspar">
+                  <annotation>
+                     <documentation>Kaspar Bausewein (1838–1903)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beck.joseph">
+                  <annotation>
+                     <documentation>Joseph Beck (1848–1903)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="betz.franz">
+                  <annotation>
+                     <documentation>Franz Betz (1835–1900)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="boers.thoma">
+                  <annotation>
+                     <documentation>Thoma Börs</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="boree.minna">
+                  <annotation>
+                     <documentation>Minna Borée (1846–1890)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="brandt.marianne">
+                  <annotation>
+                     <documentation>Marianne Brandt (1842–1921)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="buerger.max">
+                  <annotation>
+                     <documentation>Max Bürger (1854–1902)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="burenne.henriette">
+                  <annotation>
+                     <documentation>Henriette Burenne (1850–1878)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="candidus.william">
+                  <annotation>
+                     <documentation>William Candidus (1840–1910)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="csillag.rosa">
+                  <annotation>
+                     <documentation>Rosa Csillag (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="diener.franz">
+                  <annotation>
+                     <documentation>Franz Diener (1849–1879)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ehnn-sand.bertha">
+                  <annotation>
+                     <documentation>Bertha Ehnn-Sand (1845–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="eilers.ludwig-albert">
+                  <annotation>
+                     <documentation>Ludwig Albert Eilers (1830–1896)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="erl.anton">
+                  <annotation>
+                     <documentation>Anton Erl (1846–1927)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ferenczy.jose">
+                  <annotation>
+                     <documentation>José Ferenczy (1852–1908)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="fichtner-spohr.auguste">
+                  <annotation>
+                     <documentation>Auguste Fichtner-Spohr (1835–1882)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="frezzolini.erminia">
+                  <annotation>
+                     <documentation>Erminia Frezzolini (1818–1884)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="fricke.august-ludwig">
+                  <annotation>
+                     <documentation>August Ludwig Fricke (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gerl.helene">
+                  <annotation>
+                     <documentation>Helene Gerl (1847–1905)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gompertz-bettelheim.karoline-von">
+                  <annotation>
+                     <documentation>Karoline von Gompertz-Bettelheim (1845–1925)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="grengg.karl">
+                  <annotation>
+                     <documentation>Karl Grengg (1853–1914)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gungl.virginia">
+                  <annotation>
+                     <documentation>Virginia Gungl (1848–1915)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hajos.siegmund">
+                  <annotation>
+                     <documentation>Siegmund Hajos de Dömsöd (1839–1911)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="henschel.georg">
+                  <annotation>
+                     <documentation>Georg Henschel (1850–1934)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hill.karl">
+                  <annotation>
+                     <documentation>Karl Hill (1831–1893)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="holdampf.ferdinand-karl">
+                  <annotation>
+                     <documentation>Ferdinand Karl Holdampf (1842–1880)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="horina.luise">
+                  <annotation>
+                     <documentation>Luise Horina (1848–1918)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koegel.josef">
+                  <annotation>
+                     <documentation>Josef Kögel (1836–1899)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="krauss.emil">
+                  <annotation>
+                     <documentation>Emil Krauss (1840–1889)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="krolop.franz">
+                  <annotation>
+                     <documentation>Franz Krolop (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="krueckl.franz">
+                  <annotation>
+                     <documentation>Franz Krückl (1841–1899)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lammert.minna">
+                  <annotation>
+                     <documentation>Minna Lammert (1852–1921)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lederer-ubrich.asminde">
+                  <annotation>
+                     <documentation>Asminde Lederer-Ubrich (1837–1890)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lehmann.lilli">
+                  <annotation>
+                     <documentation>Lilli Lehmann (1848–1929)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lehmann.marie">
+                  <annotation>
+                     <documentation>Marie Lehmann (1851–1931)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="luger.angelina">
+                  <annotation>
+                     <documentation>Angelina Luger (1858–1910)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="maini.armando">
+                  <annotation>
+                     <documentation>Armando Maini (1835–1906)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="marchesi.mathilde">
+                  <annotation>
+                     <documentation>Mathilde Marchesi (1821–1913)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="masini.angelo">
+                  <annotation>
+                     <documentation>Angelo Masini (1844–1926)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="medini.paolo">
+                  <annotation>
+                     <documentation>Paolo Medini (1837–1911)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="milde.hans-feodor">
+                  <annotation>
+                     <documentation>Hans Feodor von Milde</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="moedlinger.ludwig">
+                  <annotation>
+                     <documentation>Ludwig Mödlinger (1843–1912)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="moser.marie">
+                  <annotation>
+                     <documentation>Marie Moser (1848–1911)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="nachbaur.franz">
+                  <annotation>
+                     <documentation>Franz Nachbaur (1830–1902)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="nanitz.minna">
+                  <annotation>
+                     <documentation>Minna Nanitz (1842–1903)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="otto-alvsleben.melitta">
+                  <annotation>
+                     <documentation>Melitta Otto-Alvsleben (1841–1893)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="passy-cornet.adele">
+                  <annotation>
+                     <documentation>Adèle Passy-Cornet (1838–1915)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="patierno.filippo">
+                  <annotation>
+                     <documentation>Filippo Patierno (1835–1877)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="peschka-leutner.minna">
+                  <annotation>
+                     <documentation>Minna Peschka-Leutner (1839–1890)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pielke.walter">
+                  <annotation>
+                     <documentation>Walter Pielke (1848–1925)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="poppe.rosa">
+                  <annotation>
+                     <documentation>Rosa Poppe</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="possart.anna">
+                  <annotation>
+                     <documentation>Anna Possart</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="puls.albert">
+                  <annotation>
+                     <documentation>Albert Puls (–1901)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="radecke.luise">
+                  <annotation>
+                     <documentation>Luise Radecke (1846–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rokitansky.hans">
+                  <annotation>
+                     <documentation>Hans Rokitansky (1835–1909)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="sanz.elena">
+                  <annotation>
+                     <documentation>Elena Sanz (1849–1898)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schebesta.adalbert">
+                  <annotation>
+                     <documentation>Adalbert Schebesta (–1880)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schefsky.josephine">
+                  <annotation>
+                     <documentation>Josephine Schefsky (1843–1912)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schelper.otto">
+                  <annotation>
+                     <documentation>Otto Schelper (1844–1906)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schneider.carl">
+                  <annotation>
+                     <documentation>Carl Schneider (1822–1882)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schuch-proska.clementine">
+                  <annotation>
+                     <documentation>Clementine von Schuch-Proska (1850–1932)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schuegraf.eduard">
+                  <annotation>
+                     <documentation>Eduard Schuegraf (1851–1928)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schuetky.franz-josef">
+                  <annotation>
+                     <documentation>Franz Josef Schütky (1817–1893)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schwencke.anna">
+                  <annotation>
+                     <documentation>Anna Schwencke (1843–1937)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="seehofer.therese">
+                  <annotation>
+                     <documentation>Therese Seehofer (1846–1936)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="siehr.gustav">
+                  <annotation>
+                     <documentation>Gustav Siehr (1837–1896)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="staudigl.joseph">
+                  <annotation>
+                     <documentation>Joseph Staudigl (1850–1916)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="steinbach.emma">
+                  <annotation>
+                     <documentation>Emma Steinbach (1854–1937)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stirl.helene">
+                  <annotation>
+                     <documentation>Helene Hofmann-Stirl (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stoll.august">
+                  <annotation>
+                     <documentation>August Stoll (1853–1918)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stolz.teresa">
+                  <annotation>
+                     <documentation>Teresa Stolz (1834–1902)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="waldmann.maria">
+                  <annotation>
+                     <documentation>Maria Waldmann (1842–1920)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="walter.gustav">
+                  <annotation>
+                     <documentation>Gustav Walter (1834–1910)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wilt.marie">
+                  <annotation>
+                     <documentation>Marie Wilt (1833–1891)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="croissille.xxx">
+                  <annotation>
+                     <documentation>Croissille</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hermann.xxx">
+                  <annotation>
+                     <documentation>Hermann</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wosahlo.a-c">
+                  <annotation>
+                     <documentation>A. C. Wosáhlo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bogler.xxx">
+                  <annotation>
+                     <documentation>Bogler</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="deloffre.adolphe">
+                  <annotation>
+                     <documentation>Adolphe Deloffre (1817–1876)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schmitt.alois">
+                  <annotation>
+                     <documentation>Schmitt, Alois</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bach.otto">
+                  <annotation>
+                     <documentation>Otto Bach (1833–1893)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bachrich.sigmund">
+                  <annotation>
+                     <documentation>Sigmund Bachrich (1841–1913)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bimboni.oreste">
+                  <annotation>
+                     <documentation>Oreste Bimboni (1846–1905)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="breunung.ferdinand">
+                  <annotation>
+                     <documentation>Ferdinand Breunung (1830–1883)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="door.anton">
+                  <annotation>
+                     <documentation>Anton Door (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="doppler.albert-franz">
+                  <annotation>
+                     <documentation>Albert Franz Doppler (1821–1883)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="epstein.julius">
+                  <annotation>
+                     <documentation>Julius Epstein</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="faccio.franco">
+                  <annotation>
+                     <documentation>Franco Faccio (1840–1891)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="fuchs.johann-nepomuk">
+                  <annotation>
+                     <documentation>Johann Nepomuk Fuchs (1842–1899)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="habeneck.francois-antoine">
+                  <annotation>
+                     <documentation>François-Antoine Habeneck (1781–1849)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="halle.carlo">
+                  <annotation>
+                     <documentation>Carlo Hallé</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hauser.miska">
+                  <annotation>
+                     <documentation>Miska Hauser (1822–1887)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hegar.friedrich">
+                  <annotation>
+                     <documentation>Friedrich Hegar</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hellmesberger.josef">
+                  <annotation>
+                     <documentation>Josef Hellmesberger (1828–1893)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="herbeck.johann-von">
+                  <annotation>
+                     <documentation>Johann von Herbeck (1831–1877)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hiller.ferdinand">
+                  <annotation>
+                     <documentation>Ferdinand Hiller (1811–1885)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hol.richard">
+                  <annotation>
+                     <documentation>Richard Hol (1825–1904)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hummel.ferdinand">
+                  <annotation>
+                     <documentation>Ferdinand Hummel (1855–1928)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="jahn.wilhelm">
+                  <annotation>
+                     <documentation>Wilhelm Jahn (1834–1900)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kahl.heinrich">
+                  <annotation>
+                     <documentation>Heinrich Kahl (1840–1892)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kitzler.otto">
+                  <annotation>
+                     <documentation>Otto Kitzler (1834–1915)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kothe.bernhard">
+                  <annotation>
+                     <documentation>Bernhard Kothe (1821–1897)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="labler.wladimir">
+                  <annotation>
+                     <documentation>Wladimir Labler</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lampert.ernst">
+                  <annotation>
+                     <documentation>Ernst Lampert (1818–1879)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="laudenbach.heinrich">
+                  <annotation>
+                     <documentation>Heinrich Laudenbach (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="laudien.heinrich">
+                  <annotation>
+                     <documentation>Heinrich Laudien (1829–1891)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lavigna.vincenzo">
+                  <annotation>
+                     <documentation>Vincenzo Lavigna (1776–1836)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="levi.hermann">
+                  <annotation>
+                     <documentation>Hermann Levi (1839–1900)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="levi.richard">
+                  <annotation>
+                     <documentation>Richard Levy (1827–1883)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mariani.angelo">
+                  <annotation>
+                     <documentation>Angelo Mariani (1821–1873)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="maschek.ernst">
+                  <annotation>
+                     <documentation>Ernst Maschek (1812–1879)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mikuli.karol">
+                  <annotation>
+                     <documentation>Karol Mikuli (1821–1897)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mueller-hartung.carl">
+                  <annotation>
+                     <documentation>Carl Müller-Hartung (1834–1908)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muzio.emanuele">
+                  <annotation>
+                     <documentation>Emanuele Muzio (1825–1890)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="napoleao.arthur">
+                  <annotation>
+                     <documentation>Arthur Napoleão (1843–1925)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pinner.max">
+                  <annotation>
+                     <documentation>Max Pinner (1851–1887)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="radecke.robert">
+                  <annotation>
+                     <documentation>Robert Radecke (1830–1911)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="reinecke.carl">
+                  <annotation>
+                     <documentation>Carl Reinecke (1824–1910)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="reinthaler.karl">
+                  <annotation>
+                     <documentation>Karl Martin Reinthaler (1822–1896)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="riccius.carl">
+                  <annotation>
+                     <documentation>Carl Riccius (1830–1893)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="richter.hans">
+                  <annotation>
+                     <documentation>Hans Richter (1843–1916)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="sbolci.jefte">
+                  <annotation>
+                     <documentation>Jefte Sbolci (1833–1895)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schaeffer.julius">
+                  <annotation>
+                     <documentation>Julius Schäffer (1823–1902)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="scholz.bernhard">
+                  <annotation>
+                     <documentation>Bernhard Scholz (1835–1916)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schornstein.hermann">
+                  <annotation>
+                     <documentation>Hermann Schornstein (1811–1882)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schuch.ernst">
+                  <annotation>
+                     <documentation>Ernst von Schuch (1847–1914)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="slansky.ludwig">
+                  <annotation>
+                     <documentation>Ludwig Slansky (1838–1905)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="taubert.wilhelm">
+                  <annotation>
+                     <documentation>Wilhelm Taubert (1811–1891)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wilhelmj.august">
+                  <annotation>
+                     <documentation>August Wilhelmj (1845–1908)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wuellner.franz">
+                  <annotation>
+                     <documentation>Franz Wüllner (1832–1902)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="zellner.leopold-alexander">
+                  <annotation>
+                     <documentation>Leopold Alexander Zellner (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="allegri.gregorio">
+                  <annotation>
+                     <documentation>Gregorio Allegri (1582–1652)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="anerio.felice">
+                  <annotation>
+                     <documentation>Felice Anerio (1560–1614)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="astorga.emanuele-d">
+                  <annotation>
+                     <documentation>Emanuele d’Astorga (1680–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="auber.daniel-francois-esprit">
+                  <annotation>
+                     <documentation>Daniel-François-Esprit Auber (1782–1871)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bach.johann-sebastian">
+                  <annotation>
+                     <documentation>Johann Sebastian Bach (1685–1750)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bazzini.antonio">
+                  <annotation>
+                     <documentation>Antonio Bazzini (1818–1897)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.ludwig-van">
+                  <annotation>
+                     <documentation>Ludwig van Beethoven (1770–1827)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bellini.vincenzo">
+                  <annotation>
+                     <documentation>Vincenzo Bellini (1801–1835)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.hector">
+                  <annotation>
+                     <documentation>Hector Berlioz (1803–1869)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="boehner.johann-ludwig">
+                  <annotation>
+                     <documentation>Johann Ludwig Böhner (1787–1860)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="boieldieu.francois-adrien">
+                  <annotation>
+                     <documentation>François Adrien Boïeldieu (1775–1834)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="boucheron.raimondo">
+                  <annotation>
+                     <documentation>Raimondo Boucheron (1800–1876)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="brahms.johannes">
+                  <annotation>
+                     <documentation>Johannes Brahms (1833–1897)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="breslaur.emil">
+                  <annotation>
+                     <documentation>Emil Breslaur (1836–1899)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="brumel.antoine">
+                  <annotation>
+                     <documentation>Antoine Brumel (1460–1515)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="buzzolla.antonio">
+                  <annotation>
+                     <documentation>Antonio Buzzolla (1815–1871)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cagnoni.antonio">
+                  <annotation>
+                     <documentation>Antonio Cagnoni (1828–1896)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cavalli.francesco">
+                  <annotation>
+                     <documentation>Francesco Cavalli (1602–1676)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cherubini.luigi">
+                  <annotation>
+                     <documentation>Luigi Cherubini (1760–1842)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="chopin.frederic">
+                  <annotation>
+                     <documentation>Frédéric Chopin (1810–1849)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="coccia.carlo">
+                  <annotation>
+                     <documentation>Carlo Coccia (1782–1873)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="croce.giovanni">
+                  <annotation>
+                     <documentation>Giovanni Croce (1557–1609)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="delibes.leo">
+                  <annotation>
+                     <documentation>Léo Delibes (1836–1891)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="desprez.josquin">
+                  <annotation>
+                     <documentation>Josquin Desprez (–1521)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="doles.johann-friedrich">
+                  <annotation>
+                     <documentation>Johann Friedrich Doles (1715–1797)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="donizetti.gaetano">
+                  <annotation>
+                     <documentation>Gaetano Donizetti (1797–1848)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="durante.francesco">
+                  <annotation>
+                     <documentation>Francesco Durante (1684–1755)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="eckert.karl-anton">
+                  <annotation>
+                     <documentation>Karl Anton Eckert (1820–1879)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="flotow.friedrich-von">
+                  <annotation>
+                     <documentation>Friedrich von Flotow (1812–1883)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gabrieli.andrea">
+                  <annotation>
+                     <documentation>Andrea Gabrieli (1510–1586)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gabrieli.giovanni">
+                  <annotation>
+                     <documentation>Giovanni Gabrieli (1557–1612)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="garat.pierre-jean">
+                  <annotation>
+                     <documentation>Pierre Jean Garat (1762–1823)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gaspari.gaetano">
+                  <annotation>
+                     <documentation>Gaetano Gaspari (1808–1881)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="geisler.paul">
+                  <annotation>
+                     <documentation>Paul Geisler (1856–1919)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="glinka.michael">
+                  <annotation>
+                     <documentation>Michail Glinka (1804–1857)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gluck.christoph-willibald">
+                  <annotation>
+                     <documentation>Christoph Willibald Gluck (1714–1787)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="godefroid.felix">
+                  <annotation>
+                     <documentation>Félix Godefroid (1818–1897)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="goetz.hermann">
+                  <annotation>
+                     <documentation>Hermann Goetz (1840–1876)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="goldmark.karl">
+                  <annotation>
+                     <documentation>Karl Goldmark (1830–1915)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gounod.charles">
+                  <annotation>
+                     <documentation>Charles Gounod (1818–1893)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graun.carl-heinrich">
+                  <annotation>
+                     <documentation>Carl Heinrich Graun (1704–1759)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gretry.andre-ernest-modeste">
+                  <annotation>
+                     <documentation>André-Ernest-Modeste Grétry (1741–1813)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gyrowetz.adalbert">
+                  <annotation>
+                     <documentation>Adalbert Gyrowetz (1763–1850)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haendel.georg-friedrich">
+                  <annotation>
+                     <documentation>Georg Friedrich Händel (1685–1759)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="halevy.jacques">
+                  <annotation>
+                     <documentation>Jacques Fromental Halévy (1799–1862)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hauptmann.moritz">
+                  <annotation>
+                     <documentation>Moritz Hauptmann (1792–1868)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haydn.joseph">
+                  <annotation>
+                     <documentation>Joseph Haydn (1732–1809)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="jommelli.niccolo">
+                  <annotation>
+                     <documentation>Niccolò Jommelli (1714–1774)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="jonas.emile">
+                  <annotation>
+                     <documentation>Émile Jonas (1827–1905)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kiel.friedrich">
+                  <annotation>
+                     <documentation>Friedrich Kiel (1821–1885)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kittel.johann-christian">
+                  <annotation>
+                     <documentation>Johann Christian Kittel (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kuecken.friedrich-wilhelm">
+                  <annotation>
+                     <documentation>Friedrich Wilhelm Kücken (1810–1882)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lachner.franz">
+                  <annotation>
+                     <documentation>Franz Lachner (1803–1890)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lasso.orlando-di">
+                  <annotation>
+                     <documentation>Orlando di Lasso (1532–1594)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lebeau.alfred">
+                  <annotation>
+                     <documentation>Alfred Lebeau</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leo.leonardo">
+                  <annotation>
+                     <documentation>Leonardo Leo (1694–1701)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="liszt.franz">
+                  <annotation>
+                     <documentation>Franz Liszt (1811–1886)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lotti.antonio">
+                  <annotation>
+                     <documentation>Antonio Lotti (1667–1740)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mabellini.teodulo">
+                  <annotation>
+                     <documentation>Teodulo Mabellini (1817–1897)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="massenet.jules">
+                  <annotation>
+                     <documentation>Jules Massenet (1842–1912)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mattei.stanislao">
+                  <annotation>
+                     <documentation>Padre Stanislao Mattei (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mehul.etienne-nicolas">
+                  <annotation>
+                     <documentation>Étienne-Nicolas Méhul (1763–1817)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mendelssohn-bartholdy.felix">
+                  <annotation>
+                     <documentation>Felix Mendelssohn Bartholdy (1809–1847)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mercadante.saverio">
+                  <annotation>
+                     <documentation>Saverio Mercadante (1795–1870)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="meyerbeer.giacomo">
+                  <annotation>
+                     <documentation>Giacomo Meyerbeer (1791–1864)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="monteverdi.claudio">
+                  <annotation>
+                     <documentation>Claudio Monteverdi (1567–1643)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.wolfgang-amadeus">
+                  <annotation>
+                     <documentation>Wolfgang Amadeus Mozart (1756–1791)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="nicolai.otto">
+                  <annotation>
+                     <documentation>Otto Nicolai (1810–1849)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="nini.alessandro">
+                  <annotation>
+                     <documentation>Alessandro Nini (1805–1880)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paisiello.giovanni">
+                  <annotation>
+                     <documentation>Giovanni Paisiello (1740–1816)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="palestrina.giovanni-pierluigi">
+                  <annotation>
+                     <documentation>Giovanni Pierluigi da Palestrina (–1594)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pedrotti.carlo">
+                  <annotation>
+                     <documentation>Carlo Pedrotti (1817–1893)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pergolesi.giovanni-battista">
+                  <annotation>
+                     <documentation>Giovanni Battista Pergolesi (1710–1736)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="petrella.errico">
+                  <annotation>
+                     <documentation>Errico Petrella (1813–1877)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pitoni.giuseppe-ottavio">
+                  <annotation>
+                     <documentation>Giuseppe Ottavio Pitoni (1657–1743)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="platania.pietro">
+                  <annotation>
+                     <documentation>Pietro Platania (1828–1907)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ponchielli.amilcare">
+                  <annotation>
+                     <documentation>Amilcare Ponchielli (1834–1886)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prioris.johannes">
+                  <annotation>
+                     <documentation>Johannes Prioris (1460–1514)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="proch.heinrich">
+                  <annotation>
+                     <documentation>Heinrich Proch (1809–1878)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="reyer.ernest">
+                  <annotation>
+                     <documentation>Ernest Reyer (1823–1909)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ricci.federico">
+                  <annotation>
+                     <documentation>Federico Ricci (1809–1877)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="richafort.jean">
+                  <annotation>
+                     <documentation>Jean Richafort (1480–1547)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="richter.paul">
+                  <annotation>
+                     <documentation>Paul Richter</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rore.cipriano-de">
+                  <annotation>
+                     <documentation>Cipriano de Rore (1515–1565)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rossi.lauro">
+                  <annotation>
+                     <documentation>Lauro Rossi (1812–1885)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rossini.gioachino">
+                  <annotation>
+                     <documentation>Gioachino Rossini (1792–1868)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rubinstein.anton">
+                  <annotation>
+                     <documentation>Anton Grigorjewitsch Rubinstein (1829–1894)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rue.pierre-de-la">
+                  <annotation>
+                     <documentation>Pierre de la Rue (1460–1518)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="saint-saens.camille">
+                  <annotation>
+                     <documentation>Camille Saint-Saëns (1835–1921)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="salieri.antonio">
+                  <annotation>
+                     <documentation>Antonio Salieri (1750–1825)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="scarlatti.alessandro">
+                  <annotation>
+                     <documentation>Alessandro Scarlatti (1660–1725)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schubert.franz">
+                  <annotation>
+                     <documentation>Franz Schubert (1797–1828)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schuetz.heinrich">
+                  <annotation>
+                     <documentation>Heinrich Schütz (1585–1672)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schumann.robert">
+                  <annotation>
+                     <documentation>Robert Schumann (1810–1856)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="sechter.simon">
+                  <annotation>
+                     <documentation>Simon Sechter (1788–1867)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="spohr.louis">
+                  <annotation>
+                     <documentation>Louis Spohr (1784–1859)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="spontini.gaspare">
+                  <annotation>
+                     <documentation>Gaspare Spontini (1774–1851)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="suessmayr.franz-xaver">
+                  <annotation>
+                     <documentation>Franz Xaver Süßmayr (1766–1803)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="sulzer.salomon">
+                  <annotation>
+                     <documentation>Salomon Sulzer (1804–1890)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="svendsen.johan">
+                  <annotation>
+                     <documentation>Johan Svendsen (1840–1911)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="thalberg.sigismond">
+                  <annotation>
+                     <documentation>Sigismond Thalberg (1812–1871)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="thomas.ambroise">
+                  <annotation>
+                     <documentation>Ambroise Thomas (1811–1896)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="vecchi.orazio">
+                  <annotation>
+                     <documentation>Orazio Tiberio Vecchi (1550–1605)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.giuseppe">
+                  <annotation>
+                     <documentation>Giuseppe Verdi (1813–1901)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="volkmann.robert">
+                  <annotation>
+                     <documentation>Robert Volkmann (1815–1883)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.richard">
+                  <annotation>
+                     <documentation>Richard Wagner (1813–1883)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weber.carl-maria-von">
+                  <annotation>
+                     <documentation>Carl Maria von Weber (1786–1826)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weber.gottfried">
+                  <annotation>
+                     <documentation>Gottfried Weber (1779–1839)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="yradier.sebastian-de">
+                  <annotation>
+                     <documentation>Sebastián de Yradier (1809–1865)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="zelter.carl-friedrich">
+                  <annotation>
+                     <documentation>Carl Friedrich Zelter (1758–1832)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="anonymus.ein-koelner-referent">
+                  <annotation>
+                     <documentation>Ein Kölner Referent</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="anonymus.ein-pariser-berichterstatter">
+                  <annotation>
+                     <documentation>Ein Pariser Berichterstatter</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.ag">
+                  <annotation>
+                     <documentation>A. G.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.ahm">
+                  <annotation>
+                     <documentation>ahm</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.cw">
+                  <annotation>
+                     <documentation>C. W.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.emr">
+                  <annotation>
+                     <documentation>emr</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.b">
+                  <annotation>
+                     <documentation>B.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.gg">
+                  <annotation>
+                     <documentation>G. G.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.h">
+                  <annotation>
+                     <documentation>h—</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.jk">
+                  <annotation>
+                     <documentation>J. K.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.lb">
+                  <annotation>
+                     <documentation>L. B.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.n">
+                  <annotation>
+                     <documentation>—n.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.ok">
+                  <annotation>
+                     <documentation>O. K.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.p">
+                  <annotation>
+                     <documentation>P.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.r">
+                  <annotation>
+                     <documentation>— r.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.w">
+                  <annotation>
+                     <documentation>W.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="akronym.z">
+                  <annotation>
+                     <documentation>-z</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="symbol.b">
+                  <annotation>
+                     <documentation>♭</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="symbol.paragraph">
+                  <annotation>
+                     <documentation>§*</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="marchesi.xxx">
+                  <annotation>
+                     <documentation>Marchesi</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="meini.xxx">
+                  <annotation>
+                     <documentation>Meini</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stetter.friedrich">
+                  <annotation>
+                     <documentation>Friedrich Stetter</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weiss.albert">
+                  <annotation>
+                     <documentation>Albert Weiss</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="about.edmond">
+                  <annotation>
+                     <documentation>Edmond About (1828–1885)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="alighieri.dante">
+                  <annotation>
+                     <documentation>Dante Alighieri (1265–1321)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ambros.august-wilhelm">
+                  <annotation>
+                     <documentation>August Wilhelm Ambros (1816–1876)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="banck.karl">
+                  <annotation>
+                     <documentation>Karl Banck (1809–1889)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bix.eduard">
+                  <annotation>
+                     <documentation>Eduard Bix (1825–1904)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bjoernson.bjoernstjerne">
+                  <annotation>
+                     <documentation>Bjørnstjerne Bjørnson (1832–1910)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="blaze.henri">
+                  <annotation>
+                     <documentation>Henri Blaze (1813–1888)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="brendel.franz">
+                  <annotation>
+                     <documentation>Franz Brendel (1811–1868)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="buelow.hans-von">
+                  <annotation>
+                     <documentation>Hans von Bülow (1830–1894)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="burckhardt.jacob">
+                  <annotation>
+                     <documentation>Jacob Burckhardt (1818–1897)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="byron.george-gordon">
+                  <annotation>
+                     <documentation>George Gordon Byron (1788–1824)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="celano.thomas-von">
+                  <annotation>
+                     <documentation>Thomas von Celano (1190–1260)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cicero.marcus-tullius">
+                  <annotation>
+                     <documentation>Marcus Tullius Cicero (-0106–-0043)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="commettant.oscar">
+                  <annotation>
+                     <documentation>Oscar Commettant (1819–1898)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dessoff.felix-otto">
+                  <annotation>
+                     <documentation>Felix Otto Dessoff (1835–1892)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="doerffel.alfred">
+                  <annotation>
+                     <documentation>Alfred Dörffel (1821–1905)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dumas.alexandre.fils">
+                  <annotation>
+                     <documentation>Alexandre Dumas fils (1824–1895)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dumas.alexandre.pere">
+                  <annotation>
+                     <documentation>Alexandre Dumas père (1802–1870)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="escudier.leon">
+                  <annotation>
+                     <documentation>Léon Escudier (1821–1881)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="euripides">
+                  <annotation>
+                     <documentation>Euripides (-480–-406)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="fetis.francois-joseph">
+                  <annotation>
+                     <documentation>François-Joseph Fétis (1784–1871)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="filippi.filippo">
+                  <annotation>
+                     <documentation>Filippo Filippi (1830–1887)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="fontane.theodor">
+                  <annotation>
+                     <documentation>Theodor Fontane (1819–1898)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="frey.wilhelm">
+                  <annotation>
+                     <documentation>Wilhelm Frey (1833–1909)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gautier.theophile">
+                  <annotation>
+                     <documentation>Théophile Gautier (1811–1872)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gehring.franz">
+                  <annotation>
+                     <documentation>Franz Gehring (1838–1884)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gernsheim.friedrich">
+                  <annotation>
+                     <documentation>Friedrich Gernsheim (1839–1916)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="girardin.emile-de">
+                  <annotation>
+                     <documentation>Émile de Girardin (1806–1881)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gleich.ferdinand">
+                  <annotation>
+                     <documentation>Ferdinand Gleich (1816–1898)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="goethe.johann-wolfgang-von">
+                  <annotation>
+                     <documentation>Johann Wolfgang von Goethe (1749–1832)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="goldhann.ludwig">
+                  <annotation>
+                     <documentation>Ludwig Goldhann (1823–1893)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gregorivius.ferdinand">
+                  <annotation>
+                     <documentation>Ferdinand Gregorovius (1821–1891)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="guckeisen.august">
+                  <annotation>
+                     <documentation>August Guckeisen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gumbert.ferdinand">
+                  <annotation>
+                     <documentation>Ferdinand Gumbert (1818–1886)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hanslick.eduard">
+                  <annotation>
+                     <documentation>Eduard Hanslick (1825–1904)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hartmann.ludwig">
+                  <annotation>
+                     <documentation>Ludwig Hartmann (1836–1910)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="heine.heinrich">
+                  <annotation>
+                     <documentation>Heinrich Heine (1797–1856)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="helmholtz.hermann">
+                  <annotation>
+                     <documentation>Hermann von Helmholtz (1821–1894)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hillebrand.karl">
+                  <annotation>
+                     <documentation>Karl Hillebrand (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hoffmann.ernst-theodor-amadeus">
+                  <annotation>
+                     <documentation>Ernst Theodor Amadeus Hoffmann (1776–1822)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="homer">
+                  <annotation>
+                     <documentation>Homer (-770–-700)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="horaz">
+                  <annotation>
+                     <documentation>Horaz (-0065–-0008)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hugo.victor">
+                  <annotation>
+                     <documentation>Victor-Marie Hugo (1802–1885)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="jahn.otto">
+                  <annotation>
+                     <documentation>Otto Jahn (1813–1869)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="jouvin.benoit">
+                  <annotation>
+                     <documentation>Benoît Jouvin (1810–1886)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="juvenal">
+                  <annotation>
+                     <documentation>Decimus Iunius Iuvenalis (60–127)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kipke.carl">
+                  <annotation>
+                     <documentation>Carl Kipke</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="klauwell.otto-adolf">
+                  <annotation>
+                     <documentation>Otto Adolf Klauwell (1851–1917)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koestlin.heinrich-adolf">
+                  <annotation>
+                     <documentation>Heinrich Adolf Köstlin (1846–1907)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="krause.emil">
+                  <annotation>
+                     <documentation>Emil Krause (1840–1916)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kretzschmar.hermann">
+                  <annotation>
+                     <documentation>Hermann Kretzschmar (1848–1924)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="krueger.eduard">
+                  <annotation>
+                     <documentation>Eduard Krüger (1807–1885)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kulke.eduard">
+                  <annotation>
+                     <documentation>Eduard Kulke (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lackowitz.wilhelm">
+                  <annotation>
+                     <documentation>Wilhelm Lackowitz (1837–1916)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="langhans.wilhelm">
+                  <annotation>
+                     <documentation>Wilhelm Langhans (1832–1892)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leibniz.gottfried-wilhelm">
+                  <annotation>
+                     <documentation>Gottfried Wilhelm Leibniz (1646–1716)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lenz.wilhelm-von">
+                  <annotation>
+                     <documentation>Wilhelm von Lenz (1808–1883)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leopardi.giacomo">
+                  <annotation>
+                     <documentation>Giacomo Leopardi (1798–1837)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lessmann.otto">
+                  <annotation>
+                     <documentation>Otto Leßmann (1844–1918)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lindgren.adolf">
+                  <annotation>
+                     <documentation>Adolf Lindgren (1846–1905)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="maistre.joseph-marie-de">
+                  <annotation>
+                     <documentation>Joseph Marie de Maistre (1753–1821)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="manussi-von-montesole.ferdinand">
+                  <annotation>
+                     <documentation>Ferdinand Manussi von Montesole (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="manzoni.alessandro">
+                  <annotation>
+                     <documentation>Alessandro Manzoni (1785–1873)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mautner.eduard">
+                  <annotation>
+                     <documentation>Eduard Mautner (1824–1889)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="musiol.robert">
+                  <annotation>
+                     <documentation>Robert Músiol (1846–1903)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="naumann.emil">
+                  <annotation>
+                     <documentation>Emil Naumann (1827–1888)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="phidias">
+                  <annotation>
+                     <documentation>Phidias (-480–-430)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="piutti.carl">
+                  <annotation>
+                     <documentation>Carl Piutti (1846–1902)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="porges.heinrich">
+                  <annotation>
+                     <documentation>Heinrich Porges (1837–1900)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rochlitz.friedrich">
+                  <annotation>
+                     <documentation>Friedrich Rochlitz (1769–1842)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="roeder.martin">
+                  <annotation>
+                     <documentation>Martin Röder (1851–1895)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="saphir.moritz-gottlieb">
+                  <annotation>
+                     <documentation>Moritz Gottlieb Saphir (1795–1858)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schelle.eduard">
+                  <annotation>
+                     <documentation>Eduard Schelle (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schiller.friedrich">
+                  <annotation>
+                     <documentation>Friedrich Schiller (1759–1805)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schlesinger.sigmund">
+                  <annotation>
+                     <documentation>Sigmund Schlesinger (1825–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schrattenholz.josef">
+                  <annotation>
+                     <documentation>Josef Schrattenholz (1847–1912)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="scribe.eugene">
+                  <annotation>
+                     <documentation>Eugène Scribe (1791–1861)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="seneca.lucius-annaeus">
+                  <annotation>
+                     <documentation>Lucius Annaeus Seneca (0001–0065)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="shakespeare.william">
+                  <annotation>
+                     <documentation>William Shakespeare (1564–1616)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="solera.temistocle">
+                  <annotation>
+                     <documentation>Temistocle Solera (1815–1878)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="somma.antonio">
+                  <annotation>
+                     <documentation>Antonio Somma (1809–1864)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="sophokles">
+                  <annotation>
+                     <documentation>Sophokles (-497–-405)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="spanuth.august">
+                  <annotation>
+                     <documentation>August Spanuth (1857–1920)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="speidel.ludwig">
+                  <annotation>
+                     <documentation>Ludwig Speidel (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="tappert.wilhelm">
+                  <annotation>
+                     <documentation>Wilhelm Tappert (1830–1907)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="taylor.isidore">
+                  <annotation>
+                     <documentation>Isidore Justin Séverin Taylor (1789–1879)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="thibaut.anton">
+                  <annotation>
+                     <documentation>Anton Thibaut (1772–1840)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="torti.giovanni">
+                  <annotation>
+                     <documentation>Giovanni Torti (1774–1852)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="truhn.hieronymus">
+                  <annotation>
+                     <documentation>Friedrich Hieronymus Truhn (1811–1886)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ulibischeff.alexander">
+                  <annotation>
+                     <documentation>Alexander Ulibischeff (1794–1858)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ullman.bernard">
+                  <annotation>
+                     <documentation>Bernard Ullman (1817–1885)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="vischer.friedrich-theodor">
+                  <annotation>
+                     <documentation>Friedrich Theodor Vischer (1807–1887)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="widmann.joseph-victor">
+                  <annotation>
+                     <documentation>Joseph Victor Widmann (1842–1911)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="winterfeld.carl-von">
+                  <annotation>
+                     <documentation>Carl von Winterfeld (1748–1852)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="woerz.johann-georg">
+                  <annotation>
+                     <documentation>Johann Georg Woerz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wuerst.richard">
+                  <annotation>
+                     <documentation>Richard Ferdinand Wüerst (1824–1881)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="zopff.hermann">
+                  <annotation>
+                     <documentation>Hermann Zopff (1826–1883)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="achenbach.oswald">
+                  <annotation>
+                     <documentation>Oswald Achenbach (1827–1905)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="buonarroti.michelangelo">
+                  <annotation>
+                     <documentation>Michelangelo Buonarroti (1475–1564)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="busch.wilhelm">
+                  <annotation>
+                     <documentation>Wilhelm Busch (1832–1908)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="correggio.antonio-da">
+                  <annotation>
+                     <documentation>Antonio da Correggio (1489–1534)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cornelius.peter">
+                  <annotation>
+                     <documentation>Peter von Cornelius (1783–1867)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="duerer.albrecht">
+                  <annotation>
+                     <documentation>Albrecht Dürer (der Jüngere) (1471–1528)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="eyck.jan-van">
+                  <annotation>
+                     <documentation>Jan van Eyck (1390–1441)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gauermann.friedrich">
+                  <annotation>
+                     <documentation>Friedrich Gauermann (1807–1862)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="luccardi.vincenzo">
+                  <annotation>
+                     <documentation>Vincenzo Luccardi (1811–1876)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="makart.hans">
+                  <annotation>
+                     <documentation>Hans Makart (1840–1884)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="millet.jean-francois">
+                  <annotation>
+                     <documentation>Jean-François Millet (1814–1875)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="piloty.carl-theodor">
+                  <annotation>
+                     <documentation>Carl Theodor von Piloty (1826–1886)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rijn.rembrandt-van">
+                  <annotation>
+                     <documentation>Rembrandt van Rijn (1606–1669)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rubens.peter-paul">
+                  <annotation>
+                     <documentation>Peter Paul Rubens (1577–1640)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="sanzio.rafaello">
+                  <annotation>
+                     <documentation>Raffaello Sanzio (1483–1520)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="scheuren.caspar">
+                  <annotation>
+                     <documentation>Caspar Scheuren (1810–1887)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="vecellio.tiziano">
+                  <annotation>
+                     <documentation>Tiziano Vecellio (1488–1576)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="luigi.xxx">
+                  <annotation>
+                     <documentation>Luigi</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="anonymus.ein-freund-verdis">
+                  <annotation>
+                     <documentation>Ein Freund Verdis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="anonyma.eine-schauspielerin">
+                  <annotation>
+                     <documentation>Eine Schauspielerin</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="barezzi.antonio">
+                  <annotation>
+                     <documentation>Antonio Barezzi (1787–1867)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="basili.francesco">
+                  <annotation>
+                     <documentation>Francesco Basili (1767–1850)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="piroli.giuseppe">
+                  <annotation>
+                     <documentation>Giuseppe Piroli (1815–1890)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.antonio">
+                  <annotation>
+                     <documentation>Antonio Verdi (1744–1798)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.giuseppa">
+                  <annotation>
+                     <documentation>Giuseppa Francesca Verdi (1816–1833)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.giuseppina">
+                  <annotation>
+                     <documentation>Giuseppina Verdi (1815–1897)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="vigna.cesare">
+                  <annotation>
+                     <documentation>Cesare Vigna (1819–1892)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lambertini.xxx">
+                  <annotation>
+                     <documentation>Lambertini</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gallo.antonio">
+                  <annotation>
+                     <documentation>Antonio Gallo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="barbaia.domenico">
+                  <annotation>
+                     <documentation>Domenico Barbaia (1778–1841)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bertoja.pietro">
+                  <annotation>
+                     <documentation>Pietro Bertoja (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hock.wilhelm">
+                  <annotation>
+                     <documentation>Wilhelm Hock (1832–1904)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="huelsen.botho-von">
+                  <annotation>
+                     <documentation>Botho von Hülsen (1815–1886)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="jauner.franz-von">
+                  <annotation>
+                     <documentation>Franz von Jauner (1831–1900)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="locle.camille-du">
+                  <annotation>
+                     <documentation>Camille du Locle (1832–1903)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pollini.bernhard">
+                  <annotation>
+                     <documentation>Bernhard Pollini (1838–1897)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="veron.louis-desire">
+                  <annotation>
+                     <documentation>Louis-Désiré Véron (1798–1867)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hirsch.heinrich">
+                  <annotation>
+                     <documentation>Heinrich Hirsch</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bock.gustav">
+                  <annotation>
+                     <documentation>Gustav Bock (1813–1863)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="herold.max">
+                  <annotation>
+                     <documentation>Max Herold (1840–1921)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hofmeister.friedrich">
+                  <annotation>
+                     <documentation>Friedrich Hofmeister (1782–1864)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="petrucci.ottaviano">
+                  <annotation>
+                     <documentation>Ottaviano dei Petrucci (1466–1539)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ricordi.giulio">
+                  <annotation>
+                     <documentation>Giulio Ricordi (1840–1912)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ricordi.tito">
+                  <annotation>
+                     <documentation>Tito Ricordi (1811–1888)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="spitzweg.eugen">
+                  <annotation>
+                     <documentation>Eugen Spitzweg (1840–1914)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="possinger.emilie">
+                  <annotation>
+                     <documentation>Possinger, Emilie von</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="herring.amalie">
+                  <annotation>
+                     <documentation>Herring, Amalie von</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="serenyi.ernestine">
+                  <annotation>
+                     <documentation>Serenyi, Ernestine</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="belrupt.marie">
+                  <annotation>
+                     <documentation>Belrupt, Marie</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="teuber.adele">
+                  <annotation>
+                     <documentation>Teuber, Adele von</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="albert.sachsen">
+                  <annotation>
+                     <documentation>Albert von Sachsen (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="augusta.sachsen-weimar-eisenach">
+                  <annotation>
+                     <documentation>Augusta von Sachsen-Weimar-Eisenach (1811–1890)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="belinzaghi.giulio">
+                  <annotation>
+                     <documentation>Giulio Belinzaghi (1818–1892)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bismarck.otto-von">
+                  <annotation>
+                     <documentation>Otto von Bismarck (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="carola.wasa-holstein-gottorp">
+                  <annotation>
+                     <documentation>Carola von Wasa-Holstein-Gottorp (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cassiodorus">
+                  <annotation>
+                     <documentation>Cassiodorus (485–580)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cincinnatus">
+                  <annotation>
+                     <documentation>Cincinnatus (-0519–-0430)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cosimo-ii.medici">
+                  <annotation>
+                     <documentation>Cosimo II de’ Medici (1590–1621)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="damremont.charles-marie-denys">
+                  <annotation>
+                     <documentation>Charles-Marie Denys de Damrémont (1783–1837)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="elisabeth.oesterreich-ungarn">
+                  <annotation>
+                     <documentation>Elisabeth von Österreich-Ungarn (1837–1898)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ernst-august.hannover">
+                  <annotation>
+                     <documentation>Ernst August von Hannover (1845–1923)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ferdinand-i.oesterreich">
+                  <annotation>
+                     <documentation>Ferdinand I. (1793–1875)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="franz-ii.sizilien">
+                  <annotation>
+                     <documentation>Franz II. (1836–1894)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="franz-joseph-i.habsburg">
+                  <annotation>
+                     <documentation>Franz Joseph I. (1830–1916)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="garibaldi.giuseppe">
+                  <annotation>
+                     <documentation>Giuseppe Garibaldi (1807–1882)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="horny.xxx">
+                  <annotation>
+                     <documentation>Horny, —</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="karl-ludwig.oesterreich">
+                  <annotation>
+                     <documentation>Karl Ludwig von Österreich (1833–1896)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="latterer.josef">
+                  <annotation>
+                     <documentation>Josef Latterer (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ludwig-ii.bayern">
+                  <annotation>
+                     <documentation>Ludwig II. (1845–1886)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="luise-von-preussen">
+                  <annotation>
+                     <documentation>Luise von Preußen (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="margherita-di-savoia">
+                  <annotation>
+                     <documentation>Margherita di Savoia (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="marie-therese.oesterreich-este">
+                  <annotation>
+                     <documentation>Marie Therese von Österreich-Este (1849–1919)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="maximilian-i.habsburg">
+                  <annotation>
+                     <documentation>Maximilian von Habsburg (1459–1519)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mazzini.giuseppe">
+                  <annotation>
+                     <documentation>Giuseppe Mazzini (1805–1872)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="moltke.helmuth-von">
+                  <annotation>
+                     <documentation>Helmuth von Moltke (1800–1891)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="philippovich.franz">
+                  <annotation>
+                     <documentation>Franz von Philippovich (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rudolf.oesterreich-ungarn">
+                  <annotation>
+                     <documentation>Rudolf von Österreich-Ungarn (1858–1889)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schroetter.marie">
+                  <annotation>
+                     <documentation>Schrötter, Marie</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schubert.xxx">
+                  <annotation>
+                     <documentation>Schubert, —</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="slott.xxx">
+                  <annotation>
+                     <documentation>Slott, — van der</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="vittorio-emanuele-ii.savoyen">
+                  <annotation>
+                     <documentation>Viktor Emanuel II. (1820–1878)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.cosima">
+                  <annotation>
+                     <documentation>Cosima Wagner (1837–1930)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wilhelm-i.preussen">
+                  <annotation>
+                     <documentation>Wilhelm I. (1797–1888)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wilhelm.braunschweig">
+                  <annotation>
+                     <documentation>Wilhelm von Braunschweig (1849–1919)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wilhelm.oesterreich">
+                  <annotation>
+                     <documentation>Wilhelm von Österreich (1827–1894)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="brummbasso.francesco">
+                  <annotation>
+                     <documentation>Francesco Brummbasso</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="czipczapko.angelo-wenzel">
+                  <annotation>
+                     <documentation>Angelo Wenzel Czipczapko</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="fipsius.archibaldus-blasius">
+                  <annotation>
+                     <documentation>Archibaldus Blasius Fipsius</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="huckebein.hans">
+                  <annotation>
+                     <documentation>Hans Huckebein</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="krumpelmayro.nikolo">
+                  <annotation>
+                     <documentation>Nikolo Krumpelmayro</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="krumpolini.andreas">
+                  <annotation>
+                     <documentation>Andreas Krumpolini</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="orpheus">
+                  <annotation>
+                     <documentation>Orpheus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="singerlich.jainkef">
+                  <annotation>
+                     <documentation>Jainkef Singerlich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="theuerdank">
+                  <annotation>
+                     <documentation>Ritter Theuerdank</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="vielwisserl.o-w">
+                  <annotation>
+                     <documentation>O. W. Vielwisserl</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="becker.xxx">
+                  <annotation>
+                     <documentation>Becker</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schmitz.xxx">
+                  <annotation>
+                     <documentation>Schmitz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mohr.xxx">
+                  <annotation>
+                     <documentation>Mohr</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lange.rudolph">
+                  <annotation>
+                     <documentation>Rudolf Lange</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="groesser.wilhelm">
+                  <annotation>
+                     <documentation>Wilhelm Grösser</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="klob.friedrich">
+                  <annotation>
+                     <documentation>Friedrich Klob (1836–1913)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ruzek.joseph">
+                  <annotation>
+                     <documentation>Joseph Ruzek</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="linda.bertha">
+                  <annotation>
+                     <documentation>Bertha Linda (1850–1928)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="sierzputowska.emilie">
+                  <annotation>
+                     <documentation>Emilie Sierzputowska</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muchanoff.maria">
+                  <annotation>
+                     <documentation>Maria Muchanoff (–)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="palliardi.josef">
+                  <annotation>
+                     <documentation>Josef Palliardi</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="spitzer.amalie">
+                  <annotation>
+                     <documentation>Amalie Spitzer</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="winiker.karl">
+                  <annotation>
+                     <documentation>Karl Winiker</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="unidentified">
+                  <annotation>
+                     <documentation>? (nicht identifizierte Person)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="tr">
+                  <annotation>
+                     <documentation>Torsten Roeder</documentation>
+                  </annotation>
+               </enumeration>
+            </restriction>
+         </simpleType>
+      </list>
+   </simpleType>
+</schema>

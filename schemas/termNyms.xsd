@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+   <simpleType name="termNym">
+      <list>
+         <simpleType>
+            <restriction base="string">
+               <enumeration value="tempo">
+                  <annotation>
+                     <documentation>Tempo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="tempo.interpretation">
+                  <annotation>
+                     <documentation>Tempo (Interpretation)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dynamik.piano">
+                  <annotation>
+                     <documentation>piano</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dynamik.forte">
+                  <annotation>
+                     <documentation>forte</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stimmfuehrung.quintparallelen">
+                  <annotation>
+                     <documentation>Quintparallelen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stimmfuehrung.oktavparallelen">
+                  <annotation>
+                     <documentation>Oktavparallelen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lohengrin-geigen">
+                  <annotation>
+                     <documentation>Lohengrin-Geigen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="tremolo">
+                  <annotation>
+                     <documentation>Tremolo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="orchesteraufstellung">
+                  <annotation>
+                     <documentation>Orchesteraufstellung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="thema">
+                  <annotation>
+                     <documentation>Thema</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="fuge">
+                  <annotation>
+                     <documentation>Fuge</documentation>
+                  </annotation>
+               </enumeration>
+            </restriction>
+         </simpleType>
+      </list>
+   </simpleType>
+</schema>

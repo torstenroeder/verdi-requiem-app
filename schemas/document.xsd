@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- INCLUDES -->
+	<xs:include schemaLocation="basic.xsd"/>
+
+	<!-- DOCUMENT MAIN ELEMENTS -->
+	<xs:element name="document">
+		<xs:complexType mixed="false">
+			<xs:sequence maxOccurs="1" minOccurs="1">
+				<xs:element maxOccurs="1" minOccurs="1" ref="header"/>
+				<xs:element maxOccurs="1" minOccurs="1" ref="body"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="header">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="1" minOccurs="1" ref="title"/>
+				<xs:element maxOccurs="1" minOccurs="1" ref="type"/>
+				<xs:element maxOccurs="1" minOccurs="1" ref="group"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="history"/>
+				<xs:element maxOccurs="1" minOccurs="1" ref="workflow"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="title" type="xs:string"/>
+
+	<xs:element name="type">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Ankündigung"/>
+				<xs:enumeration value="Anzeige"/>
+				<xs:enumeration value="Nachmeldung"/>
+				<xs:enumeration value="Notiz"/>
+				<xs:enumeration value="Kurzbericht"/>
+				<xs:enumeration value="Bericht"/>
+				<xs:enumeration value="Werkbesprechung"/>
+				<xs:enumeration value="Illustration"/>
+				<xs:enumeration value="Satire"/>
+				<xs:enumeration value="Biografik"/>
+				<xs:enumeration value="Privatschrift"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="group">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Rezeptionsgeschichte"/>
+				<xs:enumeration value="Aufführungsgeschichte"/>
+				<xs:enumeration value="Randtexte"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+	<xs:element name="history">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="origin" type="historyItems"/>
+				<xs:element maxOccurs="unbounded" name="publication" type="historyItems"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="historyItems">
+		<xs:sequence minOccurs="0">
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="title"/>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="person"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="org"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="place"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="date"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="series"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="position"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="facsimile"/>
+			</xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="workflow">
+		<xs:complexType mixed="false">
+			<xs:sequence>
+				<xs:element name="bibliography" type="workflowItem"/>
+				<xs:element name="pagination" type="workflowItem"/>
+				<xs:element name="blocks" type="workflowItem"/>
+				<xs:element name="highlights" type="workflowItem"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType mixed="false" name="workflowItem">
+		<xs:attribute name="done" type="xs:boolean" use="required"/>
+	</xs:complexType>
+
+	<xs:element name="source">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="title"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="series"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="date"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="position"/>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="facsimile"/>
+				<xs:element name="involved">
+					<xs:complexType>
+						<xs:choice maxOccurs="unbounded" minOccurs="1">
+							<xs:element maxOccurs="unbounded" minOccurs="0" ref="person"/>
+							<xs:element maxOccurs="unbounded" minOccurs="0" ref="org"/>
+						</xs:choice>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="id"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="series">
+		<xs:complexType mixed="true">
+			<xs:attribute name="abbr"/>
+			<xs:attribute name="volume"/>
+			<xs:attribute name="altVolume"/>
+			<xs:attribute name="issue"/>
+			<xs:attribute name="subIssue"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="position">
+		<xs:complexType>
+			<xs:attribute name="unit" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:token">
+						<xs:enumeration value="column"/>
+						<xs:enumeration value="document"/>
+						<xs:enumeration value="page"/>
+						<xs:enumeration value="part"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="from"/>
+			<xs:attribute name="to"/>
+			<xs:attribute name="where"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="facsimile">
+		<xs:complexType>
+			<xs:attribute name="image"/>
+			<xs:attribute name="source"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="part">
+		<xs:complexType>
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="blockElements"/>
+			<xs:attribute name="n" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="body">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="part"/>
+				<xs:group maxOccurs="unbounded" minOccurs="0" ref="blockElements"/>
+			</xs:choice>
+			<xs:attribute name="lang" type="xs:language" use="required"/>
+			<xs:attribute ref="rend" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

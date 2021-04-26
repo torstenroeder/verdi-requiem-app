@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<!-- INCLUDES -->
+	<xs:include schemaLocation="opusNyms.xsd"/>
+	<xs:include schemaLocation="orgNyms.xsd"/>
+	<xs:include schemaLocation="personNyms.xsd"/>
+	<xs:include schemaLocation="placeNyms.xsd"/>
+	<xs:include schemaLocation="eventNyms.xsd"/>
+
+	<!-- TYPES -->
+	<xs:simpleType name="extendedBoolean">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="yes"/>
+			<xs:enumeration value="no"/>
+			<xs:enumeration value="null"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="breakType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="initial"/>
+			<xs:enumeration value="skipped"/>
+			<xs:enumeration value="regular"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- ELEMENT TYPE DEFINITIONS -->
+
+	<xs:group name="blockElements">
+		<xs:choice>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="head"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="p"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="image"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="gap"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="pb"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="cb"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="inlineElements">
+		<xs:choice>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="lb"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="cb"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="pb"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="gap"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="l"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="emph"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="hi"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="g"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="contextElements">
+		<xs:choice>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="event"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="semanticElements">
+		<xs:choice>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="date"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="opus"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="org"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="person"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="place"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="occupation"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="text"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="editorialElements">
+		<xs:choice>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="del"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="add"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="sic"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="choice"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="commentaryElements">
+		<xs:choice>
+			<xs:element maxOccurs="unbounded" minOccurs="0" ref="note"/>
+		</xs:choice>
+	</xs:group>
+
+	<xs:group name="blockElementChildren">
+		<xs:choice>
+			<!-- block elements cannot be nested -->
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="inlineElements"/>
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="editorialElements"/>
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="contextElements"/>
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="semanticElements"/>
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="commentaryElements"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="inlineElementChildren">
+		<xs:choice>
+			<!-- inline elements appear in block elements -->
+			<!-- inline elements can be nested -->
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="inlineElements"/>
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="editorialElements"/>
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="contextElements"/>
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="semanticElements"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="contextElementChildren">
+		<xs:choice>
+			<!-- context elements appear in block or inline elements -->
+			<!-- context elements cannot be nested -->
+			<xs:group ref="inlineElements"/>
+			<xs:group ref="semanticElements"/>
+			<xs:group ref="editorialElements"/>
+			<xs:group ref="commentaryElements"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="semanticElementChildren">
+		<xs:choice>
+			<!-- semantic elements appear in block or inline elements -->
+			<!-- semantic elements cannot be nested -->
+			<xs:group ref="inlineElements"/>
+			<xs:group ref="editorialElements"/>
+		</xs:choice>
+	</xs:group>
+	<xs:group name="commentaryElementChildren">
+		<xs:choice>
+			<!-- commentary elements appear in block or inline elements -->
+			<!-- commentary elements cannot be nested -->
+			<xs:group ref="inlineElements"/>
+			<xs:group ref="semanticElements"/>
+		</xs:choice>
+	</xs:group>
+
+	<xs:attributeGroup name="blockElementAttributes">
+		<xs:attribute default="left" ref="align"/>
+		<xs:attribute ref="rend"/>
+		<xs:attribute name="lang" type="xs:language"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="inlineElementAttributes">
+		<!-- alignment of inline elements is not possible -->
+		<xs:attribute ref="rend"/>
+		<xs:attribute name="lang" type="xs:language"/>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="editorialElementAttributes">
+		<xs:attribute name="resp" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="tr"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:attributeGroup>
+	<xs:attributeGroup name="commentaryElementAttributes">
+		<xs:attribute name="resp" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="tr"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="type" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="literatureLink"/>
+					<xs:enumeration value="bibleLink"/>
+					<xs:enumeration value="glossaryLink"/>
+					<xs:enumeration value="textLink"/>
+					<xs:enumeration value="musicLink"/>
+					<xs:enumeration value="quoteLink"/>
+					<xs:enumeration value="eventCommentary"/>
+					<xs:enumeration value="commentary"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:attributeGroup>
+
+	<!-- COMMON ATTRIBUTES -->
+	<xs:attribute name="rend">
+		<xs:simpleType>
+			<xs:restriction base="renderingTokens">
+				<xs:minLength value="1"/>
+				<xs:maxLength value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+	<xs:simpleType name="renderingTokens">
+		<xs:list>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<!-- FONT -->
+					<xs:enumeration value="fraktur">
+						<xs:annotation>
+							<xs:documentation>Frakturschrift</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="antiqua">
+						<xs:annotation>
+							<xs:documentation>Serifenschrift</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="lineale">
+						<xs:annotation>
+							<xs:documentation>Groteskschrift (sans serif)</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<!-- EMPHASIS -->
+					<xs:enumeration value="bold">
+						<xs:annotation>
+							<xs:documentation>fette Strichstärke</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="plain">
+						<xs:annotation>
+							<xs:documentation>normaler Schriftschnitt (nicht
+								fett)</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<!-- STYLE -->
+					<xs:enumeration value="italic">
+						<xs:annotation>
+							<xs:documentation>kursive Schriftlage</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="straight">
+						<xs:annotation>
+							<xs:documentation>normale Schriftlage (nicht kursiv)</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="widespace">
+						<xs:annotation>
+							<xs:documentation>Sperrsatz</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<!-- UNDERLINE -->
+					<xs:enumeration value="underlined">
+						<xs:annotation>
+							<xs:documentation>unterstrichen</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<!-- SIZE -->
+					<xs:enumeration value="smaller">
+						<xs:annotation>
+							<xs:documentation>kleinere Schrift</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="regular">
+						<xs:annotation>
+							<xs:documentation>normale Schriftgröße</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="larger">
+						<xs:annotation>
+							<xs:documentation>größere Schrift</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<!-- POSITION -->
+					<xs:enumeration value="superscript">
+						<xs:annotation>
+							<xs:documentation>hochgestellt</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+					<xs:enumeration value="subscript">
+						<xs:annotation>
+							<xs:documentation>tiefgestellt</xs:documentation>
+						</xs:annotation>
+					</xs:enumeration>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:list>
+	</xs:simpleType>
+	<xs:attribute default="left" name="align">
+		<xs:simpleType>
+			<xs:restriction base="xs:token">
+				<xs:enumeration value="center">
+					<xs:annotation>
+						<xs:documentation>zentriert</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+				<xs:enumeration value="justify">
+					<xs:annotation>
+						<xs:documentation>im Blocksatz</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+				<xs:enumeration value="left">
+					<xs:annotation>
+						<xs:documentation>linksbündig (mit Standardeinzug)</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+				<xs:enumeration value="noIndent">
+					<xs:annotation>
+						<xs:documentation>linksbündig ohne Einzug</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+				<xs:enumeration value="right">
+					<xs:annotation>
+						<xs:documentation>rechtsbündig</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+				<xs:enumeration value="rightInline">
+					<xs:annotation>
+						<xs:documentation>rechtsbündig fortgesetzt (möglichst in letzter Zeile des
+							vorigen Absatzes)</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+				<xs:enumeration value="rightFloating">
+					<xs:annotation>
+						<xs:documentation>rechts mit umfließendem Text</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+	<xs:attribute default="high" name="cert">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="high">
+					<xs:annotation>
+						<xs:documentation>sicher (belegbar)</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+				<xs:enumeration value="medium">
+					<xs:annotation>
+						<xs:documentation>wahrscheinlich (plausibel, aber nicht
+							belegbar)</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+				<xs:enumeration value="low">
+					<xs:annotation>
+						<xs:documentation>unsicher (möglich, aber spekulativ)</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+				<xs:enumeration value="unknown">
+					<xs:annotation>
+						<xs:documentation>unsicher (möglich, aber spekulativ)</xs:documentation>
+					</xs:annotation>
+				</xs:enumeration>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+
+	<!-- BLOCK ELEMENTS -->
+	<xs:element name="head">
+		<xs:annotation>
+			<xs:documentation>Überschrift. ~TEI P5 2.6.0: contains any type of heading, for example
+				the title of a section, or the heading of a list, glossary, manuscript description,
+				etc.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="blockElementChildren"/>
+			<xs:attributeGroup ref="blockElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="p">
+		<xs:annotation>
+			<xs:documentation>Absatz. ~TEI P5 2.6.0: marks paragraphs in prose.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="blockElementChildren"/>
+			<xs:attributeGroup ref="blockElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="image">
+		<xs:complexType mixed="true">
+			<xs:attributeGroup ref="imageAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:attributeGroup name="imageAttributes">
+		<xs:attribute name="src" use="required"/>
+		<xs:attribute name="title" use="required"/>
+		<xs:attribute default="center" ref="align"/>
+	</xs:attributeGroup>
+
+	<!-- INLINE ELEMENTS -->
+	<xs:element name="l">
+		<xs:annotation>
+			<xs:documentation>Einzelne Zeile. Nur in Versformen einzusetzen. ~TEI P5 2.6.0: contains
+				a single, possibly incomplete, line of verse.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="inlineElementChildren"/>
+			<xs:attributeGroup ref="inlineElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="emph">
+		<xs:annotation>
+			<xs:documentation>Emphasis. ~TEI P5 2.6.0: marks words or phrases which are stressed or
+				emphasized for linguistic or rhetorical effect.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="inlineElementChildren"/>
+			<xs:attributeGroup ref="inlineElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="hi">
+		<xs:annotation>
+			<xs:documentation>Hervorhebung. ~TEI P5 2.6.0: marks a word or phrase as graphically
+				distinct from the surrounding text, for reasons concerning which no claim is
+				made.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="inlineElementChildren"/>
+			<xs:attributeGroup ref="inlineElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType mixed="false" name="simpleBreak">
+		<xs:attribute name="break" type="extendedBoolean" use="required"/>
+	</xs:complexType>
+	<xs:complexType mixed="false" name="numberedBreak">
+		<xs:attribute name="n" type="xs:string" use="required"/>
+		<xs:attribute name="type" type="breakType" use="required"/>
+		<xs:attribute name="break" type="extendedBoolean" use="required"/>
+	</xs:complexType>
+	<xs:element name="lb" type="simpleBreak">
+		<xs:annotation>
+			<xs:documentation>Zeilennumbruch; äquivalent zu TEI-Element lb</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="cb" type="numberedBreak">
+		<xs:annotation>
+			<xs:documentation>Spaltenumbruch; äquivalent zu TEI-Element cb</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="pb" type="numberedBreak">
+		<xs:annotation>
+			<xs:documentation>Seitenumbruch; äquivalent zu TEI-Element pb</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="g">
+		<xs:annotation>
+			<xs:documentation>Besonderes Zeichen; äquivalent zu TEI-Element g</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:attribute name="desc" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- CONTEXT ELEMENTS -->
+	<xs:element name="event">
+		<xs:annotation>
+			<xs:documentation>Semantisches Element zur Markierung eines Ereignisses. Darf weitere
+				semantische Elemente enthalten. ~TEI P5 2.6.0: contains data relating to any kind of
+				significant event associated with a person, place, or
+				organization.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="contextElementChildren"/>
+			<xs:attributeGroup ref="inlineElementAttributes"/>
+			<!-- allow up to three references -->
+			<xs:attribute name="nym" type="eventNym" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- SEMANTIC ELEMENTS -->
+	<xs:element name="date">
+		<xs:annotation>
+			<xs:documentation>Datumsangabe. ~TEI P5 2.6.0: contains a date in any
+				format.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="semanticElementChildren"/>
+			<!-- no styles -->
+			<!-- allow only one reference -->
+			<xs:attributeGroup ref="datableElementAttributes"/>
+			<xs:attribute name="weekDay" type="weekDay"/>
+			<!-- no role attribute -->
+			<xs:attribute ref="cert" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="isoDate">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="-?[0-9]{4}(-(0[0-9]|1[0-2]))?(-(0[0-9]|[1-2][0-9]|3[0-1]))?"/>
+			<!--<xs:pattern value="-?[0-9]{4}(-(0[1-9]|1[0-2]))?(-(0[1-9]|[1-2][0-9]|3[0-1]))?"/>-->
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="weekDay">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="sun"/>
+			<xs:enumeration value="mon"/>
+			<xs:enumeration value="tue"/>
+			<xs:enumeration value="wed"/>
+			<xs:enumeration value="thu"/>
+			<xs:enumeration value="fri"/>
+			<xs:enumeration value="sat"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:attributeGroup name="datableElementAttributes">
+		<xs:attribute name="when" type="isoDate"/>
+		<xs:attribute name="from" type="isoDate"/>
+		<xs:attribute name="to" type="isoDate"/>
+		<xs:attribute name="notAfter" type="isoDate"/>
+		<xs:attribute name="notBefore" type="isoDate"/>
+		<!-- @targetPrecision = day, week, year? -->
+	</xs:attributeGroup>
+	<xs:element name="opus">
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="semanticElementChildren"/>
+			<!-- no styles -->
+			<!-- allow up top five references -->
+			<xs:attribute name="nym" use="required">
+				<xs:simpleType>
+					<xs:restriction base="opusNym">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="4"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="bar" use="optional">
+				<xs:simpleType>
+					<xs:restriction base="xs:unsignedShort"/>
+				</xs:simpleType>
+			</xs:attribute>
+			<!-- no role attribute -->
+			<xs:attribute ref="cert" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="org">
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="semanticElementChildren"/>
+			<!-- no styles -->
+			<!-- allow only one reference -->
+			<xs:attribute name="nym" type="orgNym" use="required"/>
+			<xs:attribute name="role" type="orgRole" use="optional"/>
+			<xs:attribute ref="cert" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="person">
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="semanticElementChildren"/>
+			<!-- no styles -->
+			<!-- allow up to three references -->
+			<xs:attribute name="nym" use="required">
+				<xs:simpleType>
+					<xs:restriction base="personNym">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="role" type="personRole" use="optional"/>
+			<xs:attribute ref="cert" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="place">
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="semanticElementChildren"/>
+			<!-- no styles -->
+			<xs:attributeGroup ref="datableElementAttributes"/>
+			<!-- allow up to three references -->
+			<xs:attribute name="nym" use="required">
+				<xs:simpleType>
+					<xs:restriction base="placeNym">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="role" type="placeRole" use="optional"/>
+			<xs:attribute ref="cert" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="occupation">
+		<xs:complexType mixed="true">
+			<xs:attribute name="type" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="artist">
+							<xs:annotation>
+								<xs:documentation>Maler/in</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="composer">
+							<xs:annotation>
+								<xs:documentation>Komponist/in</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="concert-master">
+							<xs:annotation>
+								<xs:documentation>Konzertmeister/in</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="conductor">
+							<xs:annotation>
+								<xs:documentation>Dirigent/in</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="critic">
+							<xs:annotation>
+								<xs:documentation>Musikkritiker/in</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="other">
+							<xs:annotation>
+								<xs:documentation>Sonstiges</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="publisher">
+							<xs:annotation>
+								<xs:documentation>Verleger/in</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="producer">
+							<xs:annotation>
+								<xs:documentation>Produzent/in</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="public">
+							<xs:annotation>
+								<xs:documentation>Öffentliche Person</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="singer">
+							<xs:annotation>
+								<xs:documentation>Sänger/in</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+						<xs:enumeration value="writer">
+							<xs:annotation>
+								<xs:documentation>Schriftsteller/in</xs:documentation>
+							</xs:annotation>
+						</xs:enumeration>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="text">
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="semanticElementChildren"/>
+			<xs:attributeGroup ref="inlineElementAttributes"/>
+			<xs:attribute name="href" type="xs:anyURI" use="required"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- EDITORIAL ELEMENTS -->
+	<xs:element name="sic">
+		<xs:annotation>
+			<xs:documentation>Zur Markierung einer auffälligen, jedoch konformen Schreibweise, die
+				keiner Korrektur oder Regularisierung bedarf. ~TEI P5 2.6.0: contains text
+				reproduced although apparently incorrect or inaccurate.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:attributeGroup ref="editorialElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="del">
+		<xs:annotation>
+			<xs:documentation>Zur Markierung gestrichener, im Original offensichtlich überflüssiger
+				Zeichen. ~TEI P5 2.6.0: contains a letter, word, or passage deleted, marked as
+				deleted, or otherwise indicated as superfluous or spurious in the copy text by an
+				author, scribe, or a previous annotator or corrector.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:attributeGroup ref="editorialElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="add">
+		<xs:annotation>
+			<xs:documentation>Zur Markierung ergänzter, im Original offensichtlich fehlender
+				Zeichen. ~TEI P5 2.6.0: contains letters, words, or phrases inserted in the source
+				text by an author, scribe, or a previous annotator or corrector.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:attributeGroup ref="editorialElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="gap">
+		<xs:annotation>
+			<xs:documentation>Zur Markierung einer nicht relevanten Textstelle. ~TEI P5 2.6.0:
+				indicates a point where material has been omitted in a transcription, whether for
+				editorial reasons described in the TEI header, as part of sampling practice, or
+				because the material is illegible, invisible, or inaudible.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="false">
+			<xs:attributeGroup ref="editorialElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="choice">
+		<xs:annotation>
+			<xs:documentation>Zur Erfassung unterschiedlicher Lesarten. Darf keine semantischen
+				Elemente enthalten. ~TEI P5 2.6.0: groups a number of alternative encodings for the
+				same point in a text.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="false">
+			<xs:choice>
+				<xs:sequence maxOccurs="1" minOccurs="1">
+					<xs:element maxOccurs="1" minOccurs="1" name="sic" type="xs:string"/>
+					<xs:element maxOccurs="1" minOccurs="1" name="corr" type="xs:string"/>
+				</xs:sequence>
+			</xs:choice>
+			<xs:attributeGroup ref="editorialElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- COMMENTARY ELEMENTS -->
+	<xs:element name="note">
+		<xs:annotation>
+			<xs:documentation>Zur Einfügung eines Kommentars. Darf semantische Elemente und
+				Hervorhebungen enthalten. ~TEI P5 2.6.0: contains a note or
+				annotation.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType mixed="true">
+			<xs:group maxOccurs="unbounded" minOccurs="0" ref="commentaryElementChildren"/>
+			<xs:attributeGroup ref="commentaryElementAttributes"/>
+		</xs:complexType>
+	</xs:element>
+
+	<!-- ROLES -->
+	<xs:simpleType name="orgRole">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="publisher"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="personRole">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="composer"/>
+			<xs:enumeration value="arranger"/>
+			<xs:enumeration value="editor"/>
+			<xs:enumeration value="publisher"/>
+			<xs:enumeration value="conductor"/>
+			<xs:enumeration value="concert-master"/>
+			<xs:enumeration value="stage-director"/>
+			<xs:enumeration value="soloist"/>
+			<xs:enumeration value="soloist.maleVoice"/>
+			<xs:enumeration value="soloist.femaleVoice"/>
+			<xs:enumeration value="soloist.soprano"/>
+			<xs:enumeration value="soloist.mezzo"/>
+			<xs:enumeration value="soloist.alto"/>
+			<xs:enumeration value="soloist.tenor"/>
+			<xs:enumeration value="soloist.baritone"/>
+			<xs:enumeration value="soloist.basso"/>
+			<xs:enumeration value="character"/>
+			<xs:enumeration value="spectator"/>
+			<xs:enumeration value="author"/>
+			<xs:enumeration value="recipient"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="placeRole">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="parentContinent"/>
+			<xs:enumeration value="parentCountry"/>
+			<xs:enumeration value="parentRegion"/>
+			<xs:enumeration value="parentSettlement"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

@@ -1,0 +1,21 @@
+RewriteEngine on
+RewriteBase /
+Options +FollowSymlinks -MultiViews
+
+## Default Error Pages
+#ErrorDocument 404 /error_404.php
+
+## hide .php
+
+# externally redirect /dir/index.php to /dir/
+RewriteCond %{THE_REQUEST} ^GET\s(.*/)index\.php [NC]
+RewriteRule . %1 [NE,R=301,L]
+
+# externally redirect /dir/foo.php to /dir/foo
+RewriteCond %{THE_REQUEST} ^GET\s.+\.php [NC]
+RewriteRule ^(.+)\.php$ /$1 [NE,R=301,L,NC]
+
+# internally forward /dir/foo to /dir/foo.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.+?)/?$ /$1.php [L]

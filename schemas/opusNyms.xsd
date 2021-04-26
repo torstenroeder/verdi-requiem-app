@@ -1,0 +1,1898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+   <simpleType name="opusNym">
+      <list>
+         <simpleType>
+            <restriction base="string">
+               <enumeration value="auber.fra-diavolo">
+                  <annotation>
+                     <documentation>Fra Diavolo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="auber.la-muette-de-portici">
+                  <annotation>
+                     <documentation>La Muette de Portici</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bach.h-moll-messe">
+                  <annotation>
+                     <documentation>H-Moll-Messe</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bach.kantate">
+                  <annotation>
+                     <documentation>Eine Kantate</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bach.so-oft-ich-meine-tabakspfeife">
+                  <annotation>
+                     <documentation>So oft ich meine Tabakspfeife</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.christus-am-oelberge">
+                  <annotation>
+                     <documentation>Christus am Ölberge</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.die-ruinen-von-athen">
+                  <annotation>
+                     <documentation>Die Ruinen von Athen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.fidelio">
+                  <annotation>
+                     <documentation>Fidelio</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.fidelio.don-pizarro">
+                  <annotation>
+                     <documentation>Don Pizarro (Figur in „Fidelio“)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis">
+                  <annotation>
+                     <documentation>Missa Solemnis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.agnus-dei">
+                  <annotation>
+                     <documentation>Agnus Dei</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo">
+                  <annotation>
+                     <documentation>Credo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo.1-123">
+                  <annotation>
+                     <documentation>1–123: Allegro ma non troppo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo.124-143">
+                  <annotation>
+                     <documentation>124–143: Adagio</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo.144-155">
+                  <annotation>
+                     <documentation>144–155: Andante</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo.156-187">
+                  <annotation>
+                     <documentation>156–187: Adagio espressivo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo.188-193">
+                  <annotation>
+                     <documentation>188–193: Allegro</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo.194-263">
+                  <annotation>
+                     <documentation>194–263: Allegro molto</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo.264-305">
+                  <annotation>
+                     <documentation>264–305: Allegro ma non troppo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo.306-371">
+                  <annotation>
+                     <documentation>306–371: Allegretto ma non troppo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo.372-432">
+                  <annotation>
+                     <documentation>372–432: Allegro con moto</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.credo.433-472">
+                  <annotation>
+                     <documentation>433–472: Grave</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.gloria">
+                  <annotation>
+                     <documentation>Gloria</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.gloria.1-130">
+                  <annotation>
+                     <documentation>1–130: Allegro vivace</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.gloria.131-173">
+                  <annotation>
+                     <documentation>131–173: Meno Allegro</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.gloria.174-279">
+                  <annotation>
+                     <documentation>174–279: Tempo I</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.gloria.280-309">
+                  <annotation>
+                     <documentation>280–309: Larghetto</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.gloria.310-359">
+                  <annotation>
+                     <documentation>310–359: Allegro maestoso</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.gloria.360-458">
+                  <annotation>
+                     <documentation>360–458: Allegro, ma non troppo e ben
+					marcato</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.gloria.459-524">
+                  <annotation>
+                     <documentation>459–524: Poco più / Allegro</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.gloria.525-569">
+                  <annotation>
+                     <documentation>525–569: Presto</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.kyrie">
+                  <annotation>
+                     <documentation>Kyrie</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.kyrie.1-85">
+                  <annotation>
+                     <documentation>1–85: Assai sostenuto. Mit Andacht</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.kyrie.86-117">
+                  <annotation>
+                     <documentation>86–117: Andante assai ben marcato</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.kyrie.118-223">
+                  <annotation>
+                     <documentation>118–223: Tempo I</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.missa-solemnis.sanctus">
+                  <annotation>
+                     <documentation>Sanctus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.quartett-131">
+                  <annotation>
+                     <documentation>Quartett Op. 131</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.symphonie-7">
+                  <annotation>
+                     <documentation>Symphonie Nr. 7</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.symphonie-9">
+                  <annotation>
+                     <documentation>Symphonie Nr. 9</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="beethoven.symphonien">
+                  <annotation>
+                     <documentation>Die Symphonien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bellini.dixit-dominus">
+                  <annotation>
+                     <documentation>Dixit Dominus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bellini.i-puritani">
+                  <annotation>
+                     <documentation>I puritani</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bellini.messen">
+                  <annotation>
+                     <documentation>Die Messen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts">
+                  <annotation>
+                     <documentation>Grande Messe des Morts</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts.agnus-dei">
+                  <annotation>
+                     <documentation>Agnus Dei</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts.dies-irae">
+                  <annotation>
+                     <documentation>Dies Irae</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts.hostias">
+                  <annotation>
+                     <documentation>Hostias</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts.lacrimosa">
+                  <annotation>
+                     <documentation>Lacrimosa</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts.offertorium">
+                  <annotation>
+                     <documentation>Offertorium</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts.quaerens-me">
+                  <annotation>
+                     <documentation>Quaerens me</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts.quid-sum-miser">
+                  <annotation>
+                     <documentation>Quid sum miser</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts.requiem-et-kyrie">
+                  <annotation>
+                     <documentation>Requiem et Kyrie</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts.rex-tremendae">
+                  <annotation>
+                     <documentation>Rex tremendae</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlioz.grande-messe-des-morts.sanctus">
+                  <annotation>
+                     <documentation>Sanctus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="boehner.ach-wie-ists-moeglich-dann">
+                  <annotation>
+                     <documentation>Ach, wie ist’s möglich dann</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="boieldieu.la-dame-blanche">
+                  <annotation>
+                     <documentation>La Dame blanche</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="brahms.requiem">
+                  <annotation>
+                     <documentation>Ein deutsches Requiem</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="brahms.variationen-ueber-ein-thema-von-haydn">
+                  <annotation>
+                     <documentation>Variationen über ein Thema von Haydn</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="brumel.missa-pro-defunctis">
+                  <annotation>
+                     <documentation>Missa pro defunctis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cavalli.missa-pro-defunctis">
+                  <annotation>
+                     <documentation>Missa pro defunctis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cherubini.requiem-c-moll">
+                  <annotation>
+                     <documentation>Requiem in c-Moll</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cherubini.requiem-c-moll.agnus-dei">
+                  <annotation>
+                     <documentation>Agnus Dei</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cherubini.requiem-c-moll.dies-irae">
+                  <annotation>
+                     <documentation>Dies irae</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cherubini.requiem-c-moll.graduale">
+                  <annotation>
+                     <documentation>Graduale</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cherubini.requiem-c-moll.introitus">
+                  <annotation>
+                     <documentation>Introitus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cherubini.requiem-c-moll.offertorium">
+                  <annotation>
+                     <documentation>Offertorium</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cherubini.requiem-c-moll.pie-jesu">
+                  <annotation>
+                     <documentation>Pie Jesu</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cherubini.requiem-c-moll.sanctus">
+                  <annotation>
+                     <documentation>Sanctus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cherubini.requiem-d-moll">
+                  <annotation>
+                     <documentation>Requiem in d-Moll</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="chopin.nocturne">
+                  <annotation>
+                     <documentation>Ein Nocturne von Chopin</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="donizetti.ave-maria">
+                  <annotation>
+                     <documentation>Ave Maria</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="donizetti.linda-di-chamounix">
+                  <annotation>
+                     <documentation>Linda di Chamounix</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="donizetti.maria-di-rohan">
+                  <annotation>
+                     <documentation>Maria di Rohan</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="donizetti.miserere">
+                  <annotation>
+                     <documentation>Miserere</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="garat.la-fileuse">
+                  <annotation>
+                     <documentation>La fileuse</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="geisler.monologe">
+                  <annotation>
+                     <documentation>Monologe</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="glinka.ein-leben-fuer-den-zaren">
+                  <annotation>
+                     <documentation>Ein Leben für den Zaren</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gluck.iphigenie-en-aulide">
+                  <annotation>
+                     <documentation>Iphigénie en Aulide</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gluck.iphigenie-en-aulide.ouverture">
+                  <annotation>
+                     <documentation>Ouverture</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gluck.iphigenie-en-tauride">
+                  <annotation>
+                     <documentation>Iphigénie en Tauride</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="godefroid.thautropfen">
+                  <annotation>
+                     <documentation>Thautropfen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="goetz.der-widerspenstigen-zaehmung">
+                  <annotation>
+                     <documentation>Der Widerspenstigen Zähmung </documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="goldmark.die-koenigin-von-saba">
+                  <annotation>
+                     <documentation>Die Königin von Saba</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gounod.faust">
+                  <annotation>
+                     <documentation>Faust</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gounod.faust.4.3.szene-in-der-kirche">
+                  <annotation>
+                     <documentation>4. Akt, 3. Szene. Szene in der Kirche</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gounod.ho-messo-nuove-corde-al-mandolino">
+                  <annotation>
+                     <documentation>Ho messo nuove corde al mandolino</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gounod.messe-breve-pour-les-morts">
+                  <annotation>
+                     <documentation>Messe brève pour les morts</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graun.der-tod-jesu">
+                  <annotation>
+                     <documentation>Der Tod Jesu</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haendel.messiah">
+                  <annotation>
+                     <documentation>Der Messias</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hauser.lieder-ohne-worte">
+                  <annotation>
+                     <documentation>Lieder ohne Worte für die Violine</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hauser.ungarische-rhapsodie">
+                  <annotation>
+                     <documentation>Ungarische Rhapsodie</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haydn.die-jahreszeiten">
+                  <annotation>
+                     <documentation>Die Jahreszeiten</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haydn.die-schoepfung">
+                  <annotation>
+                     <documentation>Die Schöpfung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haydn.die-schoepfung.holde-gattin">
+                  <annotation>
+                     <documentation>Holde Gattin, dir zur Seite</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haydn.die-schoepfung.von-deiner-guet">
+                  <annotation>
+                     <documentation>Von deiner Güt, o Herr und Gott</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="haydn.messen">
+                  <annotation>
+                     <documentation>Die Messen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="heil-dir-im-siegerkranz">
+                  <annotation>
+                     <documentation>Heil dir im Siegerkranz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hiller.die-zerstoerung-jerusalems">
+                  <annotation>
+                     <documentation>Die Zerstörung Jerusalems</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hiller.die-zerstoerung-jerusalems.ach-waer-mein-haupt">
+                  <annotation>
+                     <documentation>Ach wär mein Haupt eine Wasserquelle (Duett)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hiller.symphonie-e-moll">
+                  <annotation>
+                     <documentation>Symphonie in e-Moll</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="jommelli.requiem">
+                  <annotation>
+                     <documentation>Requiem</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kiel.requiem-as-moll">
+                  <annotation>
+                     <documentation>Requiem in As-Dur </documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kiel.requiem-f-moll">
+                  <annotation>
+                     <documentation>Requiem in f-Moll</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="l-adieu">
+                  <annotation>
+                     <documentation>L’adieu (Air béarnois)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="la-rue.missa-pro-defunctis">
+                  <annotation>
+                     <documentation>Missa pro defunctis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lachner.requiem">
+                  <annotation>
+                     <documentation>Requiem</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lasso.audite-nova">
+                  <annotation>
+                     <documentation>Audite Nova!</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="liszt.au-bord-d-une-source">
+                  <annotation>
+                     <documentation>Au bord d’une source</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="liszt.missa-solemnis">
+                  <annotation>
+                     <documentation>Missa solemnis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="massenet.nuit-d-espagne">
+                  <annotation>
+                     <documentation>Nuit d’Espagne</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mehul.joseph">
+                  <annotation>
+                     <documentation>Joseph</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mendelssohn-bartholdy.ein-sommernachtstraum">
+                  <annotation>
+                     <documentation>Ein Sommernachtstraum</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mendelssohn-bartholdy.elias">
+                  <annotation>
+                     <documentation>Elias</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mendelssohn-bartholdy.lieder-ohne-worte">
+                  <annotation>
+                     <documentation>Lieder ohne Worte</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mendelssohn-bartholdy.paulus">
+                  <annotation>
+                     <documentation>Paulus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="messa-per-rossini">
+                  <annotation>
+                     <documentation>Messa per Rossini</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="meyerbeer.l-africaine">
+                  <annotation>
+                     <documentation>L’Africaine</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="meyerbeer.l-africaine.5.21.grande-scene-du-mancenillier">
+                  <annotation>
+                     <documentation>Acte V. No. 21. Grande scène du mancenillier</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="meyerbeer.le-prophete">
+                  <annotation>
+                     <documentation>Le prophète</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="meyerbeer.robert-le-diable">
+                  <annotation>
+                     <documentation>Robert le diable</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="meyerbeer.robert-le-diable.bertram">
+                  <annotation>
+                     <documentation>Bertram (Figur in „Robert le diable“)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="monteverdi.il-combattimento-di-tancredi-e-clorinda">
+                  <annotation>
+                     <documentation>Il Combattimento di Tancredi e Clorinda</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="monteverdi.messa-di-requiem">
+                  <annotation>
+                     <documentation>Messa di requiem</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.adagio-und-fuge-c-moll">
+                  <annotation>
+                     <documentation>Adagio und Fuge in c-Moll</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.die-zauberfloete">
+                  <annotation>
+                     <documentation>Die Zauberflöte</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.die-zauberfloete.gesang-der-geharnischten-maenner">
+                  <annotation>
+                     <documentation>Gesang der Geharnischten Männer</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.die-zauberfloete.ouvertuere">
+                  <annotation>
+                     <documentation>Ouvertüre</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.don-giovanni">
+                  <annotation>
+                     <documentation>Don Giovanni</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.idomeneo">
+                  <annotation>
+                     <documentation>Idomeneo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.messen">
+                  <annotation>
+                     <documentation>Die Messen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem">
+                  <annotation>
+                     <documentation>Requiem</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.1-introitus">
+                  <annotation>
+                     <documentation>Introitus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.2-kyrie">
+                  <annotation>
+                     <documentation>Kyrie</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.3-sequentia">
+                  <annotation>
+                     <documentation>Sequentia</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.3.1-dies-irae">
+                  <annotation>
+                     <documentation>Dies irae</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.3.2-tuba-mirum">
+                  <annotation>
+                     <documentation>Tuba mirum</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.3.3-rex-tremendae">
+                  <annotation>
+                     <documentation>Rex tremendae</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.3.4-recordare">
+                  <annotation>
+                     <documentation>Recordare</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.3.5-confutatis">
+                  <annotation>
+                     <documentation>Confutatis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.3.6-lacrimosa">
+                  <annotation>
+                     <documentation>Lacrimosa</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.4-offertorium">
+                  <annotation>
+                     <documentation>Offertorium</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.5-sanctus-benedictus">
+                  <annotation>
+                     <documentation>Sanctus &amp; Benedictus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.6-agnus-dei">
+                  <annotation>
+                     <documentation>Agnus Dei</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mozart.requiem.7-communio">
+                  <annotation>
+                     <documentation>Communio</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ni-jamais-ni-toujours">
+                  <annotation>
+                     <documentation>Ni jamais, ni toujours</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paisiello.il-barbiere-di-siviglia">
+                  <annotation>
+                     <documentation>Il barbiere di Siviglia</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paisiello.il-barbiere-di-siviglia.1.6">
+                  <annotation>
+                     <documentation>Saper bramate, bello il mio nome</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pergolesi.stabat-mater">
+                  <annotation>
+                     <documentation>Stabat Mater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pitoni.requiem">
+                  <annotation>
+                     <documentation>Ein Requiem von Pitoni</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ponchielli.i-lituani">
+                  <annotation>
+                     <documentation>I Lituani</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prioris.requiem">
+                  <annotation>
+                     <documentation>Requiem</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="richafort.requiem">
+                  <annotation>
+                     <documentation>Requiem</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="richter.ewige-ruhe">
+                  <annotation>
+                     <documentation>Ewige Ruhe</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rossini.guillaume-tell">
+                  <annotation>
+                     <documentation>Guillaume Tell</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rossini.il-barbiere-di-siviglia">
+                  <annotation>
+                     <documentation>Il barbiere di Siviglia</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rossini.mose-in-egitto">
+                  <annotation>
+                     <documentation>Mosè in Egitto</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rossini.petite-messe-solennelle">
+                  <annotation>
+                     <documentation>Petite Messe solennelle</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rossini.semiramide">
+                  <annotation>
+                     <documentation>Semiramide</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rossini.stabat-mater">
+                  <annotation>
+                     <documentation>Stabat mater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rossini.zelmira">
+                  <annotation>
+                     <documentation>Zelmira</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rubinstein.das-verlorene-paradies">
+                  <annotation>
+                     <documentation>Das verlorene Paradies</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="scarlatti.allegro">
+                  <annotation>
+                     <documentation>Ein Allegro von Scarlatti</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schubert.trauermarsch">
+                  <annotation>
+                     <documentation>Trauermarsch (?)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schumann.manfred">
+                  <annotation>
+                     <documentation>Ouvertüre zu „Manfred“</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schumann.quartett">
+                  <annotation>
+                     <documentation>Ein Quartett von Schumann</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schumann.requiem">
+                  <annotation>
+                     <documentation>Requiem</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schumann.ritornelle-in-canonischen-weisen">
+                  <annotation>
+                     <documentation>Ritornelle in canonischen Weisen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schumann.symphonie-4">
+                  <annotation>
+                     <documentation>Symphonie Nr. 4</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="spohr.faust">
+                  <annotation>
+                     <documentation>Faust</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="spohr.faust.arie">
+                  <annotation>
+                     <documentation>Eine Faust-Arie von Spohr</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="svendsen.sigurd-slembe">
+                  <annotation>
+                     <documentation>Ouvertüre zu „Sigurd Slembe“</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="thalberg.fantaisie-sur-l-opera-lucrezia-borgia">
+                  <annotation>
+                     <documentation>Fantaisie sur l’opéra Lucrezia Borgia de Donizetti</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="unidentified">
+                  <annotation>
+                     <documentation>? (nicht identifiziertes Werk)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi-lebeau.requiem">
+                  <annotation>
+                     <documentation>Messa da requiem (für Chor und Orgel)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.aida">
+                  <annotation>
+                     <documentation>Aida</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.aida.amneris">
+                  <annotation>
+                     <documentation>Amneris (Figur in „Aida“)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.aida.amneris-und-die-priester">
+                  <annotation>
+                     <documentation>Amneris und die Priester (Szene in „Aida“)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.aida.radames">
+                  <annotation>
+                     <documentation>Radames (Figur in „Aida“)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.attila">
+                  <annotation>
+                     <documentation>Attila</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.don-carlos">
+                  <annotation>
+                     <documentation>Don Carlos</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.ernani">
+                  <annotation>
+                     <documentation>Ernani</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.i-due-foscari">
+                  <annotation>
+                     <documentation>I due Foscari</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.i-lombardi">
+                  <annotation>
+                     <documentation>I Lombardi alla prima Crociata</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.i-masnadieri">
+                  <annotation>
+                     <documentation>I masnadieri</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.i-vespri-siciliani">
+                  <annotation>
+                     <documentation>I vespri siciliani</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.il-trovatore">
+                  <annotation>
+                     <documentation>Il Trovatore</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.il-trovatore.manrico">
+                  <annotation>
+                     <documentation>Manrico (Figur in „Il Trovatore“)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.la-forza-del-destino">
+                  <annotation>
+                     <documentation>La forza del destino</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.la-traviata">
+                  <annotation>
+                     <documentation>La traviata</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.luisa-miller">
+                  <annotation>
+                     <documentation>Luisa Miller</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.macbeth">
+                  <annotation>
+                     <documentation>Macbeth</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.nabucco">
+                  <annotation>
+                     <documentation>Nabucco</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.oberto">
+                  <annotation>
+                     <documentation>Oberto, Conte di San Bonifacio</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.otello">
+                  <annotation>
+                     <documentation>Otello</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.quartetto">
+                  <annotation>
+                     <documentation>Quartetto</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem">
+                  <annotation>
+                     <documentation>Messa da requiem</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1">
+                  <annotation>
+                     <documentation>Requiem e Kyrie</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.introitus">
+                  <annotation>
+                     <documentation>
+					Requiem aeternam
+						dona eis, Domine,
+					et lux perpetua luceat
+						eis.
+					Te decet Hymnus,
+						Deus, in Sion, et ubi reddetur votum in Jerusalem.
+					Exaudi orationem meam, ad
+						te omnis caro veniet.
+					Requiem
+						aeternam dona eis, Domine,
+					et lux perpetua luceat
+						eis.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.requiem-aeternam">
+                  <annotation>
+                     <documentation>Requiem aeternam
+						dona eis, Domine,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.et-lux">
+                  <annotation>
+                     <documentation>et lux perpetua luceat
+						eis.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.te-decet-hymnus">
+                  <annotation>
+                     <documentation>Te decet Hymnus,
+						Deus, in Sion, et ubi reddetur votum in Jerusalem.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.exaudi">
+                  <annotation>
+                     <documentation>Exaudi orationem meam, ad
+						te omnis caro veniet.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.requiem-aeternam.r">
+                  <annotation>
+                     <documentation>Requiem
+						aeternam dona eis, Domine,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.et-lux.r">
+                  <annotation>
+                     <documentation>et lux perpetua luceat
+						eis.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.kyrie">
+                  <annotation>
+                     <documentation>
+					Kyrie eleison.
+					Christe eleison.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.kyrie.kyrie-eleison">
+                  <annotation>
+                     <documentation>Kyrie eleison.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.kyrie.christe-eleison">
+                  <annotation>
+                     <documentation>Christe eleison.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.1-78">
+                  <annotation>
+                     <documentation>1–78: 
+					Requiem aeternam
+						dona eis, Domine,
+					et lux perpetua luceat
+						eis.
+					Te decet Hymnus,
+						Deus, in Sion, et ubi reddetur votum in Jerusalem.
+					Exaudi orationem meam, ad
+						te omnis caro veniet.
+					Requiem
+						aeternam dona eis, Domine,
+					et lux perpetua luceat
+						eis.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.1-16">
+                  <annotation>
+                     <documentation>1–16: Requiem aeternam
+						dona eis, Domine,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.17-27">
+                  <annotation>
+                     <documentation>17–27: et lux perpetua luceat
+						eis.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.28-44">
+                  <annotation>
+                     <documentation>28–44: Te decet Hymnus,
+						Deus, in Sion, et ubi reddetur votum in Jerusalem.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.45-55">
+                  <annotation>
+                     <documentation>45–55: Exaudi orationem meam, ad
+						te omnis caro veniet.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.56-66">
+                  <annotation>
+                     <documentation>56–66: Requiem
+						aeternam dona eis, Domine,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.67-78">
+                  <annotation>
+                     <documentation>67–78: et lux perpetua luceat
+						eis.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.1.78-140">
+                  <annotation>
+                     <documentation>78–140: 
+					Kyrie eleison.
+					Christe eleison.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2">
+                  <annotation>
+                     <documentation>Dies irae</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.confutatis">
+                  <annotation>
+                     <documentation>Confutatis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.confutatis.confutatis">
+                  <annotation>
+                     <documentation>Confutatis maledictis,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.confutatis.oro-supplex">
+                  <annotation>
+                     <documentation>Oro supplex et acclinis,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.confutatis.dies-irae">
+                  <annotation>
+                     <documentation>Dies irae, dies illa</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.confutatis.503-573">
+                  <annotation>
+                     <documentation>503–573: 
+							Confutatis maledictis,
+							flammis acribus addictis,
+							voca me cum benedictis.
+							Oro supplex et acclinis,
+							cor contritum quasi cinis,
+							gere curam mei finis.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.confutatis.573-623">
+                  <annotation>
+                     <documentation>573–623: 
+							Dies irae, dies illa
+							solvet saeclum in favilla,
+							teste David cum Sibylla.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.dies-irae">
+                  <annotation>
+                     <documentation>Dies irae</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.dies-irae.dies-irae">
+                  <annotation>
+                     <documentation>Dies irae, dies illa</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.dies-irae.quantus-tremor">
+                  <annotation>
+                     <documentation>Quantus tremor est
+								futurus,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.dies-irae.1-73">
+                  <annotation>
+                     <documentation>1–73: 
+							Dies irae, dies illa
+							solvet saeclum in favilla,
+							teste David cum Sibylla.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.dies-irae.74-91">
+                  <annotation>
+                     <documentation>74–91: 
+							Quantus tremor est
+								futurus,
+							quando judex est venturus,
+							cuncta stricte discussurus.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.ingemisco">
+                  <annotation>
+                     <documentation>Ingemisco</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.ingemisco.ingemisco">
+                  <annotation>
+                     <documentation>Ingemisco, tamquam reus,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.ingemisco.qui-mariam">
+                  <annotation>
+                     <documentation>Qui Mariam absolvisti,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.ingemisco.preces-meae">
+                  <annotation>
+                     <documentation>Preces meae non sunt
+								dignae,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.ingemisco.inter-oves">
+                  <annotation>
+                     <documentation>Inter oves locum praesta,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.ingemisco.447-456">
+                  <annotation>
+                     <documentation>447–456: 
+							Ingemisco, tamquam reus,
+							culpa rubet vultus meus,
+							supplicanti parce, Deus.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.ingemisco.457-502">
+                  <annotation>
+                     <documentation>457–502: 
+							Qui Mariam absolvisti,
+							et latronem exaudisti,
+							mihi quoque spem dedisti.
+							Preces meae non sunt
+								dignae,
+							sed tu bonus fac benigne,
+							ne perenni cremer igne.
+							Inter oves locum praesta,
+							et ab haedis me sequestra,
+							statuens in parte dextra.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.lacrymosa">
+                  <annotation>
+                     <documentation>Lacrymosa</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.lacrymosa.lacrymosa">
+                  <annotation>
+                     <documentation>Lacrymosa dies illa,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.lacrymosa.pie-jesu">
+                  <annotation>
+                     <documentation>pie Jesu Domine,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.lacrymosa.dona-eis">
+                  <annotation>
+                     <documentation>dona eis requiem. Amen.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.lacrymosa.624-665">
+                  <annotation>
+                     <documentation>624–665: 
+							Lacrymosa dies illa,
+							qua resurget ex favilla,
+							judicandus homo reus.
+							Huic ergo parce, Deus,
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.lacrymosa.666-701">
+                  <annotation>
+                     <documentation>666–701: 
+							pie Jesu Domine,
+							dona eis requiem. Amen.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.liber-scriptus">
+                  <annotation>
+                     <documentation>Liber Scriptus (1875)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.liber-scriptus.liber-scriptus">
+                  <annotation>
+                     <documentation>Liber scriptus
+								proferetur,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.liber-scriptus.judex-ergo">
+                  <annotation>
+                     <documentation>Judex ergo cum sedebit,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.liber-scriptus.dies-irae">
+                  <annotation>
+                     <documentation>Dies irae, dies illa</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.liber-scriptus.162-177">
+                  <annotation>
+                     <documentation>162–177: 
+							Liber scriptus
+								proferetur,
+							in quo totum continetur,
+							unde mundus judicetur.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.liber-scriptus.178-229">
+                  <annotation>
+                     <documentation>178–229: 
+							Judex ergo cum sedebit,
+							quidquid latet, apparebit,
+							nil inultum remanebit.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.liber-scriptus.229-269">
+                  <annotation>
+                     <documentation>229–269: 
+							Dies irae, dies illa
+							solvet saeclum in favilla,
+							teste David cum Sibylla.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.liber-scriptus.1874">
+                  <annotation>
+                     <documentation>Liber Scriptus (1874)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.quid-sum-miser">
+                  <annotation>
+                     <documentation>Quid sum miser</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.quid-sum-miser.quid-sum-miser">
+                  <annotation>
+                     <documentation>Quid sum miser tunc
+								dicturus?</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.quid-sum-miser.270-321">
+                  <annotation>
+                     <documentation>270–321: 
+							Quid sum miser tunc
+								dicturus?
+							Quem patronum rogaturus,
+							cum vix justus sit securus?
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.recordare">
+                  <annotation>
+                     <documentation>Recordare</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.recordare.recordare">
+                  <annotation>
+                     <documentation>Recordare, Jesu pie,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.recordare.quaerens-me">
+                  <annotation>
+                     <documentation>Quaerens me, sedisti
+								lassus,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.recordare.juste-judex">
+                  <annotation>
+                     <documentation>Juste judex ultionis,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.recordare.donum-fac">
+                  <annotation>
+                     <documentation>donum fac remissionis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.recordare.383-408">
+                  <annotation>
+                     <documentation>383–408: 
+							Recordare, Jesu pie,
+							quod sum causa tuae viae,
+							ne me perdas illa die.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.recordare.408-446">
+                  <annotation>
+                     <documentation>408–446: 
+							Quaerens me, sedisti
+								lassus,
+							redemisti crucem passus;
+							tantus labor non sit cassus.
+							Juste judex ultionis,
+							donum fac remissionis
+							ante diem rationis.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.rex-tremendae">
+                  <annotation>
+                     <documentation>Rex tremendae</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.rex-tremendae.rex-tremendae">
+                  <annotation>
+                     <documentation>Rex tremendae
+								majestatis,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.rex-tremendae.qui-salvandos">
+                  <annotation>
+                     <documentation>qui salvandos salvas
+								gratis,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.rex-tremendae.salva-me">
+                  <annotation>
+                     <documentation>salva me, fons pietatis.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.rex-tremendae.322-382">
+                  <annotation>
+                     <documentation>322–382: 
+							Rex tremendae
+								majestatis,
+							qui salvandos salvas
+								gratis,
+							salva me, fons pietatis.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.tuba-mirum">
+                  <annotation>
+                     <documentation>Tuba mirum</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.tuba-mirum.tuba-mirum">
+                  <annotation>
+                     <documentation>Tuba mirum spargens sonum</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.tuba-mirum.mors-stupebit">
+                  <annotation>
+                     <documentation>Mors stupebit et
+								natura,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.tuba-mirum.91-139">
+                  <annotation>
+                     <documentation>91–139: 
+							Tuba mirum spargens sonum
+							per sepulchra regionum,
+							coget omnes ante thronum.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.2.tuba-mirum.140-161">
+                  <annotation>
+                     <documentation>140–161: 
+							Mors stupebit et
+								natura,
+							cum resurget creatura,
+							judicanti responsura.
+						</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3">
+                  <annotation>
+                     <documentation>Domine Jesu</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3.domine-jesu">
+                  <annotation>
+                     <documentation>Domine Jesu Christe, Rex gloriae,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3.quam-olim-abrahae">
+                  <annotation>
+                     <documentation>quam olim Abrahae
+						promisisti</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3.hostias">
+                  <annotation>
+                     <documentation>Hostias et preces tibi, Domine,
+						laudis</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3.quam-olim-abrahae.r">
+                  <annotation>
+                     <documentation>Quam olim Abrahae
+						promisisti</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3.libera-animas">
+                  <annotation>
+                     <documentation>Libera animas omnium fidelium</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3.1-89">
+                  <annotation>
+                     <documentation>1–89: 
+					Domine Jesu Christe, Rex gloriae,
+					libera animas omnium fidelium
+					defunctorum de poenis inferni
+					et de profundo lacu:
+					Libera eas de ore leonis,
+					ne absorbeat eas tartarus,
+					ne cadant in obscurum:
+					sed signifer sanctus Michael
+					repraesentet eas in lucem sanctam:
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3.89-118">
+                  <annotation>
+                     <documentation>89–118: 
+					quam olim Abrahae
+						promisisti
+					et semini ejus.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3.118-163">
+                  <annotation>
+                     <documentation>118–163: 
+					Hostias et preces tibi, Domine,
+						laudis
+					offerimus: tu suscipe pro animabus illis
+					quarum hodie memonam facimus:
+					Fac eas, Domine, de morte
+					transire ad vitam.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3.163-198">
+                  <annotation>
+                     <documentation>163–198: 
+					Quam olim Abrahae
+						promisisti
+					et semini ejus.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.3.198-222">
+                  <annotation>
+                     <documentation>198–222: 
+					Libera animas omnium fidelium
+					defunctorum de poenis inferni,
+					fac eas de morte transire ad vitam.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.4">
+                  <annotation>
+                     <documentation>Sanctus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.4.sanctus">
+                  <annotation>
+                     <documentation>Sanctus, Sanctus, Sanctus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.4.pleni">
+                  <annotation>
+                     <documentation>Pleni sunt coeli et terra gloria tua.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.4.hosanna">
+                  <annotation>
+                     <documentation>Hosanna in excelsis.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.4.benedictus">
+                  <annotation>
+                     <documentation>Benedictus, qui venit in nomine
+						Domini.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.4.hosanna.r">
+                  <annotation>
+                     <documentation>Hosanna in excelsis.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.4.1-139">
+                  <annotation>
+                     <documentation>1–139: 
+					Sanctus, Sanctus, Sanctus
+					Dominus, Deus Sabaoth.
+					Pleni sunt coeli et terra gloria tua.
+					Hosanna in excelsis.
+					Benedictus, qui venit in nomine
+						Domini.
+					Hosanna in excelsis.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.4.41-">
+                  <annotation>
+                     <documentation>41–: Benedictus, qui venit in nomine
+						Domini.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.5">
+                  <annotation>
+                     <documentation>Agnus Dei</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.5.1-74">
+                  <annotation>
+                     <documentation>1–74: 
+					Agnus Dei, qui tollis peccata mundi, dona eis
+						requiem.
+					Agnus Dei, qui tollis peccata mundi, dona eis requiem
+						sempiternam.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.6">
+                  <annotation>
+                     <documentation>Lux aeterna</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.6.lux-aeterna">
+                  <annotation>
+                     <documentation>Lux aeterna luceat eis, Domine:</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.6.requiem-aeternam">
+                  <annotation>
+                     <documentation>Requiem aeternam dona eis,
+						Domine,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.6.1-105">
+                  <annotation>
+                     <documentation>1–105: 
+					Lux aeterna luceat eis, Domine:
+					Cum sanctis tuis in aeternum:
+					quia pius es.
+					Requiem aeternam dona eis,
+						Domine,
+					et lux perpetua luceat eis.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7">
+                  <annotation>
+                     <documentation>Libera me</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.libera-me">
+                  <annotation>
+                     <documentation>Libera me, Domine, de morte
+						aeterna,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.tremens-factus">
+                  <annotation>
+                     <documentation>Tremens factus sum ego et
+						timeo.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.dies-irae">
+                  <annotation>
+                     <documentation>Dies irae, dies illa,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.requiem-aeternam">
+                  <annotation>
+                     <documentation>Requiem aeternam dona eis,
+						Domine,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.et-lux">
+                  <annotation>
+                     <documentation>et lux perpetua luceat eis.</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.libera-me.fuga">
+                  <annotation>
+                     <documentation>Libera me, Domine, de morte
+						aeterna,</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.domine">
+                  <annotation>
+                     <documentation>
+					Domine, Domine, Domine, libera, libera, libera me
+					de morte aeterna, in die illa tremenda,
+					libera me, libera me, Domine,
+					de morte aeterna, in die illa tremenda.
+					Libera me.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.1-44">
+                  <annotation>
+                     <documentation>1–44: 
+					Libera me, Domine, de morte
+						aeterna,
+					in die illa tremenda,
+					quando coeli movendi sunt et terra.
+					Dum veneris judicare saeculum per ignem.
+					Tremens factus sum ego et
+						timeo.
+					dum discussio venent atque Ventura ira;
+					quando coeli movendi sunt et terra.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.45-131">
+                  <annotation>
+                     <documentation>45–131: 
+					Dies irae, dies illa,
+					calamitatis et miseriae,
+					dies magna et amara valde.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.132-170">
+                  <annotation>
+                     <documentation>132–170: 
+					Requiem aeternam dona eis,
+						Domine,
+					et lux perpetua luceat eis.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.171-381">
+                  <annotation>
+                     <documentation>171–381: 
+					Libera me, Domine, de morte
+						aeterna,
+					in die illa tremenda,
+					quando coeli movendi sunt et terra.
+					Dum veneris judicare saeculum per ignem.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.requiem.7.381-421">
+                  <annotation>
+                     <documentation>381–421: 
+					Domine, Domine, Domine, libera, libera, libera me
+					de morte aeterna, in die illa tremenda,
+					libera me, libera me, Domine,
+					de morte aeterna, in die illa tremenda.
+					Libera me.
+				</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.rigoletto">
+                  <annotation>
+                     <documentation>Rigoletto</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.rigoletto.3.14.v-ho-ingannato">
+                  <annotation>
+                     <documentation>3. Akt, 14. Szene: Duett „V’ho ingannato … colpevole fui …“
+					(Gilda/Rigoletto)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.simon-boccanegra">
+                  <annotation>
+                     <documentation>Simon Boccanegra</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.un-ballo-in-maschera">
+                  <annotation>
+                     <documentation>Un ballo in maschera</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="verdi.un-giorno-di-regno">
+                  <annotation>
+                     <documentation>Un giorno di regno</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="volkmann.serenade.1">
+                  <annotation>
+                     <documentation>Serenade Nr. 1 C-Dur op. 62 für Streicher (1869)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="volkmann.serenade.2">
+                  <annotation>
+                     <documentation>Serenade Nr. 2 F-Dur op. 63 für Streicher (1869)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="volkmann.serenade.3">
+                  <annotation>
+                     <documentation>Serenade Nr. 3 d-Moll op. 69 für Violoncello und Streicher (1870)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="volkmann.serenaden">
+                  <annotation>
+                     <documentation>Serenaden</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.der-fliegende-hollaender">
+                  <annotation>
+                     <documentation>Der fliegende Holländer</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.der-fliegende-hollaender.gespensterchor">
+                  <annotation>
+                     <documentation>Gespensterchor</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.goetterdaemmerung">
+                  <annotation>
+                     <documentation>Götterdämmerung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.lohengrin">
+                  <annotation>
+                     <documentation>Lohengrin</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.rienzi">
+                  <annotation>
+                     <documentation>Rienzi</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.siegfried">
+                  <annotation>
+                     <documentation>Siegfried</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.tannhaeuser">
+                  <annotation>
+                     <documentation>Tannhäuser</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.tannhaeuser.1.1.venusberg">
+                  <annotation>
+                     <documentation>Erster Aufzug, Szene 1. Im Venusberg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wagner.tristan-und-isolde">
+                  <annotation>
+                     <documentation>Tristan und Isolde</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weber.euryanthe">
+                  <annotation>
+                     <documentation>Euryanthe</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weber.euryanthe.ouvertuere">
+                  <annotation>
+                     <documentation>Ouverture</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weber.freischuetz">
+                  <annotation>
+                     <documentation>Der Freischütz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weber.freischuetz.kaspar">
+                  <annotation>
+                     <documentation>Kaspar (Figur in „Der Freischütz“)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weber.freischuetz.samiel">
+                  <annotation>
+                     <documentation>Samiel (Figur in „Der Freischütz“)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="yradier.la-calesera">
+                  <annotation>
+                     <documentation>La calesera</documentation>
+                  </annotation>
+               </enumeration>
+            </restriction>
+         </simpleType>
+      </list>
+   </simpleType>
+</schema>

@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/lists.xsd"?>
+
+<orgList>
+
+	<!--
+	* Neapel -> san carlo, orchester
+	* vermerken, ob digitalisiert?
+	* orte vermerken
+	* entstehung / auflösung vermerken
+	* schema anpassen! beschreibung ggf. kürzen
+	* mit role=pubPlace etc. arbeiten?
+	* jeweilige Digitalisate vermerken (resource!)
+	-->
+
+	<!-- MUSIKZEITSCHRIFTEN -->
+
+	<orgListItem nym="admz">
+		<id authority="zdb">505313-4</id>
+		<id authority="gnd">947263810</id>
+		<name>Allgemeine deutsche Musikzeitung</name>
+		<name type="secondary">Wochenschrift für die Reform des Musiklebens der Gegenwart</name>
+		<name type="index">Allgemeine deutsche Musikzeitung [Berlin]</name>
+		<name type="full">Allgemeine deutsche Musikzeitung (1874)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<place nym="berlin"/>
+		<description>erschien wöchentlich (Freitags) <date>1874–1884</date> in Charlottenburg
+			(zuerst in Leipzig und Kassel)</description>
+		<description>durchlaufend paginiert</description>
+		<resource type="de.wikipedia.org">Allgemeine_deutsche_Musikzeitung</resource>
+		<resource type="de.wikisource.org"
+			>Die_Musikalischen_Zeitschriften_seit_ihrer_Entstehung_bis_zur_Gegenwart</resource>
+	</orgListItem>
+	<orgListItem nym="amz">
+		<id authority="zdb">505329-8</id>
+		<id authority="gnd">012650633</id>
+		<name>Allgemeine musikalische Zeitung</name>
+		<name type="index">Allgemeine musikalische Zeitung [Leipzig]</name>
+		<name type="index">Leipziger allgemeine musikalische Zeitung</name>
+		<name type="full">Allgemeine musikalische Zeitung (1798)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien 1798–1848 / 1863–1865 / 1869–1882 in Leipzig und Winterthur bei
+			J. Rieter-Biedermann</description>
+		<description>durchlaufend nach Spalten paginiert</description>
+		<resource type="de.wikipedia.org">Allgemeine_musikalische_Zeitung</resource>
+		<resource type="de.wikisource.org">Allgemeine_musikalische_Zeitung</resource>
+		<resource type="de.wikisource.org"
+			>Die_Musikalischen_Zeitschriften_seit_ihrer_Entstehung_bis_zur_Gegenwart</resource>
+	</orgListItem>
+	<orgListItem nym="bmze">
+		<id authority="zdb">895483-5</id>
+		<name type="index">Berliner Musik-Zeitung Echo</name>
+		<name type="full">Berliner Musik-Zeitung Echo (1851)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien 1851–1879 in Berlin bei Schlesinger</description>
+		<resource type="de.wikisource.org"
+			>Die_Musikalischen_Zeitschriften_seit_ihrer_Entstehung_bis_zur_Gegenwart</resource>
+	</orgListItem>
+	<orgListItem nym="caecilia">
+		<id authority="zdb">551812-x</id>
+		<id authority="zdb">2169356-0</id>
+		<id authority="gnd">947509895</id>
+		<name>Cäcilia</name>
+		<name type="secondary">Eine Zeitschrift für die musikalische Welt</name>
+		<name type="index">Cäcilia [Mainz]</name>
+		<name type="full">Cäcilia (1824)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1824" to="1848">1824–1848</date> in <place nym="mainz"
+				>Mainz</place></description>
+	</orgListItem>
+	<orgListItem nym="dmz">
+		<id authority="zdb">997201-8</id>
+		<name>Deutsche Musik-Zeitung</name>
+		<name type="secondary">Organ für Theater und Kunst</name>
+		<name type="index">Deutsche Musik-Zeitung [Wien]</name>
+		<name type="full">Deutsche Musik-Zeitung (1874)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1874–1902</date> in <place nym="wien">Wien</place> bei
+			Steyrermühl</description>
+		<resource type="de.wikipedia.org">Deutsche_Musik-Zeitung</resource>
+		<resource type="anno.onb.ac.at">dmz</resource>
+	</orgListItem>
+	<orgListItem nym="euterpe">
+		<id authority="zdb">521313-7</id>
+		<id authority="gnd">551852216</id>
+		<name>Euterpe</name>
+		<name type="secondary">Eine Musik-Zeitschrift für Deutschlands Volksschullehrer sowie für
+			Cantoren, Organisten, Musiklehrer und Freunde der Tonkunst überhaupt</name>
+		<name type="index">Euterpe [Leipzig]</name>
+		<name type="full">Euterpe (1841)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1841–1884</date> in <place nym="leipzig"
+			>Leipzig</place></description>
+		<description>durchlaufend paginiert</description>
+		<resource type="de.wikipedia.org">Euterpe_(Musikzeitschrift)</resource>
+		<resource type="de.wikisource.org"
+			>Die_Musikalischen_Zeitschriften_seit_ihrer_Entstehung_bis_zur_Gegenwart</resource>
+	</orgListItem>
+	<orgListItem nym="fbkk">
+		<id authority="zdb">551262-1</id>
+		<name>Fliegende Blätter für katholische Kirchenmusik</name>
+		<name type="index">Fliegende Blätter für katholische Kirchenmusik [Regensburg]</name>
+		<name type="full">Fliegende Blätter für katholische Kirchenmusik (1866)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1866" to="1899">1866–1899</date> in <place
+				nym="regensburg">Regensburg</place> bei Pustet</description>
+	</orgListItem>
+	<orgListItem nym="mfmg">
+		<id authority="zdb">206475-3</id>
+		<name>Monatshefte für Musik-Geschichte</name>
+		<name type="index">Monatshefte für Musik-Geschichte [Berlin]</name>
+		<name type="full">Monatshefte für Musik-Geschichte (1869)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1869–1883</date> in <place nym="berlin">Berlin</place> bei
+			Trautwein / Bahn / Liepmannssohn</description>
+		<description>erschien <date>1884–1905</date> in <place nym="leipzig">Leipzig</place> bei
+			Breitkopf &amp; Härtel</description>
+		<resource type="de.wikisource.org">Monatshefte_für_Musik-Geschichte</resource>
+	</orgListItem>
+	<orgListItem nym="mlmb">
+		<id authority="zdb">960931-3</id>
+		<name>Musikalisch literarischer Monatsbericht</name>
+		<name type="full">Musikalisch literarischer Monatsbericht über neue Musikalien, musikalische
+			Schriften und Abbildungen</name>
+		<name type="index">Musikalisch literarischer Monatsbericht [Leipzig]</name>
+		<name type="full">Musikalisch literarischer Monatsbericht (1829)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1829–1947</date> in <place nym="leipzig"
+			>Leipzig</place></description>
+		<description>herausgegeben von <person nym="hofmeister.friedrich">Friedrich
+				Hofmeister</person></description>
+		<resource title="ÖNB" type="www">http://www.onb.ac.at/sammlungen/musik/16615.htm</resource>
+		<resource title="Hofmeister XIX" type="www">http://www.hofmeister.rhul.ac.uk</resource>
+	</orgListItem>
+	<orgListItem nym="ms">
+		<id authority="zdb">202950-9</id>
+		<id authority="gnd">011157852</id>
+		<name>Musica sacra</name>
+		<name type="index">Musica sacra [Regensburg]</name>
+		<name type="secondary">Beiträge zur Reform und Förderung der katholischen
+			Kirchenmusik</name>
+		<name type="full">Musica sacra (1868)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1868–1928</date> in <place nym="regensburg"
+			>Regensburg</place></description>
+		<resource type="de.wikipedia.org">Musica_sacra_(Zeitschrift)</resource>
+		<resource type="opacplus.bsb-muenchen.de">869859912</resource>
+	</orgListItem>
+	<orgListItem nym="mwb">
+		<id authority="zdb">202877-3</id>
+		<id authority="gnd">011157283</id>
+		<name>Musikalisches Wochenblatt</name>
+		<name type="index">Musikalisches Wochenblatt [Leipzig]</name>
+		<name type="secondary">für Tonkünstler und Musikfreunde</name>
+		<name type="full">Musikalisches Wochenblatt (1870)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1870–1910</date> in <place nym="leipzig">Leipzig</place> bei
+			Ernst Wilhelm Fritzsch (ab 1903 bei Siegel)</description>
+		<description>durchlaufend paginiert</description>
+		<resource type="de.wikipedia.org">Musikalisches_Wochenblatt</resource>
+		<resource type="anno.onb.ac.at">muw</resource>
+	</orgListItem>
+	<orgListItem nym="nbmz">
+		<id authority="zdb">530399-0</id>
+		<name type="index">Neue Berliner Musikzeitung</name>
+		<name type="full">Neue Berliner Musikzeitung (1846)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1846–1896</date> in <place nym="berlin"
+			>Berlin</place></description>
+		<description>herausgegeben von Gustav Bock</description>
+		<resource type="de.wikisource.org">Neue_Berliner_Musikzeitung</resource>
+	</orgListItem>
+	<orgListItem nym="nzfm">
+		<id authority="zdb">203043-3</id>
+		<id authority="gnd">947386947</id>
+		<id authority="gnd">011158522</id>
+		<name>Neue Zeitschrift für Musik</name>
+		<name type="index">Neue Zeitschrift für Musik [Leipzig]</name>
+		<name type="index">Neue Leipziger Zeitschrift für Musik</name>
+		<name type="secondary">Das Magazin für neue Töne</name>
+		<name type="full">Neue Zeitschrift für Musik (1834)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1834–1920</date> in <place nym="leipzig">Leipzig</place>, zuerst
+			bei wechselnden Verlegern, dann bei C. F. Kahnt</description>
+		<description>durchlaufend paginiert</description>
+		<resource type="de.wikipedia.org">Neue_Zeitschrift_für_Musik</resource>
+		<resource type="de.wikisource.org">Neue_Zeitschrift_für_Musik</resource>
+		<resource type="opacplus.bsb-muenchen.de">612086102</resource>
+	</orgListItem>
+	<orgListItem nym="signale">
+		<id authority="zdb">513338-5</id>
+		<id authority="gnd">012704601</id>
+		<name>Signale für die musikalische Welt</name>
+		<name type="index">Signale für die musikalische Welt [Berlin]</name>
+		<name type="full">Signale für die musikalische Welt (1842)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien wöchentlich <date>1842–1941</date> anfangs in <place nym="leipzig"
+				>Leipzig</place>, später in <place nym="berlin">Berlin</place></description>
+		<description>Herausgeber: Barthold Senff</description>
+		<description>Mitarbeiter: <person nym="buelow.hans-von">Hans von Bülow</person>, <person
+				nym="porges.heinrich">Heinrich Porges</person></description>
+		<description>durchlaufend paginiert</description>
+		<resource type="en.wikipedia.org">Signale_für_die_musikalische_Welt</resource>
+		<resource type="de.wikisource.org">Signale_für_die_musikalische_Welt</resource>
+	</orgListItem>
+	<orgListItem nym="siona">
+		<id authority="zdb">552780-6</id>
+		<name>Siona</name>
+		<name type="index">Siona [Gütersloh]</name>
+		<name type="secondary">Monatsschrift für Liturgie und Kirchenmusik zur Hebung des
+			gottesdienstlichen Lebens</name>
+		<name type="full">Siona (1876)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1876–1920</date> in <place nym="guetersloh"
+			>Gütersloh</place></description>
+		<description>Herasugeber: <person nym="herold.max">Max Herold</person>, <person
+				nym="krueger.eduard">Eduard Krüger</person></description>
+	</orgListItem>
+	<orgListItem nym="tonkunst">
+		<id authority="zdb">986163-4</id>
+		<name>Die Tonkunst</name>
+		<name type="secondary">Wochenschrift für den Fortschritt in der Musik</name>
+		<name type="index">Die Tonkunst [Berlin]</name>
+		<name type="full">Die Tonkunst (1876)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1876" to="1886">1876–1886</date> in <place nym="berlin"
+				>Berlin</place> (später <place nym="koenigsberg">Königsberg</place>)</description>
+		<description>durchlaufend paginiert</description>
+	</orgListItem>
+
+	<!-- TAGESZEITUNGEN DT. REICH -->
+
+	<orgListItem nym="aachener-zeitung">
+		<id authority="zdb">89121-6</id>
+		<name type="index">Aachener Zeitung</name>
+		<name type="full">Aachener Zeitung (1849)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1849–1888</date> in <place nym="aachen"
+			>Aachen</place></description>
+	</orgListItem>
+	<orgListItem nym="allgemeine-zeitung">
+		<id authority="zdb">243901-3</id>
+		<name>Allgemeine Zeitung</name>
+		<name type="index">Augsburger allgemeine Zeitung</name>
+		<name type="index">Cotta’sche Zeitung [Augsburg]</name>
+		<name type="index">Allgemeine Zeitung [Augsburg]</name>
+		<name type="full">Allgemeine Zeitung (1798)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1798–1803</date> in Tübingen, <date>1807–1882</date> in <place
+				nym="augsburg">Augsburg</place> und <date>1882–1925</date> in <place nym="muenchen"
+				>München</place>)</description>
+		<description>durchlaufend paginiert</description>
+		<resource type="opacplus.bsb-muenchen.de">869859785</resource>
+	</orgListItem>
+	<orgListItem nym="altonaer-nachrichten">
+		<id authority="zdb">291785-3</id>
+		<name type="index">Altonaer Nachrichten</name>
+		<name type="full">Altonaer Nachrichten (1850–1855/1864–1938)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1850–1855</date> und <date>1864–1938</date> in <place
+				nym="altona">Altona</place></description>
+		<resource type="theeuropeanlibrary.org">3000096105067</resource>
+	</orgListItem>
+	<orgListItem nym="bayerischer-kurier">
+		<id authority="zdb">1367472-9</id>
+		<name>Bayerischer Kurier</name>
+		<name type="index">Bayerischer Kurier [München]</name>
+		<name type="full">Bayerischer Kurier (1857–1893/1922–1934)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1857–1893</date> und <date>1922–1934</date> in <place
+				nym="muenchen">München</place></description>
+	</orgListItem>
+	<orgListItem nym="berliner-boersen-zeitung">
+		<name type="index">Berliner Börsen-Zeitung</name>
+		<name type="full">Berliner Börsen-Zeitung (?)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<resource type="theeuropeanlibrary.org">3000117702505</resource>
+	</orgListItem>
+	<orgListItem nym="berliner-fremdenblatt">
+		<id authority="zdb">1127075-5</id>
+		<name type="index">Berliner Fremdenblatt</name>
+		<name type="full">Berliner Fremdenblatt (1837–1901)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1837" to="1901">1837–1901</date> in <place nym="berlin"
+				>Berlin</place></description>
+		<description>gesichtet: April 1876</description>
+	</orgListItem>
+	<orgListItem nym="berliner-tageblatt">
+		<id authority="zdb">341834-0</id>
+		<name type="index">Berliner Tageblatt</name>
+		<name type="full">Berliner Tageblatt und Handels-Zeitung (1872)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1872–1939</date> in <place nym="berlin"
+			>Berlin</place></description>
+		<description>gesichtet: April 1876</description>
+		<resource type="theeuropeanlibrary.org">3000096302605</resource>
+	</orgListItem>
+	<orgListItem nym="coburger-zeitung">
+		<id authority="zdb">1396849-x</id>
+		<name type="index">Coburger Zeitung</name>
+		<name type="full">Coburger Zeitung (1861)</name>
+		<name type="secondary">älteste nationale Tageszeitung Coburgs</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1861–1935</date> in <place nym="coburg"
+			>Coburg</place></description>
+		<description>durchlaufend paginiert</description>
+		<resource title="BLO" type="www"
+			>http://www.bayerische-landesbibliothek-online.de/coburger-zeitung1</resource>
+	</orgListItem>
+	<orgListItem nym="deutsche-rundschau">
+		<id authority="zdb">205873-x</id>
+		<id authority="gnd">011183136</id>
+		<name>Deutsche Rundschau</name>
+		<name type="index">Deutsche Rundschau [Berlin]</name>
+		<name type="full">Deutsche Rundschau (1874)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1874–1964</date> in <place nym="berlin"
+			>Berlin</place></description>
+		<resource type="de.wikipedia.org">Deutsche_Rundschau</resource>
+		<resource type="de.wikisource.org">Deutsche_Rundschau</resource>
+	</orgListItem>
+	<orgListItem nym="dresdner-nachrichten">
+		<id authority="zdb">231494-0</id>
+		<name type="index">Dresdner Nachrichten</name>
+		<name type="full">Dresdner Nachrichten (1856)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1856–1943</date> in <place nym="dresden"
+			>Dresden</place></description>
+		<description>gesichtet: Februar 1876</description>
+		<description>einzeln paginiert</description>
+	</orgListItem>
+	<orgListItem nym="echo-der-gegenwart">
+		<id authority="zdb">607163-6</id>
+		<name>Echo der Gegenwart</name>
+		<name type="index">Echo der Gegenwart [Aachen]</name>
+		<name type="full">Echo der Gegenwart (1850)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1850–1935</date> in <place nym="aachen"
+			>Aachen</place></description>
+		<description>unpaginiert</description>
+		<resource title="UB Bonn" type="www"
+			>http://digitale-sammlungen.ulb.uni-bonn.de/ulbbnz/periodical/titleinfo/2834587</resource>
+	</orgListItem>
+	<orgListItem nym="hamburger-nachrichten">
+		<id authority="zdb">622736-3</id>
+		<name type="index">Hamburger Nachrichten</name>
+		<name type="full">Hamburger Nachrichten (1849)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1849–1939</date> in <place nym="hamburg"
+			>Hamburg</place></description>
+		<resource type="theeuropeanlibrary.org">3000117588286</resource>
+	</orgListItem>
+	<orgListItem nym="karlsruher-nachrichten">
+		<id authority="zdb">384878-4</id>
+		<name type="index">Karlsruher Nachrichten</name>
+		<name type="full">Karlsruher Nachrichten (1870)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1870" to="1894">1870–1894</date> in <place nym="karlsruhe"
+				>Karlsruhe</place></description>
+		<description>gesichtet: April 1878</description>
+		<description>durchlaufend paginiert</description>
+	</orgListItem>
+	<orgListItem nym="koelnische-volkszeitung">
+		<id authority="zdb">1207761-6</id>
+		<name type="index">Kölnische Volkszeitung</name>
+		<name type="full">Kölnische Volkszeitung (1869)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1869" to="1887">1869–1887</date> in <place nym="koeln"
+				>Köln</place></description>
+		<description>gesichtet: Dezember 1875</description>
+	</orgListItem>
+	<orgListItem nym="koelnische-zeitung">
+		<id authority="zdb">200760-5</id>
+		<name type="index">Kölnische Zeitung</name>
+		<name type="full">Kölnische Zeitung (1802)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1802–1945</date> in <place nym="koeln"
+			>Köln</place></description>
+	</orgListItem>
+	<orgListItem nym="koeniglich-privilegirte-berlinische-zeitung">
+		<id authority="zdb">748892-0</id>
+		<name>Königlich privilegirte Berlinische Zeitung</name>
+		<name type="index">Vossische Zeitung [Berlin]</name>
+		<name type="index">Königlich privilegirte Berlinische Zeitung</name>
+		<name type="full">Königlich privilegirte Berlinische Zeitung von Staats- und gelehrten
+			Sachen (1785)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1785" to="1911">1785–1911</date> in <place nym="berlin"
+				>Berlin</place></description>
+		<description>gesichtet: April 1876</description>
+		<resource type="opacplus.bsb-muenchen.de">225102298</resource>
+	</orgListItem>
+	<orgListItem nym="leipziger-nachrichten">
+		<id authority="zdb">1385582-7</id>
+		<name type="index">Leipziger Nachrichten</name>
+		<name type="full">Leipziger Nachrichten (1870)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1870–1892</date> (ZDB: ab 1878 „nachgewiesen“) in <place
+				nym="leipzig">Leipzig</place></description>
+	</orgListItem>
+	<orgListItem nym="leipziger-tageblatt">
+		<id authority="zdb">1286236-8</id>
+		<name type="index">Leipziger Tageblatt und Anzeiger</name>
+		<name type="full">Leipziger Tageblatt und Anzeiger (1833)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1833–1905</date> in <place nym="leipzig"
+			>Leipzig</place></description>
+	</orgListItem>
+	<orgListItem nym="mecklenburgische-zeitung">
+		<id authority="zdb">1000532-8</id>
+		<name>Mecklenburgische Zeitung</name>
+		<name type="index">Mecklenburgische Zeitung [Schwerin]</name>
+		<name type="full">Mecklenburgische Zeitung (1848)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1848" to="1943">1848–1943</date> in <place nym="schwerin"
+				>Schwerin</place></description>
+	</orgListItem>
+	<orgListItem nym="muenchener-nachrichten">
+		<id authority="zdb">1267810-7</id>
+		<name type="index">Münchener Nachrichten</name>
+		<name type="full">Münchener Nachrichten (1874)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1874–1876</date> in <place nym="muenchen"
+			>München</place></description>
+	</orgListItem>
+	<orgListItem nym="national-zeitung">
+		<id authority="zdb">984287-1</id>
+		<name>National-Zeitung</name>
+		<name type="index">National-Zeitung [Berlin]</name>
+		<name type="full">National-Zeitung (1848)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1848–1938</date> (ZDB: 1849) in <place nym="berlin"
+				>Berlin</place></description>
+		<description>gesichtet: April 1876</description>
+		<resource type="de.wikipedia.org">National-Zeitung_(19._Jahrhundert)</resource>
+	</orgListItem>
+	<orgListItem nym="neue-preussische-zeitung">
+		<id authority="zdb">304140-2</id>
+		<name>Neue Preußische Zeitung</name>
+		<name type="index">Neue Preußische Zeitung [Berlin]</name>
+		<name type="index">Kreuzzeitung [Berlin]</name>
+		<name type="full">Neue Preußische Zeitung (1848)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1848" to="1929">1848–1929</date> in <place nym="berlin"
+				>Berlin</place></description>
+		<description>gesichtet: April 1876</description>
+	</orgListItem>
+	<orgListItem nym="neues-berliner-tageblatt">
+		<id authority="zdb">1139122-4</id>
+		<name>Neues Berliner Tageblatt</name>
+		<name type="index">Neues Berliner Tageblatt</name>
+		<name type="full">Neues Berliner Tageblatt (1875)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1875" to="1877">1875–1877</date> in <place nym="berlin"
+				>Berlin</place></description>
+		<description>gesichtet: April 1876</description>
+		<description>einzeln paginiert</description>
+	</orgListItem>
+	<orgListItem nym="neueste-nachrichten">
+		<id authority="zdb">1406403-0</id>
+		<name>Neueste Nachrichten</name>
+		<name type="index">Neueste Nachrichten [München]</name>
+		<name type="full">Neueste Nachrichten (1875)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1875–1881</date> in <place nym="muenchen"
+			>München</place></description>
+	</orgListItem>
+	<orgListItem nym="norddeutsche-allgemeine-zeitung">
+		<id authority="zdb">125912-x</id>
+		<name>Norddeutsche Allgemeine Zeitung</name>
+		<name type="index">Norddeutsche Allgemeine Zeitung [Berlin]</name>
+		<name type="full">Norddeutsche Allgemeine Zeitung (1861)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erscheint <date>1861–1918</date> in <place nym="berlin"
+			>Berlin</place></description>
+		<description>gesichtet: April 1876</description>
+	</orgListItem>
+	<orgListItem nym="rheinischer-kurier">
+		<id authority="zdb">1474980-4</id>
+		<name>Rheinischer Kurier</name>
+		<name type="index">Rheinischer Kurier [Wiesbaden]</name>
+		<name type="full">Rheinischer Kurier (1870)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erscheint nachweisbar <date>1870–1871</date> in <place nym="wiesbaden"
+				>Wiesbaden</place></description>
+	</orgListItem>
+	<orgListItem nym="zwischenact-zeitung">
+		<id authority="zdb">2106593-7</id>
+		<name>Zwischenact-Zeitung</name>
+		<name type="index">Zwischenact-Zeitung [Hamburg]</name>
+		<name type="secondary">officielles Theater- und Concert-Programm</name>
+		<name type="full">Zwischenact-Zeitung (1863)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1863–1903(?)</date> in <place nym="hamburg"
+			>Hamburg</place></description>
+	</orgListItem>
+
+	<!-- TAGESZEITUNGEN OSTGEBIETE -->
+
+	<orgListItem nym="bruenner-zeitung">
+		<!-- *** Tagesbote Brünn? -->
+		<name type="index">Brünner Zeitung</name>
+		<name type="full">Brünner Zeitung (?)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+	</orgListItem>
+	<orgListItem nym="neue-zeit">
+		<!-- *** nicht: Stuttgart; Brünn? Troppau? -->
+		<name type="index">Neue Zeit [?]</name>
+		<name type="full">Neue Zeit (?)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>unspezifischer Titel</description>
+	</orgListItem>
+	<orgListItem nym="pilsner-fremdenblatt">
+		<name type="index">Pilsner Fremdenblatt</name>
+		<name type="full">Pilsner Fremdenblatt (1874–1876)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien 1874–1876 in Pilsen</description>
+		<resource type="anno.onb.ac.at">pfb</resource>
+	</orgListItem>
+	<orgListItem nym="prager-abendblatt">
+		<id authority="zdb">2799609-8</id>
+		<name type="index">Prager Abendblatt</name>
+		<name type="full">Prager Abendblatt (1867–1918)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien 1867–1918 in Prag</description>
+		<description>unpaginiert</description>
+		<resource type="anno.onb.ac.at">pab</resource>
+	</orgListItem>
+	<orgListItem nym="preussischer-volksfreund">
+		<id authority="zdb">1000212-1</id>
+		<name>Preußischer Volksfreund</name>
+		<name type="index">Preußischer Volksfreund [Königsberg]</name>
+		<name type="full">Preußischer Volksfreund (1799–1924)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1799–1924</date> in <place nym="koenigsberg"
+			>Königsberg</place></description>
+		<description>gesichtet: Mai 1876</description>
+	</orgListItem>
+	<orgListItem nym="schlesische-volkszeitung">
+		<id authority="zdb">606447-4</id>
+		<name>Schlesische Volkszeitung</name>
+		<name type="index">Schlesische Volkszeitung [Breslau]</name>
+		<name type="index">Breslauer Hausblätter</name>
+		<name type="full">Schlesische Volkszeitung (1871)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1871–1944</date> in <place nym="breslau"
+			>Breslau</place></description>
+		<description>gesichtet: Mai 1876</description>
+	</orgListItem>
+	<orgListItem nym="tagesbote-aus-maehren-und-schlesien">
+		<id authority="zdb">821185-1</id>
+		<name>Tagesbote aus Mähren und Schlesien</name>
+		<name type="index">Tagesbote aus Mähren und Schlesien [Brünn]</name>
+		<name type="full">Tagesbote aus Mähren und Schlesien (1873–1921)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1873" to="1921">1873–1921</date> in <place nym="bruenn"
+				>Brünn</place></description>
+		<description>unpaginiert</description>
+	</orgListItem>
+	<orgListItem nym="volksfreund">
+		<!-- *** Brünn? -->
+		<name type="index">Volksfreund [?]</name>
+		<name type="full">Volksfreund (?)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>unspezifischer Titel</description>
+	</orgListItem>
+	<orgListItem nym="westpreussisches-volksblatt">
+		<id authority="zdb">1156529-9</id>
+		<name>Westpreußisches Volksblatt</name>
+		<name type="index">Westpreußisches Volksblatt [Danzig]</name>
+		<name type="full">Westpreußisches Volksblatt (1873–1920)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1873–1920</date> in <place nym="danzig"
+			>Danzig</place></description>
+		<description>gesichtet: April 1876</description>
+	</orgListItem>
+
+	<!-- TAGESZEITUNGEN ÖSTERREICH -->
+
+	<orgListItem nym="das-vaterland">
+		<name>Das Vaterland</name>
+		<name type="index">Das Vaterland [Wien]</name>
+		<name type="full">Das Vaterland (?)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>Einordnung nach Paupié: föderalistisch-konservativ</description>
+		<resource type="anno.onb.ac.at">vtl</resource>
+	</orgListItem>
+	<orgListItem nym="deutsche-zeitung">
+		<id authority="zdb">1074846-5</id>
+		<name>Deutsche Zeitung</name>
+		<name type="index">Deutsche Zeitung [Wien]</name>
+		<name type="full">Deutsche Zeitung (1871–1907)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1871–1907</date> in <place nym="wien">Wien</place></description>
+		<description>einzeln paginiert</description>
+		<description>Einordnung nach Paupié: nationalliberal (S. 157f)</description>
+		<resource type="anno.onb.ac.at">dzg</resource>
+	</orgListItem>
+	<orgListItem nym="die-presse">
+		<id authority="zdb">126422-9</id>
+		<id authority="gnd">010717242</id>
+		<name>Die Presse</name>
+		<name type="index">Die Presse [Wien]</name>
+		<name type="full">Die Presse (1848–1896)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1848–1896</date> in <place nym="wien">Wien</place></description>
+		<description>einzeln paginiert</description>
+		<description>Einordnung nach Paupié: rechtsliberal (S. 135–138)</description>
+		<resource type="de.wikipedia.org">Die_Presse</resource>
+		<resource type="anno.onb.ac.at">apr</resource>
+	</orgListItem>
+	<orgListItem nym="fremden-blatt">
+		<id authority="zdb">1060742-0</id>
+		<name>Fremden-Blatt</name>
+		<name type="index">Fremden-Blatt [Wien]</name>
+		<name type="full">Fremden-Blatt (1847–1919)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1847–1919</date> (falsch in ZDB: 1846) in <place nym="wien"
+				>Wien</place> bei Elbemühl</description>
+		<description>teils einzeln paginiert, teils unpaginiert</description>
+		<description>Einordnung nach Paupié: liberal</description>
+		<resource type="anno.onb.ac.at">fdb</resource>
+	</orgListItem>
+	<orgListItem nym="grazer-volksblatt">
+		<id authority="gnd">7600145-3</id>
+		<name type="index">Grazer Volksblatt</name>
+		<name type="full">Grazer Volksblatt (1868–1939)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1868–1939</date> in <place nym="graz">Graz</place> bei
+			wechselnden Verlegern</description>
+		<description>unpaginiert</description>
+		<resource type="anno.onb.ac.at">gre</resource>
+	</orgListItem>
+	<orgListItem nym="morgen-post">
+		<id authority="zdb">2752530-2</id>
+		<name>Morgen-Post</name>
+		<name type="index">Morgen-Post [Wien]</name>
+		<name type="full">Morgen-Post (1856–1886)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1854–1886</date> in <place nym="wien">Wien</place></description>
+		<description>unpaginiert</description>
+		<description>Einordnung nach Paupié: deutschdemokratisch (S. 140–142)</description>
+		<resource type="anno.onb.ac.at">mop</resource>
+	</orgListItem>
+	<orgListItem nym="neue-freie-presse">
+		<id authority="zdb">972630-5</id>
+		<id authority="zdb">821385-9</id>
+		<name>Neue Freie Presse</name>
+		<name type="index">Neue Freie Presse [Wien]</name>
+		<name type="full">Neue Freie Presse (1864–1939)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1864–1939</date> (falsch in ZDB: 1938) zweimal täglich in <place
+				nym="wien">Wien</place></description>
+		<description>einzeln paginiert</description>
+		<description>Einordnung nach Paupié: liberal</description>
+		<resource type="anno.onb.ac.at">nfp</resource>
+	</orgListItem>
+	<orgListItem nym="neues-fremden-blatt">
+		<id authority="zdb">2699432-X</id>
+		<name>Neues Fremden-Blatt</name>
+		<name type="index">Neues Fremden-Blatt [Wien]</name>
+		<name type="full">Neues Fremden-Blatt (?)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1865–1876</date> in <place nym="wien">Wien</place></description>
+		<description>einzeln paginiert</description>
+		<resource type="anno.onb.ac.at">nfb</resource>
+	</orgListItem>
+	<orgListItem nym="neues-wiener-tagblatt">
+		<id authority="zdb">821335-5</id>
+		<name type="index">Neues Wiener Tagblatt</name>
+		<name type="full">Neues Wiener Tagblatt (1867–1945)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1867" to="1945">1867–1945</date>in <place nym="wien"
+				>Wien</place></description>
+		<description>Einordnung nach Paupié: demokratisch</description>
+		<resource type="anno.onb.ac.at">nwg</resource>
+	</orgListItem>
+	<orgListItem nym="salzburger-chronik">
+		<id authority="zdb">1055668-0</id>
+		<name type="index">Salzburger Chronik</name>
+		<name type="full">Salzburger Chronik (1873–1938)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1873–1938</date> in <place nym="salzburg"
+			>Salzburg</place></description>
+		<description>unpaginiert</description>
+		<resource type="anno.onb.ac.at">sch</resource>
+	</orgListItem>
+	<orgListItem nym="salzburger-volksblatt">
+		<id authority="zdb">1054475-6</id>
+		<name type="index">Salzburger Volksblatt</name>
+		<name type="full">Salzburger Volksblatt (1871–1880)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien nachweisbar <date>1871–1880</date> in <place nym="salzburg"
+				>Salzburg</place></description>
+		<description>unpaginiert</description>
+		<resource type="anno.onb.ac.at">svb</resource>
+	</orgListItem>
+	<orgListItem nym="wiener-abendpost">
+		<id authority="zdb">1041863-5</id>
+		<name type="index">Wiener Abendpost</name>
+		<name type="full">Wiener Abendpost (1863–1921)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1863–1921</date> in <place nym="wien">Wien</place></description>
+		<description>Beilage zur <org nym="wiener-zeitung">Wiener Zeitung</org></description>
+		<description>durchlaufend paginiert</description>
+		<description>Abendpost ab 1875 separat paginiert</description>
+		<resource type="de.wikipedia.org">Wiener_Zeitung</resource>
+		<resource type="anno.onb.ac.at">wrz</resource>
+	</orgListItem>
+	<orgListItem nym="wiener-sonn-und-montags-zeitung">
+		<id authority="zdb">2799656-6</id>
+		<name type="index">Wiener Sonn- und Montags-Zeitung</name>
+		<name type="full">Wiener Sonn- und Montags-Zeitung (1863–1936)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1863–1936</date> wöchentlich in <place nym="wien"
+			>Wien</place></description>
+		<description>unpaginiert</description>
+		<description>Einordnung nach Paupié: linksliberal</description>
+		<resource type="de.wikipedia.org">Wiener_Sonn-_und_Montags-Zeitung</resource>
+		<resource type="anno.onb.ac.at">wsz</resource>
+	</orgListItem>
+	<orgListItem nym="wiener-zeitung">
+		<id authority="zdb">43058-4</id>
+		<name type="index">Wiener Zeitung</name>
+		<name type="full">Wiener Zeitung (1703–)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erscheint seit <date>1703</date> in <place nym="wien"
+			>Wien</place></description>
+		<description>enthält die <org nym="wiener-abendpost">Wiener Abendpost</org></description>
+		<description>unpaginiert</description>
+		<resource type="de.wikipedia.org">Wiener_Zeitung</resource>
+		<resource type="anno.onb.ac.at">wrz</resource>
+	</orgListItem>
+
+	<!-- SCHWEIZ -->
+
+	<orgListItem nym="die-ostschweiz">
+		<name type="full">Die Ostschweiz (1874–1997)</name>
+		<name type="index">Die Ostschweiz [St. Gallen]</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1874–1997</date> in <place nym="st-gallen">St. Gallen</place>
+			bei Moosberger</description>
+		<resource title="Schweizer Presse Online" type="www"
+			>http://newspaper.archives.rero.ch/Olive/APA/SNL_DE/</resource>
+		<resource type="de.wikipedia.org">Die_Ostschweiz</resource>
+	</orgListItem>
+	<orgListItem nym="st-galler-zeitung">
+		<name>St. Galler-Zeitung</name>
+		<name type="index">St. Galler-Zeitung</name>
+		<name type="full">St. Galler-Zeitung (?)</name>
+		<category>Zeitung</category>
+		<language>Deutsch</language>
+	</orgListItem>
+
+	<!-- ILLUSTRIERTE -->
+
+	<orgListItem nym="der-floh">
+		<id authority="zdb">1066867-6</id>
+		<name>Der Floh</name>
+		<name type="index">Der Floh [Wien]</name>
+		<name type="full">Der Floh (1869–1919)</name>
+		<category>Zeitschrift / Satire</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1869–1919</date> wöchentlich in <place nym="wien"
+			>Wien</place></description>
+		<resource type="anno.onb.ac.at">flo</resource>
+	</orgListItem>
+	<orgListItem nym="der-ulk">
+		<id authority="gnd">4756012-5</id>
+		<name>Der Ulk</name>
+		<name type="index">Der Ulk [Berlin]</name>
+		<name type="full">Der Ulk (1873–1933)</name>
+		<category>Zeitschrift / Satire</category>
+		<language>Deutsch</language>
+		<description>erschien <date from="1873" to="1933">1873–1933</date> als Beilage zum <org
+				nym="berliner-tageblatt">Berliner Tageblatt</org> und zur Berliner
+			Volkszeitung</description>
+		<description>gesichtet: 1. JH 1876</description>
+		<resource type="de.wikipedia.org">Ulk</resource>
+		<resource title="UB Heidelberg" type="www"
+			>http://www.ub.uni-heidelberg.de/helios/digi/ulkhd.html</resource>
+	</orgListItem>
+	<orgListItem nym="die-bombe">
+		<id authority="zdb">330484-x</id>
+		<name>Die Bombe</name>
+		<name type="index">Die Bombe [Wien]</name>
+		<name type="full">Die Bombe (1871–1925)</name>
+		<category>Zeitschrift / Satire</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1871–1925</date> wöchentlich in <place nym="wien"
+			>Wien</place></description>
+		<resource type="anno.onb.ac.at">bom</resource>
+	</orgListItem>
+	<orgListItem nym="figaro">
+		<id authority="zdb">820944-3</id>
+		<name>Figaro</name>
+		<name type="index">Figaro [Wien]</name>
+		<name type="full">Figaro (1857–1919)</name>
+		<category>Zeitschrift / Satire</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1857–1919</date> wöchentlich in <place nym="wien"
+			>Wien</place></description>
+		<resource type="anno.onb.ac.at">fig</resource>
+	</orgListItem>
+	<orgListItem nym="fliegende-blaetter">
+		<id authority="zdb">516021-2</id>
+		<name>Fliegende Blätter</name>
+		<name type="index">Fliegende Blätter [München]</name>
+		<name type="full">Fliegende Blätter (1845–1944)</name>
+		<category>Zeitschrift</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1845–1944</date> in <place nym="muenchen"
+			>München</place></description>
+		<resource type="de.wikipedia.org">Fliegende_Blätter</resource>
+		<resource title="UB Heidelberg" type="www"
+			>http://diglit.ub.uni-heidelberg.de/diglit/fb65</resource>
+	</orgListItem>
+	<orgListItem nym="illustrirte-zeitung">
+		<id authority="zdb">715543-8</id>
+		<name>Illustrirte Zeitung</name>
+		<name type="index">Illustrirte Zeitung [Leipzig u. a.]</name>
+		<name type="secondary">Leipzig, Berlin, Wien, Budapest, New York</name>
+		<name type="full">Illustrirte Zeitung (1843–1944)</name>
+		<category>Zeitschrift / Illustrierte</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1843–1944</date> in <place nym="leipzig">Leipzig</place>, <place
+				nym="berlin">Berlin</place>, <place nym="wien">Wien</place>, <place nym="pest"
+				>Budapest</place> und <place nym="new-york">New York</place></description>
+	</orgListItem>
+	<orgListItem nym="illustrirtes-wiener-extrablatt">
+		<id authority="zdb">1069466-3</id>
+		<name type="index">Illustrirtes Wiener Extrablatt</name>
+		<name type="full">Illustrirtes Wiener Extrablatt (1872–1928)</name>
+		<category>Zeitschrift / Illustrierte</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1872–1928</date> in <place nym="wien">Wien</place></description>
+		<resource type="anno.onb.ac.at">iwe</resource>
+	</orgListItem>
+	<orgListItem nym="kikeriki">
+		<id authority="zdb">883061-7</id>
+		<name>Kikeriki</name>
+		<name type="index">Kikeriki [Wien]</name>
+		<name type="full">Kikeriki (1861-1933)</name>
+		<category>Zeitschrift / Satire</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1861–1933</date> wöchentlich in <place nym="wien"
+			>Wien</place></description>
+		<resource type="anno.onb.ac.at">kik</resource>
+	</orgListItem>
+	<orgListItem nym="ueber-land-und-meer">
+		<id authority="zdb">512953-9</id>
+		<id authority="gnd">012701041</id>
+		<name>Über Land und Meer</name>
+		<name type="index">Über Land und Meer [Stuttgart]</name>
+		<name type="full">Über Land und Meer (1858–1922)</name>
+		<category>Zeitschrift / Illustrierte</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1858–1922</date> in <place nym="stuttgart"
+			>Stuttgart</place></description>
+		<resource title="archive.org (Bd. 33)" type="www"
+			>https://archive.org/stream/bub_gb_UfoN3WjRcJkC#page/n6/mode/1up</resource>
+	</orgListItem>
+	<orgListItem nym="wiener-salonblatt">
+		<id authority="zdb">1271939-0</id>
+		<name type="index">Wiener Salonblatt</name>
+		<name type="full">Wiener Salonblatt (1870-1938)</name>
+		<category>Zeitschrift / Illustrierte</category>
+		<language>Deutsch</language>
+		<description>erschien <date>1870–1938</date> wöchentlich (ab 1919 14-tägig) in <place
+				nym="wien">Wien</place></description>
+		<resource type="anno.onb.ac.at">wsb</resource>
+	</orgListItem>
+
+	<!-- AUSLAND -->
+
+	<orgListItem nym="corriere-di-milano">
+		<name type="full">Corriere di Milano (1869–1874)</name>
+		<name type="index">Corriere di Milano</name>
+		<category>Zeitung</category>
+		<language>Italienisch</language>
+		<resource type="it.wikipedia.org">Emilio_Treves</resource>
+	</orgListItem>
+	<orgListItem nym="gazzetta-di-venezia">
+		<name type="index">Gazzetta di Venezia</name>
+		<name type="full">Gazzetta di Venezia (1799–1945)</name>
+		<category>Zeitung</category>
+		<language>Italienisch</language>
+		<resource type="it.wikipedia.org">Gazzetta_di_Venezia</resource>
+	</orgListItem>
+	<orgListItem nym="gazzetta-musicale-di-milano">
+		<name type="index">Gazzetta musicale di Milano</name>
+		<name type="full">Gazzetta musicale di Milano (1842–1902)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Italienisch</language>
+	</orgListItem>
+	<orgListItem nym="il-mondo-artistico">
+		<name>Il mondo artistico</name>
+		<name type="index">Il mondo artistico [Mailand]</name>
+		<name type="full">Il mondo artistico (1867–1914)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Italienisch</language>
+	</orgListItem>
+	<orgListItem nym="il-secolo">
+		<name>Il mondo artistico</name>
+		<name type="index">Il Secolo [Mailand]</name>
+		<name type="full">Il Secolo (1866–1927)</name>
+		<category>Zeitung</category>
+		<language>Italienisch</language>
+		<resource type="it.wikipedia.org">Il_Secolo_(quotidiano)</resource>
+	</orgListItem>
+	<orgListItem nym="journal-des-debats">
+		<id authority="zdb">125688-9</id>
+		<name>Journal des Débats</name>
+		<name type="index">Journal des Débats [Paris]</name>
+		<name type="full">Journal des Débats (1814–1944)</name>
+		<category>Zeitung</category>
+		<language>Französisch</language>
+		<description>erschien <date from="1814" to="1944">1814–1944</date> in
+			Clermont-Ferrand</description>
+		<resource title="Gallica" type="www"
+			>http://gallica.bnf.fr/ark:/12148/cb39294634r/date.langfr</resource>
+	</orgListItem>
+	<orgListItem nym="l-opinione">
+		<name type="index">L’Opinione [Torino]</name>
+		<name type="full">L’Opinione (1846–1900)</name>
+		<category>Zeitung</category>
+		<language>Italienisch</language>
+		<resource type="it.wikipedia.org">L'Opinione_(quotidiano)</resource>
+	</orgListItem>
+	<orgListItem nym="la-lombardia">
+		<name type="index">La Lombardia [Mailand]</name>
+		<name type="full">La Lombardia (?)</name>
+		<category>Zeitung</category>
+		<language>Italienisch</language>
+	</orgListItem>
+	<orgListItem nym="la-palestra-musicale">
+		<name type="index">La palestra musicale [Rom]</name>
+		<name type="full">La palestra musicale (?)</name>
+		<category>Zeitschrift / Musik</category>
+		<language>Italienisch</language>
+	</orgListItem>
+	<orgListItem nym="la-perseveranza">
+		<name>La Perseveranza</name>
+		<name type="index">Perseveranza [Mailand]</name>
+		<name type="full">La Perseveranza (1859–1922)</name>
+		<category>Zeitschrift</category>
+		<language>Italienisch</language>
+	</orgListItem>
+	<orgListItem nym="le-monde-illustre">
+		<name>Le Monde Illustré</name>
+		<name type="index">Le Monde Illustré [Paris]</name>
+		<name type="full">Le Monde Illustré (1857–1940)</name>
+		<category>Zeitschrift</category>
+		<language>Französisch</language>
+		<resource title="Gallica" type="www"
+			>http://gallica.bnf.fr/ark:/12148/cb32818319d/date.item</resource>
+	</orgListItem>
+	<orgListItem nym="l-osservatore-cattolico">
+		<name>L’Osservatore Cattolico</name>
+		<name type="index">L’Osservatore Cattolico [Mailand]</name>
+		<name type="full">L’Osservatore Cattolico (1864–1907)</name>
+		<category>Zeitschrift</category>
+		<language>Italienisch</language>
+	</orgListItem>
+	<orgListItem nym="new-york-times">
+		<id authority="zdb">126276-2</id>
+		<name>The New York Times</name>
+		<name type="index">New York Times, The</name>
+		<name type="full">The New York Times (1857)</name>
+		<category>Zeitung</category>
+		<language>Englisch</language>
+		<description>erscheint <date>seit 1851</date> in <place nym="new-york">New
+			York</place></description>
+		<resource title="TimesMachine" type="www"
+			>http://query.nytimes.com/search/advanced</resource>
+	</orgListItem>
+	<orgListItem nym="revue-des-deux-mondes">
+		<name>Revue des Deux Mondes</name>
+		<name type="index">Revue des Deux Mondes [Paris]</name>
+		<name type="full">Revue des Deux Mondes (?)</name>
+		<category>Zeitung</category>
+		<language>Französisch</language>
+	</orgListItem>
+	<orgListItem nym="the-times-london">
+		<id authority="zdb">126280-4</id>
+		<name>The Times London</name>
+		<name type="index">Times London, The</name>
+		<name type="full">The Times London (1788–)</name>
+		<category>Zeitung</category>
+		<language>Englisch</language>
+		<description>erscheint <date>seit 1788</date> in <place nym="london"
+			>London</place></description>
+	</orgListItem>
+
+	<!-- MUSIKALISCHE VEREINIGUNGEN -->
+
+	<orgListItem nym="breslau.singakademie">
+		<name>Singakademie [Breslau]</name>
+		<name type="index">Singakademie [Breslau]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="bruenn.musikverein">
+		<name>Musikverein [Brünn]</name>
+		<name type="index">Musikverein [Brünn]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="frankfurt.caecilienverein">
+		<name>Cäcilienverein [Frankfurt]</name>
+		<name type="index">Cäcilienverein [Frankfurt]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="graz.akademischer-gesangverein">
+		<name>Akademischer Gesangverein [Graz]</name>
+		<name type="index">Akademischer Gesangverein [Graz]</name>
+		<name type="index">Gesangverein, Akademischer [Graz]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="hamburg.philharomischer-verein">
+		<name>Philharmonischer Verein [Hamburg]</name>
+		<name type="index">Philharmonischer Verein [Hamburg]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="boston.haendel-and-haydn-society">
+		<name>Handel and Haydn Society [Boston]</name>
+		<name type="index">Handel and Haydn Society [Boston]</name>
+		<category>Vereinigung / Musik</category>
+		<resource type="en.wikipedia.org">Handel_and_Haydn_Society</resource>
+	</orgListItem>
+	<orgListItem nym="heilbronn.oratorienverein">
+		<name>Oratorienverein [Heilbronn]</name>
+		<name type="index">Oratorienverein [Heilbronn]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="koeln.maenner-gesangverein">
+		<name>Männergesang-Verein [Köln]</name>
+		<name type="index">Männergesang-Verein [Köln]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="paris.orchestre-pasdeloup">
+		<name>Orchestre Pasdeloup [Paris]</name>
+		<name type="index">Pasdeloup, Orchestre [Paris]</name>
+		<name type="index">Orchestre Pasdeloup [Paris]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="prag.deutscher-maenner-gesangverein">
+		<name>Deutscher Männer-Gesangverein [Prag]</name>
+		<name type="index">Männer-Gesangverein [Prag]</name>
+		<name type="index">Deutscher Männer-Gesangverein [Prag]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="salzburg.dommusikverein">
+		<name>Dommusikverein [Salzburg]</name>
+		<name type="index">Dommusikverein [Salzburg]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="salzburg.mozarteum">
+		<name>Mozarteum [Salzburg]</name>
+		<name type="index">Mozarteum [Salzburg]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="st-gallen.antlitz">
+		<name>Antlitz [St. Gallen]</name>
+		<name type="index">Antlitz [St. Gallen]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="st-gallen.frohsinn">
+		<name>Frohsinn [St. Gallen]</name>
+		<name type="index">Frohsinn [St. Gallen]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="stuttgart.hofkapelle">
+		<name>Hofkapelle [Stuttgart]</name>
+		<name type="index">Hofkapelle [Stuttgart]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="wien.akademischer-gesangverein">
+		<name>Akademischer Gesangverein [Wien]</name>
+		<name type="index">Akademischer Gesangverein [Wien]</name>
+		<name type="index">Gesangverein, Akademischer [Wien]</name>
+		<category>Vereinigung / Musik</category>
+	</orgListItem>
+	<orgListItem nym="wiesbaden.caecilienverein">
+		<name>Cäcilienverein [Wiesbaden]</name>
+		<name type="index">Cäcilienverein [Wiesbaden]</name>
+		<category>Vereinigung / Musik</category>
+		<description>
+			<place nym="wiesbaden"/>
+		</description>
+	</orgListItem>
+
+	<!-- VERLAGE -->
+	<orgListItem nym="ricordi">
+		<name>Ricordi</name>
+		<name type="index">Ricordi [Mailand]</name>
+		<category>Verlag / Musik</category>
+		<description>
+			<place nym="mailand"/>
+		</description>
+	</orgListItem>
+
+	<!-- nicht identifiziert -->
+
+	<orgListItem nym="unidentified">
+		<name type="index">? (nicht identifizierte Körperschaft)</name>
+		<category>nicht definierbar</category>
+	</orgListItem>
+
+</orgList>

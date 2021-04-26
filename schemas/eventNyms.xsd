@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+   <simpleType name="eventNym">
+      <list>
+         <simpleType>
+            <restriction base="string">
+               <enumeration value="feiertage.1876">
+                  <annotation>
+                     <documentation>, , Feiertage 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="feiertage.1876.karfreitag">
+                  <annotation>
+                     <documentation>, , Feiertage 1876, Karfreitag</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="feiertage.1876.karsamstag">
+                  <annotation>
+                     <documentation>, , Feiertage 1876, Karsamstag</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="feiertage.1876.ostersonntag">
+                  <annotation>
+                     <documentation>, , Feiertage 1876, Ostersonntag</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="feiertage.1876.ostermontag">
+                  <annotation>
+                     <documentation>, , Feiertage 1876, Ostermontag</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="feiertage.1876.allerheiligen">
+                  <annotation>
+                     <documentation>, , Feiertage 1876, Allerheiligen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="feiertage.1876.allerseelen">
+                  <annotation>
+                     <documentation>, , Feiertage 1876, Allerseelen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.1874">
+                  <annotation>
+                     <documentation>Mailand, 05/1874, Mailand 1874</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.1874.gp">
+                  <annotation>
+                     <documentation>Mailand, San Marco, 21.5.1874, Mailand 1874, Generalprobe zur Uraufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.1874.1">
+                  <annotation>
+                     <documentation>Mailand, San Marco, 22.5.1874, Mailand 1874, Uraufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.1874.2">
+                  <annotation>
+                     <documentation>Mailand, Teatro alla Scala, 25.5.1874, Mailand 1874, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.1874.3">
+                  <annotation>
+                     <documentation>Mailand, Teatro alla Scala, 26.5.1874, Mailand 1874, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.1874.4">
+                  <annotation>
+                     <documentation>Mailand, Teatro alla Scala, 27.5.1874, Mailand 1874, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="new-york.1874">
+                  <annotation>
+                     <documentation>New York, 11/1874, New York 1874</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="new-york.1874.1">
+                  <annotation>
+                     <documentation>New York, Academy of Music, 17.11.1874, New York 1874, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="new-york.1874a">
+                  <annotation>
+                     <documentation>New York, 10/1874, New York 1874 (Orgeltranskription)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="new-york.1874a.1">
+                  <annotation>
+                     <documentation>New York, St. Ann’s Roman Catholic Church, 25.10.1874, New York 1874 (Orgeltranskription), Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1874">
+                  <annotation>
+                     <documentation>Paris, 06/1874, Messa da Requiem</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1874.gp">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 8.6.1874, Messa da Requiem, Generalprobe zur Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1874.1">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 9.6.1874, Messa da Requiem, Erstaufführung in Frankreich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1874.2">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 11.6.1874, Messa da Requiem, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1874.3">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 13.6.1874, Messa da Requiem, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1874.4">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 15.6.1874, Messa da Requiem, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1874.5">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 16.6.1874, Messa da Requiem, 5. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1874.6">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 18.6.1874, Messa da Requiem, 6. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1874.7">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 20.6.1874, Messa da Requiem, 7. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1874.8">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 22.6.1874, Messa da Requiem, 8. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="antwerpen.1875">
+                  <annotation>
+                     <documentation>Antwerpen, 11/1875, Antwerpen 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="antwerpen.1875.1">
+                  <annotation>
+                     <documentation>Antwerpen, 25.11.1875, Antwerpen 1875, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="antwerpen.1875.2">
+                  <annotation>
+                     <documentation>Antwerpen, 27.11.1875, Antwerpen 1875, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruessel.1875">
+                  <annotation>
+                     <documentation>Brüssel, 12/1875, Brüssel 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruessel.1875.1">
+                  <annotation>
+                     <documentation>Brüssel, Théâtre Royal de la Monnaie, 12/1875, Brüssel 1875, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="buenos-aires.1875">
+                  <annotation>
+                     <documentation>Buenos Aires, 10/1875, Buenos Aires 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="buenos-aires.1875.1">
+                  <annotation>
+                     <documentation>Buenos Aires, Teatro Ópera, 15.10.1875, Buenos Aires 1875, Erstaufführung in Südamerika</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="florenz.1875">
+                  <annotation>
+                     <documentation>Florenz, 09/1875, Florenz 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="florenz.1875.1">
+                  <annotation>
+                     <documentation>Florenz, Florenz, 19.9.1875, Florenz 1875, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="florenz.1875.2">
+                  <annotation>
+                     <documentation>Florenz, Florenz, 20.9.1875, Florenz 1875, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="florenz.1875.3">
+                  <annotation>
+                     <documentation>Florenz, Florenz, 22.9.1875, Florenz 1875, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="florenz.1875.4">
+                  <annotation>
+                     <documentation>Florenz, Florenz, 24.9.1875, Florenz 1875, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gent.1875">
+                  <annotation>
+                     <documentation>Gent, 1875, Gent 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gent.1875.1">
+                  <annotation>
+                     <documentation>Gent, , Gent 1875, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graz.1875">
+                  <annotation>
+                     <documentation>Graz, 11/1875, Graz 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graz.1875.1">
+                  <annotation>
+                     <documentation>Graz, 1.11.1875, Graz 1875, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graz.1875.2">
+                  <annotation>
+                     <documentation>Graz, 2.11.1875, Graz 1875, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graz.1875.3a">
+                  <annotation>
+                     <documentation>Graz, 7.12.1875, Graz 1875, geplante 3. Aufführung (verschoben)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graz.1875.4a">
+                  <annotation>
+                     <documentation>Graz, 8.12.1875, Graz 1875, geplante 4. Aufführung (verschoben)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graz.1875.3">
+                  <annotation>
+                     <documentation>Graz, 14.12.1875, Graz 1875, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graz.1875.4">
+                  <annotation>
+                     <documentation>Graz, 15.12.1875, Graz 1875, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="london.1875">
+                  <annotation>
+                     <documentation>London, 05/1875, London 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="london.1875.1">
+                  <annotation>
+                     <documentation>London, 15.5.1875, London 1875, Erstaufführung im Vereinigten Königreich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="london.1875.2">
+                  <annotation>
+                     <documentation>London, , London 1875, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="london.1875.3">
+                  <annotation>
+                     <documentation>London, , London 1875, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="london.1875.4">
+                  <annotation>
+                     <documentation>London, , London 1875, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="london.1875.5">
+                  <annotation>
+                     <documentation>London, , London 1875, 5. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="luettich.1875">
+                  <annotation>
+                     <documentation>Lüttich, 1875, Lüttich 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="luettich.1875.1">
+                  <annotation>
+                     <documentation>Lüttich, , Lüttich 1875, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1875">
+                  <annotation>
+                     <documentation>Paris, 04/1875, Paris 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1875.1">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 19.4.1875, Paris 1875, 1. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1875.2">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 21.4.1875, Paris 1875, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1875.3">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 23.4.1875, Paris 1875, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1875.4">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 27.4.1875, Paris 1875, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1875.5">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 29.4.1875, Paris 1875, 5. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1875.6">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 1.5.1875, Paris 1875, 6. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1875.7">
+                  <annotation>
+                     <documentation>Paris, Komische Oper, 4.5.1875, Paris 1875, 7. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="triest.1875">
+                  <annotation>
+                     <documentation>Triest, 10/1875, Triest 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="triest.1875.1">
+                  <annotation>
+                     <documentation>Triest, 16.10.1875, Triest 1875, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="venedig.1875">
+                  <annotation>
+                     <documentation>Venedig, 07/1875, Venedig 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="venedig.1875.1">
+                  <annotation>
+                     <documentation>Venedig, Teatro Malibran, 11.7.1875, Venedig 1875, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="venedig.1875.2">
+                  <annotation>
+                     <documentation>Venedig, Teatro Malibran, , Venedig 1875, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="venedig.1875.3">
+                  <annotation>
+                     <documentation>Venedig, Teatro Malibran, , Venedig 1875, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="venedig.1875.4">
+                  <annotation>
+                     <documentation>Venedig, Teatro Malibran, , Venedig 1875, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875">
+                  <annotation>
+                     <documentation>Wien, 06/1875, Wien 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875.gp">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 9.6.1875, Wien 1875, Generalprobe zur Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875.1">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 11.6.1875, Wien 1875, Erstaufführung in Österreich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875.2">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 12.6.1875, Wien 1875, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875.3">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 16.6.1875, Wien 1875, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875.4">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 23.6.1875, Wien 1875, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875a">
+                  <annotation>
+                     <documentation>Wien, 11/1875, Wien 1875a</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875a.1">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 1.11.1875, Wien 1875a, 1. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875a.2">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 2.11.1875, Wien 1875a, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875a.3">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 7.11.1875, Wien 1875a, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1875a.4">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 23.12.1875, Wien 1875a, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koeln.1875">
+                  <annotation>
+                     <documentation>Köln, 12/1875, Köln 1875/76</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koeln.1875.1">
+                  <annotation>
+                     <documentation>Köln, Gürzenich, 7.12.1875, Köln 1875/76, 4. Gürzenichkonzert</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koeln.1875.2">
+                  <annotation>
+                     <documentation>Köln, Gürzenich, 15.2.1876, Köln 1875/76, 8. Gürzenichkonzert</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muenchen.1875">
+                  <annotation>
+                     <documentation>München, 12/1875, München 1875/76</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muenchen.1875.1">
+                  <annotation>
+                     <documentation>München, Odeontheater, 7.12.1875, München 1875/76, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muenchen.1875.2">
+                  <annotation>
+                     <documentation>München, Königliches Hof- und Nationaltheater, 21.3.1876, München 1875/76, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muenchen.1875.3">
+                  <annotation>
+                     <documentation>München, Königliches Hof- und Nationaltheater, 22.3.1876, München 1875/76, 3. Aufführung (privat?)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pest.1875">
+                  <annotation>
+                     <documentation>Pest, 12/1875, Pest 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pest.1875.1">
+                  <annotation>
+                     <documentation>Pest, 18.12.1875, Pest 1875, Erstaufführung in Ungarn</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pest.1875.2">
+                  <annotation>
+                     <documentation>Pest, 19.12.1875, Pest 1875, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rom.1875">
+                  <annotation>
+                     <documentation>Rom, 06/1875, Rom 1875</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rom.1875.1">
+                  <annotation>
+                     <documentation>Rom, 4.6.1875, Rom 1875, Erstaufführung in Rom</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="aachen.1876">
+                  <annotation>
+                     <documentation>Aachen, 03/1876, Aachen 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="aachen.1876.1">
+                  <annotation>
+                     <documentation>Aachen, Kurhaus, 16.3.1876, Aachen 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlin.1876">
+                  <annotation>
+                     <documentation>Berlin, 04/1876, Berlin 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlin.1876.1">
+                  <annotation>
+                     <documentation>Berlin, 15.4.1876, Berlin 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlin.1876.2">
+                  <annotation>
+                     <documentation>Berlin, 17.4.1876, Berlin 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlin.1876.3">
+                  <annotation>
+                     <documentation>Berlin, 25.4.1876, Berlin 1876, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlin.1876.4">
+                  <annotation>
+                     <documentation>Berlin, 10.5.1876, Berlin 1876, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlin.1876-hofconcerte">
+                  <annotation>
+                     <documentation>Berlin, 03/1876, Berlin 1876 (Hofconcert)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlin.1876-hofconcerte.1">
+                  <annotation>
+                     <documentation>Berlin, 9.3.1876, Berlin 1876 (Hofconcert), Abendunterhaltung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bremen.1876">
+                  <annotation>
+                     <documentation>Bremen, 02/1876, Bremen 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bremen.1876.1">
+                  <annotation>
+                     <documentation>Bremen, 1876-02-01–1876-02-29, Bremen 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bremen.1876.2">
+                  <annotation>
+                     <documentation>Bremen, 1876-02-01–1876-02-29, Bremen 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="breslau.1876">
+                  <annotation>
+                     <documentation>Breslau, 11/1876, Breslau 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="breslau.1876.1">
+                  <annotation>
+                     <documentation>Breslau, 7.11.1876, Breslau 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bristol.1876">
+                  <annotation>
+                     <documentation>Bristol, 10/1876, Bristol 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bristol.1876.1">
+                  <annotation>
+                     <documentation>Bristol, , Bristol 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruenn.1876">
+                  <annotation>
+                     <documentation>Brünn, 01/1876, Brünn 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruenn.1876.1">
+                  <annotation>
+                     <documentation>Brünn, Reduta-Theater, 2.1.1876, Brünn 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruenn.1876.2">
+                  <annotation>
+                     <documentation>Brünn, Reduta-Theater, 6.1.1876, Brünn 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dresden.1876">
+                  <annotation>
+                     <documentation>Dresden, 01/1876, Dresden 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dresden.1876.1">
+                  <annotation>
+                     <documentation>Dresden, Königliches Hoftheater, 8.1.1876, Dresden 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dresden.1876.2">
+                  <annotation>
+                     <documentation>Dresden, Königliches Hoftheater, 11.1.1876, Dresden 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dresden.1876.3">
+                  <annotation>
+                     <documentation>Dresden, Königliches Hoftheater, 5.2.1876, Dresden 1876, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dresden.1876.4">
+                  <annotation>
+                     <documentation>Dresden, Königliches Hoftheater, 10.2.1876, Dresden 1876, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dresden.1876.5">
+                  <annotation>
+                     <documentation>Dresden, Königliches Hoftheater, 24.2.1876, Dresden 1876, 5. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="elberfeld.1876">
+                  <annotation>
+                     <documentation>Elberfeld, 04/1876, Elberfeld 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="elberfeld.1876.1">
+                  <annotation>
+                     <documentation>Elberfeld, 5.4.1876, Elberfeld 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg.1876">
+                  <annotation>
+                     <documentation>Hamburg, 01/1876, Hamburg 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg.1876.1">
+                  <annotation>
+                     <documentation>Hamburg, Stadt-Theater, 8.1.1876, Hamburg 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg.1876.2">
+                  <annotation>
+                     <documentation>Hamburg, Stadt-Theater, 12.1.1876, Hamburg 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg.1876.3a">
+                  <annotation>
+                     <documentation>Hamburg, Stadt-Theater, 16.1.1876, Hamburg 1876, geplante 3. Aufführung (ausgefallen)</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg.1876.3">
+                  <annotation>
+                     <documentation>Hamburg, Stadt-Theater, 23.1.1876, Hamburg 1876, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg.1876.4">
+                  <annotation>
+                     <documentation>Hamburg, Stadt-Theater, 30.1.1876, Hamburg 1876, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg.1876.5">
+                  <annotation>
+                     <documentation>Hamburg, Stadt-Theater, 2.2.1876, Hamburg 1876, 5. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg.1876.6">
+                  <annotation>
+                     <documentation>Hamburg, Stadt-Theater, 5.3.1876, Hamburg 1876, 6. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg.1876.7">
+                  <annotation>
+                     <documentation>Hamburg, Stadt-Theater, 14.4.1876, Hamburg 1876, 7. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hannover.1876">
+                  <annotation>
+                     <documentation>Hannover, 06/1876, Hannover 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hannover.1876.1">
+                  <annotation>
+                     <documentation>Hannover, 14.6.1876, Hannover 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="heilbronn.1876">
+                  <annotation>
+                     <documentation>Heilbronn, 06/1876, Heilbronn 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="heilbronn.1876.1">
+                  <annotation>
+                     <documentation>Heilbronn, St. Kilian, 20.6.1876, Heilbronn 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leipzig.1876">
+                  <annotation>
+                     <documentation>Leipzig, 03/1876, Leipzig 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leipzig.1876.1">
+                  <annotation>
+                     <documentation>Leipzig, Gewandhaus, 9.3.1876, Leipzig 1876, Erstaufführung 19. Gewandhauskonzert</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leipzig.1876.2">
+                  <annotation>
+                     <documentation>Leipzig, Gewandhaus, 13.3.1876, Leipzig 1876, 2. Aufführung Benefizkonzert</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lemberg.1876">
+                  <annotation>
+                     <documentation>Lemberg, 04/1876, Lemberg 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lemberg.1876.1">
+                  <annotation>
+                     <documentation>Lemberg, 9.4.1876, Lemberg 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lemberg.1876.2">
+                  <annotation>
+                     <documentation>Lemberg, 10.4.1876, Lemberg 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="manchester.1876">
+                  <annotation>
+                     <documentation>Manchester, 1876, Manchester 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="manchester.1876.1">
+                  <annotation>
+                     <documentation>Manchester, , Manchester 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="moskau.1876">
+                  <annotation>
+                     <documentation>Moskau, 1876, Moskau 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="moskau.1876.1">
+                  <annotation>
+                     <documentation>Moskau, , Moskau 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="olmuetz.1876">
+                  <annotation>
+                     <documentation>Olmütz, 05/1876, Olmütz 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="olmuetz.1876.1">
+                  <annotation>
+                     <documentation>Olmütz, 22.5.1876, Olmütz 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="olmuetz.1876.2">
+                  <annotation>
+                     <documentation>Olmütz, 23.5.1876, Olmütz 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1876">
+                  <annotation>
+                     <documentation>Paris, 04/1876, Paris 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1876.1">
+                  <annotation>
+                     <documentation>Paris, Théâtre-Italien, 29.4.1876, Paris 1876, 1. Wiederaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1876.2">
+                  <annotation>
+                     <documentation>Paris, Théâtre-Italien, 1876-04-30–1876-06-03, Paris 1876, 2. Wiederaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.1876.3">
+                  <annotation>
+                     <documentation>Paris, Théâtre-Italien, 1876-04-30–1876-06-03, Paris 1876, 3. Wiederaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="parma.1876">
+                  <annotation>
+                     <documentation>Parma, 1876, Parma 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="parma.1876.1">
+                  <annotation>
+                     <documentation>Parma, , Parma 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="st-petersburg.1876">
+                  <annotation>
+                     <documentation>St. Petersburg, 1876, Petersburg 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="st-petersburg.1876.1">
+                  <annotation>
+                     <documentation>St. Petersburg, Mariinski-Theater, 1876, Petersburg 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prag.1876">
+                  <annotation>
+                     <documentation>Prag, 01/1876, Prag 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prag.1876.gp">
+                  <annotation>
+                     <documentation>Prag, 26.1.1876, Prag 1876, Generalprobe</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prag.1876.1">
+                  <annotation>
+                     <documentation>Prag, 27.1.1876, Prag 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prag.1876.2">
+                  <annotation>
+                     <documentation>Prag, 31.1.1876, Prag 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prag.1876.3">
+                  <annotation>
+                     <documentation>Prag, 15.2.1876, Prag 1876, 3. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prag.1876.4">
+                  <annotation>
+                     <documentation>Prag, 7.3.1876, Prag 1876, 4. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rio-de-janeiro.1876">
+                  <annotation>
+                     <documentation>Rio de Janeiro, 1876, Rio de Janeiro 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rio-de-janeiro.1876.1">
+                  <annotation>
+                     <documentation>Rio de Janeiro, 1876, Rio de Janeiro 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="salzburg.1876">
+                  <annotation>
+                     <documentation>Salzburg, 04/1876, Salzburg 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="salzburg.1876.hp">
+                  <annotation>
+                     <documentation>Salzburg, Aula Academica, 20.4.1876, Salzburg 1876, Hauptprobe</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="salzburg.1876.gp">
+                  <annotation>
+                     <documentation>Salzburg, Aula Academica, 22.4.1876, Salzburg 1876, Generalprobe</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="salzburg.1876.1">
+                  <annotation>
+                     <documentation>Salzburg, Aula Academica, 23.4.1876, Salzburg 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="salzburg.1876.2">
+                  <annotation>
+                     <documentation>Salzburg, Aula Academica, 30.4.1876, Salzburg 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schwerin.1876">
+                  <annotation>
+                     <documentation>Schwerin, 04/1876, Schwerin 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schwerin.1876.gp">
+                  <annotation>
+                     <documentation>Schwerin, 15.4.1876, Schwerin 1876, Generalprobe</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schwerin.1876.1">
+                  <annotation>
+                     <documentation>Schwerin, 16.4.1876, Schwerin 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stuttgart.1876">
+                  <annotation>
+                     <documentation>Stuttgart, 12/1876, Stuttgart 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stuttgart.1876.1">
+                  <annotation>
+                     <documentation>Stuttgart, 12/1876, Stuttgart 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="utrecht.1876">
+                  <annotation>
+                     <documentation>Utrecht, 1876, Utrecht 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="utrecht.1876.1">
+                  <annotation>
+                     <documentation>Utrecht, 1876, Utrecht 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="warschau.1876">
+                  <annotation>
+                     <documentation>Warschau, 1876, Warschau 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="warschau.1876.1">
+                  <annotation>
+                     <documentation>Warschau, 1876, Warschau 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="warschau.1876.2">
+                  <annotation>
+                     <documentation>Warschau, 1876, Warschau 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1876">
+                  <annotation>
+                     <documentation>Wien, 11/1876, Wien 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1876.1">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 2.11.1876, Wien 1876, 1. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weimar.1876">
+                  <annotation>
+                     <documentation>Weimar, 04/1876, Weimar 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weimar.1876.1">
+                  <annotation>
+                     <documentation>Weimar, Hoftheater, 26.4.1876, Weimar 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weimar.1876.2">
+                  <annotation>
+                     <documentation>Weimar, Hoftheater, 24.5.1876, Weimar 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wiesbaden.1876">
+                  <annotation>
+                     <documentation>Wiesbaden, 02/1876, Wiesbaden 1876</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wiesbaden.1876.1">
+                  <annotation>
+                     <documentation>Wiesbaden, Königliches Theater, 22.2.1876, Wiesbaden 1876, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wiesbaden.1876.2">
+                  <annotation>
+                     <documentation>Wiesbaden, Königliches Theater, 25.2.1876, Wiesbaden 1876, 2. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="coburg.1877">
+                  <annotation>
+                     <documentation>Coburg, 12/1877, Coburg 1877</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="coburg.1877.1">
+                  <annotation>
+                     <documentation>Coburg, Herzoglich sächsisches Hoftheater, 7.12.1877, Coburg 1877, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="frankfurt-am-main.1877">
+                  <annotation>
+                     <documentation>Frankfurt, 10/1877, Frankfurt/Main 1877</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="frankfurt-am-main.1877.1">
+                  <annotation>
+                     <documentation>Frankfurt, 26.10.1877, Frankfurt/Main 1877, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koeln.1877">
+                  <annotation>
+                     <documentation>Köln, 05/1877, Köln 1877</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koeln.1877.musikfest.1">
+                  <annotation>
+                     <documentation>Köln, 20.5.1877, Köln 1877, Erster Tag</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koeln.1877.musikfest.2">
+                  <annotation>
+                     <documentation>Köln, 21.5.1877, Köln 1877, Zweiter Tag</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koeln.1877.musikfest.3">
+                  <annotation>
+                     <documentation>Köln, 22.5.1877, Köln 1877, Dritter Tag</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stockholm.1877">
+                  <annotation>
+                     <documentation>Stockholm, 1877, Stockholm 1877</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stockholm.1877.1">
+                  <annotation>
+                     <documentation>Stockholm, 1877-10-01–1877-10-15, Stockholm 1877, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koenigsberg.1877">
+                  <annotation>
+                     <documentation>Königsberg, 1877, Königsberg 1877</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koenigsberg.1877.1">
+                  <annotation>
+                     <documentation>Königsberg, 1877-01-01–1877-04-30, Königsberg 1877, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1877">
+                  <annotation>
+                     <documentation>Wien, 11/1877, Wien 1877</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1877.1">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 2.11.1877, Wien 1877, 1. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="st-gallen.1878">
+                  <annotation>
+                     <documentation>St. Gallen, 04/1878, Sankt Gallen 1878</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="st-gallen.1878.1">
+                  <annotation>
+                     <documentation>St. Gallen, 14.4.1878, Sankt Gallen 1878, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="danzig.1878">
+                  <annotation>
+                     <documentation>Danzig, 04/1878, Danzig 1878</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="danzig.1878.1">
+                  <annotation>
+                     <documentation>Danzig, Friedrich-Wilhelm-Schützenhaus, 14.4.1878, Danzig 1878, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leipzig.1878">
+                  <annotation>
+                     <documentation>Leipzig, 1878, Leipzig 1878</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leipzig.1878.1">
+                  <annotation>
+                     <documentation>Leipzig, , Leipzig 1878, 1. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="karlsruhe.1878">
+                  <annotation>
+                     <documentation>Karlsruhe, 04/1878, Karlsruhe 1878</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="karlsruhe.1878.1">
+                  <annotation>
+                     <documentation>Karlsruhe, Festhalle, 14.4.1878, Karlsruhe 1878, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mannheim.1878">
+                  <annotation>
+                     <documentation>Mannheim, 04/1878, Mannheim 1878</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mannheim.1878.1">
+                  <annotation>
+                     <documentation>Mannheim, 19.4.1878, Mannheim 1878, Erstaufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1878">
+                  <annotation>
+                     <documentation>Wien, 11/1878, Wien 1878</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.1878.1">
+                  <annotation>
+                     <documentation>Wien, Hof-Operntheater, 2.11.1878, Wien 1878, 1. Aufführung</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="unidentified">
+                  <annotation>
+                     <documentation>, , ? (nicht identifiziertes Ereignis)</documentation>
+                  </annotation>
+               </enumeration>
+            </restriction>
+         </simpleType>
+      </list>
+   </simpleType>
+</schema>

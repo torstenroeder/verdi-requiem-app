@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+   <simpleType name="placeNym">
+      <list>
+         <simpleType>
+            <restriction base="string">
+               <enumeration value="afrika">
+                  <annotation>
+                     <documentation>Afrika</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="europa">
+                  <annotation>
+                     <documentation>Europa</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="nordamerika">
+                  <annotation>
+                     <documentation>Nordamerika</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="suedamerika">
+                  <annotation>
+                     <documentation>Südamerika</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="aegypten">
+                  <annotation>
+                     <documentation>Ägypten</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bayern">
+                  <annotation>
+                     <documentation>Bayern</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="belgien">
+                  <annotation>
+                     <documentation>Belgien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="boehmen">
+                  <annotation>
+                     <documentation>Böhmen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="brasilien">
+                  <annotation>
+                     <documentation>Brasilien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="deutschland">
+                  <annotation>
+                     <documentation>Deutschland</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="frankreich">
+                  <annotation>
+                     <documentation>Frankreich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="griechenland">
+                  <annotation>
+                     <documentation>Griechenland</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="grossbritannien">
+                  <annotation>
+                     <documentation>Großbritannien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="italien">
+                  <annotation>
+                     <documentation>Italien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lombardei">
+                  <annotation>
+                     <documentation>Lombardei</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lombardo-venetien">
+                  <annotation>
+                     <documentation>Lombardo-Venetien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="maehren">
+                  <annotation>
+                     <documentation>Mähren</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="makedonien">
+                  <annotation>
+                     <documentation>Makedonien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="niederlande">
+                  <annotation>
+                     <documentation>Niederlande</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="norddeutschland">
+                  <annotation>
+                     <documentation>Norddeutschland</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="norditalien">
+                  <annotation>
+                     <documentation>Norditalien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="norwegen">
+                  <annotation>
+                     <documentation>Norwegen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="oesterreich">
+                  <annotation>
+                     <documentation>Österreich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="oesterreich-ungarn">
+                  <annotation>
+                     <documentation>Österreich-Ungarn</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="polen">
+                  <annotation>
+                     <documentation>Polen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rheinland">
+                  <annotation>
+                     <documentation>Rheinland</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="russland">
+                  <annotation>
+                     <documentation>Russland</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schweden">
+                  <annotation>
+                     <documentation>Schweden</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schweiz">
+                  <annotation>
+                     <documentation>Schweiz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="skandinavien">
+                  <annotation>
+                     <documentation>Skandinavien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="sueddeutschland">
+                  <annotation>
+                     <documentation>Süddeutschland</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="toskana">
+                  <annotation>
+                     <documentation>Toskana</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ukraine">
+                  <annotation>
+                     <documentation>Ukraine</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ungarn">
+                  <annotation>
+                     <documentation>Ungarn</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="usa">
+                  <annotation>
+                     <documentation>USA</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="aachen">
+                  <annotation>
+                     <documentation>Aachen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="aachen.kurhaus">
+                  <annotation>
+                     <documentation>Kurhaus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="altona">
+                  <annotation>
+                     <documentation>Altona</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="antwerpen">
+                  <annotation>
+                     <documentation>Antwerpen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="athen">
+                  <annotation>
+                     <documentation>Athen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="augsburg">
+                  <annotation>
+                     <documentation>Augsburg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="basel">
+                  <annotation>
+                     <documentation>Basel</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bayreuth">
+                  <annotation>
+                     <documentation>Bayreuth</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bergamo">
+                  <annotation>
+                     <documentation>Bergamo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlin">
+                  <annotation>
+                     <documentation>Berlin</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlin.hofoper">
+                  <annotation>
+                     <documentation>Königliche Hofoper Unter den Linden</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="berlin.kronprinzenpalais">
+                  <annotation>
+                     <documentation>Kronprinzenpalais</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bologna">
+                  <annotation>
+                     <documentation>Bologna</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bologna.san-petronio">
+                  <annotation>
+                     <documentation>San Petronio</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="boston">
+                  <annotation>
+                     <documentation>Boston</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bremen">
+                  <annotation>
+                     <documentation>Bremen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="breslau">
+                  <annotation>
+                     <documentation>Breslau</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bristol">
+                  <annotation>
+                     <documentation>Bristol</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruck-an-der-mur">
+                  <annotation>
+                     <documentation>Bruck an der Mur</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruenn">
+                  <annotation>
+                     <documentation>Brünn</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruenn.redouta-theater">
+                  <annotation>
+                     <documentation>Reduta-Theater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruenn.stadttheater">
+                  <annotation>
+                     <documentation>Deutsches Stadttheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruessel">
+                  <annotation>
+                     <documentation>Brüssel</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="bruessel.la-monnaie">
+                  <annotation>
+                     <documentation>Théâtre Royal de la Monnaie</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="budapest.nationaltheater">
+                  <annotation>
+                     <documentation>Ungarisches Nationaltheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="buenos-aires">
+                  <annotation>
+                     <documentation>Buenos Aires</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="buenos-aires.teatro-opera">
+                  <annotation>
+                     <documentation>Teatro Ópera</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="busseto">
+                  <annotation>
+                     <documentation>Busseto</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="cairo">
+                  <annotation>
+                     <documentation>Cairo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="charlottenburg">
+                  <annotation>
+                     <documentation>Charlottenburg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="coburg">
+                  <annotation>
+                     <documentation>Coburg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="coburg.hoftheater">
+                  <annotation>
+                     <documentation>Herzoglich sächsisches Hoftheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="constantine">
+                  <annotation>
+                     <documentation>Constantine</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="danzig">
+                  <annotation>
+                     <documentation>Danzig</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="danzig.schuetzenhaus">
+                  <annotation>
+                     <documentation>Friedrich-Wilhelm-Schützenhaus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="darmstadt">
+                  <annotation>
+                     <documentation>Darmstadt</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dessau">
+                  <annotation>
+                     <documentation>Dessau</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dresden">
+                  <annotation>
+                     <documentation>Dresden</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dresden.hoftheater">
+                  <annotation>
+                     <documentation>Königliches Hoftheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="dresden.neustaedter-hoftheater">
+                  <annotation>
+                     <documentation>Neustädter Hoftheater Dresden</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="duesseldorf">
+                  <annotation>
+                     <documentation>Düsseldorf</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="elberfeld">
+                  <annotation>
+                     <documentation>Elberfeld</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="erfurt">
+                  <annotation>
+                     <documentation>Erfurt</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="ferrara">
+                  <annotation>
+                     <documentation>Ferrara</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="florenz">
+                  <annotation>
+                     <documentation>Florenz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="florenz.teatro-pagliano">
+                  <annotation>
+                     <documentation>Teatro Pagliano</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="florenz.teatro-principe-umberto">
+                  <annotation>
+                     <documentation>Teatro Principe Umberto</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="frankfurt-am-main">
+                  <annotation>
+                     <documentation>Frankfurt</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gent">
+                  <annotation>
+                     <documentation>Gent</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="genua">
+                  <annotation>
+                     <documentation>Genua</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="genua.palazzo-doria">
+                  <annotation>
+                     <documentation>Palazzo Doria</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="genua.teatro-carlo-felice">
+                  <annotation>
+                     <documentation>Teatro Carlo Felice</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="goettingen">
+                  <annotation>
+                     <documentation>Göttingen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="gotha">
+                  <annotation>
+                     <documentation>Gotha</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graz">
+                  <annotation>
+                     <documentation>Graz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graz.landes-theater">
+                  <annotation>
+                     <documentation>Landestheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="graz.stadt-theater">
+                  <annotation>
+                     <documentation>Stadttheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="guetersloh">
+                  <annotation>
+                     <documentation>Gütersloh</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg">
+                  <annotation>
+                     <documentation>Hamburg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hamburg.stadt-theater">
+                  <annotation>
+                     <documentation>Stadt-Theater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="hannover">
+                  <annotation>
+                     <documentation>Hannover</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="heilbronn">
+                  <annotation>
+                     <documentation>Heilbronn</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="heilbronn.st-kilian">
+                  <annotation>
+                     <documentation>St. Kilian</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="karlsruhe">
+                  <annotation>
+                     <documentation>Karlsruhe</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="karlsruhe.festhalle">
+                  <annotation>
+                     <documentation>Festhalle</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="kassel">
+                  <annotation>
+                     <documentation>Kassel</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koblenz">
+                  <annotation>
+                     <documentation>Koblenz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koeln">
+                  <annotation>
+                     <documentation>Köln</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koeln.guerzenich">
+                  <annotation>
+                     <documentation>Gürzenich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="koenigsberg">
+                  <annotation>
+                     <documentation>Königsberg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="krakau">
+                  <annotation>
+                     <documentation>Krakau</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leipzig">
+                  <annotation>
+                     <documentation>Leipzig</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="leipzig.gewandhaus">
+                  <annotation>
+                     <documentation>Gewandhaus</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="lemberg">
+                  <annotation>
+                     <documentation>Lemberg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="london">
+                  <annotation>
+                     <documentation>London</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="london.covent-garden-theatre">
+                  <annotation>
+                     <documentation>Royal Opera House in Covent Garden</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="london.royal-albert-hall">
+                  <annotation>
+                     <documentation>Royal Albert Hall</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="luebeck">
+                  <annotation>
+                     <documentation>Lübeck</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="luettich">
+                  <annotation>
+                     <documentation>Lüttich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="magdeburg">
+                  <annotation>
+                     <documentation>Magdeburg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand">
+                  <annotation>
+                     <documentation>Mailand</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.dom">
+                  <annotation>
+                     <documentation>Dom</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.konservatorium">
+                  <annotation>
+                     <documentation>Konservatorium</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.san-marco">
+                  <annotation>
+                     <documentation>San Marco</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.teatro-alla-scala">
+                  <annotation>
+                     <documentation>Teatro alla Scala</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mailand.teatro-dal-verme">
+                  <annotation>
+                     <documentation>Teatro dal Verme</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mainz">
+                  <annotation>
+                     <documentation>Mainz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="mannheim">
+                  <annotation>
+                     <documentation>Mannheim</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="manchester">
+                  <annotation>
+                     <documentation>Manchester</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="moskau">
+                  <annotation>
+                     <documentation>Moskau</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muenchen">
+                  <annotation>
+                     <documentation>München</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muenchen.hoftheater">
+                  <annotation>
+                     <documentation>Königliches Hof- und Nationaltheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muenchen.odeon">
+                  <annotation>
+                     <documentation>Odeontheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muenchen.residenztheater">
+                  <annotation>
+                     <documentation>Residenztheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="muenster">
+                  <annotation>
+                     <documentation>Münster</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="neapel">
+                  <annotation>
+                     <documentation>Neapel</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="neapel.konservatorium">
+                  <annotation>
+                     <documentation>Konservatorium</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="neapel.teatro-san-carlo">
+                  <annotation>
+                     <documentation>Teatro San Carlo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="new-york">
+                  <annotation>
+                     <documentation>New York</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="new-york.academy-of-music">
+                  <annotation>
+                     <documentation>Academy of Music</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="new-york.st-anns">
+                  <annotation>
+                     <documentation>St. Ann’s Roman Catholic Church</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="olmuetz">
+                  <annotation>
+                     <documentation>Olmütz</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris">
+                  <annotation>
+                     <documentation>Paris</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.grand-opera">
+                  <annotation>
+                     <documentation>Palais Garnier</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.invalidendom">
+                  <annotation>
+                     <documentation>Invalidendom</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.notre-dame">
+                  <annotation>
+                     <documentation>Notre-Dame</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.opera-comique">
+                  <annotation>
+                     <documentation>Komische Oper</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.st-eustache">
+                  <annotation>
+                     <documentation>Saint-Eustache</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="paris.theatre-italien">
+                  <annotation>
+                     <documentation>Théâtre-Italien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="parma">
+                  <annotation>
+                     <documentation>Parma</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pest">
+                  <annotation>
+                     <documentation>Pest</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="piacenza">
+                  <annotation>
+                     <documentation>Piacenza</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pilsen">
+                  <annotation>
+                     <documentation>Pilsen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pilsen.stadt-theater">
+                  <annotation>
+                     <documentation>Stadt-Theater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="pisa">
+                  <annotation>
+                     <documentation>Pisa</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="posen">
+                  <annotation>
+                     <documentation>Posen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prag">
+                  <annotation>
+                     <documentation>Prag</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prag.konservatorium">
+                  <annotation>
+                     <documentation>Konservatorium</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="prag.staendetheater">
+                  <annotation>
+                     <documentation>Nationaltheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="regensburg">
+                  <annotation>
+                     <documentation>Regensburg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="reggio">
+                  <annotation>
+                     <documentation>Reggio</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rio-de-janeiro">
+                  <annotation>
+                     <documentation>Rio de Janeiro</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rom">
+                  <annotation>
+                     <documentation>Rom</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rom.peterskirche">
+                  <annotation>
+                     <documentation>Peterskirche</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rom.sixtinische-kapelle">
+                  <annotation>
+                     <documentation>Sixtinische Kapelle</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="rom.teatro-apollo">
+                  <annotation>
+                     <documentation>Teatro Apollo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="roncole">
+                  <annotation>
+                     <documentation>Roncole</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="salzburg">
+                  <annotation>
+                     <documentation>Salzburg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="salzburg.aula-academica">
+                  <annotation>
+                     <documentation>Aula Academica</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="salzburg.kuk-theater">
+                  <annotation>
+                     <documentation>K. u. K. Theater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="sant-agata">
+                  <annotation>
+                     <documentation>Sant’Agata</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schwerin">
+                  <annotation>
+                     <documentation>Schwerin</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="schwerin.hoftheater">
+                  <annotation>
+                     <documentation>Hoftheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="speyer">
+                  <annotation>
+                     <documentation>Speyer</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="st-gallen">
+                  <annotation>
+                     <documentation>St. Gallen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="st-gallen.kirche-st-laurenzen">
+                  <annotation>
+                     <documentation>St. Laurenzen</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="st-petersburg">
+                  <annotation>
+                     <documentation>St. Petersburg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="st-petersburg.mariinski-theater">
+                  <annotation>
+                     <documentation>Mariinski-Theater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stockerau">
+                  <annotation>
+                     <documentation>Stockerau</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stockholm">
+                  <annotation>
+                     <documentation>Stockholm</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stralsund">
+                  <annotation>
+                     <documentation>Stralsund</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="stuttgart">
+                  <annotation>
+                     <documentation>Stuttgart</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="triest">
+                  <annotation>
+                     <documentation>Triest</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="triest.teatro-comunale">
+                  <annotation>
+                     <documentation>Teatro Nuovo</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="utrecht">
+                  <annotation>
+                     <documentation>Utrecht</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="venedig">
+                  <annotation>
+                     <documentation>Venedig</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="venedig.san-marco">
+                  <annotation>
+                     <documentation>Markusdom</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="venedig.teatro-la-fenice">
+                  <annotation>
+                     <documentation>Teatro La Fenice</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="venedig.teatro-malibran">
+                  <annotation>
+                     <documentation>Teatro Malibran</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="voeslau">
+                  <annotation>
+                     <documentation>Vöslau</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="warschau">
+                  <annotation>
+                     <documentation>Warschau</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weimar">
+                  <annotation>
+                     <documentation>Weimar</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="weimar.hoftheater">
+                  <annotation>
+                     <documentation>Hoftheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien">
+                  <annotation>
+                     <documentation>Wien</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.burgtheater">
+                  <annotation>
+                     <documentation>Burgtheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.hof-operntheater">
+                  <annotation>
+                     <documentation>Hof-Operntheater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.hofburg">
+                  <annotation>
+                     <documentation>Hofburg</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.kaerntnertor-theater">
+                  <annotation>
+                     <documentation>Kärntnertor-Theater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.konservatorium">
+                  <annotation>
+                     <documentation>Konservatorium</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wien.salvatorkirche">
+                  <annotation>
+                     <documentation>St. Salvator</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wiesbaden">
+                  <annotation>
+                     <documentation>Wiesbaden</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="wiesbaden.koenigliches-theater">
+                  <annotation>
+                     <documentation>Königliches Theater</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="winterthur">
+                  <annotation>
+                     <documentation>Winterthur</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="zuerich">
+                  <annotation>
+                     <documentation>Zürich</documentation>
+                  </annotation>
+               </enumeration>
+               <enumeration value="unidentified">
+                  <annotation>
+                     <documentation>? (nicht identifizierter Ort)</documentation>
+                  </annotation>
+               </enumeration>
+            </restriction>
+         </simpleType>
+      </list>
+   </simpleType>
+</schema>

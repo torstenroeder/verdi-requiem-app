@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+   <simpleType name="orgNym">
+      <restriction base="string">
+         <enumeration value="admz">
+            <annotation>
+               <documentation>Allgemeine deutsche Musikzeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="amz">
+            <annotation>
+               <documentation>Allgemeine musikalische Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="bmze">
+            <annotation>
+               <documentation>Berliner Musik-Zeitung Echo</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="caecilia">
+            <annotation>
+               <documentation>Cäcilia</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="dmz">
+            <annotation>
+               <documentation>Deutsche Musik-Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="euterpe">
+            <annotation>
+               <documentation>Euterpe</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="fbkk">
+            <annotation>
+               <documentation>Fliegende Blätter für katholische Kirchenmusik</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="mfmg">
+            <annotation>
+               <documentation>Monatshefte für Musik-Geschichte</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="mlmb">
+            <annotation>
+               <documentation>Musikalisch literarischer Monatsbericht</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="ms">
+            <annotation>
+               <documentation>Musica sacra</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="mwb">
+            <annotation>
+               <documentation>Musikalisches Wochenblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="nbmz">
+            <annotation>
+               <documentation>Neue Berliner Musikzeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="nzfm">
+            <annotation>
+               <documentation>Neue Zeitschrift für Musik</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="signale">
+            <annotation>
+               <documentation>Signale für die musikalische Welt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="siona">
+            <annotation>
+               <documentation>Siona</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="tonkunst">
+            <annotation>
+               <documentation>Die Tonkunst</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="aachener-zeitung">
+            <annotation>
+               <documentation>Aachener Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="allgemeine-zeitung">
+            <annotation>
+               <documentation>Allgemeine Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="altonaer-nachrichten">
+            <annotation>
+               <documentation>Altonaer Nachrichten</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="bayerischer-kurier">
+            <annotation>
+               <documentation>Bayerischer Kurier</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="berliner-boersen-zeitung">
+            <annotation>
+               <documentation>Berliner Börsen-Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="berliner-fremdenblatt">
+            <annotation>
+               <documentation>Berliner Fremdenblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="berliner-tageblatt">
+            <annotation>
+               <documentation>Berliner Tageblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="coburger-zeitung">
+            <annotation>
+               <documentation>Coburger Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="deutsche-rundschau">
+            <annotation>
+               <documentation>Deutsche Rundschau</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="dresdner-nachrichten">
+            <annotation>
+               <documentation>Dresdner Nachrichten</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="echo-der-gegenwart">
+            <annotation>
+               <documentation>Echo der Gegenwart</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="hamburger-nachrichten">
+            <annotation>
+               <documentation>Hamburger Nachrichten</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="karlsruher-nachrichten">
+            <annotation>
+               <documentation>Karlsruher Nachrichten</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="koelnische-volkszeitung">
+            <annotation>
+               <documentation>Kölnische Volkszeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="koelnische-zeitung">
+            <annotation>
+               <documentation>Kölnische Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="koeniglich-privilegirte-berlinische-zeitung">
+            <annotation>
+               <documentation>Königlich privilegirte Berlinische Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="leipziger-nachrichten">
+            <annotation>
+               <documentation>Leipziger Nachrichten</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="leipziger-tageblatt">
+            <annotation>
+               <documentation>Leipziger Tageblatt und Anzeiger</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="mecklenburgische-zeitung">
+            <annotation>
+               <documentation>Mecklenburgische Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="muenchener-nachrichten">
+            <annotation>
+               <documentation>Münchener Nachrichten</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="national-zeitung">
+            <annotation>
+               <documentation>National-Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="neue-preussische-zeitung">
+            <annotation>
+               <documentation>Neue Preußische Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="neues-berliner-tageblatt">
+            <annotation>
+               <documentation>Neues Berliner Tageblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="neueste-nachrichten">
+            <annotation>
+               <documentation>Neueste Nachrichten</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="norddeutsche-allgemeine-zeitung">
+            <annotation>
+               <documentation>Norddeutsche Allgemeine Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="rheinischer-kurier">
+            <annotation>
+               <documentation>Rheinischer Kurier</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="zwischenact-zeitung">
+            <annotation>
+               <documentation>Zwischenact-Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="bruenner-zeitung">
+            <annotation>
+               <documentation>Brünner Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="neue-zeit">
+            <annotation>
+               <documentation>Neue Zeit [?]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="pilsner-fremdenblatt">
+            <annotation>
+               <documentation>Pilsner Fremdenblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="prager-abendblatt">
+            <annotation>
+               <documentation>Prager Abendblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="preussischer-volksfreund">
+            <annotation>
+               <documentation>Preußischer Volksfreund</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="schlesische-volkszeitung">
+            <annotation>
+               <documentation>Schlesische Volkszeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="tagesbote-aus-maehren-und-schlesien">
+            <annotation>
+               <documentation>Tagesbote aus Mähren und Schlesien</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="volksfreund">
+            <annotation>
+               <documentation>Volksfreund [?]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="westpreussisches-volksblatt">
+            <annotation>
+               <documentation>Westpreußisches Volksblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="das-vaterland">
+            <annotation>
+               <documentation>Das Vaterland</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="deutsche-zeitung">
+            <annotation>
+               <documentation>Deutsche Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="die-presse">
+            <annotation>
+               <documentation>Die Presse</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="fremden-blatt">
+            <annotation>
+               <documentation>Fremden-Blatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="grazer-volksblatt">
+            <annotation>
+               <documentation>Grazer Volksblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="morgen-post">
+            <annotation>
+               <documentation>Morgen-Post</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="neue-freie-presse">
+            <annotation>
+               <documentation>Neue Freie Presse</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="neues-fremden-blatt">
+            <annotation>
+               <documentation>Neues Fremden-Blatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="neues-wiener-tagblatt">
+            <annotation>
+               <documentation>Neues Wiener Tagblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="salzburger-chronik">
+            <annotation>
+               <documentation>Salzburger Chronik</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="salzburger-volksblatt">
+            <annotation>
+               <documentation>Salzburger Volksblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="wiener-abendpost">
+            <annotation>
+               <documentation>Wiener Abendpost</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="wiener-sonn-und-montags-zeitung">
+            <annotation>
+               <documentation>Wiener Sonn- und Montags-Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="wiener-zeitung">
+            <annotation>
+               <documentation>Wiener Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="die-ostschweiz">
+            <annotation>
+               <documentation>Die Ostschweiz (1874–1997)</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="st-galler-zeitung">
+            <annotation>
+               <documentation>St. Galler-Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="der-floh">
+            <annotation>
+               <documentation>Der Floh</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="der-ulk">
+            <annotation>
+               <documentation>Der Ulk</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="die-bombe">
+            <annotation>
+               <documentation>Die Bombe</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="figaro">
+            <annotation>
+               <documentation>Figaro</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="fliegende-blaetter">
+            <annotation>
+               <documentation>Fliegende Blätter</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="illustrirte-zeitung">
+            <annotation>
+               <documentation>Illustrirte Zeitung</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="illustrirtes-wiener-extrablatt">
+            <annotation>
+               <documentation>Illustrirtes Wiener Extrablatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="kikeriki">
+            <annotation>
+               <documentation>Kikeriki</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="ueber-land-und-meer">
+            <annotation>
+               <documentation>Über Land und Meer</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="wiener-salonblatt">
+            <annotation>
+               <documentation>Wiener Salonblatt</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="corriere-di-milano">
+            <annotation>
+               <documentation>Corriere di Milano (1869–1874)</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="gazzetta-di-venezia">
+            <annotation>
+               <documentation>Gazzetta di Venezia</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="gazzetta-musicale-di-milano">
+            <annotation>
+               <documentation>Gazzetta musicale di Milano</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="il-mondo-artistico">
+            <annotation>
+               <documentation>Il mondo artistico</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="il-secolo">
+            <annotation>
+               <documentation>Il mondo artistico</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="journal-des-debats">
+            <annotation>
+               <documentation>Journal des Débats</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="l-opinione">
+            <annotation>
+               <documentation>L’Opinione [Torino]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="la-lombardia">
+            <annotation>
+               <documentation>La Lombardia [Mailand]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="la-palestra-musicale">
+            <annotation>
+               <documentation>La palestra musicale [Rom]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="la-perseveranza">
+            <annotation>
+               <documentation>La Perseveranza</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="le-monde-illustre">
+            <annotation>
+               <documentation>Le Monde Illustré</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="l-osservatore-cattolico">
+            <annotation>
+               <documentation>L’Osservatore Cattolico</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="new-york-times">
+            <annotation>
+               <documentation>The New York Times</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="revue-des-deux-mondes">
+            <annotation>
+               <documentation>Revue des Deux Mondes</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="the-times-london">
+            <annotation>
+               <documentation>The Times London</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="breslau.singakademie">
+            <annotation>
+               <documentation>Singakademie [Breslau]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="bruenn.musikverein">
+            <annotation>
+               <documentation>Musikverein [Brünn]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="frankfurt.caecilienverein">
+            <annotation>
+               <documentation>Cäcilienverein [Frankfurt]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="graz.akademischer-gesangverein">
+            <annotation>
+               <documentation>Akademischer Gesangverein [Graz]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="hamburg.philharomischer-verein">
+            <annotation>
+               <documentation>Philharmonischer Verein [Hamburg]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="boston.haendel-and-haydn-society">
+            <annotation>
+               <documentation>Handel and Haydn Society [Boston]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="heilbronn.oratorienverein">
+            <annotation>
+               <documentation>Oratorienverein [Heilbronn]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="koeln.maenner-gesangverein">
+            <annotation>
+               <documentation>Männergesang-Verein [Köln]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="paris.orchestre-pasdeloup">
+            <annotation>
+               <documentation>Orchestre Pasdeloup [Paris]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="prag.deutscher-maenner-gesangverein">
+            <annotation>
+               <documentation>Deutscher Männer-Gesangverein [Prag]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="salzburg.dommusikverein">
+            <annotation>
+               <documentation>Dommusikverein [Salzburg]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="salzburg.mozarteum">
+            <annotation>
+               <documentation>Mozarteum [Salzburg]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="st-gallen.antlitz">
+            <annotation>
+               <documentation>Antlitz [St. Gallen]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="st-gallen.frohsinn">
+            <annotation>
+               <documentation>Frohsinn [St. Gallen]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="stuttgart.hofkapelle">
+            <annotation>
+               <documentation>Hofkapelle [Stuttgart]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="wien.akademischer-gesangverein">
+            <annotation>
+               <documentation>Akademischer Gesangverein [Wien]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="wiesbaden.caecilienverein">
+            <annotation>
+               <documentation>Cäcilienverein [Wiesbaden]</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="ricordi">
+            <annotation>
+               <documentation>Ricordi</documentation>
+            </annotation>
+         </enumeration>
+         <enumeration value="unidentified">
+            <annotation>
+               <documentation>? (nicht identifizierte Körperschaft)</documentation>
+            </annotation>
+         </enumeration>
+      </restriction>
+   </simpleType>
+</schema>

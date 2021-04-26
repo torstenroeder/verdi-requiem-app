@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/lists.xsd"?>
+
+<eventList>
+
+	<!-- einarbeiten:
+		(1) wer ist Hauptträger der Produktion? Oper, Philharmonie oder Singverein?
+		(2) ist Aufführungsort ein Bühnenhaus, ein Konzerthaus, eine Kirche oder ein Vereinshaus? -->
+	<!-- Nicht aufgeführt:
+		- Magdeburg wird genannt in: Die Tonkunst, Berlin, 8. April 1876; möglicherweise Falschmeldung.
+		- Nürnberg wird genannt in: GMM 9.4.1876, S. 128; möglicherweise Falschmeldung.
+		- Venedig 1874 (offenbar Falschmeldung)
+		- Boston 1878 (hinzu!)
+		- Wien 1875b (hinzu!)
+		- Olmütz, 3. und 4. Aufführung? (nur zwei sind bislang belegt)
+		- Krakau
+		  => 16.01.1885 Tow. Muz[yczne]. Verdi: Requiem. (Seite fehlt)
+		  => 10.01.1908 Tow. Muz. Requiem Verdiego. (Seite fehlt)
+		  => siehe Józef Reiss: Almanach Muzyczny Krakowa 1780–1914
+	-->
+
+	<!-- POLITICAL EVENTS -->
+	<!--
+	<eventListItem nym="deutschland.reichsgruendung.1871" type="political">
+		<name>Gründung des Deutschen Reiches</name>
+		<place nym="deutschland"/>
+		<date when="1871-01-18"/>
+		<description category="keyword">Politik</description>
+		<resource type="de.wikipedia.org" date="2013-02-07">Reichsgründung</resource>
+	</eventListItem>
+	<eventListItem nym="italien.hauptstadt-rom.1871" type="political">
+		<name>Rom wird Hauptstadt des Königreichs Italien</name>
+		<place nym="italien"/>
+		<date when="1871-01-26"/>
+		<description category="keyword">Politik</description>
+		<resource type="de.wikipedia.org" date="2013-02-07">Königreich_Italien_(1861–1946)</resource>
+	</eventListItem>
+	<eventListItem nym="frankreich.vorfrieden-von-versailles.1871" type="political">
+		<name>Vorfrieden von Versailles</name>
+		<place nym="frankreich"/>
+		<place nym="deutschland"/>
+		<date when="1871-02-26"/>
+		<description category="keyword">Politik</description>
+		<resource type="de.wikipedia.org" date="2013-02-07">Vorfrieden_von_Versailles</resource>
+	</eventListItem>
+	<eventListItem nym="deutschland.reichstagswahl.1871" type="political">
+		<name>Reichstagswahl 1871</name>
+		<place nym="deutschland"/>
+		<date when="1871-03-03"/>
+		<description category="keyword">Wahlen</description>
+		<resource type="de.wikipedia.org" date="2012-12-06">Reichstagswahl_1871</resource>
+	</eventListItem>
+	<eventListItem nym="frankreich.pariser-kommune.1871" type="political">
+		<name>Pariser Kommune</name>
+		<place nym="frankreich"/>
+		<date from="1871-03-18" to="1871-03-28"/>
+		<description category="keyword">Aufstände</description>
+		<resource type="de.wikipedia.org" date="2013-02-07">Pariser_Kommune</resource>
+	</eventListItem>
+	<eventListItem nym="deutschland.kanzelparagraph.1871" type="political">
+		<name>Kanzelparagraph</name>
+		<place nym="deutschland"/>
+		<date when="1871-12-10"/>
+		<description category="keyword">Kulturkampf</description>
+		<resource type="de.wikipedia.org" date="2013-02-07">Kanzelparagraph</resource>
+	</eventListItem>
+	<eventListItem nym="deutschland.jesuitengesetz.1872" type="political">
+		<name>Jesuitengesetz</name>
+		<place nym="deutschland"/>
+		<date when="1872-07-04"/>
+		<description category="keyword">Kulturkampf</description>
+		<resource type="de.wikipedia.org" date="2013-02-07">Jesuitengesetz</resource>
+	</eventListItem>
+	<eventListItem nym="deutschland.maigesetze.1873" type="political">
+		<name>Maigesetze</name>
+		<place nym="deutschland"/>
+		<date when="1873-05-11"/>
+		<date when="1873-05-12"/>
+		<description category="keyword">Kulturkampf</description>
+		<resource type="de.wikipedia.org" date="2013-02-07"
+			>Maigesetze_(Deutsches_Kaiserreich)</resource>
+	</eventListItem>
+	<eventListItem nym="oesterreich.weltausstellung-wien.1873" type="political">
+		<name>5. Weltausstellung in Wien</name>
+		<place nym="oesterreich-ungarn"/>
+		<place nym="wien"/>
+		<date from="1873-05-01" to="1873-11-02"/>
+		<description category="keyword">Kultur</description>
+		<resource type="de.wikipedia.org" date="2013-02-07">Weltausstellung_1873</resource>
+	</eventListItem>
+	<eventListItem nym="oesterreich.wiener-boersenkrach.1873" type="political">
+		<name>Wiener Börsenkrach</name>
+		<place nym="oesterreich-ungarn"/>
+		<place nym="wien"/>
+		<date when="1873-05-09"/>
+		<description category="keyword">Wirtschaft</description>
+		<resource type="de.wikipedia.org" date="2013-02-07">Gründerkrach</resource>
+	</eventListItem>
+	<eventListItem nym="deutschland.reichstagswahl.1874" type="political">
+		<name>Reichstagswahl 1874</name>
+		<place nym="deutschland"/>
+		<date when="1874-01-10"/>
+		<description category="keyword">Wahlen</description>
+		<resource type="de.wikipedia.org" date="2012-12-06">Reichstagswahl_1874</resource>
+	</eventListItem>
+	<eventListItem nym="deutschland.maigesetze.1874" type="political">
+		<name>Maigesetze (Expatriierungsgesetz)</name>
+		<place nym="deutschland"/>
+		<date when="1874-05-04"/>
+		<description category="keyword">Kulturkampf</description>
+		<resource type="de.wikipedia.org" date="2013-02-07"
+			>Maigesetze_(Deutsches_Kaiserreich)</resource>
+	</eventListItem>
+	<eventListItem nym="deutschland.brotkorbgesetz.1875" type="political">
+		<name>Brotkorbgesetz</name>
+		<place nym="deutschland"/>
+		<date when="1875-04-22"/>
+		<description category="keyword">Kulturkampf</description>
+		<resource type="de.wikipedia.org" date="2013-02-07">Brotkorbgesetz</resource>
+	</eventListItem>
+	<eventListItem nym="deutschland.maigesetze.1875" type="political">
+		<name>Maigesetze</name>
+		<place nym="deutschland"/>
+		<date when="1875-05-31"/>
+		<description category="keyword">Kulturkampf</description>
+		<resource type="de.wikipedia.org" date="2013-02-07"
+			>Maigesetze_(Deutsches_Kaiserreich)</resource>
+	</eventListItem>
+	<eventListItem nym="deutschland.reichstagswahl.1877" type="political">
+		<name>Reichstagswahl 1877</name>
+		<place nym="deutschland"/>
+		<date when="1877-01-10"/>
+		<description category="keyword">Wahlen</description>
+		<resource type="de.wikipedia.org" date="2012-12-06">Reichstagswahl_1877</resource>
+	</eventListItem>
+	<eventListItem nym="deutschland.reichstagswahl.1878" type="political">
+		<name>Reichstagswahl 1878</name>
+		<place nym="deutschland"/>
+		<date when="1878-07-30"/>
+		<description category="keyword">Wahlen</description>
+		<resource type="de.wikipedia.org" date="2012-12-06">Reichstagswahl_1878</resource>
+	</eventListItem>
+	-->
+
+	<!-- REGULAR EVENTS -->
+	<eventListItem nym="feiertage.1876" type="religious">
+		<name>Feiertage 1876</name>
+		<eventSeries>
+			<eventListItem nym="feiertage.1876.karfreitag" type="religious">
+				<name>Karfreitag</name>
+			</eventListItem>
+			<eventListItem nym="feiertage.1876.karsamstag" type="religious">
+				<name>Karsamstag</name>
+			</eventListItem>
+			<eventListItem nym="feiertage.1876.ostersonntag" type="religious">
+				<name>Ostersonntag</name>
+			</eventListItem>
+			<eventListItem nym="feiertage.1876.ostermontag" type="religious">
+				<name>Ostermontag</name>
+			</eventListItem>
+			<eventListItem nym="feiertage.1876.allerheiligen" type="religious">
+				<name>Allerheiligen</name>
+			</eventListItem>
+			<eventListItem nym="feiertage.1876.allerseelen" type="religious">
+				<name>Allerseelen</name>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+
+	<!-- 1874 -->
+
+	<eventListItem nym="mailand.1874" type="musical.production">
+		<name>Mailand 1874</name>
+		<place nym="mailand"/>
+		<date when="1874-05"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="stolz.teresa" role="soloist.soprano"/>
+		<person nym="waldmann.maria" role="soloist.mezzo"/>
+		<person nym="capponi.giuseppe" role="soloist.tenor"/>
+		<person nym="maini.armando" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="mailand.1874.gp" type="musical.production.rehearsal">
+				<name>Generalprobe zur Uraufführung</name>
+				<place nym="mailand.san-marco"/>
+				<date weekDay="thu" when="1874-05-21"/>
+				<person nym="verdi.giuseppe" role="conductor"/>
+			</eventListItem>
+			<eventListItem nym="mailand.1874.1" type="musical.production.performance.first">
+				<name>Uraufführung</name>
+				<place nym="mailand.san-marco"/>
+				<date weekDay="fri" when="1874-05-22"/>
+				<opus nym="verdi.requiem"/>
+				<person nym="verdi.giuseppe" role="conductor"/>
+				<description>Aufführung in liturgischem Rahmen</description>
+			</eventListItem>
+			<eventListItem nym="mailand.1874.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="mailand.teatro-alla-scala"/>
+				<date when="1874-05-25">Pfingstmontag, 21:00 Uhr</date>
+				<person nym="verdi.giuseppe" role="conductor"/>
+				<resource type="book">Theaterzettel vom 25.04.1874</resource>
+			</eventListItem>
+			<eventListItem nym="mailand.1874.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<place nym="mailand.teatro-alla-scala"/>
+				<date weekDay="tue" when="1874-05-26"/>
+				<person nym="faccio.franco" role="conductor"/>
+			</eventListItem>
+			<eventListItem nym="mailand.1874.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<place nym="mailand.teatro-alla-scala"/>
+				<date weekDay="wed" when="1874-05-27"/>
+				<person nym="faccio.franco" role="conductor"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="new-york.1874" type="musical.production">
+		<name>New York 1874</name>
+		<place nym="new-york"/>
+		<date when="1874-11"/>
+		<opus nym="verdi.requiem"/>
+		<description>New York Times, 14. November 1874, S. 4</description>
+		<description>New York Times, 18. November 1874, ***</description>
+		<eventSeries>
+			<eventListItem nym="new-york.1874.1" type="musical.production.performance.first">
+				<name>Erstaufführung in den USA</name>
+				<place nym="new-york.academy-of-music"/>
+				<date weekDay="tue" when="1874-11-17"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="new-york.1874a" type="musical.production">
+		<name>New York 1874 (Orgeltranskription)</name>
+		<place nym="new-york"/>
+		<date when="1874-10"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="new-york.1874a.1" type="musical.production.performance.first">
+				<name>Erstaufführung der Orgeltranskription in den USA</name>
+				<place nym="new-york.st-anns"/>
+				<date weekDay="sun" when="1874-10-25"/>
+				<person nym="corradi.h" role="soloist">H. Corradi</person>
+				<person nym="gomien.o" role="soloist">O. Gomien</person>
+				<person nym="fritsch.c" role="soloist">C. Fritsch</person>
+				<person nym="blum.a" role="soloist">A. Blum</person>
+				<resource type="book">New York Times, 23. Oktober 1874, S. 3</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="paris.1874" type="musical.production">
+		<name>Messa da Requiem</name>
+		<place nym="paris"/>
+		<date when="1874-06"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="verdi.giuseppe" role="conductor"/>
+		<person nym="stolz.teresa" role="soloist.soprano"/>
+		<person nym="waldmann.maria" role="soloist.mezzo"/>
+		<person nym="capponi.giuseppe" role="soloist.tenor"/>
+		<person nym="maini.armando" role="soloist.basso"/>
+		<description>Besprechung Augsburger Allgemeine Zeitung, 30. Juni</description>
+		<eventSeries>
+			<eventListItem nym="paris.1874.gp" type="musical.production.rehearsal">
+				<name>Generalprobe zur Erstaufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="mon" when="1874-06-08"/>
+			</eventListItem>
+			<eventListItem nym="paris.1874.1" type="musical.production.performance.first">
+				<name>Erstaufführung in Frankreich</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="tue" when="1874-06-09">14:00</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+			<eventListItem nym="paris.1874.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="thu" when="1874-06-11">14:00</date>
+				<!-- Q: Le Temps (Paris) „2e audition“ -->
+			</eventListItem>
+			<eventListItem nym="paris.1874.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="sat" when="1874-06-13">14:00</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+			<eventListItem nym="paris.1874.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="mon" when="1874-06-15">14:00</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+			<eventListItem nym="paris.1874.5" type="musical.production.performance">
+				<name>5. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="tue" when="1874-06-16">14:00</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+			<eventListItem nym="paris.1874.6" type="musical.production.performance">
+				<name>6. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="thu" when="1874-06-18">14:00</date>
+				<!-- Q: Le Temps (Paris) „5e audition“ (!) -->
+			</eventListItem>
+			<eventListItem nym="paris.1874.7" type="musical.production.performance">
+				<name>7. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="sat" when="1874-06-20">14:00</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+			<eventListItem nym="paris.1874.8" type="musical.production.performance">
+				<name>8. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="mon" when="1874-06-22">14:00</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+
+	<!-- 1875 -->
+
+	<eventListItem nym="antwerpen.1875" type="musical.production">
+		<name>Antwerpen 1875</name>
+		<place nym="antwerpen"/>
+		<date when="1875-11"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="barlani-dini.eufemia" role="soloist.soprano"/>
+		<person nym="caruzzi-bedogni.giuseppina" role="soloist.mezzo"/>
+		<person nym="bellotti.fausto" role="soloist.tenor"/>
+		<person nym="povoleri.paride" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="antwerpen.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<!-- Ort: Stadsscouwburg -->
+				<date when="1875-11-25"/>
+				<!-- Programm: Requiem, Aida, Forza del Destino -->
+				<resource
+					href="http://www.theeuropeanlibrary.org/tel4/newspapers/issue/3000112919094?page=2&amp;query=requiem"
+					type="www"/>
+			</eventListItem>
+			<eventListItem nym="antwerpen.1875.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<!-- Ort: Paleis voor Volksvlijt -->
+				<date when="1875-11-27"/>
+				<person nym="muzio.emanuele" role="conductor"/>
+				<resource
+					href="http://www.theeuropeanlibrary.org/tel4/newspapers/issue/3000112919094?page=2&amp;query=requiem"
+					type="www"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="bruessel.1875" type="musical.production">
+		<name>Brüssel 1875</name>
+		<place nym="bruessel"/>
+		<date when="1875-12"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="muzio.emanuele" role="conductor"/>
+		<person nym="caruzzi-bedogni.giuseppina" role="soloist.soprano"/>
+		<person nym="barlani-dini.eufemia" role="soloist.mezzo"/>
+		<person nym="bellotti.fausto" role="soloist.tenor"/>
+		<person nym="povoleri.paride" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="bruessel.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="bruessel.la-monnaie"/>
+				<!--***Datum klären-->
+				<date when="1875-12">Anfang Dezember</date>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="buenos-aires.1875" type="musical.production">
+		<name>Buenos Aires 1875</name>
+		<place nym="buenos-aires"/>
+		<date when="1875-10"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="bimboni.oreste" role="conductor">Orestes Bimboni</person>
+		<description>Laut Petriella et. al. bereits 1874 aufgeführt, was jedoch durch andere Quellen
+			widerlegt ist.</description>
+		<description>Es wurden die Orchester von Teatro Colón und Teatro de la Opera
+			zusammengelegt.</description>
+		<resource type="www">Armando M. Rapallo, ClarinX digital, Jueves 26 de junio de 1997, Buenos
+			Aires, República Argentina,
+			http://edant.clarin.com/diario/1997/06/26/c-01401d.htm</resource>
+		<resource type="book">Petriella, Dionisio y Miatello, Sara: Diccionario Biográfico
+			Italoargentino. Buenos Aires, Asociación Dante Alighieri, 1976.</resource>
+		<eventSeries>
+			<eventListItem nym="buenos-aires.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung in Südamerika</name>
+				<place nym="buenos-aires.teatro-opera">Teatro de la Opera (nicht Colon!)</place>
+				<date when="1875-10-15"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="florenz.1875" type="musical.production">
+		<name>Florenz 1875</name>
+		<place nym="florenz"/>
+		<date when="1875-09"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="stolz.teresa" role="soloist"/>
+		<person nym="waldmann.maria" role="soloist"/>
+		<person nym="masini.angelo" role="soloist"/>
+		<person nym="medini.paolo" role="soloist"/>
+		<resource type="book">Boccherini, Florenz, 30. September 1875, S. 34 (2).</resource>
+		<resource type="book">Gazzetta Musicale di Milano, 26. September 1875, S. 315–317
+			(5–7).</resource>
+		<eventSeries>
+			<eventListItem nym="florenz.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="florenz">Teatro Principe Umberto</place>
+				<date when="1875-09-19"/>
+				<person nym="faccio.franco" role="conductor"/>
+				<description>Wiederholungen: Tuba mirum, Sanctus, Agnus Dei (vgl. <text href="wz_1875-09-22_kleine-chronik.xml">Wiener Ztg.</text>)</description>
+			</eventListItem>
+			<eventListItem nym="florenz.1875.2" type="musical.production.performance.first">
+				<name>2. Aufführung</name>
+				<place nym="florenz">Teatro Pagliano</place>
+				<date when="1875-09-20"/>
+				<person nym="sbolci.jefte" role="conductor"/>
+			</eventListItem>
+			<eventListItem nym="florenz.1875.3" type="musical.production.performance.first">
+				<name>3. Aufführung</name>
+				<place nym="florenz">Teatro Pagliano</place>
+				<date when="1875-09-22"/>
+				<person nym="sbolci.jefte" role="conductor"/>
+			</eventListItem>
+			<eventListItem nym="florenz.1875.4" type="musical.production.performance.first">
+				<name>4. Aufführung</name>
+				<place nym="florenz">Teatro Pagliano</place>
+				<date when="1875-09-24"/>
+				<person nym="sbolci.jefte" role="conductor"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="gent.1875" type="musical.production">
+		<name>Gent 1875</name>
+		<place nym="gent"/>
+		<date when="1875"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="gent.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="graz.1875" type="musical.production">
+		<name>Graz 1875</name>
+		<place nym="graz"/>
+		<date when="1875-11"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="graz.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date when="1875-11-01">Allerheiligen</date>
+			</eventListItem>
+			<eventListItem nym="graz.1875.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<date when="1875-11-02">Allerseelen</date>
+			</eventListItem>
+			<eventListItem nym="graz.1875.3a" type="musical.production.performance">
+				<name>geplante 3. Aufführung (verschoben)</name>
+				<date when="1875-12-07"/>
+			</eventListItem>
+			<eventListItem nym="graz.1875.4a" type="musical.production.performance">
+				<name>geplante 4. Aufführung (verschoben)</name>
+				<date when="1875-12-08"/>
+			</eventListItem>
+			<eventListItem nym="graz.1875.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<date weekDay="tue" when="1875-12-14"/>
+			</eventListItem>
+			<eventListItem nym="graz.1875.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<date weekDay="wed" when="1875-12-15"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="london.1875" type="musical.production">
+		<name>London 1875</name>
+		<place nym="london">Royal Albert Hall</place>
+		<date when="1875-05"/>
+		<opus nym="verdi.requiem">mit dem neuen „Liber scriptus“</opus>
+		<person nym="verdi.giuseppe" role="conductor"/>
+		<resource type="book">The Times (London), 24. Mai 1875, S. 10</resource>
+		<eventSeries>
+			<eventListItem nym="london.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung im Vereinigten Königreich</name>
+				<date weekDay="sat" when="1875-05-15"/>
+			</eventListItem>
+			<eventListItem nym="london.1875.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<date notBefore="1875-05-16"/>
+			</eventListItem>
+			<eventListItem nym="london.1875.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<date notBefore="1875-05-17"/>
+			</eventListItem>
+			<eventListItem nym="london.1875.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<date notBefore="1875-05-18"/>
+			</eventListItem>
+			<eventListItem nym="london.1875.5" type="musical.production.performance">
+				<name>5. Aufführung</name>
+				<date notBefore="1875-05-19"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="luettich.1875" type="musical.production">
+		<name>Lüttich 1875</name>
+		<place nym="luettich"/>
+		<date when="1875"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="luettich.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="paris.1875" type="musical.production">
+		<name>Paris 1875</name>
+		<place nym="paris"/>
+		<date when="1875-04"/>
+		<opus nym="verdi.requiem">Verdi-Requiem mit neuem „Liber scriptus“</opus>
+		<person nym="verdi.giuseppe" role="composer"/>
+		<person nym="stolz.teresa" role="soloist.soprano"/>
+		<person nym="waldmann.maria" role="soloist.mezzo"/>
+		<person nym="masini.angelo" role="soloist.maleVoice"/>
+		<eventSeries>
+			<eventListItem nym="paris.1875.1" type="musical.production.performance">
+				<name>1. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="mon" when="1875-04-19"/>
+			</eventListItem>
+			<eventListItem nym="paris.1875.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="wed" when="1875-04-21">19:00</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+			<eventListItem nym="paris.1875.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="fri" when="1875-04-23">20:30</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+			<eventListItem nym="paris.1875.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="tue" when="1875-04-27">20:45</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+			<eventListItem nym="paris.1875.5" type="musical.production.performance">
+				<name>5. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="thu" when="1875-04-29">20:45</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+			<eventListItem nym="paris.1875.6" type="musical.production.performance">
+				<name>6. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="sat" when="1875-05-01">20:45</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+			<eventListItem nym="paris.1875.7" type="musical.production.performance">
+				<name>7. Aufführung</name>
+				<place nym="paris.opera-comique"/>
+				<date weekDay="thu" when="1875-05-04">20:45</date>
+				<!-- Q: Le Temps (Paris) -->
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="triest.1875" type="musical.production">
+		<name>Triest 1875</name>
+		<place nym="triest">Opernhaus</place>
+		<date when="1875-10"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="faccio.franco" role="conductor"/>
+		<person nym="stolz.teresa" role="soloist.soprano"/>
+		<person nym="sanz.elena" role="soloist.mezzo"/>
+		<person nym="patierno.filippo" role="soloist.tenor"/>
+		<person nym="maini.armando" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="triest.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date weekDay="sat" when="1875-10-16"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="venedig.1875" type="musical.production">
+		<name>Venedig 1875</name>
+		<place nym="venedig"/>
+		<date when="1875-07"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="faccio.franco" role="conductor"/>
+		<eventSeries>
+			<eventListItem nym="venedig.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="venedig.teatro-malibran"/>
+				<date when="1875-07-11"/>
+				<description>Wiederholungen: Sanctus, Hostias (vgl. <text href="wz_1875-07-14_venedig.xml">Wiener Ztg.</text>).</description>
+			</eventListItem>
+			<eventListItem nym="venedig.1875.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="venedig.teatro-malibran"/>
+				<date notBefore="1875-07-12"/>
+			</eventListItem>
+			<eventListItem nym="venedig.1875.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<place nym="venedig.teatro-malibran"/>
+				<date notBefore="1875-07-13"/>
+			</eventListItem>
+			<eventListItem nym="venedig.1875.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<place nym="venedig.teatro-malibran"/>
+				<date notBefore="1875-07-14"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="wien.1875" type="musical.production">
+		<name>Wien 1875</name>
+		<place nym="wien"/>
+		<date when="1875-06"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="verdi.giuseppe" role="conductor"/>
+		<person nym="stolz.teresa" role="soloist.soprano"/>
+		<person nym="waldmann.maria" role="soloist.mezzo"/>
+		<person nym="masini.angelo" role="soloist"/>
+		<person nym="medini.paolo" role="soloist"/>
+		<eventSeries>
+			<eventListItem nym="wien.1875.gp" type="musical.production.rehearsal">
+				<name>Generalprobe zur Erstaufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date weekDay="wed" when="1875-06-09"/>
+			</eventListItem>
+			<eventListItem nym="wien.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung in Österreich</name>
+				<place nym="wien.hof-operntheater"/>
+				<date weekDay="fri" when="1875-06-11"/>
+				<description>Wiederholungen: Recordare, Hostias, Ingemisco, Agnus
+					Dei (vgl. <text href="fb_1875-06-13_theater-und-kunst.xml">Fremden-Blatt</text>)</description> 
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18750611</resource>
+			</eventListItem>
+			<eventListItem nym="wien.1875.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date weekDay="sun" when="1875-06-12"/>
+				<person nym="franz-joseph-i.habsburg" role="spectator"/>
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18750612</resource>
+			</eventListItem>
+			<eventListItem nym="wien.1875.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date weekDay="wed" when="1875-06-16"/>
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18750616</resource>
+			</eventListItem>
+			<eventListItem nym="wien.1875.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date weekDay="wed" when="1875-06-23"/>
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18750623</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="wien.1875a" type="musical.production">
+		<name>Wien 1875a</name>
+		<place nym="wien"/>
+		<date when="1875-11"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="richter.hans" role="conductor"/>
+		<person nym="wilt.marie" role="soloist.soprano"/>
+		<person nym="tremel.wilhelmine" role="soloist.mezzo"/>
+		<person nym="walter.gustav" role="soloist.tenor"/>
+		<person nym="rokitansky.hans" role="soloist.basso"/>
+		<description>Notiz Wiener Allgemeine Zeitung, 2. Nov.</description>
+		<description>Aufführung in deutscher Sprache</description>
+		<eventSeries>
+			<eventListItem nym="wien.1875a.1" type="musical.production.performance">
+				<name>1. Aufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date when="1875-11-01">Allerheiligen</date>
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18751101</resource>
+			</eventListItem>
+			<eventListItem nym="wien.1875a.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date when="1875-11-02">Allerseelen</date>
+				<person cert="medium" nym="wagner.richard" role="spectator"/>
+				<person nym="wagner.cosima" role="spectator"/>
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18751102</resource>
+			</eventListItem>
+			<eventListItem nym="wien.1875a.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date weekDay="sun" when="1875-11-07"/>
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18751107</resource>
+			</eventListItem>
+			<eventListItem nym="wien.1875a.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date weekDay="thu" when="1875-12-23"/>
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18751221</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="koeln.1875" type="musical.production">
+		<name>Köln 1875/76</name>
+		<place nym="koeln"/>
+		<date when="1875-12"/>
+		<person nym="hiller.ferdinand" role="conductor"/>
+		<person nym="lehmann.marie" role="soloist.soprano"/>
+		<person nym="keller.elsa" role="soloist.mezzo"/>
+		<person nym="diener.franz" role="soloist.tenor"/>
+		<person nym="schelper.otto" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="koeln.1875.1" type="musical.production.performance.first">
+				<name>4. Gürzenichkonzert</name>
+				<place nym="koeln.guerzenich"/>
+				<date weekDay="tue" when="1875-12-07">18:30 Uhr</date>
+				<opus nym="svendsen.sigurd-slembe"/>
+				<opus nym="verdi.requiem"/>
+				<description>Erstaufführung im Deutschen Reich (gleichzeitig in
+					München)</description>
+				<!--<resource date="2012-12-06" title="Programm" type="file"
+					>koeln-guerzenich-1875-12-07.png</resource>-->
+			</eventListItem>
+			<eventListItem nym="koeln.1875.2" type="musical.production.performance">
+				<name>8. Gürzenichkonzert</name>
+				<place nym="koeln.guerzenich"/>
+				<date weekDay="tue" when="1876-02-15"/>
+				<opus nym="brahms.variationen-ueber-ein-thema-von-haydn"/>
+				<opus nym="verdi.requiem"/>
+				<description>2. Aufführung</description>
+				<description>mit Programm</description>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="muenchen.1875" type="musical.production">
+		<name>München 1875/76</name>
+		<place nym="muenchen"/>
+		<date when="1875-12"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="wuellner.franz" role="conductor"/>
+		<person nym="radecke.luise" role="soloist.soprano"/>
+		<person nym="schefsky.josephine" role="soloist.mezzo"/>
+		<person nym="nachbaur.franz" role="soloist.tenor"/>
+		<person nym="bausewein.kaspar" role="soloist.basso"/>
+		<description>GMM 2.4.1876: Kurzbericht über die 2. und 3. Aufführung (Teatri, S.
+			120)</description>
+		<!--<resource date="2013-03-03" title="Bericht im Bayerischen Kurier, 12. Dezember 1875, S. 1" type="file"
+			>bayerischer-kurier-v19-n343-d18751212-p1.jpg</resource>-->
+		<eventSeries>
+			<eventListItem nym="muenchen.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="muenchen.odeon"/>
+				<date weekDay="tue" when="1875-12-07"/>
+				<description>Erstaufführung im Deutschen Reich (gleichzeitig in Köln)</description>
+				<description>„Agnus Dei“ wiederholt</description>
+			</eventListItem>
+			<eventListItem nym="muenchen.1875.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="muenchen.hoftheater"/>
+				<date weekDay="tue" when="1876-03-21"/>
+				<person nym="ludwig-ii.bayern" role="spectator"/>
+				<resource type="book">Grandauer 1878, S. 202</resource>
+			</eventListItem>
+			<eventListItem nym="muenchen.1875.3" type="musical.production.performance">
+				<name>3. Aufführung (privat?)</name>
+				<place nym="muenchen.hoftheater"/>
+				<date weekDay="tue" when="1876-03-22"/>
+				<person nym="ludwig-ii.bayern" role="spectator"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="pest.1875" type="musical.production">
+		<name>Pest 1875</name>
+		<place nym="pest"/>
+		<date when="1875-12"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="pest.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung in Ungarn</name>
+				<date weekDay="sat" when="1875-12-18"/>
+				<resource type="book">Theaterzettel vom 18.12.1875, in: Bollettino Verdi, Anno III,
+					Vol. II, No. 5 (1962), S. 1428/29.</resource>
+			</eventListItem>
+			<eventListItem nym="pest.1875.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<date weekDay="sun" when="1875-12-19"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="rom.1875" type="musical.production">
+		<name>Rom 1875</name>
+		<place nym="rom"/>
+		<date when="1875-06"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="rom.1875.1" type="musical.production.performance.first">
+				<name>Erstaufführung in Rom</name>
+				<date when="1875-06-04"/>
+				<person nym="margherita-di-savoia" role="spectator"/>
+				<resource type="book">Luigi Fait: I trionfi di Verdi a Roma. In: Studi romani, Jg.
+					11, Nr. 6 (Nov./Dez. 1963), S. 668-692; hier: S. 691-692.</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+
+	<!-- 1876 -->
+
+	<eventListItem nym="aachen.1876" type="musical.production">
+		<name>Aachen 1876</name>
+		<place nym="aachen"/>
+		<date when="1876-03"/>
+		<opus nym="gluck.iphigenie-en-aulide.ouverture"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="breunung.ferdinand" role="conductor"/>
+		<person nym="lederer-ubrich.asminde" role="soloist.soprano"/>
+		<person nym="keller.elsa" role="soloist.mezzo"/>
+		<person nym="schneider.carl" role="soloist.tenor"/>
+		<person nym="pfeiffer.xxx" role="soloist.basso"/>
+		<description>mit Programm</description>
+		<eventSeries>
+			<eventListItem nym="aachen.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="aachen.kurhaus"/>
+				<date weekDay="thu" when="1876-03-16">18:30 Uhr</date>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="berlin.1876" type="musical.production">
+		<name>Berlin 1876</name>
+		<place nym="berlin"/>
+		<date when="1876-04"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="radecke.robert" role="conductor"/>
+		<person nym="lehmann.lilli" role="soloist.soprano"/>
+		<person nym="brandt.marianne" role="soloist.mezzo"/>
+		<person nym="ernst.heinrich" role="soloist.tenor"/>
+		<person nym="betz.franz" role="soloist.basso"/>
+		<description>Theaterzettel der Königlichen Schauspiele</description>
+		<description>GMM 23.4.1876: Bericht (Corrispondenze, S. 147)</description>
+		<eventSeries>
+			<eventListItem nym="berlin.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date when="1876-04-15">Karsamstag, 19:00 Uhr</date>
+				<person nym="wilhelm-i.preussen" role="spectator"/>
+			</eventListItem>
+			<eventListItem nym="berlin.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<date weekDay="mon" when="1876-04-17">Ostermontag, 12:00 Uhr</date>
+			</eventListItem>
+			<eventListItem nym="berlin.1876.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<date weekDay="tue" when="1876-04-25"/>
+			</eventListItem>
+			<eventListItem nym="berlin.1876.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<date weekDay="wed" when="1876-05-10"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="berlin.1876-hofconcerte" type="musical.production">
+		<name>Berlin 1876 (Hofconcert)</name>
+		<place nym="berlin"/>
+		<date when="1876-03"/>
+		<eventSeries>
+			<eventListItem nym="berlin.1876-hofconcerte.1" type="musical.production.performance">
+				<name>Abendunterhaltung</name>
+				<date when="1876-03-09"/>
+				<opus nym="verdi.requiem.7"/>
+				<opus nym="verdi.requiem.5"/>
+				<opus nym="scarlatti.allegro"/>
+				<opus nym="chopin.nocturne"/>
+				<opus nym="liszt.au-bord-d-une-source"/>
+				<opus nym="l-adieu"/>
+				<opus nym="gounod.ho-messo-nuove-corde-al-mandolino"/>
+				<opus nym="hauser.lieder-ohne-worte"/>
+				<opus nym="hauser.ungarische-rhapsodie"/>
+				<opus nym="mozart.don-giovanni">Arie aus Don Juan</opus>
+				<opus nym="rossini.zelmira">Duett aus Zelmire</opus>
+				<opus nym="godefroid.thautropfen"/>
+				<opus nym="garat.la-fileuse"/>
+				<opus nym="ni-jamais-ni-toujours"/>
+				<opus nym="thalberg.fantaisie-sur-l-opera-lucrezia-borgia"/>
+				<opus nym="massenet.nuit-d-espagne"/>
+				<opus nym="yradier.la-calesera"/>
+				<person nym="lehmann.lilli" role="soloist"/>
+				<person nym="bossi.xxx" role="soloist"/>
+				<person nym="ernst.heinrich" role="soloist"/>
+				<person nym="pinner.max" role="soloist"/>
+				<person nym="artot-de-padilla.desiree" role="soloist"/>
+				<person nym="hauser.miska"/>
+				<person nym="hummel.ferdinand"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="bremen.1876" type="musical.production">
+		<name>Bremen 1876</name>
+		<place nym="bremen"/>
+		<date when="1876-02"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="reinthaler.karl" role="conductor"/>
+		<eventSeries>
+			<eventListItem nym="bremen.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date notAfter="1876-02-29" notBefore="1876-02-01"/>
+				<description>1. Abonnementsconcert</description>
+			</eventListItem>
+			<eventListItem nym="bremen.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<date notAfter="1876-02-29" notBefore="1876-02-01"/>
+				<description>Privatconcert</description>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="breslau.1876" type="musical.production">
+		<name>Breslau 1876</name>
+		<place nym="breslau"/>
+		<date when="1876-11"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="schaeffer.julius" role="conductor"/>
+		<person nym="haenisch.xxx" role="soloist.soprano"/>
+		<person nym="hahn.xxx" role="soloist.mezzo"/>
+		<person nym="torrige.xxx" role="soloist.tenor"/>
+		<person nym="franck.xxx" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="breslau.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date when="1876-11-07"/>
+				<!-- Sittenfeld 1909, S. 182–183: Kein Nachweis -->
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="bristol.1876" type="musical.production">
+		<name>Bristol 1876</name>
+		<place nym="bristol"/>
+		<date when="1876-10"/>
+		<opus nym="verdi.requiem"/>
+		<description>2nd Triennal Music Festival</description>
+		<description>GMM 26.3.1876: Erwähnung, dass Aufführung in Bristol geplant sei (Notizie
+			esterne, S. 113)</description>
+		<eventSeries>
+			<eventListItem nym="bristol.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="bruenn.1876" type="musical.production">
+		<name>Brünn 1876</name>
+		<place nym="bruenn"/>
+		<date when="1876-01"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="kitzler.otto" role="conductor"/>
+		<person nym="gompertz-bettelheim.karoline-von" role="soloist.soprano"/>
+		<person nym="will.julie" role="soloist.mezzo"/>
+		<person nym="curiel.xxx" role="soloist.tenor"/>
+		<person nym="krejci.friedrich" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="bruenn.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="bruenn.redouta-theater"/>
+				<date weekDay="sun" when="1876-01-02"/>
+				<description>Agnus Dei wiederholt</description>
+			</eventListItem>
+			<eventListItem nym="bruenn.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="bruenn.redouta-theater"/>
+				<date weekDay="thu" when="1876-01-06"/>
+				<description>Agnus Dei wiederholt</description>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="dresden.1876" type="musical.production">
+		<name>Dresden 1876</name>
+		<place nym="dresden"/>
+		<date when="1876-01"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="schuch.ernst" role="conductor"/>
+		<person nym="schuch-proska.clementine" role="soloist.soprano"/>
+		<person nym="nanitz.minna" role="soloist.mezzo"/>
+		<person nym="erl.anton" role="soloist.tenor"/>
+		<person nym="koehler.hans" role="soloist.basso"/>
+		<description>GMM 23.1.1876: Kurzmeldung (Notizie esterne, S. 37)</description>
+		<eventSeries>
+			<eventListItem nym="dresden.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="dresden.hoftheater"/>
+				<date weekDay="sat" when="1876-01-08"/>
+			</eventListItem>
+			<eventListItem nym="dresden.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="dresden.hoftheater"/>
+				<date weekDay="tue" when="1876-01-11"/>
+			</eventListItem>
+			<eventListItem nym="dresden.1876.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<place nym="dresden.hoftheater"/>
+				<date weekDay="sat" when="1876-02-05"/>
+			</eventListItem>
+			<eventListItem nym="dresden.1876.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<place nym="dresden.hoftheater"/>
+				<date weekDay="thu" when="1876-02-10"/>
+			</eventListItem>
+			<eventListItem nym="dresden.1876.5" type="musical.production.performance">
+				<name>5. Aufführung</name>
+				<place nym="dresden.hoftheater"/>
+				<date weekDay="thu" when="1876-02-24"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="elberfeld.1876" type="musical.production">
+		<name>Elberfeld 1876</name>
+		<place nym="elberfeld"/>
+		<date when="1876-04"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="schornstein.hermann" role="conductor"/>
+		<eventSeries>
+			<eventListItem nym="elberfeld.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date weekDay="wed" when="1876-04-05"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="hamburg.1876" type="musical.production">
+		<name>Hamburg 1876</name>
+		<place nym="hamburg"/>
+		<date when="1876-01"/>
+		<person nym="fuchs.johann-nepomuk" role="conductor"/>
+		<person nym="candidus.william" role="soloist.tenor"/>
+		<person nym="koegel.josef" role="soloist.basso"/>
+		<description>GMM 23.1.1876: Kurzmeldung (Notizie esterne, S. 37)</description>
+		<resource type="book">Heinrich Chevalley: Hundert Jahre Hamburger Stadt-Theater, Hamburg:
+			Broschek, 1927, S. 73</resource>
+		<eventSeries>
+			<eventListItem nym="hamburg.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="hamburg.stadt-theater"/>
+				<date weekDay="sat" when="1876-01-08">19:00 Uhr</date>
+				<opus nym="schubert.trauermarsch"/>
+				<opus nym="verdi.requiem"/>
+				<person nym="froehlich.xxx" role="soloist.soprano"/>
+				<person nym="boree.minna" role="soloist.mezzo"/>
+			</eventListItem>
+			<eventListItem nym="hamburg.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="hamburg.stadt-theater"/>
+				<date weekDay="wed" when="1876-01-12">19:00 Uhr</date>
+				<opus nym="weber.euryanthe.ouvertuere"/>
+				<opus nym="hiller.die-zerstoerung-jerusalems.ach-waer-mein-haupt"/>
+				<opus nym="schumann.ritornelle-in-canonischen-weisen">Robert Schumann, Drei
+					Ritornelle</opus>
+				<opus nym="haydn.die-schoepfung">Duett aus „Die Schöpfung“</opus>
+				<opus nym="verdi.requiem"/>
+				<person nym="froehlich.xxx" role="soloist.soprano"/>
+				<person nym="boree.minna" role="soloist.mezzo"/>
+			</eventListItem>
+			<eventListItem nym="hamburg.1876.3a" type="musical.production.performance">
+				<name>geplante 3. Aufführung (ausgefallen)</name>
+				<place nym="hamburg.stadt-theater"/>
+				<date weekDay="sun" when="1876-01-16">13:00 Uhr</date>
+				<opus nym="verdi.requiem"/>
+				<person nym="froehlich.xxx" role="soloist.soprano"/>
+				<person nym="boree.minna" role="soloist.mezzo"/>
+			</eventListItem>
+			<eventListItem nym="hamburg.1876.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<place nym="hamburg.stadt-theater"/>
+				<date weekDay="sun" when="1876-01-23">13:00 Uhr</date>
+				<opus nym="verdi.requiem"/>
+				<person nym="otto-alvsleben.melitta" role="soloist.soprano"/>
+				<person nym="boree.minna" role="soloist.mezzo"/>
+			</eventListItem>
+			<eventListItem nym="hamburg.1876.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<place nym="hamburg.stadt-theater"/>
+				<date weekDay="sun" when="1876-01-30">13:00 Uhr</date>
+				<opus nym="verdi.requiem"/>
+				<person nym="froehlich.xxx" role="soloist.soprano"/>
+				<person nym="boree.minna" role="soloist.mezzo"/>
+			</eventListItem>
+			<eventListItem nym="hamburg.1876.5" type="musical.production.performance">
+				<name>5. Aufführung</name>
+				<place nym="hamburg.stadt-theater"/>
+				<date weekDay="wed" when="1876-02-02">18:30 Uhr</date>
+				<opus nym="verdi.requiem"/>
+				<opus nym="mehul.joseph"/>
+				<person nym="otto-alvsleben.melitta" role="soloist.soprano"/>
+				<person nym="boree.minna" role="soloist.mezzo"/>
+				<description>mit anschließender Opernvorstellung</description>
+			</eventListItem>
+			<eventListItem nym="hamburg.1876.6" type="musical.production.performance">
+				<name>6. Aufführung</name>
+				<place nym="hamburg.stadt-theater"/>
+				<date weekDay="sun" when="1876-03-05">13:00 Uhr</date>
+				<opus nym="verdi.requiem"/>
+				<person nym="froehlich.xxx" role="soloist.soprano"/>
+				<person nym="boree.minna" role="soloist.mezzo"/>
+			</eventListItem>
+			<eventListItem nym="hamburg.1876.7" type="musical.production.performance">
+				<name>7. Aufführung</name>
+				<place nym="hamburg.stadt-theater"/>
+				<date weekDay="fri" when="1876-04-14">Karfreitag, 19:30 Uhr</date>
+				<opus nym="verdi.requiem"/>
+				<person nym="froehlich.xxx" role="soloist.soprano"/>
+				<person nym="keller.elsa" role="soloist.mezzo"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="hannover.1876" type="musical.production">
+		<name>Hannover 1876</name>
+		<place nym="hannover"/>
+		<date when="1876-06"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="hannover.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date when="1876-06-14"/>
+				<description>Wohltätigkeitskonzert</description>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="heilbronn.1876" type="musical.production">
+		<name>Heilbronn 1876</name>
+		<place nym="heilbronn"/>
+		<date when="1876-06"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="maschek.ernst" role="conductor"/>
+		<person nym="doetscher.leontine" role="soloist.soprano"/>
+		<person nym="luger.angelina" role="soloist.mezzo"/>
+		<person nym="schuetky.franz-josef" role="soloist.tenor"/>
+		<person nym="martens.johannes" role="soloist.basso"/>
+		<description>Franz Wunder, Der Singkranz Heilbronn, S. 106 f.</description>
+		<eventSeries>
+			<eventListItem nym="heilbronn.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="heilbronn.st-kilian"/>
+				<date when="1876-06-20"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="leipzig.1876" type="musical.production">
+		<name>Leipzig 1876</name>
+		<place nym="leipzig"/>
+		<date when="1876-03"/>
+		<opus nym="verdi.requiem"/>
+		<resource type="book">GMM 19.3.1876, Corrispondenze, S. 104</resource>
+		<resource type="book">GMM 26.3.1876, Notizie esterne, S. 112</resource>
+		<eventSeries>
+			<eventListItem nym="leipzig.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<name>19. Gewandhauskonzert</name>
+				<place nym="leipzig.gewandhaus"/>
+				<date weekDay="thu" when="1876-03-09">19:00 Uhr</date>
+				<person nym="reinecke.carl" role="conductor"/>
+				<person nym="peschka-leutner.minna" role="soloist.soprano"/>
+				<person nym="nanitz.minna" role="soloist.mezzo"/>
+				<person nym="pielke.walter" role="soloist.tenor"/>
+				<person nym="koehler.hans" role="soloist.basso"/>
+			</eventListItem>
+			<eventListItem nym="leipzig.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<name>Benefizkonzert</name>
+				<place nym="leipzig.gewandhaus"/>
+				<date weekDay="mon" when="1876-03-13">19:00 Uhr</date>
+				<person nym="reinecke.carl" role="conductor"/>
+				<person nym="schuch-proska.clementine" role="soloist.soprano"/>
+				<person nym="peschka-leutner.minna" role="soloist.mezzo"/>
+				<person nym="pielke.walter" role="soloist.tenor"/>
+				<person nym="koehler.hans" role="soloist.basso"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="lemberg.1876" type="musical.production">
+		<name>Lemberg 1876</name>
+		<place nym="lemberg"/>
+		<date when="1876-04"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="mikuli.karol" role="conductor"/>
+		<eventSeries>
+			<eventListItem nym="lemberg.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date when="1876-04-09"/>
+			</eventListItem>
+			<eventListItem nym="lemberg.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<date when="1876-04-10"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="manchester.1876" type="musical.production">
+		<name>Manchester 1876</name>
+		<place nym="manchester"/>
+		<date when="1876"/>
+		<person nym="halle.carlo"/>
+		<description>GMM 26.3.1876: Leitung "Carlo Hallé" (Notizie esterne, S. 113)</description>
+		<eventSeries>
+			<eventListItem nym="manchester.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="moskau.1876" type="musical.production">
+		<name>Moskau 1876</name>
+		<place nym="moskau"/>
+		<date when="1876"/>
+		<eventSeries>
+			<eventListItem nym="moskau.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="olmuetz.1876" type="musical.production">
+		<name>Olmütz 1876</name>
+		<place nym="olmuetz"/>
+		<date when="1876-05"/>
+		<person nym="labler.wladimir" role="conductor"/>
+		<person nym="passy-cornet.adele" role="soloist.soprano"/>
+		<person nym="bustini.emilie" role="soloist.mezzo"/>
+		<person nym="schultner.adolf" role="soloist.tenor"/>
+		<person nym="chlumetzky.karl" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="olmuetz.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date when="1876-05-22"/>
+			</eventListItem>
+			<eventListItem nym="olmuetz.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<date when="1876-05-23"/>
+			</eventListItem>
+			<!-- folgende Termine sind fraglich! -->
+			<!--<eventListItem nym="olmuetz.1876.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<date notAfter="1876-05-24"/>
+			</eventListItem>-->
+			<!--<eventListItem nym="olmuetz.1876.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<date notAfter="1876-05-25"/>
+			</eventListItem>-->
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="paris.1876" type="musical.production">
+		<name>Paris 1876</name>
+		<place nym="paris"/>
+		<date when="1876-04"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="verdi.giuseppe" role="conductor"/>
+		<eventSeries>
+			<eventListItem nym="paris.1876.1" type="musical.production.performance">
+				<name>1. Wiederaufführung</name>
+				<place nym="paris.theatre-italien"/>
+				<date when="1876-04-29">Sonnabend, 29. (30.?) April 1876</date>
+			</eventListItem>
+			<eventListItem nym="paris.1876.2" type="musical.production.performance">
+				<name>2. Wiederaufführung</name>
+				<place nym="paris.theatre-italien"/>
+				<date notAfter="1876-06-03" notBefore="1876-04-30"/>
+			</eventListItem>
+			<eventListItem nym="paris.1876.3" type="musical.production.performance">
+				<name>3. Wiederaufführung</name>
+				<place nym="paris.theatre-italien"/>
+				<date notAfter="1876-06-03" notBefore="1876-04-30"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="parma.1876" type="musical.production">
+		<name>Parma 1876</name>
+		<place nym="parma"/>
+		<date when="1876"/>
+		<eventSeries>
+			<eventListItem nym="parma.1876.1" type="musical.production.performance">
+				<name>Erstaufführung</name>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="st-petersburg.1876" type="musical.production">
+		<name>Petersburg 1876</name>
+		<place nym="st-petersburg"/>
+		<date when="1876"/>
+		<description>GMM 6.2.1876: Erstaufführung am »vergangenen Sonntag«; Solisten: Stolz, Cari,
+			Capoul, Bagagiolo; Kaiserin anwesend (Ultime Notizie, S. 55).</description>
+		<resource type="book">Giuseppe Albinati, Piccolo dizionario di opere teatrali, oratori,
+			cantate, ecc. (1912)</resource>
+		<eventSeries>
+			<eventListItem nym="st-petersburg.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="st-petersburg.mariinski-theater"/>
+				<date notAfter="1876-01-30" when="1876"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="prag.1876" type="musical.production">
+		<name>Prag 1876</name>
+		<place nym="prag"/>
+		<date when="1876-01"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="slansky.ludwig" role="conductor"/>
+		<person nym="moser.marie" role="soloist.soprano"/>
+		<person nym="burenne.henriette" role="soloist.mezzo"/>
+		<person nym="hajos.siegmund" role="soloist.tenor"/>
+		<person nym="schebesta.adalbert" role="soloist.basso"/>
+		<description>GMM 20.2.1876: Agnus Dei wiederholt (Notizie esterne, S. 70)</description>
+		<eventSeries>
+			<eventListItem nym="prag.1876.gp" type="musical.production.rehearsal">
+				<name>Generalprobe</name>
+				<date weekDay="wed" when="1876-01-26"/>
+			</eventListItem>
+			<eventListItem nym="prag.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date weekDay="thu" when="1876-01-27"/>
+			</eventListItem>
+			<eventListItem nym="prag.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<date weekDay="mon" when="1876-01-31"/>
+			</eventListItem>
+			<eventListItem nym="prag.1876.3" type="musical.production.performance">
+				<name>3. Aufführung</name>
+				<date weekDay="thu" when="1876-02-15"/>
+			</eventListItem>
+			<eventListItem nym="prag.1876.4" type="musical.production.performance">
+				<name>4. Aufführung</name>
+				<date weekDay="thu" when="1876-03-07"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="rio-de-janeiro.1876" type="musical.production">
+		<name>Rio de Janeiro 1876</name>
+		<place nym="rio-de-janeiro"/>
+		<date when="1876"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="napoleao.arthur" role="conductor">Arthur Napoleão</person>
+		<resource type="book">Cristina Magaldi: Music in Imperial Rio de Janeiro. European Culture
+			in a Tropical Milieu, S. 79.</resource>
+		<eventSeries>
+			<eventListItem nym="rio-de-janeiro.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date notAfter="1876-02-08" when="1876"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="salzburg.1876" type="musical.production">
+		<name>Salzburg 1876</name>
+		<place nym="salzburg"/>
+		<date when="1876-04"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="bach.otto" role="conductor"/>
+		<person nym="voigt.gabriele" role="soloist.soprano"/>
+		<person nym="gatterburg.hedwig" role="soloist.mezzo"/>
+		<person nym="huber.franz" role="soloist.tenor"/>
+		<person nym="schuegraf.eduard" role="soloist.basso"/>
+		<description>mit dem Orchester des Dommusikvereins</description>
+		<resource type="book">Die Konzerte der Salzburger Liedertafel 1846-2006 (unter
+			www.salzburger-liedertafel.at)</resource>
+		<eventSeries>
+			<eventListItem nym="salzburg.1876.hp" type="musical.production.rehearsal">
+				<name>Hauptprobe</name>
+				<place nym="salzburg.aula-academica"/>
+				<date when="1876-04-20">6 Uhr abends</date>
+			</eventListItem>
+			<eventListItem nym="salzburg.1876.gp" type="musical.production.rehearsal">
+				<name>Generalprobe</name>
+				<place nym="salzburg.aula-academica"/>
+				<date when="1876-04-22">6 Uhr abends</date>
+			</eventListItem>
+			<eventListItem nym="salzburg.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="salzburg.aula-academica"/>
+				<date weekDay="sun" when="1876-04-23">7 Uhr abends</date>
+			</eventListItem>
+			<eventListItem nym="salzburg.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="salzburg.aula-academica"/>
+				<date weekDay="sun" when="1876-04-30">4 Uhr nachmittags</date>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="schwerin.1876" type="musical.production">
+		<name>Schwerin 1876</name>
+		<place nym="schwerin"/>
+		<date when="1876-04"/>
+		<person nym="schmitt.alois" role="conductor"/>
+		<person nym="gungl.virginia" role="soloist.soprano"/>
+		<person nym="schwencke.anna" role="soloist.mezzo"/>
+		<person nym="candidus.william" role="soloist.tenor"/>
+		<person nym="hill.karl" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="schwerin.1876.gp" type="musical.production.rehearsal">
+				<name>Generalprobe</name>
+				<date when="1876-04-15"/>
+				<opus nym="verdi.requiem"/>
+			</eventListItem>
+			<eventListItem nym="schwerin.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date when="1876-04-16"/>
+				<opus nym="schubert.trauermarsch"/>
+				<opus nym="verdi.requiem"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="stuttgart.1876" type="musical.production">
+		<name>Stuttgart 1876</name>
+		<place nym="stuttgart"/>
+		<date when="1876-12"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="stuttgart.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date notAfter="1876-12-31" notBefore="1876-12-20" when="1876-12"/>
+			</eventListItem>
+		</eventSeries>
+		<!--genannt bei Kreutzer-->
+	</eventListItem>
+	<eventListItem nym="utrecht.1876" type="musical.production">
+		<name>Utrecht 1876</name>
+		<place nym="utrecht"/>
+		<date when="1876"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="hol.richard" role="conductor"/>
+		<eventSeries>
+			<eventListItem nym="utrecht.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date notAfter="1876-03-11" when="1876"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="warschau.1876" type="musical.production">
+		<name>Warschau 1876</name>
+		<place nym="warschau"/>
+		<date when="1876"/>
+		<description>GMM 9.4.1876 nennt den 3. und 5. April als Aufführungsdaten (Teatri, S.
+			128)</description>
+		<description>GMM 9.4.1876 nennt als Solisten Cepeda, Pasqualis, Franchini und Gasperini
+			(Telegrammi, S. 128)</description>
+		<eventSeries>
+			<eventListItem nym="warschau.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date notAfter="1876-04-03" when="1876"/>
+			</eventListItem>
+			<eventListItem nym="warschau.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<date notAfter="1876-04-05" when="1876"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="wien.1876" type="musical.production">
+		<name>Wien 1876</name>
+		<place nym="wien"/>
+		<date when="1876-11"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="wien.1876.1" type="musical.production.performance">
+				<name>1. Aufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date when="1876-11-02"/>
+				<person nym="richter.hans" role="conductor"/>
+				<person nym="wilt.marie" role="soloist.soprano"/>
+				<person nym="tremel.wilhelmine" role="soloist.mezzo"/>
+				<person nym="walter.gustav" role="soloist.tenor"/>
+				<person nym="rokitansky.hans" role="soloist.basso"/>
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18761102</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="weimar.1876" type="musical.production">
+		<name>Weimar 1876</name>
+		<place nym="weimar"/>
+		<date when="1876-04"/>
+		<opus nym="verdi.requiem"/>
+		<resource type="book">Adolf Bartels: Chronik des Weimarischen Hoftheaters 1817–1907, Weimar:
+			Hermann Böhlaus Nachfolger, 1908, S. 187</resource>
+		<eventSeries>
+			<eventListItem nym="weimar.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="weimar.hoftheater"/>
+				<date weekDay="wed" when="1876-04-26">17:30</date>
+				<person nym="mueller-hartung.carl" role="conductor"/>
+				<person nym="fichtner-spohr.auguste" role="soloist.soprano"/>
+				<person nym="dotter.berta" role="soloist.mezzo"/>
+				<person cert="high" nym="ferenczy.jose" role="soloist.tenor">Sch. Ferenczy</person>
+				<person nym="milde.hans-feodor" role="soloist.basso"/>
+				<resource
+					href="http://archive.thulb.uni-jena.de/staatsarchive/rsc/viewer/ThHStAW_derivate_00051652/013078.tif"
+					type="www">Theaterzettel</resource>
+			</eventListItem>
+			<eventListItem nym="weimar.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="weimar.hoftheater"/>
+				<date weekDay="wed" when="1876-05-24">19:00</date>
+				<person nym="mueller-hartung.carl" role="conductor"/>
+				<person nym="fichtner-spohr.auguste" role="soloist.soprano"/>
+				<person nym="dotter.berta" role="soloist.mezzo"/>
+				<person cert="high" nym="ferenczy.jose" role="soloist.tenor">Sch. Ferenczy</person>
+				<person nym="henschel.georg" role="soloist.basso"/>
+				<resource
+					href="http://archive.thulb.uni-jena.de/staatsarchive/rsc/viewer/ThHStAW_derivate_00051625/013095.tif"
+					type="www">Theaterzettel</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="wiesbaden.1876" type="musical.production">
+		<name>Wiesbaden 1876</name>
+		<place nym="wiesbaden"/>
+		<date when="1876-02"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="jahn.wilhelm" role="conductor"/>
+		<person nym="szegal.gabriele" role="soloist.soprano"/>
+		<person nym="resch.xxx" role="soloist.mezzo"/>
+		<person nym="peschier.adolf" role="soloist.tenor"/>
+		<person nym="siehr.gustav" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="wiesbaden.1876.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="wiesbaden.koenigliches-theater"/>
+				<date weekDay="tue" when="1876-02-22">19:00 Uhr</date>
+				<description>42. Theatervorstellung</description>
+				<resource type="book">Theaterzettel der Königlichen Schauspiele vom 22.
+					Februar</resource>
+			</eventListItem>
+			<eventListItem nym="wiesbaden.1876.2" type="musical.production.performance">
+				<name>2. Aufführung</name>
+				<place nym="wiesbaden.koenigliches-theater"/>
+				<date weekDay="fri" when="1876-02-25">19:00 Uhr</date>
+				<description>VI. Symphonie-Concert</description>
+				<resource type="book">Theaterzettel der Königlichen Schauspiele vom 25.
+					Februar</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+
+	<!-- 1877 -->
+
+	<eventListItem nym="coburg.1877" type="musical.production">
+		<name>Coburg 1877</name>
+		<place nym="coburg"/>
+		<date when="1877-12"/>
+		<opus nym="verdi.requiem"/>
+		<description>an der Theaterkasse wurden Textbücher mit lateinischem und deutschem Text
+			verkauft</description>
+		<resource type="book">Paul von Ebart: Hundert Jahre Coburgische Theatergeschichte (=
+			Coburger Heimatkunde und Landesgeschichte, Heft 3), Coburg: Roßteutscher, 1927, S.
+			86.</resource>
+		<resource type="book">Herbert Hirschberg: Geschichte der Herzoglichen Hoftheater zu Coburg
+			und Gotha, Berlin: Vita, 1911, S. 202.</resource>
+		<resource type="book">Theaterzettel des Herzoglich Sächsischen Hoftheaters</resource>
+		<eventSeries>
+			<eventListItem nym="coburg.1877.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="coburg.hoftheater"/>
+				<date when="1877-12-07">19:00 Uhr</date>
+				<person nym="lampert.ernst" role="conductor"/>
+				<person nym="gerl.helene" role="soloist.soprano"/>
+				<person nym="stirl.helene" role="soloist.mezzo"/>
+				<person nym="eilers.ludwig-albert" role="soloist.tenor"/>
+				<person nym="buerger.max" role="soloist.basso"/>
+				<description>12. Vorstellung des Herzoglich Sächsischen Hoftheaters</description>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="frankfurt-am-main.1877" type="musical.production">
+		<name>Frankfurt/Main 1877</name>
+		<place nym="frankfurt-am-main"/>
+		<date when="1877-10"/>
+		<opus nym="verdi.requiem"/>
+		<opus nym="schumann.symphonie-4"/>
+		<person nym="lehmann.lilli" role="soloist.soprano"/>
+		<person nym="assmann.adele" role="soloist.mezzo"/>
+		<person nym="wolff.josef" role="soloist.tenor"/>
+		<person nym="krauss.emil" role="soloist.basso"/>
+		<eventSeries>
+			<eventListItem nym="frankfurt-am-main.1877.1"
+				type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date weekDay="fri" when="1877-10-26"/>
+				<description>2. Museumsconcert</description>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="koeln.1877" type="musical.production">
+		<name>Köln 1877</name>
+		<place nym="koeln"/>
+		<date when="1877-05"/>
+		<person nym="verdi.giuseppe" role="conductor"/>
+		<person nym="lehmann.lilli" role="soloist.soprano"/>
+		<person nym="brandt.marianne" role="soloist.mezzo"/>
+		<person nym="ernst.heinrich" role="soloist.tenor"/>
+		<person nym="henschel.georg" role="soloist.basso"/>
+		<person nym="brahms.johannes" role="spectator"/>
+		<description>Niederrheinisches Musikfest</description>
+		<resource type="de.wikipedia.org">Niederrheinisches_Musikfest</resource>
+		<eventSeries>
+			<eventListItem nym="koeln.1877.musikfest.1" type="musical.production.performance">
+				<name>Erster Tag</name>
+				<date when="1877-05-20"/>
+			</eventListItem>
+			<eventListItem nym="koeln.1877.musikfest.2" type="musical.production.performance">
+				<name>Zweiter Tag</name>
+				<date weekDay="mon" when="1877-05-21">Pfingstmontag</date>
+				<opus nym="mozart.die-zauberfloete.ouvertuere"/>
+				<opus nym="verdi.requiem"/>
+				<opus nym="beethoven.symphonie-9"/>
+			</eventListItem>
+			<eventListItem nym="koeln.1877.musikfest.3" type="musical.production.performance">
+				<name>Dritter Tag</name>
+				<date weekDay="tue" when="1877-05-22"/>
+				<opus nym="verdi.requiem.5"/>
+				<opus nym="unidentified">u.a.</opus>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="stockholm.1877" type="musical.production">
+		<name>Stockholm 1877</name>
+		<place nym="stockholm"/>
+		<date when="1877"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="stockholm.1877.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date notAfter="1877-10-15" notBefore="1877-10-01">Anfang Oktober 1877</date>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="koenigsberg.1877" type="musical.production">
+		<name>Königsberg 1877</name>
+		<place nym="koenigsberg"/>
+		<date when="1877"/>
+		<opus nym="verdi.requiem"/>
+		<opus nym="rubinstein.das-verlorene-paradies"/>
+		<person nym="laudien.heinrich"/>
+		<eventSeries>
+			<eventListItem nym="koenigsberg.1877.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date notAfter="1877-04-30" notBefore="1877-01-01"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="wien.1877" type="musical.production">
+		<name>Wien 1877</name>
+		<place nym="wien"/>
+		<date when="1877-11"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="wien.1877.1" type="musical.production.performance">
+				<name>1. Aufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date when="1877-11-02"/>
+				<person nym="richter.hans" role="conductor"/>
+				<person nym="wilt.marie" role="soloist.soprano"/>
+				<person nym="tremel.wilhelmine" role="soloist.mezzo"/>
+				<person nym="walter.gustav" role="soloist.tenor"/>
+				<person nym="rokitansky.hans" role="soloist.basso"/>
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18771102</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+
+	<!-- 1878 -->
+
+	<eventListItem nym="st-gallen.1878" type="musical.production">
+		<name>Sankt Gallen 1878</name>
+		<place nym="st-gallen"/>
+		<date when="1878-04"/>
+		<opus nym="verdi.requiem"/>
+		<person nym="bogler.xxx" role="conductor"/>
+		<eventSeries>
+			<eventListItem nym="st-gallen.1878.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date when="1878-04-14"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="danzig.1878" type="musical.production">
+		<name>Danzig 1878</name>
+		<place nym="danzig"/>
+		<date when="1878-04"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="danzig.1878.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="danzig.schuetzenhaus"/>
+				<date when="1878-04-14"/>
+				<person nym="laudenbach.heinrich" role="conductor"/>
+				<person nym="reutener.ferdinand" role="soloist.tenor"/>
+				<person nym="baldamus.xxx" role="soloist.soprano"/>
+				<person nym="assmann.adele" role="soloist.mezzo"/>
+				<person nym="schmidt.felix" role="soloist.basso"/>
+				<resource type="book">Siebenfreund 1917, S. 86</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="leipzig.1878" type="musical.production">
+		<name>Leipzig 1878</name>
+		<place nym="leipzig"/>
+		<date when="1878"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="leipzig.1878.1" type="musical.production.performance">
+				<name>1. Aufführung</name>
+				<resource type="book">Müller 1887, S. 181</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="karlsruhe.1878" type="musical.production">
+		<name>Karlsruhe 1878</name>
+		<place nym="karlsruhe"/>
+		<date when="1878-04"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="karlsruhe.1878.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<place nym="karlsruhe.festhalle"/>
+				<date when="1878-04-14"/>
+				<person nym="dessoff.felix-otto" role="conductor"/>
+				<person nym="possart.anna" role="soloist.soprano"/>
+				<person nym="steinbach.emma" role="soloist.mezzo"/>
+				<person nym="holdampf.ferdinand-karl" role="soloist.tenor"/>
+				<person nym="staudigl.joseph" role="soloist.basso"/>
+				<resource href="http://digital.blb-karlsruhe.de/blbihd/periodical/pageview/1038305"
+					type="www">Almanach und Adreßbuch des Großherzoglichen Hoftheaters, hrsg. von
+					Karoline Coßmar und Ferdinand Homann, Karlsruhe 1879, S. 37</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="mannheim.1878" type="musical.production">
+		<name>Mannheim 1878</name>
+		<place nym="mannheim"/>
+		<date when="1878-04"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="mannheim.1878.1" type="musical.production.performance.first">
+				<name>Erstaufführung</name>
+				<date when="1878-04-19"/>
+				<person nym="possart.anna" role="soloist.soprano"/>
+				<person nym="steinbach.emma" role="soloist.mezzo"/>
+				<person nym="wolff.josef" role="soloist.tenor"/>
+				<person nym="lindeck.wilhelm" role="soloist.basso"/>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+	<eventListItem nym="wien.1878" type="musical.production">
+		<name>Wien 1878</name>
+		<place nym="wien"/>
+		<date when="1878-11"/>
+		<opus nym="verdi.requiem"/>
+		<eventSeries>
+			<eventListItem nym="wien.1878.1" type="musical.production.performance">
+				<name>1. Aufführung</name>
+				<place nym="wien.hof-operntheater"/>
+				<date when="1878-11-02"/>
+				<person nym="richter.hans" role="conductor"/>
+				<person nym="wilt.marie" role="soloist.soprano"/>
+				<person nym="tremel.wilhelmine" role="soloist.mezzo"/>
+				<person nym="walter.gustav" role="soloist.tenor"/>
+				<person nym="rokitansky.hans" role="soloist.basso"/>
+				<resource type="anno.onb.ac.at">wtz&amp;datum=18781102</resource>
+			</eventListItem>
+		</eventSeries>
+	</eventListItem>
+
+	<!-- nicht identifiziert -->
+
+	<eventListItem nym="unidentified" type="undefinable">
+		<name>? (nicht identifiziertes Ereignis)</name>
+	</eventListItem>
+
+</eventList>

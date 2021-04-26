@@ -1,0 +1,2328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemas/lists.xsd"?>
+
+<placeList>
+
+	<!-- CONTINENTS -->
+	<placeListItem nym="afrika" type="continent">
+		<name lang="de" type="index">Afrika</name>
+		<name lang="en">Africa</name>
+		<name lang="fr">Afrique</name>
+		<name lang="it">Africa</name>
+		<name lang="pl">Afryka</name>
+		<name lang="ru">Африка</name>
+		<resource type="de.wikipedia.org">Afrika</resource>
+	</placeListItem>
+	<placeListItem nym="europa" type="continent">
+		<name lang="de" type="index">Europa</name>
+		<name lang="en">Europe</name>
+		<name lang="fr">Europe</name>
+		<name lang="it">Europa</name>
+		<name lang="pl">Europa</name>
+		<name lang="ru">Европа</name>
+		<resource type="de.wikipedia.org">Europa</resource>
+	</placeListItem>
+	<placeListItem nym="nordamerika" type="continent">
+		<name lang="de" type="index">Nordamerika</name>
+		<name lang="en">North America</name>
+		<name lang="fr">Amérique du Nord</name>
+		<name lang="it">America settentrionale</name>
+		<name lang="pl">Ameryka Północna</name>
+		<name lang="ru">Северная Америка</name>
+		<resource type="de.wikipedia.org">Nordamerika</resource>
+	</placeListItem>
+	<placeListItem nym="suedamerika" type="continent">
+		<name lang="de" type="index">Südamerika</name>
+		<name lang="en">South America</name>
+		<name lang="fr">Amérique du Sud</name>
+		<name lang="it">America meridionale</name>
+		<name lang="pl">Ameryka Południowa</name>
+		<name lang="ru">Южная Америка</name>
+		<resource type="de.wikipedia.org">Südamerika</resource>
+	</placeListItem>
+
+	<!-- BLOCKS, COUNTIRES, REGIONS -->
+	<placeListItem nym="aegypten" type="country">
+		<name lang="de" type="index">Ägypten</name>
+		<name lang="en">Egypt</name>
+		<name lang="fr">Égypte</name>
+		<name lang="it">Egitto</name>
+		<name lang="pl">Egipt</name>
+		<name lang="ru">Египет</name>
+		<place nym="afrika" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Ägypten</resource>
+	</placeListItem>
+	<placeListItem nym="bayern" type="country">
+		<name lang="de" type="index">Bayern</name>
+		<name lang="en">Bavaria</name>
+		<name lang="fr">Bavière</name>
+		<name lang="it">Baviera</name>
+		<name lang="pl">Bawaria</name>
+		<name lang="ru">Бавария</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Bayern</resource>
+	</placeListItem>
+	<placeListItem nym="belgien" type="country">
+		<name lang="de" type="index">Belgien</name>
+		<name lang="en">Belgium</name>
+		<name lang="fr">Belgique</name>
+		<name lang="it">Belgio</name>
+		<name lang="pl">Belgia</name>
+		<name lang="ru">Бельгия</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Belgien</resource>
+	</placeListItem>
+	<placeListItem nym="boehmen" type="country">
+		<name lang="de" type="index">Böhmen</name>
+		<name from="1993" lang="de">Tschechien</name>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Böhmen</resource>
+	</placeListItem>
+	<placeListItem nym="brasilien" type="country">
+		<name lang="de" type="index">Brasilien</name>
+		<name lang="en">Brazil</name>
+		<name lang="fr">Brésil</name>
+		<name lang="it">Brasile</name>
+		<name lang="pl">Brazylia</name>
+		<name lang="ru">Бразилия</name>
+		<place nym="suedamerika" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Brasilien</resource>
+	</placeListItem>
+	<placeListItem nym="deutschland" type="country">
+		<name lang="de" type="index">Deutschland</name>
+		<name from="1871" lang="de" to="1945">Deutsches Reich</name>
+		<name lang="en">Germany</name>
+		<name lang="fr">Allemagne</name>
+		<name lang="it">Germania</name>
+		<name lang="pl">Niemcy</name>
+		<name lang="ru">Германия</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Deutschland</resource>
+	</placeListItem>
+	<placeListItem nym="frankreich" type="country">
+		<name lang="de" type="index">Frankreich</name>
+		<name lang="en">France</name>
+		<name lang="fr">France</name>
+		<name lang="it">Francia</name>
+		<name lang="pl">Francja</name>
+		<name lang="ru">Франция</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Frankreich</resource>
+	</placeListItem>
+	<placeListItem nym="griechenland" type="country">
+		<name lang="de" type="index">Griechenland</name>
+		<name lang="en">Greece</name>
+		<name lang="fr">Grèce</name>
+		<name lang="it">Grecia</name>
+		<name lang="pl">Grecja</name>
+		<name lang="ru">Греция</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Griechenland</resource>
+	</placeListItem>
+	<placeListItem nym="grossbritannien" type="country">
+		<name lang="de" type="index">Großbritannien</name>
+		<name lang="de" type="index">Vereinigtes Königreich</name>
+		<name from="1707" lang="de" to="1801">Königreich Großbritannien</name>
+		<name from="1801" lang="de" to="1927">Vereinigtes Königreich von Großbritannien und
+			Irland</name>
+		<name from="1927" lang="de">Vereinigtes Königreich Großbritannien und Nordirland</name>
+		<name lang="en">Great Britain</name>
+		<name lang="en">United Kingdom</name>
+		<name from="1801" lang="en" to="1927">United Kingdom of Great Britain and Ireland</name>
+		<name lang="fr">Grande-Bretagne</name>
+		<name lang="fr">Royaume-Uni</name>
+		<name from="1801" lang="fr" to="1927">Royaume-Uni de Grande-Bretagne et d'Irlande</name>
+		<name lang="it">Gran Bretagna</name>
+		<name lang="it">Regno Unito</name>
+		<name from="1801" lang="it" to="1927">Regno Unito di Gran Bretagna e Irlanda</name>
+		<name lang="pl">Wielkiej Brytanii</name>
+		<name lang="pl">Zjednoczone Królestwo</name>
+		<name from="1801" lang="pl" to="1927">Zjednoczone Królestwo Wielkiej Brytanii i
+			Irlandii</name>
+		<name lang="ru">Соединённое королевство</name>
+		<name lang="ru">Великобритании</name>
+		<name from="1801" lang="ru" to="1927">Соединённое королевство Великобритании и
+			Ирландии</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Großbritannien</resource>
+	</placeListItem>
+	<placeListItem nym="italien" type="country">
+		<name lang="de" type="index">Italien</name>
+		<name lang="en">Italy</name>
+		<name lang="fr">Italié</name>
+		<name lang="it">Italia</name>
+		<name lang="pl">Italia</name>
+		<name lang="ru">Италия</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Italien</resource>
+	</placeListItem>
+	<placeListItem nym="lombardei" type="country">
+		<name lang="de" type="index">Lombardei</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Königreich_Lombardo-Venetien</resource>
+	</placeListItem>
+	<placeListItem nym="lombardo-venetien" type="country">
+		<name lang="de" type="index">Lombardo-Venetien</name>
+		<name lang="de" type="full">Königreich Lombardo-Venetien</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Königreich_Lombardo-Venetien</resource>
+	</placeListItem>
+	<placeListItem nym="maehren" type="country">
+		<name lang="de" type="index">Mähren</name>
+		<name from="1993" lang="de">Tschechien</name>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Mähren</resource>
+	</placeListItem>
+	<placeListItem nym="makedonien" type="country">
+		<name lang="de" type="index">Makedonien</name>
+		<name lang="en">Macedonia</name>
+		<name lang="fr">Macédoine</name>
+		<name lang="it">Macedonia</name>
+		<name lang="pl">Macedonia</name>
+		<name lang="ru">Македония</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Makedonien_(antikes_Königreich)</resource>
+	</placeListItem>
+	<placeListItem nym="niederlande" type="country">
+		<name lang="de" type="index">Niederlande</name>
+		<name lang="en">Netherlands</name>
+		<name lang="fr">Pays-Bas</name>
+		<name lang="it">Paesi Bassi</name>
+		<name lang="pl">Holandia</name>
+		<name lang="ru">Нидерланды</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Niederlande</resource>
+	</placeListItem>
+	<placeListItem nym="norddeutschland" type="region">
+		<name lang="de" type="index">Norddeutschland</name>
+		<name lang="en">North Germany</name>
+		<place nym="deutschland" role="parentRegion"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Norddeutschland</resource>
+	</placeListItem>
+	<placeListItem nym="norditalien" type="region">
+		<name lang="de" type="index">Norditalien</name>
+		<name lang="en">North Italy</name>
+		<place nym="italien" role="parentRegion"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Oberitalien</resource>
+	</placeListItem>
+	<placeListItem nym="norwegen" type="country">
+		<name lang="de" type="index">Norwegen</name>
+		<name lang="en">Norway</name>
+		<name lang="fr">Norvège</name>
+		<name lang="it">Norvegia</name>
+		<name lang="pl">Norwegia</name>
+		<name lang="ru">Норвегия</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Norwegen</resource>
+	</placeListItem>
+	<placeListItem nym="oesterreich" type="country">
+		<name lang="de" type="index">Österreich</name>
+		<name lang="en">Austria</name>
+		<name lang="fr">Österreich</name>
+		<name lang="it">Austria</name>
+		<name lang="pl">Austria</name>
+		<name lang="ru">Австрия</name>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Österreich</resource>
+	</placeListItem>
+	<placeListItem nym="oesterreich-ungarn" type="block">
+		<name lang="de" type="index">Österreich-Ungarn</name>
+		<name from="1804" lang="de" to="1867">Kaisertum Österreich</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Österreich-Ungarn</resource>
+	</placeListItem>
+	<placeListItem nym="polen" type="country">
+		<name lang="de" type="index">Polen</name>
+		<name lang="de" to="1795">Königreich Polen</name>
+		<name from="1944" lang="de" to="1989">Volksrepublik Polen</name>
+		<name lang="en">Poland</name>
+		<name lang="fr">Pologne</name>
+		<name lang="it">Polonia</name>
+		<name lang="pl">Polska</name>
+		<name lang="ru">Польша</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Polen</resource>
+	</placeListItem>
+	<placeListItem nym="rheinland" type="region">
+		<name lang="de" type="index">Rheinland</name>
+		<place nym="deutschland" role="parentRegion"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Rheinland</resource>
+	</placeListItem>
+	<placeListItem nym="russland" type="country">
+		<name lang="de" type="index">Russland</name>
+		<name lang="en">Russia</name>
+		<name lang="fr">Russie</name>
+		<name lang="it">Russia</name>
+		<name lang="pl">Rosja</name>
+		<name lang="ru">Россия</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Russland</resource>
+	</placeListItem>
+	<placeListItem nym="schweden" type="country">
+		<name lang="de" type="index">Schweden</name>
+		<name lang="en">Sweden</name>
+		<name lang="fr">Suède</name>
+		<name lang="it">Svezia</name>
+		<name lang="pl">Szwecja</name>
+		<name lang="ru">Швеция</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Schweden</resource>
+	</placeListItem>
+	<placeListItem nym="schweiz" type="country">
+		<name lang="de" type="index">Schweiz</name>
+		<name lang="en">Switzerland</name>
+		<name lang="fr">Suisse</name>
+		<name lang="it">Svizzera</name>
+		<name lang="pl">Szwajcaria</name>
+		<name lang="ru">Швейцария</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Schweiz</resource>
+	</placeListItem>
+	<placeListItem nym="skandinavien" type="block">
+		<name lang="de" type="index">Skandinavien</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Skandinavien</resource>
+	</placeListItem>
+	<placeListItem nym="sueddeutschland" type="region">
+		<name lang="de" type="index">Süddeutschland</name>
+		<name lang="en">South Germany</name>
+		<place nym="deutschland" role="parentRegion"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Süddeutschland</resource>
+	</placeListItem>
+	<placeListItem nym="toskana" type="region">
+		<name lang="de" type="index">Toskana</name>
+		<name lang="en">Tuscany</name>
+		<name lang="fr">Toscane</name>
+		<name lang="it">Toscana</name>
+		<name lang="pl">Toskania</name>
+		<name lang="ru">Тоскана</name>
+		<place nym="italien" role="parentCountry"/>
+		<resource type="de.wikipedia.org">Toskana</resource>
+	</placeListItem>
+	<placeListItem nym="ukraine" type="country">
+		<name lang="de" type="index">Ukraine</name>
+		<name lang="en">Ukraine</name>
+		<name lang="fr">Ukraine</name>
+		<name lang="it">Ucraina</name>
+		<name lang="pl">Ukraina</name>
+		<name lang="ru">Украина</name>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Ukraine</resource>
+	</placeListItem>
+	<placeListItem nym="ungarn" type="country">
+		<name lang="de" type="index">Ungarn</name>
+		<name lang="en">Hungary</name>
+		<name lang="fr">Hongrie</name>
+		<name lang="it">Ungheria</name>
+		<name lang="pl">Węgry</name>
+		<name lang="ru">Венгрия</name>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Ungarn</resource>
+	</placeListItem>
+	<placeListItem nym="usa" type="country">
+		<name lang="de" type="index">USA</name>
+		<name lang="de" type="index">Vereinigte Staaten</name>
+		<name lang="en">United States</name>
+		<name lang="fr">États-Unis</name>
+		<name lang="it">Stati Uniti</name>
+		<name lang="pl">Stany Zjednoczone</name>
+		<name lang="ru">Соединённые Штаты</name>
+		<place nym="nordamerika" role="parentContinent"/>
+		<resource type="de.wikipedia.org">USA</resource>
+	</placeListItem>
+
+	<!-- SETTLEMENTS AND LOCATIONS -->
+	<placeListItem nym="aachen" type="settlement">
+		<geo authority="geonames.org">50.77664 6.08342</geo>
+		<id authority="geonames.org">3247449</id>
+		<id authority="geohash.org">u1h2f7q5u</id>
+		<name lang="de" type="index">Aachen</name>
+		<name lang="en">Aachen</name>
+		<name lang="fr">Aix-la-Chapelle</name>
+		<name lang="it">Aquisgrana</name>
+		<name lang="pl">Akwizgran</name>
+		<name lang="ru">Аахен</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="rheinland" role="parentRegion"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend katholisch</description>
+		<description source="Meyer 1893">7: 85-95% Katholiken, 5-15% Protestanten</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">79606</description>
+		<resource type="de.wikipedia.org">Aachen</resource>
+	</placeListItem>
+	<placeListItem nym="aachen.kurhaus" type="location">
+		<name lang="de" type="index">Kurhaus</name>
+		<name from="1916" type="other">Altes Kurhaus</name>
+		<place nym="aachen" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Altes_Kurhaus_Aachen</resource>
+	</placeListItem>
+	<placeListItem nym="altona" type="settlement">
+		<geo authority="geonames.org">53.55 9.93333</geo>
+		<id authority="geonames.org">2911296</id>
+		<id authority="geohash.org">u1x0dh3pr</id>
+		<name lang="de" type="index">Altona</name>
+		<name lang="en">Altona</name>
+		<name lang="fr">Altona</name>
+		<name lang="it">Altona</name>
+		<name lang="pl">Altona</name>
+		<name lang="ru">[Altona]</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Volkszählung 1875">84097</description>
+		<resource type="de.wikipedia.org">Bezirk_Altona</resource>
+	</placeListItem>
+	<placeListItem nym="antwerpen" type="settlement">
+		<geo>51.21989 4.40346</geo>
+		<id authority="geonames.org">2803138</id>
+		<name lang="de" type="index">Antwerpen</name>
+		<name lang="en">Antwerp</name>
+		<name lang="fr">Anvers</name>
+		<name lang="it">Anversa</name>
+		<name lang="pl">Antwerpia</name>
+		<name lang="ru">Антверпен</name>
+		<place nym="belgien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Antwerpen</resource>
+	</placeListItem>
+	<placeListItem nym="athen" type="settlement">
+		<geo>37.97945 23.71622</geo>
+		<id authority="geonames.org">264371</id>
+		<name lang="de" type="index">Athen</name>
+		<name lang="en">Athens</name>
+		<name lang="fr">Athènes</name>
+		<name lang="it">Atene</name>
+		<name lang="pl">Ateny</name>
+		<name lang="ru">Афины</name>
+		<place nym="griechenland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Athen</resource>
+	</placeListItem>
+	<placeListItem nym="augsburg" type="settlement">
+		<geo authority="geonames.org">48.37154 10.89851</geo>
+		<id authority="geonames.org">2954172</id>
+		<name lang="de" type="index">Augsburg</name>
+		<name lang="en">Augsburg</name>
+		<name lang="fr">Augsbourg</name>
+		<name lang="it">Augusta</name>
+		<name lang="pl">Augsburg</name>
+		<name lang="ru">Аугсбург</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Augsburg</resource>
+	</placeListItem>
+	<placeListItem nym="basel" type="settlement">
+		<geo authority="geonames.org">47.5584 7.57327</geo>
+		<id authority="geonames.org">2661604</id>
+		<id authority="geohash.org">u0mqsc8dp</id>
+		<name lang="de" type="index">Basel</name>
+		<name lang="en">Basel</name>
+		<name lang="fr">Bâle</name>
+		<name lang="it">Basilea</name>
+		<name lang="pl">Bazylea</name>
+		<name lang="ru">Базель</name>
+		<place nym="schweiz" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">Katholiken und Reformierte gemischt</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<resource type="de.wikipedia.org">Basel</resource>
+	</placeListItem>
+	<placeListItem nym="bayreuth" type="settlement">
+		<geo authority="geonames.org">49.94806 11.57833</geo>
+		<id authority="geonames.org">2951825</id>
+		<name lang="de" type="index">Bayreuth</name>
+		<name lang="en">Bayreuth</name>
+		<name lang="fr">Bayreuth</name>
+		<name lang="it">Bayreuth</name>
+		<name lang="pl">Bayreuth</name>
+		<name lang="ru">Байройт</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Volkszählung 1875">19180</description>
+		<resource type="de.wikipedia.org">Bayreuth</resource>
+	</placeListItem>
+	<placeListItem nym="bergamo" type="settlement">
+		<geo authority="geonames.org">45.69798 9.66895</geo>
+		<id authority="geonames.org">3182164</id>
+		<id authority="geohash.org">u0ngupng8</id>
+		<name lang="de" type="index">Bergamo</name>
+		<name lang="en">Bergamo</name>
+		<name lang="fr">Bergame</name>
+		<name lang="it">Bergamo</name>
+		<name lang="pl">Bergamo</name>
+		<name lang="ru">Бергамо</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Bergamo</resource>
+	</placeListItem>
+	<placeListItem nym="berlin" type="settlement">
+		<geo authority="geonames.org">52.52437 13.41053</geo>
+		<id authority="geonames.org">2950159</id>
+		<id authority="geohash.org">u33dc0f42</id>
+		<name lang="de" type="index">Berlin</name>
+		<name lang="en">Berlin</name>
+		<name lang="fr">Berlin</name>
+		<name lang="it">Berlino</name>
+		<name lang="pl">Berlin</name>
+		<name lang="ru">Берлин</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">2: 5-15% Katholiken, 85-95% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">966858</description>
+		<resource type="de.wikipedia.org">Berlin</resource>
+	</placeListItem>
+	<placeListItem nym="berlin.hofoper" type="location">
+		<name lang="de" type="index">Königliche Hofoper Unter den Linden</name>
+		<place nym="europa" role="parentContinent"/>
+		<place nym="berlin" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Staatsoper_Unter_den_Linden</resource>
+	</placeListItem>
+	<placeListItem nym="berlin.kronprinzenpalais" type="location">
+		<name lang="de" type="index">Kronprinzenpalais</name>
+		<place nym="europa" role="parentContinent"/>
+		<place nym="berlin" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Kronprinzenpalais_(Berlin)</resource>
+	</placeListItem>
+	<placeListItem nym="bologna" type="settlement">
+		<geo authority="geonames.org">44.49381 11.33875</geo>
+		<id authority="geonames.org">3181928</id>
+		<id authority="geohash.org">srbj4h53w</id>
+		<name lang="de" type="index">Bologna</name>
+		<name lang="en">Bologna</name>
+		<name lang="fr">Bologne</name>
+		<name lang="it">Bologna</name>
+		<name lang="pl">Bolonia</name>
+		<name lang="ru">Болонья</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Italiener</description>
+		<resource type="de.wikipedia.org">Bologna</resource>
+	</placeListItem>
+	<placeListItem nym="bologna.san-petronio" type="location">
+		<name lang="de" type="index">San Petronio</name>
+		<place nym="bologna" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">San_Petronio_Basilica</resource>
+	</placeListItem>
+	<placeListItem nym="boston" type="settlement">
+		<geo authority="geonames.org">42.35843 -71.05977</geo>
+		<id authority="geonames.org">4930956</id>
+		<id authority="geohash.org">drt2yzpgere</id>
+		<name lang="de" type="index">Boston</name>
+		<name lang="en">Boston</name>
+		<name lang="fr">Boston</name>
+		<name lang="it">Boston</name>
+		<name lang="pl">Boston</name>
+		<name lang="ru">Бостон</name>
+		<place nym="usa" role="parentCountry"/>
+		<place nym="nordamerika" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Boston</resource>
+	</placeListItem>
+	<placeListItem nym="bremen" type="settlement">
+		<geo authority="geonames.org">53.07516 8.80777</geo>
+		<id authority="geonames.org">2944388</id>
+		<id authority="geohash.org">u1qmbqc1q</id>
+		<name lang="de" type="index">Bremen</name>
+		<name lang="en">Bremen</name>
+		<name lang="fr">Brême</name>
+		<name lang="it">Brema</name>
+		<name lang="pl">Brema</name>
+		<name lang="ru">Бремен</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein evangelisch</description>
+		<description source="Meyer 1893">2: 5-15% Katholiken, 85-95% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">102532</description>
+		<resource type="de.wikipedia.org">Bremen</resource>
+	</placeListItem>
+	<placeListItem nym="breslau" type="settlement">
+		<geo authority="geonames.org">51.1 17.03333</geo>
+		<id authority="geonames.org">3081368</id>
+		<id authority="geohash.org">u3h4exzj4</id>
+		<name lang="de" type="index" to="1945">Breslau</name>
+		<name lang="en">Breslau</name>
+		<name lang="fr">Breslau</name>
+		<name lang="it">Breslavia</name>
+		<name lang="pl" type="index" from="1945">Wrocław</name>
+		<name lang="ru">Вроцлав</name>
+		<place nym="deutschland" role="parentCountry" to="1945"/>
+		<place from="1945" nym="polen" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">gemischt, mehr evangelisch</description>
+		<description source="Meyer 1893">4: 30-50% Katholiken, 50-70% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">239050</description>
+		<resource type="de.wikipedia.org">Breslau</resource>
+	</placeListItem>
+	<placeListItem nym="bristol" type="settlement">
+		<geo authority="geonames.org">51.45523 -2.59665</geo>
+		<id authority="geonames.org">2654675</id>
+		<id authority="geohash.org">gcnhtp583</id>
+		<name lang="de" type="index">Bristol</name>
+		<name lang="en">Bristol</name>
+		<name lang="fr">Bristol</name>
+		<name lang="it">Bristol</name>
+		<name lang="pl">Bristol</name>
+		<name lang="ru">Бристоль</name>
+		<place nym="grossbritannien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Bristol</resource>
+	</placeListItem>
+	<placeListItem nym="bruck-an-der-mur" type="settlement">
+		<geo authority="geonames.org">47.41667 15.28333</geo>
+		<id authority="geonames.org">2781371</id>
+		<name lang="de" type="index">Bruck an der Mur</name>
+		<name lang="en">Bruck an der Mur</name>
+		<name lang="fr">Bruck an der Mur</name>
+		<name lang="it">Bruck an der Mur</name>
+		<name lang="pl">Bruck an der Mur</name>
+		<name lang="ru">Брук-ан-дер-Мур</name>
+		<place nym="oesterreich" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Bruck_an_der_Mur</resource>
+	</placeListItem>
+	<placeListItem nym="bruenn" type="settlement">
+		<geo authority="geonames.org">49.19522 16.60796</geo>
+		<id authority="geonames.org">3078610</id>
+		<id authority="geohash.org">u2ezcgstz</id>
+		<name lang="de" type="index">Brünn</name>
+		<name lang="en">Brno</name>
+		<name lang="fr">Brno</name>
+		<name lang="it">Brno</name>
+		<name lang="pl">Brno</name>
+		<name lang="cz" type="index">Brno</name>
+		<name lang="ru">Брно</name>
+		<place nym="maehren" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">über 90% Katholiken, über 2% Juden</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Deutsche</description>
+		<resource type="de.wikipedia.org">Brünn</resource>
+	</placeListItem>
+	<placeListItem nym="bruenn.redouta-theater" type="location">
+		<name lang="de" type="index">Reduta-Theater</name>
+		<place nym="bruenn" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Reduta-Theater</resource>
+	</placeListItem>
+	<placeListItem nym="bruenn.stadttheater" type="location">
+		<name lang="de" type="index">Deutsches Stadttheater</name>
+		<place nym="bruenn" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Brünner_Stadttheater</resource>
+	</placeListItem>
+	<placeListItem nym="bruessel" type="settlement">
+		<geo authority="geonames.org">50.85045 4.34878</geo>
+		<id authority="geonames.org">2800866</id>
+		<name lang="de" type="index">Brüssel</name>
+		<name lang="en">Brussels</name>
+		<name lang="fr">Bruxelles</name>
+		<name lang="it">Bruxelles</name>
+		<name lang="pl">Bruksela</name>
+		<name lang="ru">Брюссель</name>
+		<place nym="europa" role="parentContinent"/>
+		<place nym="belgien" role="parentCountry"/>
+		<resource type="de.wikipedia.org">Brüssel</resource>
+	</placeListItem>
+	<placeListItem nym="bruessel.la-monnaie" type="location">
+		<name lang="de" type="index">Théâtre Royal de la Monnaie</name>
+		<name lang="fr" type="index">Théâtre Royal de la Monnaie</name>
+		<name>Koninklijke Muntschouwburg</name>
+		<place nym="bruessel" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Brüsseler_Opernhaus_La_Monnaie/De_Munt</resource>
+	</placeListItem>
+	<placeListItem nym="budapest.nationaltheater" type="location">
+		<name lang="de" type="index">Ungarisches Nationaltheater</name>
+		<name>Magyar Nemzeti Színház</name>
+		<place nym="pest" role="parentSettlement"/>
+		<description>Kerepesi út, 1837–1908</description>
+		<resource type="de.wikipedia.org">Nationaltheater_(Budapest)</resource>
+	</placeListItem>
+	<placeListItem nym="buenos-aires" type="settlement">
+		<geo authority="geonames.org">-34.61315 -58.37723</geo>
+		<id authority="geonames.org">3435910</id>
+		<name lang="de" type="index">Buenos Aires</name>
+		<name lang="en">Buenos Aires</name>
+		<name lang="fr">Buenos Aires</name>
+		<name lang="it">Buenos Aires</name>
+		<name lang="pl">Buenos Aires</name>
+		<name lang="ru">Буэнос-Айрес</name>
+		<place nym="suedamerika" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Buenos_Aires</resource>
+	</placeListItem>
+	<placeListItem nym="buenos-aires.teatro-opera" type="location">
+		<name lang="de" type="index">Teatro Ópera</name>
+		<place nym="buenos-aires" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">http://de.wikipedia.org/wiki/Teatro_Ópera</resource>
+	</placeListItem>
+	<placeListItem nym="busseto" type="settlement">
+		<geo authority="geonames.org">44.98057 10.04208</geo>
+		<id authority="geonames.org">3181364</id>
+		<id authority="geohash.org">spzpuknjw</id>
+		<name lang="de" type="index">Busseto</name>
+		<name lang="en">Busseto</name>
+		<name lang="fr">Busseto</name>
+		<name lang="it">Busseto</name>
+		<name lang="pl">Busseto</name>
+		<name lang="ru">Буссето</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Busseto</resource>
+	</placeListItem>
+	<placeListItem nym="cairo" type="settlement">
+		<geo authority="geonames.org">30.06263 31.24967</geo>
+		<id authority="geonames.org">360630</id>
+		<id authority="geohash.org">stq4yv3jk</id>
+		<name lang="de" type="index">Cairo</name>
+		<name lang="de" type="index">Kairo</name>
+		<name lang="en">Cairo</name>
+		<name lang="fr">Le Caire</name>
+		<name lang="it">Il Cairo</name>
+		<name lang="pl">Kair</name>
+		<name lang="ru">Каир</name>
+		<place nym="aegypten" role="parentCountry"/>
+		<place nym="afrika" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Kairo</resource>
+	</placeListItem>
+	<placeListItem nym="charlottenburg" type="settlement">
+		<geo authority="geonames.org">52.51667 13.28333</geo>
+		<id authority="geonames.org">2940187</id>
+		<id authority="geohash.org">u336y8z21</id>
+		<name lang="de" type="index">Charlottenburg</name>
+		<name lang="en">Charlottenburg</name>
+		<name lang="fr">Charlottenburg</name>
+		<name lang="it">Charlottenburg</name>
+		<name lang="pl">Charlottenburg</name>
+		<name lang="ru">Шарлоттенбург</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Volkszählung 1875">25847</description>
+		<resource type="de.wikipedia.org">Berlin-Charlottenburg</resource>
+	</placeListItem>
+	<placeListItem nym="coburg" type="settlement">
+		<geo authority="geonames.org">50.25937 10.96384</geo>
+		<id authority="geonames.org">2939951</id>
+		<id authority="geohash.org">u0zv6x2h2</id>
+		<name lang="de" type="index">Coburg</name>
+		<name lang="de" type="index">Koburg</name>
+		<name lang="en">Coburg</name>
+		<name lang="fr">Coburg</name>
+		<name lang="it">Coburg</name>
+		<name lang="pl">Coburg</name>
+		<name lang="ru">Кобург</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein evangelisch</description>
+		<description source="Meyer 1893">1: 0-5% Katholiken, 95-100% Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">14567</description>
+		<resource type="de.wikipedia.org">Coburg</resource>
+	</placeListItem>
+	<placeListItem nym="coburg.hoftheater" type="location">
+		<name type="index">Herzoglich sächsisches Hoftheater</name>
+		<name from="1827" lang="de" to="1918">Herzoglich sächsisches Hoftheater</name>
+		<name from="1918" lang="de" to="1919">Theater in Coburg</name>
+		<name from="1919" lang="de">Coburgisches Landestheater</name>
+		<place nym="coburg" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Landestheater_Coburg</resource>
+	</placeListItem>
+	<placeListItem nym="constantine" type="settlement">
+		<geo authority="geonames.org">36.365 6.61472</geo>
+		<id authority="geonames.org">2501152</id>
+		<name lang="de" type="index">Constantine</name>
+		<name lang="en">Constantine</name>
+		<name lang="fr">Constantine</name>
+		<name lang="it">Costantina</name>
+		<name lang="pl">Konstantyna</name>
+		<name lang="ru">Константина</name>
+		<place nym="afrika" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Constantine_(Algerien)</resource>
+	</placeListItem>
+	<placeListItem nym="danzig" type="settlement">
+		<geo authority="geonames.org">54.35205 18.64637</geo>
+		<id authority="geonames.org">3099434</id>
+		<name lang="de" type="index">Danzig</name>
+		<name lang="en">Gdansk</name>
+		<name lang="fr">Gdansk</name>
+		<name lang="it">Danzica</name>
+		<name lang="pl" type="index">Gdańsk</name>
+		<name lang="ru">Гданьск</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">3: 15-30% Katholiken, 70-85% Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">97931</description>
+		<resource type="de.wikipedia.org">Danzig</resource>
+	</placeListItem>
+	<placeListItem nym="danzig.schuetzenhaus" type="location">
+		<name lang="de" type="index">Friedrich-Wilhelm-Schützenhaus</name>
+		<place nym="danzig" role="parentSettlement"/>
+	</placeListItem>
+	<placeListItem nym="darmstadt" type="settlement">
+		<geo authority="geonames.org">49.87056 8.64944</geo>
+		<id authority="geonames.org">2938913</id>
+		<id authority="geohash.org">u0vgwzvp2</id>
+		<name lang="de" type="index">Darmstadt</name>
+		<name lang="en">Darmstadt</name>
+		<name lang="fr">Darmstadt</name>
+		<name lang="it">Darmstadt</name>
+		<name lang="pl">Darmstadt</name>
+		<name lang="ru">Дармштадт</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">3: 15-30% Katholiken, 70-85% Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">36993</description>
+		<resource type="de.wikipedia.org">Darmstadt</resource>
+	</placeListItem>
+	<placeListItem nym="dessau" type="settlement">
+		<geo authority="geonames.org">51.83864 12.24555</geo>
+		<id authority="geonames.org">2937959</id>
+		<id authority="geohash.org">u30wvspsp</id>
+		<name lang="de" type="index">Dessau</name>
+		<name lang="en">Dessau</name>
+		<name lang="fr">Dessau</name>
+		<name lang="it">Dessau</name>
+		<name lang="pl">Dessau</name>
+		<name lang="ru">Дессау</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein evangelisch</description>
+		<description source="Meyer 1893">1: 0-5% Katholiken, 95-100% Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">19643</description>
+		<resource type="de.wikipedia.org">Dessau</resource>
+	</placeListItem>
+	<placeListItem nym="dresden" type="settlement">
+		<geo authority="geonames.org">51.05089 13.73832</geo>
+		<id authority="geonames.org">2935022</id>
+		<id authority="geohash.org">u31f2t7nj</id>
+		<name lang="de" type="index">Dresden</name>
+		<name lang="en">Dresden</name>
+		<name lang="fr">Dresde</name>
+		<name lang="it">Dresda</name>
+		<name lang="pl">Drezno</name>
+		<name lang="ru">Дрезден</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">2: 5-15% Katholiken, 85-95% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">197295</description>
+		<resource type="de.wikipedia.org">Dresden</resource>
+	</placeListItem>
+	<placeListItem nym="dresden.hoftheater" type="location">
+		<name lang="de" type="index">Königliches Hoftheater</name>
+		<name from="1841" lang="de" to="1869">Neues Königliches Hoftheater</name>
+		<name from="1869" lang="de" to="1878">Altstädter Interimstheater am Zwingerwall
+			(„Bretterbude“)</name>
+		<name from="1878" lang="de" to="1945">Semperoper</name>
+		<name from="1985" lang="de">Semperoper</name>
+		<place nym="dresden" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Hoftheater_Dresden</resource>
+	</placeListItem>
+	<placeListItem nym="dresden.neustaedter-hoftheater" type="location">
+		<name lang="de" type="index">Neustädter Hoftheater Dresden</name>
+		<name from="1873 " lang="de" to="1913">Neustädter Hoftheater Dresden</name>
+		<place nym="dresden" role="parentSettlement"/>
+		<resource type="www"
+			>http://www.andreas-praefcke.de/carthalia/germany/dresden_neustaedter.htm</resource>
+	</placeListItem>
+	<placeListItem nym="duesseldorf" type="settlement">
+		<geo authority="geonames.org">51.22172 6.77616</geo>
+		<id authority="geonames.org">2934246</id>
+		<id authority="geohash.org">u1hg6jsr0</id>
+		<name lang="de" type="index">Düsseldorf</name>
+		<name lang="en">Düsseldorf</name>
+		<name lang="fr">Düsseldorf</name>
+		<name lang="it">Düsseldorf</name>
+		<name lang="pl">Düsseldorf</name>
+		<name lang="ru">Дюссельдорф</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="rheinland" role="parentRegion"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend katholisch</description>
+		<description source="Meyer 1893">6: 70-85% Katholiken, 15-30% Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">80695</description>
+		<resource type="de.wikipedia.org">Düsseldorf</resource>
+	</placeListItem>
+	<placeListItem nym="elberfeld" type="settlement">
+		<geo authority="geonames.org">51.25627 7.14816</geo>
+		<id authority="geonames.org">2931276</id>
+		<id authority="geohash.org">u1j5dc95d</id>
+		<name lang="de" type="index">Elberfeld</name>
+		<name lang="en">Elberfeld</name>
+		<name lang="fr">Elberfeld</name>
+		<name lang="it">Elberfeld</name>
+		<name lang="pl">Elberfeld</name>
+		<name lang="ru">Эльберфельд</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="rheinland" role="parentRegion"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">3: 15-30% Katholiken, 70-85% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">80589</description>
+		<resource type="de.wikipedia.org">Elberfeld</resource>
+	</placeListItem>
+	<placeListItem nym="erfurt" type="settlement">
+		<geo>50.9787 11.03283</geo>
+		<id authority="geonames.org">2929670</id>
+		<name lang="de" type="index">Erfurt</name>
+		<name lang="en">Erfurt</name>
+		<name lang="fr">Erfurt</name>
+		<name lang="it">Erfurt</name>
+		<name lang="pl">Erfurt</name>
+		<name lang="ru">Эрфурт</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Erfurt</resource>
+	</placeListItem>
+	<placeListItem nym="ferrara" type="settlement">
+		<geo authority="geonames.org">44.84346 11.60868</geo>
+		<id authority="geonames.org">3177090</id>
+		<name lang="de" type="index">Ferrara</name>
+		<name lang="en">Ferrara</name>
+		<name lang="fr">Ferrare</name>
+		<name lang="it">Ferrara</name>
+		<name lang="pl">Ferrara</name>
+		<name lang="ru">Феррара</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Ferrara</resource>
+	</placeListItem>
+	<placeListItem nym="florenz" type="settlement">
+		<geo authority="geonames.org">43.76667 11.25</geo>
+		<id authority="geonames.org">3176959</id>
+		<name lang="de" type="index">Florenz</name>
+		<name lang="en">Florence</name>
+		<name lang="fr">Florence</name>
+		<name lang="it">Firenze</name>
+		<name lang="pl">Firence</name>
+		<name lang="ru">Флоренция</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Florenz</resource>
+	</placeListItem>
+	<placeListItem nym="florenz.teatro-pagliano" type="location">
+		<name lang="de" to="1901" type="index">Teatro Pagliano</name>
+		<name from="1901" lang="de">Teatro Verdi</name>
+		<place nym="florenz" role="parentSettlement"/>
+		<resource type="it.wikipedia.org">Teatro_Verdi_(Firenze)</resource>
+	</placeListItem>
+	<placeListItem nym="florenz.teatro-principe-umberto" type="location">
+		<name lang="de" type="index">Teatro Principe Umberto</name>
+		<name lang="de" type="index">Teatro Umberto I</name>
+		<place nym="florenz" role="parentSettlement"/>
+		<resource type="it.wikipedia.org">Teatro_Umberto_I</resource>
+	</placeListItem>
+	<placeListItem nym="frankfurt-am-main" type="settlement">
+		<geo authority="geonames.org">50.11552 8.68417</geo>
+		<id authority="geonames.org">2925533</id>
+		<id authority="geohash.org">u0yjjd6jk</id>
+		<name lang="de">Frankfurt</name>
+		<name lang="de" type="index">Frankfurt am Main</name>
+		<name lang="de" to="1806">Freie Reichsstadt Frankfurt</name>
+		<name from="1810" lang="de" to="1813">Großherzogtum Frankfurt</name>
+		<name from="1815" lang="de" to="1866">Freie Stadt Frankfurt</name>
+		<name lang="en">Frankfurt</name>
+		<name lang="en">Frankfurt am Main</name>
+		<name lang="fr">Francfort</name>
+		<name lang="it">Francoforte</name>
+		<name lang="it">Francoforte sul Meno</name>
+		<name lang="pl">Frankfurt</name>
+		<name lang="pl">Frankfurt nad Menem</name>
+		<name lang="ru">Франкфурт</name>
+		<name lang="ru">Франкфурт-на-Майне</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">4: 30-50% Katholiken, 50-70% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">103136</description>
+		<resource type="de.wikipedia.org">Frankfurt</resource>
+	</placeListItem>
+	<placeListItem nym="gent" type="settlement">
+		<geo authority="geonames.org">51.05 3.71667</geo>
+		<id authority="geonames.org">2797656</id>
+		<name lang="de" type="index">Gent</name>
+		<place nym="belgien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Gent</resource>
+	</placeListItem>
+	<placeListItem nym="genua" type="settlement">
+		<geo authority="geonames.org">44.40632 8.93386</geo>
+		<id authority="geonames.org">3176219</id>
+		<id authority="geohash.org">spykeef3w</id>
+		<name lang="de" type="index">Genua</name>
+		<name lang="en">Genoa</name>
+		<name lang="fr">Gênes</name>
+		<name lang="it">Genova</name>
+		<name lang="pl">Genua</name>
+		<name lang="ru">Генуя</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Genua</resource>
+	</placeListItem>
+	<placeListItem nym="genua.palazzo-doria" type="location">
+		<name lang="de" type="index">Palazzo Doria</name>
+		<name lang="it" type="index">Palazzo Doria</name>
+		<place nym="genua" role="parentSettlement"/>
+		<resource type="it.wikipedia.org">Villa_del_Principe</resource>
+	</placeListItem>
+	<placeListItem nym="genua.teatro-carlo-felice" type="location">
+		<name lang="de" type="index">Teatro Carlo Felice</name>
+		<name lang="it" type="index">Teatro Carlo Felice</name>
+		<place nym="genua" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Teatro_Carlo_Felice</resource>
+	</placeListItem>
+	<placeListItem nym="goettingen" type="settlement">
+		<geo authority="geonames.org">51.53443 9.93228</geo>
+		<id authority="geonames.org">2918632</id>
+		<id authority="geohash.org">u1pj1yq8d</id>
+		<name lang="de" type="index">Göttingen</name>
+		<name lang="en">Göttingen</name>
+		<name lang="fr">Göttingen</name>
+		<name lang="it">Gottinga</name>
+		<name lang="pl">Getynga</name>
+		<name lang="ru">Гёттинген</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Volkszählung 1875">17038</description>
+		<resource type="de.wikipedia.org">Göttingen</resource>
+	</placeListItem>
+	<placeListItem nym="gotha" type="settlement">
+		<geo authority="geonames.org">50.94823 10.70193</geo>
+		<id authority="geonames.org">2918752</id>
+		<id authority="geohash.org">u1p9gdw72</id>
+		<name lang="de" type="index">Gotha</name>
+		<name lang="en">Gotha</name>
+		<name lang="fr">Gotha</name>
+		<name lang="it">Gotha</name>
+		<name lang="pl">Gotha</name>
+		<name lang="ru">Гота</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">1: 0-5% Katholiken, 95-100% Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">22928</description>
+		<resource type="de.wikipedia.org">Gotha</resource>
+	</placeListItem>
+	<placeListItem nym="graz" type="settlement">
+		<geo authority="geonames.org">47.06667 15.45</geo>
+		<id authority="geonames.org">2778067</id>
+		<name lang="de" type="index">Graz</name>
+		<place nym="oesterreich" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Graz</resource>
+	</placeListItem>
+	<placeListItem nym="graz.landes-theater" type="location">
+		<name from="1825" lang="de" to="1887" type="index">Landestheater</name>
+		<name from="1887" lang="de" to="1899">Stadttheater</name>
+		<name from="1889" lang="de" to="1918">Theater am Franzensplatz</name>
+		<name from="1918" lang="de">Schauspielhaus Graz</name>
+		<place nym="graz" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Schauspielhaus_Graz</resource>
+	</placeListItem>
+	<placeListItem nym="graz.stadt-theater" type="location">
+		<!-- entspricht nicht dem heutigen „Schauspielhaus Graz (1823)“ -->
+		<!-- evtl. „Thalia am Stadtpark“ (1864)? -->
+		<!-- nicht: Opernhaus Graz (1899) -->
+		<name from="1864" lang="de" type="index">Stadttheater</name>
+		<place nym="graz" role="parentSettlement"/>
+	</placeListItem>
+	<placeListItem nym="guetersloh" type="settlement">
+		<geo authority="geonames.org">51.90693 8.37854</geo>
+		<id authority="geonames.org">2913366</id>
+		<id authority="geohash.org">u1jzqbdq6</id>
+		<name lang="de" type="index">Gütersloh</name>
+		<name lang="en">Gütersloh</name>
+		<name lang="fr">Gütersloh</name>
+		<name lang="it">Gütersloh</name>
+		<name lang="pl">Gütersloh</name>
+		<name lang="ru">Гютерсло</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Volkszählung 1875">4491</description>
+		<resource type="de.wikipedia.org">Gütersloh</resource>
+	</placeListItem>
+	<placeListItem nym="hamburg" type="settlement">
+		<geo authority="geonames.org">53.57532 10.01534</geo>
+		<id authority="geonames.org">2911298</id>
+		<id authority="geohash.org">u1x0ektjt</id>
+		<name lang="de" type="index">Hamburg</name>
+		<name lang="de">Freie und Hansestadt Hamburg</name>
+		<name lang="en">Hamburg</name>
+		<name lang="fr">Hambourg</name>
+		<name lang="it">Amburgo</name>
+		<name lang="pl">Hamburg</name>
+		<name lang="ru">Гамбург</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein evangelisch</description>
+		<description source="Meyer 1893">2: 5-15% Katholiken, 85-95% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">264675</description>
+		<resource type="de.wikipedia.org">Hamburg</resource>
+	</placeListItem>
+	<placeListItem nym="hamburg.stadt-theater" type="location">
+		<name lang="de" type="index">Stadt-Theater</name>
+		<place nym="hamburg" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Hamburgische_Staatsoper</resource>
+	</placeListItem>
+	<placeListItem nym="hannover" type="settlement">
+		<geo authority="geonames.org">52.37052 9.73322</geo>
+		<id authority="geonames.org">2910831</id>
+		<id authority="geohash.org">u1qcvqwxs</id>
+		<name lang="de" type="index">Hannover</name>
+		<name lang="en">Hanover</name>
+		<name lang="fr">Hanovre</name>
+		<name lang="it">Hannover</name>
+		<name lang="pl">Hanower</name>
+		<name lang="ru">Ганновер</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">2: 5-15% Katholiken, 85-95% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">106677</description>
+		<resource type="de.wikipedia.org">Hannover</resource>
+	</placeListItem>
+	<placeListItem nym="heilbronn" type="settlement">
+		<geo authority="geonames.org">49.13995 9.22054</geo>
+		<id authority="geonames.org">2907669</id>
+		<id authority="geohash.org">u0wr7uu42</id>
+		<name lang="de" type="index">Heilbronn</name>
+		<name lang="en">Heilbronn</name>
+		<name lang="fr">Heilbronn</name>
+		<name lang="it">Heilbronn</name>
+		<name lang="pl">Heilbronn</name>
+		<name lang="ru">Хайльбронн</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">2: 5-15% Katholiken, 85-95% Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">21208</description>
+		<resource type="de.wikipedia.org">Heilbronn</resource>
+	</placeListItem>
+	<placeListItem nym="heilbronn.st-kilian" type="location">
+		<name lang="de" type="index">St. Kilian</name>
+		<place nym="heilbronn" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Kilianskirche_(Heilbronn)</resource>
+	</placeListItem>
+	<placeListItem nym="karlsruhe" type="settlement">
+		<geo authority="geonames.org">49.00472 8.38583</geo>
+		<id authority="geonames.org">2892794</id>
+		<id authority="geohash.org">u0tyy9y4f</id>
+		<name lang="de" type="index">Karlsruhe</name>
+		<name lang="en">Karlsruhe</name>
+		<name lang="fr">Karlsruhe</name>
+		<name lang="it">Karlsruhe</name>
+		<name lang="pl">Karlsruhe</name>
+		<name lang="ru">Карлсруэ</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">gemischt, mehr evangelisch</description>
+		<description source="Meyer 1893">4: 30-50% Katholiken, 50-70% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">42895</description>
+		<resource type="de.wikipedia.org">Karlsruhe</resource>
+	</placeListItem>
+	<placeListItem nym="karlsruhe.festhalle" type="location">
+		<name lang="de" type="index">Festhalle</name>
+		<place nym="karlsruhe" role="parentSettlement"/>
+		<resource type="www">http://ka.stadtwiki.net/Festhalle_%28historisch%29</resource>
+	</placeListItem>
+	<placeListItem nym="kassel" type="settlement">
+		<geo authority="geonames.org">51.31667 9.5</geo>
+		<id authority="geonames.org">2892518</id>
+		<id authority="geohash.org">u1neztnyn</id>
+		<name lang="de" type="index">Kassel</name>
+		<name lang="en">Kassel</name>
+		<name lang="fr">Cassel</name>
+		<name lang="it">Kassel</name>
+		<name lang="pl">Kassel</name>
+		<name lang="ru">Кассель</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Volkszählung 1875">53043</description>
+		<resource type="de.wikipedia.org">Kassel</resource>
+	</placeListItem>
+	<placeListItem nym="koblenz" type="settlement">
+		<geo authority="geonames.org">50.35357 7.57884</geo>
+		<id authority="geonames.org">2886946</id>
+		<id authority="geohash.org">u0vqkxyb3</id>
+		<name lang="de" type="index">Koblenz</name>
+		<name lang="en">Koblenz</name>
+		<name lang="fr">Coblence</name>
+		<name lang="it">Coblenza</name>
+		<name lang="pl">Koblencja</name>
+		<name lang="ru">Кобленц</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">6: 70-85% Katholiken, 15-30% Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">29282</description>
+		<resource type="de.wikipedia.org">Koblenz</resource>
+	</placeListItem>
+	<placeListItem nym="koeln" type="settlement">
+		<geo authority="geonames.org">50.93333 6.95</geo>
+		<id authority="geonames.org">2886242</id>
+		<id authority="geohash.org">u1hcy2ukd</id>
+		<name lang="de" type="index">Köln</name>
+		<name lang="de" type="index">Cöln</name>
+		<name lang="en">Cologne</name>
+		<name lang="fr">Cologne</name>
+		<name lang="it">Colonia</name>
+		<name lang="pl">Kolonia</name>
+		<name lang="ru">Кёльн</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="rheinland" role="parentRegion"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend katholisch</description>
+		<description source="Meyer 1893">6: 70-85% Katholiken, 15-30% Protestanten</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">135371</description>
+		<resource type="de.wikipedia.org">Köln</resource>
+	</placeListItem>
+	<placeListItem nym="koeln.guerzenich" type="location">
+		<name lang="de" type="index">Gürzenich</name>
+		<place nym="koeln" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Gürzenich</resource>
+	</placeListItem>
+	<placeListItem nym="koenigsberg" type="settlement">
+		<geo authority="geonames.org">54.70649 20.51095</geo>
+		<id authority="geonames.org">554234</id>
+		<id authority="geohash.org">u3wx4xwnw</id>
+		<name lang="de" type="index">Königsberg</name>
+		<name lang="de" type="index">Kaliningrad</name>
+		<name lang="en">Königsberg</name>
+		<name lang="en">Kaliningrad</name>
+		<name lang="fr">Kaliningrad</name>
+		<name lang="it">Kaliningrad</name>
+		<name lang="pl">Kaliningrad</name>
+		<name lang="ru">Калининград</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="russland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein evangelisch</description>
+		<description source="Meyer 1893">2: 5-15% Katholiken, 85-95% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">122636</description>
+		<resource type="de.wikipedia.org">Königsberg</resource>
+	</placeListItem>
+	<placeListItem nym="krakau" type="settlement">
+		<geo authority="geonames.org">50.06143 19.93658</geo>
+		<id authority="geonames.org">3094802</id>
+		<id authority="geohash.org">u2yhvcgrx</id>
+		<name lang="de" type="index">Krakau</name>
+		<name lang="en">Cracow</name>
+		<name lang="en">Kraków</name>
+		<name lang="fr">Cracovie</name>
+		<name lang="it">Cracovia</name>
+		<name lang="pl" type="index">Kraków</name>
+		<name lang="ru">Краков</name>
+		<place nym="oesterreich" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">über 90% Katholiken, über 2% Juden</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Polen</description>
+		<description source="Volkszählung 1875">xxx</description>
+		<resource type="de.wikipedia.org">Krakau</resource>
+	</placeListItem>
+	<placeListItem nym="leipzig" type="settlement">
+		<geo authority="geonames.org">51.33962 12.37129</geo>
+		<id authority="geonames.org">2879139</id>
+		<id authority="geohash.org">u30u1d1g3</id>
+		<name lang="de" type="index">Leipzig</name>
+		<name lang="en">Leipzig</name>
+		<name lang="en">Leipsic</name>
+		<name lang="fr">Leipzig</name>
+		<name lang="it">Lipsia</name>
+		<name lang="pl">Lipsk</name>
+		<name lang="ru">Лейпциг</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein evangelisch</description>
+		<description source="Meyer 1893">2: 5-15% Katholiken, 85-95% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">127387</description>
+		<resource type="de.wikipedia.org">Leipzig</resource>
+	</placeListItem>
+	<placeListItem nym="leipzig.gewandhaus" type="location">
+		<name lang="de" type="index">Gewandhaus</name>
+		<place nym="leipzig" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Gewandhaus_(Leipzig)</resource>
+	</placeListItem>
+	<placeListItem nym="lemberg" type="settlement">
+		<geo authority="geonames.org">49.83826 24.02324</geo>
+		<id authority="geonames.org">702550</id>
+		<id authority="geohash.org">u88hej250</id>
+		<name lang="de" type="index">Lemberg</name>
+		<name lang="en">Lviv</name>
+		<name lang="fr">Lviv</name>
+		<name lang="it">Leopoli</name>
+		<name lang="pl" type="index">Lwów</name>
+		<name lang="ru">Львов</name>
+		<place nym="polen" role="parentCountry" to="1772"/>
+		<place from="1772" nym="oesterreich" role="parentCountry" to="1918"/>
+		<place from="1772" nym="oesterreich-ungarn" role="parentCountry" to="1918"/>
+		<place from="1918" nym="polen" role="parentCountry" to="1939"/>
+		<place from="1945" nym="russland" role="parentCountry" to="1991"/>
+		<place from="1991" nym="ukraine" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">über 90% Katholiken, über 5% Juden</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Ruthenen</description>
+		<resource type="de.wikipedia.org">Lemberg</resource>
+	</placeListItem>
+	<placeListItem nym="london" type="settlement">
+		<geo authority="geonames.org">51.50853 -0.12574</geo>
+		<id authority="geonames.org">2643743</id>
+		<name lang="de" type="index">London</name>
+		<place nym="grossbritannien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">London</resource>
+	</placeListItem>
+	<placeListItem nym="london.covent-garden-theatre" type="location">
+		<name lang="de" type="index">Royal Opera House in Covent Garden</name>
+		<place nym="london" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Royal_Opera_House</resource>
+	</placeListItem>
+	<placeListItem nym="london.royal-albert-hall" type="location">
+		<name lang="de" type="index">Royal Albert Hall</name>
+		<place nym="london" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Royal_Albert_Hall</resource>
+	</placeListItem>
+	<placeListItem nym="luebeck" type="settlement">
+		<geo authority="geonames.org">53.86893 10.68729</geo>
+		<id authority="geonames.org">2875601</id>
+		<id authority="geohash.org">u1xd7jype</id>
+		<name lang="de" type="index">Lübeck</name>
+		<name lang="en">Lübeck</name>
+		<name lang="fr">Lübeck</name>
+		<name lang="it">Lubecca</name>
+		<name lang="pl">Lubeka</name>
+		<name lang="ru">Любек</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Volkszählung 1875">44799</description>
+		<resource type="de.wikipedia.org">Lübeck</resource>
+	</placeListItem>
+	<placeListItem nym="luettich" type="settlement">
+		<geo authority="geonames.org">50.63373 5.56749</geo>
+		<id authority="geonames.org">2792413</id>
+		<id authority="geohash.org">u15bncqup</id>
+		<name lang="de" type="index">Lüttich</name>
+		<name lang="en">Liège</name>
+		<name lang="fr" type="index">Liège</name>
+		<name lang="it">Liegi</name>
+		<name lang="pl">Liège</name>
+		<name lang="ru">Льеж</name>
+		<place nym="belgien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Wallonen</description>
+		<resource type="de.wikipedia.org">Lüttich</resource>
+	</placeListItem>
+	<placeListItem nym="magdeburg" type="settlement">
+		<geo authority="geonames.org">52.12773 11.62916</geo>
+		<id authority="geonames.org">2874545</id>
+		<id authority="geohash.org">u3228d5gu</id>
+		<name lang="de" type="index">Magdeburg</name>
+		<name lang="en">Magdeburg</name>
+		<name lang="fr">Magdebourg</name>
+		<name lang="it">Magdeburgo</name>
+		<name lang="pl">Magdeburg</name>
+		<name lang="ru">Магдебург</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">2: 5-15% Katholiken, 85-95% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">87925</description>
+		<resource type="de.wikipedia.org">Magdeburg</resource>
+	</placeListItem>
+	<placeListItem nym="mailand" type="settlement">
+		<geo authority="geonames.org">45.46427 9.18951</geo>
+		<id authority="geonames.org">3173435</id>
+		<id authority="geohash.org">u0nd9h9rm</id>
+		<name lang="de" type="index">Mailand</name>
+		<name lang="en">Milan</name>
+		<name lang="fr">Milan</name>
+		<name lang="it">Milano</name>
+		<name lang="pl">Mediolan</name>
+		<name lang="ru">Милан</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Italiener</description>
+		<resource type="de.wikipedia.org">Mailand</resource>
+	</placeListItem>
+	<placeListItem nym="mailand.dom" type="location">
+		<name lang="de" type="index">Dom</name>
+		<name lang="it">Duomo di Santa Maria Nascente (Milano)</name>
+		<place nym="mailand" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Mailänder_Dom</resource>
+	</placeListItem>
+	<placeListItem nym="mailand.konservatorium" type="location">
+		<name lang="de" type="index">Konservatorium</name>
+		<place nym="mailand" role="parentSettlement"/>
+		<resource type="it.wikipedia.org">Conservatorio_Giuseppe_Verdi_(Milano)</resource>
+	</placeListItem>
+	<placeListItem nym="mailand.san-marco" type="location">
+		<name lang="de" type="index">San Marco</name>
+		<name lang="it">San Marco</name>
+		<place nym="mailand" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">San Marco</resource>
+	</placeListItem>
+	<placeListItem nym="mailand.teatro-alla-scala" type="location">
+		<name lang="de" type="index">Teatro alla Scala</name>
+		<place nym="mailand" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Teatro_alla_Scala</resource>
+	</placeListItem>
+	<placeListItem nym="mailand.teatro-dal-verme" type="location">
+		<name lang="de" type="index">Teatro dal Verme</name>
+		<place nym="mailand" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Teatro_dal_Verme</resource>
+	</placeListItem>
+	<placeListItem nym="mainz" type="settlement">
+		<geo authority="geonames.org">49.98419 8.2791</geo>
+		<id authority="geonames.org">2874225</id>
+		<id authority="geohash.org">u0vu7svmw</id>
+		<name lang="de" type="index">Mainz</name>
+		<name lang="en">Mainz</name>
+		<name lang="fr">Mayence</name>
+		<name lang="it">Magonza</name>
+		<name lang="pl">Moguncja</name>
+		<name lang="ru">Майнц</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Volkszählung 1875">56421</description>
+		<resource type="de.wikipedia.org">Mainz</resource>
+	</placeListItem>
+	<placeListItem nym="mannheim" type="settlement">
+		<geo authority="geonames.org">49.49671 8.47955</geo>
+		<id authority="geonames.org">2873891</id>
+		<id authority="geohash.org">u0y18fwe5z6</id>
+		<name lang="de" type="index">Mannheim</name>
+		<name lang="en">Mannheim</name>
+		<name lang="fr">Mannheim</name>
+		<name lang="it">Mannheim</name>
+		<name lang="pl">Mannheim</name>
+		<name lang="ru">Мангейм</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Volkszählung 1875">46453</description>
+		<resource type="de.wikipedia.org">Mannheim</resource>
+	</placeListItem>
+	<placeListItem nym="manchester" type="settlement">
+		<geo authority="geonames.org">53.48095 -2.23743</geo>
+		<id authority="geonames.org">2643123</id>
+		<name lang="de" type="index">Manchester</name>
+		<place nym="grossbritannien" role="parentCountry"/>
+		<resource type="de.wikipedia.org">Manchester</resource>
+	</placeListItem>
+	<placeListItem nym="moskau" type="settlement">
+		<geo authority="geonames.org">55.75222 37.61556</geo>
+		<id authority="geonames.org">524901</id>
+		<name lang="de" type="index">Moskau</name>
+		<place nym="russland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Moskau</resource>
+	</placeListItem>
+	<placeListItem nym="muenchen" type="settlement">
+		<geo authority="geonames.org">48.13743 11.57549</geo>
+		<id authority="geonames.org">2867714</id>
+		<id authority="geohash.org">u281z7n0j</id>
+		<name lang="de" type="index">München</name>
+		<name lang="en">Munich</name>
+		<name lang="fr">Munich</name>
+		<name lang="it">Monaco</name>
+		<name lang="it">Monaco di Baviera</name>
+		<name lang="pl">Monachium</name>
+		<name lang="ru">Мюнхен</name>
+		<place nym="bayern" role="parentCountry"/>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend katholisch</description>
+		<description source="Meyer 1893">6: 70-85% Katholiken, 15-30% Protestanten</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">193024</description>
+		<resource type="de.wikipedia.org">München</resource>
+	</placeListItem>
+	<placeListItem nym="muenchen.hoftheater" type="location">
+		<name lang="de" type="index">Königliches Hof- und Nationaltheater</name>
+		<place nym="muenchen" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Nationaltheater_München</resource>
+	</placeListItem>
+	<placeListItem nym="muenchen.odeon" type="location">
+		<name lang="de" type="index">Odeontheater</name>
+		<place nym="muenchen" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Odeon_(München)</resource>
+		<resource type="www"
+			>http://www.stmi.bayern.de/imperia/md/content/stmi/ministerium/geschichte/muenster.pdf</resource>
+	</placeListItem>
+	<placeListItem nym="muenchen.residenztheater" type="location">
+		<name lang="de" type="index">Residenztheater</name>
+		<name lang="de">Cuvilliés-Theater</name>
+		<name from="1951" lang="de">Neues Residenztheater</name>
+		<name from="1958" lang="de">Altes Residenztheater</name>
+		<place nym="muenchen" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Residenztheater_(München)</resource>
+	</placeListItem>
+	<placeListItem nym="muenster" type="settlement">
+		<geo authority="geonames.org">51.96236 7.62571</geo>
+		<id authority="geonames.org">2867543</id>
+		<id authority="geohash.org">u1jrt92xr</id>
+		<name lang="de" type="index">Münster</name>
+		<name lang="en">Münster</name>
+		<name lang="fr">Münster</name>
+		<name lang="it">Münster</name>
+		<name lang="it">Monaco di Vestfalia</name>
+		<name lang="pl">Münster</name>
+		<name lang="ru">Мюнстер</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein katholisch</description>
+		<description source="Meyer 1893">7: 85-95% Katholiken, 5-15% Protestanten</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">35705</description>
+		<resource type="de.wikipedia.org">Münster</resource>
+	</placeListItem>
+	<placeListItem nym="neapel" type="settlement">
+		<geo authority="geonames.org">40.83333 14.25</geo>
+		<id authority="geonames.org">3172394</id>
+		<name lang="de" type="index">Neapel</name>
+		<name lang="en">Naples</name>
+		<name lang="it">Napoli</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Neapel</resource>
+	</placeListItem>
+	<placeListItem nym="neapel.konservatorium" type="location">
+		<name lang="de" type="index">Konservatorium</name>
+		<place nym="neapel" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Konservatorium_„San_Pietro_a_Majella“_Neapel</resource>
+	</placeListItem>
+	<placeListItem nym="neapel.teatro-san-carlo" type="location">
+		<name lang="de" type="index">Teatro San Carlo</name>
+		<name lang="de" type="alternative">Real Teatro San Carlo</name>
+		<place nym="neapel" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Teatro_San_Carlo</resource>
+	</placeListItem>
+	<placeListItem nym="new-york" type="settlement">
+		<geo authority="geonames.org">40.71427 -74.00597</geo>
+		<id authority="geonames.org">5128581</id>
+		<id authority="geohash.org">dr5regy6r</id>
+		<name lang="de" type="index">New York</name>
+		<name lang="de">Neuyork</name>
+		<name lang="en">New York</name>
+		<name lang="fr">New York</name>
+		<name lang="it">New York</name>
+		<name lang="pl">Nowy Jork</name>
+		<name lang="ru">Нью-Йорк</name>
+		<place nym="usa" role="parentCountry"/>
+		<place nym="nordamerika" role="parentContinent"/>
+		<resource type="de.wikipedia.org">New_York_City</resource>
+	</placeListItem>
+	<placeListItem nym="new-york.academy-of-music" type="location">
+		<name lang="de" type="index">Academy of Music</name>
+		<place nym="new-york" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Academy_of_Music_(New_York_City)</resource>
+	</placeListItem>
+	<placeListItem nym="new-york.st-anns" type="location">
+		<name lang="de" type="index">St. Ann’s Roman Catholic Church</name>
+		<place nym="new-york" role="parentSettlement"/>
+		<resource type="en.wikipedia.org">St._Ann's_Church_(Manhattan)</resource>
+	</placeListItem>
+	<placeListItem nym="olmuetz" type="settlement">
+		<geo authority="geonames.org">49.59552 17.25175</geo>
+		<id authority="geonames.org">3069011</id>
+		<name lang="de" type="index">Olmütz</name>
+		<name lang="en">Olomouc</name>
+		<name lang="fr">Olomouc</name>
+		<name lang="it">Olomouc</name>
+		<name lang="pl">Ołomuniec</name>
+		<name lang="ru">Оломоуц</name>
+		<place nym="maehren" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Olmütz</resource>
+	</placeListItem>
+	<placeListItem nym="paris" type="settlement">
+		<geo authority="geonames.org">48.85341 2.3488</geo>
+		<id authority="geonames.org">2988507</id>
+		<id authority="geohash.org">u09tvw0f6</id>
+		<name lang="de" type="index">Paris</name>
+		<name lang="en">Paris</name>
+		<name lang="fr">Paris</name>
+		<name lang="it">Parigi</name>
+		<name lang="pl">Paryż</name>
+		<name lang="ru">Париж</name>
+		<place nym="frankreich" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Franzosen</description>
+		<resource type="de.wikipedia.org">Paris</resource>
+	</placeListItem>
+	<placeListItem nym="paris.grand-opera" type="location">
+		<name from="1875" lang="de" type="index">Palais Garnier</name>
+		<name lang="fr">Palais Garnier</name>
+		<place nym="paris" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Opéra_Garnier</resource>
+	</placeListItem>
+	<placeListItem nym="paris.invalidendom" type="location">
+		<name lang="de" type="index">Invalidendom</name>
+		<place nym="paris" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Invalidendom</resource>
+	</placeListItem>
+	<placeListItem nym="paris.notre-dame" type="location">
+		<name lang="de" type="index">Notre-Dame</name>
+		<place nym="paris" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Kathedrale_Notre-Dame_de_Paris</resource>
+	</placeListItem>
+	<placeListItem nym="paris.opera-comique" type="location">
+		<name lang="de" type="index">Komische Oper</name>
+		<name lang="en">Opéra comique</name>
+		<name lang="fr">Opéra comique</name>
+		<name lang="it">Opéra comique</name>
+		<name lang="pl">Opéra comique</name>
+		<name lang="ru">Опера-Комик</name>
+		<place nym="paris" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Opéra-Comique_Paris</resource>
+	</placeListItem>
+	<placeListItem nym="paris.st-eustache" type="location">
+		<name lang="de" type="index">Saint-Eustache</name>
+		<place nym="paris" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">St-Eustache_(Paris)</resource>
+	</placeListItem>
+	<placeListItem nym="paris.theatre-italien" type="location">
+		<name from="1841" lang="de" to="1878" type="index">Théâtre-Italien</name>
+		<name lang="de">Opéra-Italien</name>
+		<name lang="de">Odéon</name>
+		<name lang="de">Salle Ventadour</name>
+		<place nym="paris" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Théâtre-Italien</resource>
+	</placeListItem>
+	<placeListItem nym="parma" type="settlement">
+		<geo authority="geonames.org">44.80266 10.32898</geo>
+		<id authority="geonames.org">3171457</id>
+		<id authority="geohash.org">spzqg5be9</id>
+		<name lang="de" type="index">Parma</name>
+		<name lang="en">Parma</name>
+		<name lang="fr">Parme</name>
+		<name lang="it">Parma</name>
+		<name lang="pl">Parma</name>
+		<name lang="ru">Парма</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Parma</resource>
+	</placeListItem>
+	<placeListItem nym="pest" type="settlement">
+		<geo authority="geonames.org">47.49801 19.03991</geo>
+		<id authority="geonames.org">3054643</id>
+		<id authority="geohash.org">u2mw1qc43</id>
+		<name lang="de" to="1873" type="index">Pest</name>
+		<name from="1873" lang="de" type="index">Budapest</name>
+		<name lang="en">Budapest</name>
+		<name lang="fr">Budapest</name>
+		<name lang="it">Budapest</name>
+		<name lang="pl">Budapeszt</name>
+		<name lang="ru">Будапешт</name>
+		<place nym="ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description>1873 mit Buda und Óbuda zu „Budapest“ zusammengelegt</description>
+		<description source="Andree 1881">über 50% Katholiken, über 20% Evangelische, über 2%
+			Juden</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Magyaren</description>
+		<resource type="de.wikipedia.org">Pest_(Stadt)</resource>
+	</placeListItem>
+	<placeListItem nym="piacenza" type="settlement">
+		<geo authority="geonames.org">45.04676 9.69937</geo>
+		<id authority="geonames.org">3171058</id>
+		<id authority="geohash.org">u0nbk2tec</id>
+		<name lang="de" type="index">Piacenza</name>
+		<name lang="en">Piacenza</name>
+		<name lang="fr">Plaisance</name>
+		<name lang="it">Piacenza</name>
+		<name lang="pl">Piacenza</name>
+		<name lang="ru">Пьяченца</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Piacenza</resource>
+	</placeListItem>
+	<placeListItem nym="pilsen" type="settlement">
+		<geo authority="geonames.org">49.74747 13.37759</geo>
+		<id authority="geonames.org">3068160</id>
+		<id authority="geohash.org">u2ce02m0n</id>
+		<name lang="de" type="index">Pilsen</name>
+		<name lang="en">Plzeň</name>
+		<name lang="fr">Plzeň</name>
+		<name lang="it">Plzeň</name>
+		<name lang="pl">Pilzno</name>
+		<name lang="ru">Пльзень</name>
+		<place nym="boehmen" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Pilsen</resource>
+	</placeListItem>
+	<placeListItem nym="pilsen.stadt-theater" type="location">
+		<name lang="de" type="index">Stadt-Theater</name>
+		<place nym="pilsen" role="parentSettlement"/>
+	</placeListItem>
+	<placeListItem nym="pisa" type="settlement">
+		<geo authority="geonames.org">43.71553 10.39659</geo>
+		<id authority="geonames.org">3170647</id>
+		<id authority="geohash.org">spz2sxqrb</id>
+		<name lang="de" type="index">Pisa</name>
+		<name lang="en">Pisa</name>
+		<name lang="fr">Pise</name>
+		<name lang="it">Pisa</name>
+		<name lang="pl">Piza</name>
+		<name lang="ru">Пиза</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Pisa</resource>
+	</placeListItem>
+	<placeListItem nym="posen" type="settlement">
+		<geo authority="geonames.org">52.40692 16.92993</geo>
+		<id authority="geonames.org">3088171</id>
+		<id authority="geohash.org">u3k40gxfp</id>
+		<name lang="de" type="index">Posen</name>
+		<name lang="en">Posen</name>
+		<name lang="fr">Posen</name>
+		<name lang="it">Posen</name>
+		<name lang="pl" type="index">Poznań</name>
+		<name lang="ru">Познань</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="polen" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend katholisch</description>
+		<description source="Meyer 1893">5: 50-70% Katholiken, 30-50% Protestanten</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">60998</description>
+		<resource type="de.wikipedia.org">Posen</resource>
+	</placeListItem>
+	<placeListItem nym="prag" type="settlement">
+		<geo authority="geonames.org">50.08804 14.42076</geo>
+		<id authority="geonames.org">3067696</id>
+		<id authority="geohash.org">u2fkbecr1</id>
+		<name lang="de" type="index">Prag</name>
+		<name lang="en">Prague</name>
+		<name lang="fr">Prague</name>
+		<name lang="it">Praga</name>
+		<name lang="pl">Praga</name>
+		<name lang="ru">Прага</name>
+		<place nym="boehmen" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">über 90% Katholiken, über 2% Juden</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Deutsche</description>
+		<resource type="de.wikipedia.org">Prag</resource>
+	</placeListItem>
+	<placeListItem nym="prag.konservatorium" type="location">
+		<name lang="de" type="index">Konservatorium</name>
+		<place nym="prag" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Prager_Konservatorium</resource>
+	</placeListItem>
+	<placeListItem nym="prag.staendetheater" type="location">
+		<name from="1783" lang="de" to="1798">Nationaltheater</name>
+		<name from="1798" lang="de" to="1862">Königliches Ständetheater</name>
+		<name from="1862" lang="de" to="1920" type="index">Königlich Deutsches Stadttheater</name>
+		<name from="1920" lang="de" to="1948">Ständetheater</name>
+		<name from="1990" lang="de">Ständetheater</name>
+		<name from="1990" lang="cs">Stavovské divadlo</name>
+		<place nym="prag" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Ständetheater</resource>
+	</placeListItem>
+	<placeListItem nym="regensburg" type="settlement">
+		<geo authority="geonames.org">49.015 12.09556</geo>
+		<id authority="geonames.org">2849483</id>
+		<id authority="geohash.org">u28wg6gd6</id>
+		<name lang="de" type="index">Regensburg</name>
+		<name lang="en">Regensburg</name>
+		<name lang="fr">Ratisbonne</name>
+		<name lang="it">Ratisbona</name>
+		<name lang="pl">Ratyzbona</name>
+		<name lang="ru">Регенсбург</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Volkszählung 1875">31504</description>
+		<resource type="de.wikipedia.org">Regensburg</resource>
+	</placeListItem>
+	<placeListItem nym="reggio" type="settlement">
+		<geo authority="geonames.org">44.69825 10.63125</geo>
+		<id authority="geonames.org">3169522</id>
+		<name lang="de" type="index">Reggio</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Reggio_nell’Emilia</resource>
+	</placeListItem>
+	<placeListItem nym="rio-de-janeiro" type="settlement">
+		<geo authority="geonames.org">-22.90278 -43.2075</geo>
+		<id authority="geonames.org">3451190</id>
+		<name lang="de" type="index">Rio de Janeiro</name>
+		<place nym="suedamerika" role="parentContinent"/>
+		<place nym="brasilien" role="parentCountry"/>
+		<resource type="de.wikipedia.org">Rio_de_Janeiro</resource>
+	</placeListItem>
+	<placeListItem nym="rom" type="settlement">
+		<geo authority="geonames.org">41.89474 12.4839</geo>
+		<id authority="geonames.org">3169070</id>
+		<id authority="geohash.org">sr2y7ecwj</id>
+		<name lang="de" type="index">Rom</name>
+		<name lang="en">Rome</name>
+		<name lang="fr">Rome</name>
+		<name lang="it">Roma</name>
+		<name lang="pl">Rzym</name>
+		<name lang="ru">Рим</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Rom</resource>
+	</placeListItem>
+	<placeListItem nym="rom.peterskirche" type="location">
+		<name lang="de" type="index">Peterskirche</name>
+		<name lang="it">San Pietro</name>
+		<place nym="rom" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Petersdom</resource>
+	</placeListItem>
+	<placeListItem nym="rom.sixtinische-kapelle" type="location">
+		<name lang="de" type="index">Sixtinische Kapelle</name>
+		<name lang="it">Cappella Sistina</name>
+		<place nym="rom" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Sixtinische_Kapelle</resource>
+	</placeListItem>
+	<placeListItem nym="rom.teatro-apollo" type="location">
+		<name from="1795" lang="de" to="1888" type="index">Teatro Apollo</name>
+		<place nym="rom" role="parentSettlement"/>
+		<resource type="it.wikipedia.org">Teatro_Tordinona</resource>
+	</placeListItem>
+	<placeListItem nym="roncole" type="settlement">
+		<geo authority="geonames.org">44.95241 10.07318</geo>
+		<id authority="geonames.org">7280681</id>
+		<id authority="geohash.org">spzptr0jr</id>
+		<name lang="de" type="index">Roncole</name>
+		<name lang="de" type="index">Le Roncole</name>
+		<name lang="en">Le Roncole</name>
+		<name lang="fr">Le Roncole</name>
+		<name lang="it">Le Roncole</name>
+		<name lang="pl">Le Roncole</name>
+		<name lang="ru">Le Roncole</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="busseto" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Le_Roncole</resource>
+	</placeListItem>
+	<placeListItem nym="salzburg" type="settlement">
+		<geo authority="geonames.org">47.79941 13.04399</geo>
+		<id authority="geonames.org">2766824</id>
+		<id authority="geohash.org">u23rcp6q7</id>
+		<name lang="de" type="index">Salzburg</name>
+		<name lang="en">Salzburg</name>
+		<name lang="fr">Salzbourg</name>
+		<name lang="it">Salisburgo</name>
+		<name lang="pl">Salzburg</name>
+		<name lang="pl">Solnogród</name>
+		<name lang="ru">Зальцбург</name>
+		<place nym="oesterreich" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">über 90% Katholiken</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Deutsche</description>
+		<resource type="de.wikipedia.org">Salzburg</resource>
+	</placeListItem>
+	<placeListItem nym="salzburg.aula-academica" type="location">
+		<name lang="de" type="index">Aula Academica</name>
+		<place nym="salzburg" role="parentSettlement"/>
+		<resource type="www">http://www.salzburg.com/wiki/index.php/Aula_Academica</resource>
+	</placeListItem>
+	<placeListItem nym="salzburg.kuk-theater" type="location">
+		<name lang="de" type="index">K. u. K. Theater</name>
+		<place nym="salzburg" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Salzburger_Landestheater</resource>
+	</placeListItem>
+	<placeListItem nym="sant-agata" type="location">
+		<name lang="de" type="index">Sant’Agata</name>
+		<place nym="busseto" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Villanova_sull’Arda</resource>
+	</placeListItem>
+	<placeListItem nym="schwerin" type="settlement">
+		<geo authority="geonames.org">53.62937 11.41316</geo>
+		<id authority="geonames.org">2834282</id>
+		<id authority="geohash.org">u3815eqxe</id>
+		<name lang="de" type="index">Schwerin</name>
+		<name lang="en">Schwerin</name>
+		<name lang="fr">Schwerin</name>
+		<name lang="it">Schwerin</name>
+		<name lang="pl">Schwerin</name>
+		<name lang="ru">Шверин</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein evangelisch</description>
+		<description source="Meyer 1893">1: 0-5% Katholiken, 95-100% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">27643</description>
+		<resource type="de.wikipedia.org">Schwerin</resource>
+	</placeListItem>
+	<placeListItem nym="schwerin.hoftheater" type="location">
+		<name lang="de" to="1886" type="index">Hoftheater</name>
+		<name from="1886" lang="de" to="1918">Großherzogliches Hoftheater</name>
+		<name from="1918" lang="de" to="1926">Landestheater</name>
+		<name from="1926" lang="de">Mecklenburgisches Staatstheater</name>
+		<place nym="schwerin" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Mecklenburgisches_Staatstheater_Schwerin</resource>
+	</placeListItem>
+	<placeListItem nym="speyer" type="settlement">
+		<geo authority="geonames.org">49.32083 8.43111</geo>
+		<id authority="geonames.org">2830582</id>
+		<id authority="geohash.org">u0vbxfe6ej5</id>
+		<name lang="de" type="index">Speyer</name>
+		<name lang="en">Speyer</name>
+		<name lang="fr">Spire</name>
+		<name lang="it">Spira</name>
+		<name lang="pl">Spira</name>
+		<name lang="ru">Шпайер</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Speyer</resource>
+	</placeListItem>
+	<placeListItem nym="st-gallen" type="settlement">
+		<geo>47.42391 9.37477</geo>
+		<id authority="geonames.org">2658822</id>
+		<name lang="de" type="index">St. Gallen</name>
+		<name lang="en">St. Gallen</name>
+		<name lang="fr">Saint-Gall</name>
+		<name lang="it">San Gallo</name>
+		<name lang="pl">Sankt Gallen</name>
+		<name lang="ru">Санкт-Галлен</name>
+		<place nym="schweiz" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">St._Gallen</resource>
+	</placeListItem>
+	<placeListItem nym="st-gallen.kirche-st-laurenzen" type="location">
+		<name lang="de" type="index">St. Laurenzen</name>
+		<place nym="st-gallen" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Kirche_St._Laurenzen</resource>
+	</placeListItem>
+	<placeListItem nym="st-petersburg" type="settlement">
+		<geo authority="geonames.org">59.93863 30.31413</geo>
+		<id authority="geonames.org">498817</id>
+		<name lang="de" type="index">St. Petersburg</name>
+		<name lang="de" type="index">Petersburg</name>
+		<place nym="russland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Sankt_Petersburg</resource>
+	</placeListItem>
+	<placeListItem nym="st-petersburg.mariinski-theater" type="location">
+		<name lang="de" type="index">Mariinski-Theater</name>
+		<place nym="st-petersburg" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Mariinski-Theater</resource>
+	</placeListItem>
+	<placeListItem nym="stockerau" type="settlement">
+		<geo>48.38333 16.21667</geo>
+		<id authority="geonames.org">2764279</id>
+		<name lang="de" type="index">Stockerau</name>
+		<name lang="en">Stockerau</name>
+		<name lang="fr">Stockerau</name>
+		<name lang="it">Stockerau</name>
+		<name lang="pl">Stockerau</name>
+		<name lang="ru">Штоккерау</name>
+		<place nym="oesterreich" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Stockerau</resource>
+	</placeListItem>
+	<placeListItem nym="stockholm" type="settlement">
+		<geo authority="geonames.org">59.33258 18.0649</geo>
+		<id authority="geonames.org">2673730</id>
+		<id authority="geohash.org">u6sce0d2n</id>
+		<name lang="de" type="index">Stockholm</name>
+		<name lang="en">Stockholm</name>
+		<name lang="fr">Stockholm</name>
+		<name lang="it">Stoccolma</name>
+		<name lang="pl">Sztokholm</name>
+		<name lang="ru">Стокгольм</name>
+		<place nym="schweden" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Schweden</description>
+		<resource type="de.wikipedia.org">Stockholm</resource>
+	</placeListItem>
+	<placeListItem nym="stralsund" type="settlement">
+		<geo authority="geonames.org">54.30911 13.0818</geo>
+		<id authority="geonames.org">2826287</id>
+		<id authority="geohash.org">u39kcufhv</id>
+		<name lang="de" type="index">Stralsund</name>
+		<name lang="en">Stralsund</name>
+		<name lang="fr">Stralsund</name>
+		<name lang="it">Stralsund</name>
+		<name lang="pl">Stralsund</name>
+		<name lang="pl">Sztrela</name>
+		<name lang="pl">Strzałów</name>
+		<name lang="ru">Штральзунд</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein evangelisch</description>
+		<description source="Meyer 1893">1: 0-5% Katholiken, 95-100% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">27765</description>
+		<resource type="de.wikipedia.org">Stralsund</resource>
+	</placeListItem>
+	<placeListItem nym="stuttgart" type="settlement">
+		<geo authority="geonames.org">48.78232 9.17702</geo>
+		<id authority="geonames.org">2825297</id>
+		<id authority="geohash.org">u0wt2zmcq</id>
+		<name lang="de" type="index">Stuttgart</name>
+		<name lang="en">Stuttgart</name>
+		<name lang="fr">Stuttgart</name>
+		<name lang="it">Stoccarda</name>
+		<name lang="pl">Stuttgart</name>
+		<name lang="ru">Штутгарт</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend evangelisch</description>
+		<description source="Meyer 1893">3: 15-30% Katholiken, 70-85% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">107273</description>
+		<resource type="de.wikipedia.org">Stuttgart</resource>
+	</placeListItem>
+	<placeListItem nym="triest" type="settlement">
+		<geo authority="geonames.org">45.64861 13.78</geo>
+		<id authority="geonames.org">3165185</id>
+		<id authority="geohash.org">u21gccxv3</id>
+		<name lang="de" type="index">Triest</name>
+		<name lang="en">Trieste</name>
+		<name lang="fr">Trieste</name>
+		<name lang="it">Trieste</name>
+		<name lang="pl">Triest</name>
+		<name lang="ru">Триест</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="oesterreich" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">über 90% Katholiken</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Slovenen</description>
+		<resource type="de.wikipedia.org">Triest</resource>
+	</placeListItem>
+	<placeListItem nym="triest.teatro-comunale" type="location">
+		<name from="1801" lang="de" to="1820">Teatro Nuovo</name>
+		<name from="1820" lang="de" to="1861" type="index">Teatro Grande</name>
+		<name from="1861" lang="de" to="1901">Teatro Comunale</name>
+		<name from="1901" lang="de">Teatro Giuseppe Verdi</name>
+		<place nym="triest" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Teatro_Giuseppe_Verdi_(Triest)</resource>
+	</placeListItem>
+	<placeListItem nym="utrecht" type="settlement">
+		<geo authority="geonames.org">52.09083 5.12222</geo>
+		<id authority="geonames.org">2745912</id>
+		<id authority="geohash.org">u178k7h2d</id>
+		<name lang="de" type="index">Utrecht</name>
+		<name lang="en">Utrecht</name>
+		<name lang="fr">Utrecht</name>
+		<name lang="it">Utrecht</name>
+		<name lang="pl">Utrecht</name>
+		<name lang="ru">Утрехт</name>
+		<place nym="niederlande" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Utrecht</resource>
+	</placeListItem>
+	<placeListItem nym="venedig" type="settlement">
+		<geo authority="geonames.org">45.43861 12.32667</geo>
+		<id authority="geonames.org">3164603</id>
+		<id authority="geohash.org">u20f80rbh</id>
+		<name lang="de" type="index">Venedig</name>
+		<name lang="en">Venice</name>
+		<name lang="fr">Venise</name>
+		<name lang="it">Venezia</name>
+		<name lang="pl">Wenecja</name>
+		<name lang="ru">Венеция</name>
+		<place nym="italien" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Italiener</description>
+		<resource type="de.wikipedia.org">Venedig</resource>
+	</placeListItem>
+	<placeListItem nym="venedig.san-marco" type="location">
+		<name lang="de" type="index">Markusdom</name>
+		<name lang="it">Basilica di San Marco (Venezia)</name>
+		<place nym="venedig" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Markusdom</resource>
+	</placeListItem>
+	<placeListItem nym="venedig.teatro-la-fenice" type="location">
+		<name lang="de" type="index">Teatro La Fenice</name>
+		<name lang="it">Teatro La Fenice</name>
+		<place nym="venedig" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Teatro_la_Fenice</resource>
+	</placeListItem>
+	<placeListItem nym="venedig.teatro-malibran" type="location">
+		<name lang="de" type="index">Teatro Malibran</name>
+		<place nym="venedig" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Teatro_Malibran</resource>
+	</placeListItem>
+	<placeListItem nym="voeslau" type="settlement">
+		<geo authority="geonames.org">47.96533 16.21359</geo>
+		<id authority="geonames.org">2782043</id>
+		<name lang="de" type="index">Vöslau</name>
+		<place nym="oesterreich" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Bad_Vöslau</resource>
+	</placeListItem>
+	<placeListItem nym="warschau" type="settlement">
+		<geo authority="geonames.org">52.22977 21.01178</geo>
+		<id authority="geonames.org">756135</id>
+		<id authority="geohash.org">u3qcnhheu</id>
+		<name lang="de" type="index">Warschau</name>
+		<name lang="en">Warsaw</name>
+		<name lang="fr">Varsovie</name>
+		<name lang="it">Varsavia</name>
+		<name lang="pl">Warszawa</name>
+		<name lang="ru">Варшава</name>
+		<place nym="russland" role="parentCountry"/>
+		<place nym="polen" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Polen</description>
+		<resource type="de.wikipedia.org">Warschau</resource>
+	</placeListItem>
+	<placeListItem nym="weimar" type="settlement">
+		<geo authority="geonames.org">50.9803 11.32903</geo>
+		<id authority="geonames.org">2812482</id>
+		<id authority="geohash.org">u30419kz6</id>
+		<name lang="de" type="index">Weimar</name>
+		<name lang="en">Weimar</name>
+		<name lang="fr">Weimar</name>
+		<name lang="it">Weimar</name>
+		<name lang="pl">Weimar</name>
+		<name lang="ru">Веймар</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein evangelisch</description>
+		<description source="Meyer 1893">1: 0-5% Katholiken, 95-100% Protestanten</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">17522</description>
+		<resource type="de.wikipedia.org">Weimar</resource>
+	</placeListItem>
+	<placeListItem nym="weimar.hoftheater" type="location">
+		<name from="1791" lang="de" to="1918" type="index">Hoftheater</name>
+		<name from="1918" lang="de" to="1919">Landestheater</name>
+		<name from="1919" lang="de">Deutsches Nationaltheater</name>
+		<place nym="weimar" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Deutsches_Nationaltheater_Weimar</resource>
+	</placeListItem>
+	<placeListItem nym="wien" type="settlement">
+		<geo authority="geonames.org">48.20849 16.37208</geo>
+		<id authority="geonames.org">2761369</id>
+		<id authority="geohash.org">u2edk850c</id>
+		<name lang="de" type="index">Wien</name>
+		<name lang="en">Vienna</name>
+		<name lang="fr">Vienne</name>
+		<name lang="it">Vienna</name>
+		<name lang="pl">Wiedeń</name>
+		<name lang="ru">Вена</name>
+		<place nym="oesterreich" role="parentCountry"/>
+		<place nym="oesterreich-ungarn" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">über 90% Katholiken</description>
+		<description source="Andree 1881">Röm. Katholiken</description>
+		<description source="Andree 1881">Deutsche</description>
+		<resource type="de.wikipedia.org">Wien</resource>
+	</placeListItem>
+	<placeListItem nym="wien.burgtheater" type="location">
+		<name lang="de" type="index">Burgtheater</name>
+		<name from="1748" lang="de" to="1888">k.k. Theater nächst der Burg</name>
+		<name from="1888" lang="de" to="1918">k.k. Hof-Burgtheater</name>
+		<name from="1918" lang="de">Burgtheater</name>
+		<place nym="wien" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Burgtheater</resource>
+	</placeListItem>
+	<placeListItem nym="wien.hof-operntheater" type="location">
+		<name lang="de" type="index">Hof-Operntheater</name>
+		<name from="1869" lang="de" to="1918">k.k. Hof-Operntheater</name>
+		<name from="1918" lang="de" to="1938">Operntheater</name>
+		<name from="1938" lang="de">Staatsoper</name>
+		<place nym="wien" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Wiener_Staatsoper</resource>
+	</placeListItem>
+	<placeListItem nym="wien.hofburg" type="location">
+		<name lang="de" type="index">Hofburg</name>
+		<place nym="wien" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Hofburg</resource>
+	</placeListItem>
+	<placeListItem nym="wien.kaerntnertor-theater" type="location">
+		<name from="1709" lang="de" to="1870" type="index">Kärntnertor-Theater</name>
+		<name lang="de">Theater am Kärntnertor</name>
+		<place nym="wien" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Theater_am_Kärntnertor</resource>
+	</placeListItem>
+	<placeListItem nym="wien.konservatorium" type="location">
+		<name lang="de" type="index">Konservatorium</name>
+		<place nym="wien" role="parentSettlement"/>
+		<resource type="de.wikipedia.org"
+			>Universität_für_Musik_und_darstellende_Kunst_Wien</resource>
+	</placeListItem>
+	<placeListItem nym="wien.salvatorkirche" type="location">
+		<name lang="de" type="index">St. Salvator</name>
+		<place nym="wien" role="parentSettlement"/>
+		<resource type="de.wikipedia.org">Sankt_Salvator_(Wien)</resource>
+	</placeListItem>
+	<placeListItem nym="wiesbaden" type="settlement">
+		<geo authority="geonames.org">50.08258 8.24932</geo>
+		<id authority="geonames.org">2809346</id>
+		<id authority="geohash.org">u0vug9dwe</id>
+		<name lang="de" type="index">Wiesbaden</name>
+		<name lang="en">Wiesbaden</name>
+		<name lang="fr">Wiesbaden</name>
+		<name lang="it">Wiesbaden</name>
+		<name lang="pl">Wiesbaden</name>
+		<name lang="ru">Висбаден</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">gemischt, mehr evangelisch</description>
+		<description source="Meyer 1893">4: 30-50% Katholiken, 50-70% Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<description source="Volkszählung 1875">43674</description>
+		<resource type="de.wikipedia.org">Wiesbaden</resource>
+	</placeListItem>
+	<placeListItem nym="wiesbaden.koenigliches-theater" type="location">
+		<name lang="de" type="index">Königliches Theater</name>
+		<place nym="wiesbaden" role="parentSettlement"/>
+	</placeListItem>
+	<placeListItem nym="winterthur" type="settlement">
+		<geo authority="geonames.org">47.5 8.75</geo>
+		<id authority="geonames.org">2657970</id>
+		<id authority="geohash.org">u0qnnz4e2</id>
+		<name lang="de" type="index">Winterthur</name>
+		<name lang="en">Winterthur</name>
+		<name lang="fr">Winterthour</name>
+		<name lang="it">Winterthur</name>
+		<name lang="pl">Winterthur</name>
+		<name lang="ru">Винтертур</name>
+		<place nym="schweiz" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<resource type="de.wikipedia.org">Winterthur</resource>
+	</placeListItem>
+	<placeListItem nym="zuerich" type="settlement">
+		<geo authority="geonames.org">47.36667 8.55</geo>
+		<id authority="geonames.org">2657896</id>
+		<id authority="geohash.org">u0qnjw4bx</id>
+		<name lang="de" type="index">Zürich</name>
+		<name lang="en">Zurich</name>
+		<name lang="fr">Zurich</name>
+		<name lang="it">Zurigo</name>
+		<name lang="pl">Zurych</name>
+		<name lang="ru">Цюрих</name>
+		<place nym="schweiz" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Andree 1881">Katholiken und Reformierte gemischt</description>
+		<description source="Andree 1881">Evangelische</description>
+		<description source="Andree 1881">Deutsche</description>
+		<resource type="de.wikipedia.org">Zürich</resource>
+	</placeListItem>
+
+	<!-- NICHT BEKANNT -->
+	<placeListItem nym="unidentified" type="undefinable">
+		<name type="index">? (nicht identifizierter Ort)</name>
+	</placeListItem>
+
+	<!-- DEAKTIVIERT -->
+	<!--<placeListItem nym="halle" type="settlement">
+		<geo authority="geonames.org">51.5 12</geo>
+		<id authority="geonames.org">2911522</id>
+		<id authority="geohash.org">u30sb7e71</id>
+		<name lang="de">Halle</name>
+		<name lang="de" type="index">Halle an der Saale</name>
+		<name lang="en">Halle</name>
+		<name lang="fr">Halle</name>
+		<name lang="it">Halle</name>
+		<name lang="pl">Halle</name>
+		<name lang="ru">Галле</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">rein evangelisch</description>
+		<description source="Meyer 1893">2: 5-15% Katholiken, 85-95%
+			Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<resource type="de.wikipedia.org" date="2012-11-15">Halle</resource>
+	</placeListItem>-->
+	<!--<placeListItem nym="oldenburg" type="settlement">
+		<geo authority="geonames.org">53.14118 8.21467</geo>
+		<id authority="geonames.org">2857458</id>
+		<id authority="geohash.org">u1my6g6b0</id>
+		<name lang="de" type="index">Oldenburg</name>
+		<name lang="en">Oldenburg</name>
+		<name lang="fr">Oldenbourg</name>
+		<name lang="it">Oldenburg</name>
+		<name lang="pl">Oldenburg</name>
+		<name lang="ru">Ольденбург</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<place nym="europa" role="parentContinent"/>
+		<description source="Brockhaus 1892">überwiegend
+			evangelisch</description>
+		<description source="Meyer 1893">3: 15-30% Katholiken, 70-85%
+			Protestanten</description>
+		<description source="Andree 1881">Deutsche</description>
+		<resource type="de.wikipedia.org" date="2012-11-15">Oldenburg</resource>
+	</placeListItem>-->
+	<!--<placeListItem nym="wuppertal" type="settlement">
+		<geo authority="geonames.org">51.27027 7.16755</geo>
+		<id authority="geonames.org">2805753</id>
+		<id authority="geohash.org">u1j5ddzj0</id>
+		<name lang="de" type="index">Wuppertal</name>
+		<name lang="en">Wuppertal</name>
+		<name lang="fr">Wuppertal</name>
+		<name lang="it">Wuppertal</name>
+		<name lang="pl">Wuppertal</name>
+		<name lang="ru">Вупперталь</name>
+		<place nym="deutschland" role="parentCountry"/>
+		<resource type="de.wikipedia.org" date="2012-11-23">Wuppertal</resource>
+	</placeListItem>-->
+
+</placeList>

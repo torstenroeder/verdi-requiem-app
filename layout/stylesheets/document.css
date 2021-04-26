@@ -1,0 +1,138 @@
+#document {
+	font-size:16px;
+	line-height:28px;
+	position:relative; /* positioning noteContent */
+	margin-top:24px;
+}
+
+#biblio {
+	margin-top:16px;
+	padding-top:8px;
+	border-top:1px solid #a098a0;
+}
+
+/*
+part:before {
+	color:#999;
+	content:"[Teil "attr(id)"]";
+}
+part {
+	display:block;
+	border-top:1px dotted #999;
+}
+*/
+
+/* RENDERING ATTRIBUTES */
+
+/* @rend */
+#document .fraktur   { font-family:Georgia, serif; }
+#document .antiqua   { font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; }
+#document .lineale   { font-family:Tahoma, Geneva, sans-serif; }
+
+#document .bold      { font-weight:bold; }
+#document .plain     { font-style:normal !important; font-weight:normal !important; }
+
+#document .italic    { font-style:italic; }
+#document .straight  { font-style:normal !important; }
+
+#document .underlined { text-decoration:underline; }
+
+#document .widespace { letter-spacing:3px; }
+#document .widespaceBefore { margin-left:3px; } /* class will be inserted automatically */
+#document .noWidespaceAfter { margin-right:-3px; } /* class will be inserted automatically */
+
+#document .regular   { font-size:16px; line-height:28px; }
+#document .smaller   { font-size:14px; line-height:22px; } /* in paragraphs and headlines */
+#document .larger    { font-size:20px; line-height:36px; } /* only in headlines */
+
+/* @align */
+#document .center    { text-align:center; text-indent:0; }
+#document .left      { text-align:left; }
+#document .right     { text-align:right; text-indent:0; margin-right:2em; }
+#document .rightFloating { margin-left:2em; float:right; }
+#document .noIndent  { text-indent:0 !important; }
+
+/* Hervorhebung via URL-Parameter */
+.highlight { background-color:yellow; }
+
+/* BLOCK AND STRUCTURE ELEMENTS */
+
+/* TEI p */
+#document p {
+	text-indent:2em;
+	margin:0;
+	padding:0;
+}
+
+/* TEI l */
+#document p.line {
+	margin:0;
+	padding:0;
+}
+
+/* SEMANTIC MARKUP */
+
+#document a.person { color:#933; /* red */ }
+#document a.opus   { color:#639; /* violet */ }
+#document a.org    { color:#939; /* pink */ }
+#document a.place  { color:#393; /* green */ }
+#document a.date   { color:#339; /* blue */ }
+#document a.event  { color:#999; /* gray */ }
+
+span.noteContent a {
+	color:#fcfcf0;
+	text-decoration:underline;
+}
+
+/* EDITORIAL MARKUP */
+
+#document span.add,
+#document span.del,
+#document span.corr,
+#document span.gap,
+#document span.pb,
+#document span.cb,
+#document sup.noteAnchor {
+	color:#999;
+}
+
+#document span.del {
+	text-decoration:line-through;
+}
+
+#document span.note {} /* this is just a container */
+
+#document span.noteContent {
+	display:block;
+	position:absolute;
+	font-family:Georgia, serif;
+	text-indent:-10px;
+	text-align:left;
+	right:-240px;
+	margin-top:-25px;
+	width:200px;
+	color:#fcfcf0;
+	font-size:12px;
+	line-height:20px;
+	font-style:italic;
+}
+
+#document span.noteContentAnchor {
+}
+
+#document span.noteContentAnchor:hover {
+}
+
+#document span.noteContentText {
+	display:none;
+}
+
+#document span.note:hover span.noteContentText,
+#document span.noteContent:hover span.noteContentText {
+	display:inline;
+}
+
+#document span.note:hover span.noteContentText:before,
+#document span.noteContent:hover span.noteContentText:before {
+	content:' ';
+}
